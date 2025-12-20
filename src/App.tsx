@@ -434,6 +434,18 @@ export default function App() {
             </div>
           </div>
         </div>
+        {!isMobileChaptersOpen && (
+          <div className="mt-4 lg:hidden">
+            <button
+              type="button"
+              onClick={() => setMobileChaptersOpen(true)}
+              className="inline-flex items-center gap-2 rounded-full bg-rose-500 px-4 py-3 text-sm font-medium text-white shadow transition hover:bg-rose-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+            >
+              <span className="inline-block h-1 w-5 rounded-full bg-white/70" />
+              章节目录
+            </button>
+          </div>
+        )}
       </header>
 
       <main className="flex flex-1 flex-col gap-6 px-4 py-4 sm:px-6 sm:py-6 lg:flex-row lg:items-stretch lg:px-8">
@@ -469,17 +481,6 @@ export default function App() {
           />
         </section>
       </main>
-
-      {!isMobileChaptersOpen && (
-        <button
-          type="button"
-          onClick={() => setMobileChaptersOpen(true)}
-          className="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full bg-rose-500 px-4 py-3 text-sm font-medium text-white shadow-lg transition hover:bg-rose-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80 lg:hidden"
-        >
-          <span className="inline-block h-1 w-5 rounded-full bg-white/70" />
-          章节目录
-        </button>
-      )}
 
       {isMobileChaptersOpen && (
         <div className="fixed inset-0 z-50 flex justify-start lg:hidden">
