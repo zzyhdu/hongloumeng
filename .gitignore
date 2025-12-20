@@ -7,7 +7,6 @@ node_modules/
 .cache/
 
 # Vite output
-dist/
 build-ts/
 build-ts-node/
 *.log
