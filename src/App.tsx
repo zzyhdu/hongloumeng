@@ -4,7 +4,7 @@ import { marked } from 'marked';
 
 import './index.css';
 
-const RESOURCE_BASE = '/resource';
+const RESOURCE_BASE = './resource';
 const STORAGE_VERSION_KEY = 'hlm_reader_version';
 const STORAGE_CHAPTER_PREFIX = 'hlm_reader_chapter_';
 const STORAGE_FONT_SIZE = 'hlm_reader_font_size';
