@@ -8,6 +8,8 @@ node_modules/
 
 # Vite output
 dist/
+build-ts/
+build-ts-node/
 *.log
 
 # Temp files
@@ -19,3 +21,5 @@ dist/
 # Local scripts output
 public/resource/
 resource/catalog.json
+src/*.js
+src/*.js.map

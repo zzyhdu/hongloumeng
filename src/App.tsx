@@ -195,6 +195,7 @@ export default function App() {
   const [contentHtml, setContentHtml] = useState('');
   const [contentError, setContentError] = useState('');
   const [loadingContent, setLoadingContent] = useState(false);
+  const [isMobileChaptersOpen, setMobileChaptersOpen] = useState(false);
 
   useEffect(() => {
     fetchJSON<Catalog>(`${RESOURCE_BASE}/catalog.json`)
@@ -250,6 +251,36 @@ export default function App() {
   const currentVersion = versions.find((version) => version.id === currentVersionId);
   const currentChapter = currentVersion?.chapters.find((chapter) => chapter.id === currentChapterId);
 
+  const renderChapterPanel = () => {
+    if (!currentVersion) {
+      return (
+        <div className="flex flex-1 items-center justify-center text-sm text-slate-500">
+          {catalogError || '正在读取章节目录...'}
+        </div>
+      );
+    }
+
+    return (
+      <>
+        <div className="mb-4 rounded-lg bg-rose-50 p-3 text-sm text-rose-700">
+          <p className="font-semibold">{currentVersion.name}</p>
+          <p className="mt-1 text-rose-600">{currentVersion.description}</p>
+          <p className="mt-1 text-xs text-rose-500">共 {currentVersion.chapterCount} 回</p>
+        </div>
+        <ChapterList
+          chapters={currentVersion.chapters}
+          currentId={currentChapterId}
+          onSelect={(chapterId) => {
+            setCurrentChapterId(chapterId);
+            setMobileChaptersOpen(false);
+          }}
+          search={chapterSearch}
+          onSearchChange={setChapterSearch}
+        />
+      </>
+    );
+  };
+
   return (
     <div className="flex min-h-screen flex-col bg-slate-100 text-slate-900">
       <header className="border-b border-slate-200 bg-white/90 px-8 py-5 shadow-sm backdrop-blur">
@@ -270,34 +301,35 @@ export default function App() {
             />
           </div>
         )}
+        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          {!!versions.length && (
+            <div className="w-full sm:flex-1">
+              <VersionTabs
+                versions={versions}
+                currentId={currentVersionId}
+                onChange={(versionId) => {
+                  setCurrentVersionId(versionId);
+                  setChapterSearch('');
+                }}
+              />
+            </div>
+          )}
+          <div className="flex justify-end sm:justify-center lg:hidden">
+            <button
+              type="button"
+              onClick={() => setMobileChaptersOpen(true)}
+              className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600"
+            >
+              <span className="inline-block h-1 w-4 rounded-full bg-slate-400" />
+              打开章节目录
+            </button>
+          </div>
+        </div>
       </header>
 
-      <main className="flex flex-1 flex-col gap-6 px-6 py-6 lg:flex-row lg:items-stretch lg:px-8">
-        <section className="lg:w-1/3 xl:w-1/4">
-          <div className="flex h-[70vh] flex-col rounded-2xl bg-white p-4 shadow">
-            {currentVersion ? (
-              <>
-                <div className="mb-4 rounded-lg bg-rose-50 p-3 text-sm text-rose-700">
-                  <p className="font-semibold">{currentVersion.name}</p>
-                  <p className="mt-1 text-rose-600">{currentVersion.description}</p>
-                  <p className="mt-1 text-xs text-rose-500">
-                    共 {currentVersion.chapterCount} 回
-                  </p>
-                </div>
-                <ChapterList
-                  chapters={currentVersion.chapters}
-                  currentId={currentChapterId}
-                  onSelect={(chapterId) => setCurrentChapterId(chapterId)}
-                  search={chapterSearch}
-                  onSearchChange={setChapterSearch}
-                />
-              </>
-            ) : (
-              <div className="flex flex-1 items-center justify-center text-sm text-slate-500">
-                {catalogError || '正在读取章节目录...'}
-              </div>
-            )}
-          </div>
+      <main className="flex flex-1 flex-col gap-6 px-4 py-4 sm:px-6 sm:py-6 lg:flex-row lg:items-stretch lg:px-8">
+        <section className="hidden lg:block lg:w-1/3 xl:w-1/4">
+          <div className="flex h-[70vh] flex-col rounded-2xl bg-white p-4 shadow">{renderChapterPanel()}</div>
         </section>
         <section className="flex-1">
           <ReaderPane
@@ -316,6 +348,42 @@ export default function App() {
           />
         </section>
       </main>
+
+      {!isMobileChaptersOpen && (
+        <button
+          type="button"
+          onClick={() => setMobileChaptersOpen(true)}
+          className="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full bg-rose-500 px-4 py-3 text-sm font-medium text-white shadow-lg transition hover:bg-rose-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80 lg:hidden"
+        >
+          <span className="inline-block h-1 w-5 rounded-full bg-white/70" />
+          章节目录
+        </button>
+      )}
+
+      {isMobileChaptersOpen && (
+        <div className="fixed inset-0 z-50 flex justify-start lg:hidden">
+          <div
+            className="absolute inset-0 bg-slate-900/60"
+            onClick={() => setMobileChaptersOpen(false)}
+            aria-hidden="true"
+          />
+          <div className="relative z-10 flex h-full w-11/12 max-w-sm flex-col bg-white shadow-2xl">
+            <div className="flex items-center justify-between border-b border-slate-100 px-4 py-3">
+              <p className="text-sm font-semibold text-slate-700">章节目录</p>
+              <button
+                type="button"
+                onClick={() => setMobileChaptersOpen(false)}
+                className="rounded-full border border-slate-200 px-3 py-1 text-xs text-slate-500 hover:border-rose-300 hover:text-rose-500"
+              >
+                关闭
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto p-4">
+              <div className="flex flex-col">{renderChapterPanel()}</div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <footer className="border-t border-slate-200 bg-white px-8 py-4 text-center text-xs text-slate-500">
         数据来源：resource/zp80 与 resource/cg120。若新增章节后运行{' '}
