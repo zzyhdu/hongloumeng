@@ -5,6 +5,29 @@ import { marked } from 'marked';
 import './index.css';
 
 const RESOURCE_BASE = '/resource';
+const STORAGE_VERSION_KEY = 'hlm_reader_version';
+const STORAGE_CHAPTER_PREFIX = 'hlm_reader_chapter_';
+
+const getStoredChapterKey = (versionId: string) => `${STORAGE_CHAPTER_PREFIX}${versionId}`;
+
+const safeStorage = {
+  get(key: string) {
+    if (typeof window === 'undefined') return null;
+    try {
+      return window.localStorage.getItem(key);
+    } catch {
+      return null;
+    }
+  },
+  set(key: string, value: string) {
+    if (typeof window === 'undefined') return;
+    try {
+      window.localStorage.setItem(key, value);
+    } catch {
+      // ignore quota or privacy errors
+    }
+  },
+};
 
 type Chapter = {
   id: string;
@@ -142,11 +165,15 @@ function ReaderPane({
   loading,
   error,
   meta,
+  onNextChapter,
+  hasNextChapter,
 }: {
   html: string;
   loading: boolean;
   error: string;
   meta?: ReaderMeta | null;
+  onNextChapter?: () => void;
+  hasNextChapter?: boolean;
 }) {
   if (error) {
     return (
@@ -173,7 +200,7 @@ function ReaderPane({
   }
 
   return (
-    <article className="prose max-w-none prose-slate h-full overflow-y-auto rounded-2xl bg-white px-6 py-8 shadow">
+    <article className="prose max-w-none prose-slate h-full overflow-y-auto rounded-2xl bg-white px-0 pb-0 shadow sm:px-6 sm:pb-6">
       {meta && (
         <header className="mb-8 border-b border-slate-100 pb-6">
           <p className="text-sm uppercase tracking-widest text-rose-500">{meta.versionName}</p>
@@ -181,7 +208,18 @@ function ReaderPane({
           <p className="mt-1 text-sm text-slate-500">第 {meta.chapterId} 回</p>
         </header>
       )}
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="px-6 pb-10" dangerouslySetInnerHTML={{ __html: html }} />
+      {hasNextChapter && onNextChapter && (
+        <div className="sticky bottom-0 mt-auto border-t border-slate-100 bg-white/95 px-6 py-4">
+          <button
+            type="button"
+            onClick={onNextChapter}
+            className="w-full rounded-xl bg-rose-500 py-3 text-center text-sm font-semibold text-white shadow-lg transition hover:bg-rose-600"
+          >
+            下一回
+          </button>
+        </div>
+      )}
     </article>
   );
 }
@@ -202,9 +240,19 @@ export default function App() {
       .then((data) => {
         setCatalog(data);
         if (data.versions?.length) {
-          const firstVersion = data.versions[0];
-          setCurrentVersionId((prev) => prev || firstVersion.id);
-          setCurrentChapterId((prev) => prev || firstVersion.chapters?.[0]?.id || null);
+          const storedVersionId = safeStorage.get(STORAGE_VERSION_KEY);
+          const storedVersion = data.versions.find((version) => version.id === storedVersionId);
+          const defaultVersion = storedVersion ?? data.versions[0];
+          const storedChapterId = storedVersion
+            ? safeStorage.get(getStoredChapterKey(storedVersion.id))
+            : null;
+          const fallbackChapterId =
+            storedChapterId &&
+            storedVersion?.chapters.some((chapter) => chapter.id === storedChapterId)
+              ? storedChapterId
+              : defaultVersion.chapters?.[0]?.id || null;
+          setCurrentVersionId((prev) => prev || defaultVersion.id);
+          setCurrentChapterId((prev) => prev || fallbackChapterId);
         }
       })
       .catch((error) => {
@@ -217,13 +265,35 @@ export default function App() {
     if (!catalog || !currentVersionId) return;
     const currentVersion = catalog.versions.find((version) => version.id === currentVersionId);
     if (currentVersion && currentVersion.chapters.length) {
-      if (!currentChapterId || !currentVersion.chapters.some((ch) => ch.id === currentChapterId)) {
-        setCurrentChapterId(currentVersion.chapters[0].id);
+      const chapterExists = currentVersion.chapters.some((chapter) => chapter.id === currentChapterId);
+      if (!chapterExists) {
+        const storedChapterId = safeStorage.get(getStoredChapterKey(currentVersionId));
+        const storedValid = storedChapterId
+          ? currentVersion.chapters.some((chapter) => chapter.id === storedChapterId)
+          : false;
+        const fallbackChapterId = storedValid
+          ? storedChapterId
+          : currentVersion.chapters[0]?.id || null;
+        if (fallbackChapterId && fallbackChapterId !== currentChapterId) {
+          setCurrentChapterId(fallbackChapterId);
+        }
       }
     } else {
       setCurrentChapterId(null);
     }
   }, [catalog, currentVersionId, currentChapterId]);
+
+  useEffect(() => {
+    if (currentVersionId) {
+      safeStorage.set(STORAGE_VERSION_KEY, currentVersionId);
+    }
+  }, [currentVersionId]);
+
+  useEffect(() => {
+    if (currentVersionId && currentChapterId) {
+      safeStorage.set(getStoredChapterKey(currentVersionId), currentChapterId);
+    }
+  }, [currentVersionId, currentChapterId]);
 
   useEffect(() => {
     if (!currentVersionId || !currentChapterId) {
@@ -249,7 +319,17 @@ export default function App() {
 
   const versions = catalog?.versions || [];
   const currentVersion = versions.find((version) => version.id === currentVersionId);
-  const currentChapter = currentVersion?.chapters.find((chapter) => chapter.id === currentChapterId);
+  const currentChapterIndex = currentVersion?.chapters.findIndex(
+    (chapter) => chapter.id === currentChapterId
+  );
+  const currentChapter =
+    currentChapterIndex !== undefined && currentChapterIndex >= 0
+      ? currentVersion?.chapters[currentChapterIndex]
+      : undefined;
+  const nextChapter =
+    currentChapterIndex !== undefined && currentChapterIndex >= 0
+      ? currentVersion?.chapters[currentChapterIndex + 1]
+      : undefined;
 
   const renderChapterPanel = () => {
     if (!currentVersion) {
@@ -280,6 +360,7 @@ export default function App() {
       </>
     );
   };
+  console.log('Rendering App isMobileChaptersOpen:', isMobileChaptersOpen);
 
   return (
     <div className="flex min-h-screen flex-col bg-slate-100 text-slate-900">
@@ -289,18 +370,6 @@ export default function App() {
           阅读不同版本的《红楼梦》，支持章节快速切换与版本比较。
         </p>
         {catalogError && <p className="mt-2 text-sm text-rose-600">{catalogError}</p>}
-        {!!versions.length && (
-          <div className="mt-4">
-            <VersionTabs
-              versions={versions}
-              currentId={currentVersionId}
-              onChange={(versionId) => {
-                setCurrentVersionId(versionId);
-                setChapterSearch('');
-              }}
-            />
-          </div>
-        )}
         <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           {!!versions.length && (
             <div className="w-full sm:flex-1">
@@ -314,16 +383,6 @@ export default function App() {
               />
             </div>
           )}
-          <div className="flex justify-end sm:justify-center lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileChaptersOpen(true)}
-              className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600"
-            >
-              <span className="inline-block h-1 w-4 rounded-full bg-slate-400" />
-              打开章节目录
-            </button>
-          </div>
         </div>
       </header>
 
@@ -344,6 +403,17 @@ export default function App() {
                     chapterId: currentChapter.id,
                   }
                 : null
+            }
+            hasNextChapter={Boolean(nextChapter)}
+            onNextChapter={
+              nextChapter
+                ? () => {
+                    setCurrentChapterId(nextChapter.id);
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 0);
+                  }
+                : undefined
             }
           />
         </section>
