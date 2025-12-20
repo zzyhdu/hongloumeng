@@ -1,0 +1,21 @@
+# Node & tooling
+node_modules/
+.pnpm-store/
+.yarn/
+.yarnrc.yml
+.npm/
+.cache/
+
+# Vite output
+dist/
+*.log
+
+# Temp files
+*.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local scripts output
+public/resource/
+resource/catalog.json
