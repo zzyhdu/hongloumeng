@@ -7,8 +7,17 @@ import './index.css';
 const RESOURCE_BASE = '/resource';
 const STORAGE_VERSION_KEY = 'hlm_reader_version';
 const STORAGE_CHAPTER_PREFIX = 'hlm_reader_chapter_';
+const STORAGE_FONT_SIZE = 'hlm_reader_font_size';
+const FONT_SIZE_MAP = {
+  small: 'text-base sm:text-lg',
+  medium: 'text-xl sm:text-2xl',
+  large: 'text-2xl sm:text-3xl leading-relaxed',
+  xlarge: 'text-3xl sm:text-4xl leading-relaxed',
+};
 
 const getStoredChapterKey = (versionId: string) => `${STORAGE_CHAPTER_PREFIX}${versionId}`;
+
+type FontSizeKey = keyof typeof FONT_SIZE_MAP;
 
 const safeStorage = {
   get(key: string) {
@@ -167,6 +176,7 @@ function ReaderPane({
   meta,
   onNextChapter,
   hasNextChapter,
+  fontSizeClass,
 }: {
   html: string;
   loading: boolean;
@@ -174,6 +184,7 @@ function ReaderPane({
   meta?: ReaderMeta | null;
   onNextChapter?: () => void;
   hasNextChapter?: boolean;
+  fontSizeClass: string;
 }) {
   if (error) {
     return (
@@ -200,7 +211,9 @@ function ReaderPane({
   }
 
   return (
-    <article className="prose max-w-none prose-slate h-full overflow-y-auto rounded-2xl bg-white px-0 pb-0 shadow sm:px-6 sm:pb-6">
+    <article
+      className={`prose max-w-none prose-slate h-full overflow-y-auto rounded-2xl bg-white px-0 pb-0 shadow sm:px-6 sm:pb-6 ${fontSizeClass}`}
+    >
       {meta && (
         <header className="mb-8 border-b border-slate-100 pb-6">
           <p className="text-sm uppercase tracking-widest text-rose-500">{meta.versionName}</p>
@@ -234,6 +247,7 @@ export default function App() {
   const [contentError, setContentError] = useState('');
   const [loadingContent, setLoadingContent] = useState(false);
   const [isMobileChaptersOpen, setMobileChaptersOpen] = useState(false);
+  const [fontSize, setFontSize] = useState<FontSizeKey>('medium');
 
   useEffect(() => {
     fetchJSON<Catalog>(`${RESOURCE_BASE}/catalog.json`)
@@ -284,6 +298,13 @@ export default function App() {
   }, [catalog, currentVersionId, currentChapterId]);
 
   useEffect(() => {
+    const storedFont = safeStorage.get(STORAGE_FONT_SIZE) as FontSizeKey | null;
+    if (storedFont && Object.keys(FONT_SIZE_MAP).includes(storedFont)) {
+      setFontSize(storedFont);
+    }
+  }, []);
+
+  useEffect(() => {
     if (currentVersionId) {
       safeStorage.set(STORAGE_VERSION_KEY, currentVersionId);
     }
@@ -294,6 +315,10 @@ export default function App() {
       safeStorage.set(getStoredChapterKey(currentVersionId), currentChapterId);
     }
   }, [currentVersionId, currentChapterId]);
+
+  useEffect(() => {
+    safeStorage.set(STORAGE_FONT_SIZE, fontSize);
+  }, [fontSize]);
 
   useEffect(() => {
     if (!currentVersionId || !currentChapterId) {
@@ -371,18 +396,43 @@ export default function App() {
         </p>
         {catalogError && <p className="mt-2 text-sm text-rose-600">{catalogError}</p>}
         <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          {!!versions.length && (
-            <div className="w-full sm:flex-1">
-              <VersionTabs
-                versions={versions}
-                currentId={currentVersionId}
-                onChange={(versionId) => {
-                  setCurrentVersionId(versionId);
-                  setChapterSearch('');
-                }}
-              />
+          <div className="flex w-full flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
+            {!!versions.length && (
+              <div className="w-full sm:flex-1">
+                <VersionTabs
+                  versions={versions}
+                  currentId={currentVersionId}
+                  onChange={(versionId) => {
+                    setCurrentVersionId(versionId);
+                    setChapterSearch('');
+                  }}
+                />
+              </div>
+            )}
+            <div className="flex flex-wrap items-center gap-2 text-sm text-slate-600">
+              <span className="text-xs uppercase tracking-wide text-slate-500">字体</span>
+              {(Object.keys(FONT_SIZE_MAP) as FontSizeKey[]).map((size) => (
+                <button
+                  key={size}
+                  type="button"
+                  onClick={() => setFontSize(size)}
+                  className={`rounded-full border px-3 py-1 text-xs uppercase tracking-wide transition ${
+                    fontSize === size
+                      ? 'border-rose-500 bg-rose-500 text-white'
+                      : 'border-slate-200 text-slate-600 hover:border-rose-300 hover:text-rose-600'
+                  }`}
+                >
+                  {size === 'small'
+                    ? '较小'
+                    : size === 'medium'
+                      ? '标准'
+                      : size === 'large'
+                        ? '较大'
+                        : '特大'}
+                </button>
+              ))}
             </div>
-          )}
+          </div>
         </div>
       </header>
 
@@ -415,6 +465,7 @@ export default function App() {
                   }
                 : undefined
             }
+            fontSizeClass={FONT_SIZE_MAP[fontSize]}
           />
         </section>
       </main>
