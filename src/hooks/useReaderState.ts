@@ -116,7 +116,21 @@ export function useReaderState() {
     }
   }, [catalog, currentVersionId, currentChapterId]);
 
-  const versions = catalog?.versions || [];
+  const REFERENCE_VERSION: VersionMeta = useMemo(() => ({
+    id: 'reference',
+    name: '藏经阁 (典籍)',
+    description: '原始扫描件与电子书',
+    chapterCount: 2,
+    chapters: [
+      { id: '4color_zhiping.pdf', title: '四色脂评汇校本红楼梦 (PDF)', file: '4color_zhiping.pdf' },
+      { id: 'rm_120.epub', title: '红楼梦（一百二十回） (EPUB)', file: 'rm_120.epub' }
+    ]
+  }), []);
+
+  const versions = useMemo(() => {
+    return catalog?.versions ? [...catalog.versions, REFERENCE_VERSION] : [];
+  }, [catalog, REFERENCE_VERSION]);
+  
   const currentVersion = versions.find((v) => v.id === currentVersionId);
   const currentChapterIndex = currentVersion?.chapters.findIndex((c) => c.id === currentChapterId) ?? -1;
   const currentChapter = currentChapterIndex >= 0 ? currentVersion?.chapters[currentChapterIndex] : undefined;
