@@ -128,11 +128,11 @@ export default function App() {
           <AnimatePresence>
             {zenMode && (
               <motion.button
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
                 onClick={() => setZenMode(false)}
-                className="fixed left-1/2 top-4 z-50 -translate-x-1/2 rounded-full border border-xiaoxiang-celadon/30 bg-white/80 px-6 py-2 text-sm text-xiaoxiang-bamboo shadow-sm backdrop-blur transition-colors hover:bg-xiaoxiang-celadon hover:text-white"
+                className="fixed top-6 right-6 sm:right-8 lg:right-12 z-50 rounded-full border border-xiaoxiang-celadon/30 bg-white/80 px-5 py-2 text-sm font-serif text-xiaoxiang-bamboo shadow-sm backdrop-blur transition-colors hover:bg-xiaoxiang-celadon hover:text-white"
               >
                 退出沉浸阅读
               </motion.button>
