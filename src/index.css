@@ -1,6 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-xiaoxiang-paper: #F7F6F0;
+  --color-xiaoxiang-celadon: #8BA38D;
+  --color-xiaoxiang-bamboo: #4A3C31;
+  --color-xiaoxiang-ink: #2B2B2B;
+  --color-xiaoxiang-rose: #C25953;
+
+  --font-serif: "Cormorant Garamond", "Playfair Display", "Noto Serif SC", "Songti SC", "Source Han Serif SC", "Microsoft YaHei", serif;
+  --font-sans: Inter, Outfit, system-ui, sans-serif;
+}
 
 @layer base {
   body {
@@ -41,8 +51,8 @@
   margin-bottom: 2em;
   padding-left: 2em;
   padding-right: 2em;
-  border-left: 2px solid theme('colors.xiaoxiang.celadon');
-  color: theme('colors.xiaoxiang.bamboo');
+  border-left: 2px solid var(--color-xiaoxiang-celadon);
+  color: var(--color-xiaoxiang-bamboo);
   font-style: normal;
 }
 
@@ -55,7 +65,7 @@
 /* Specific styling for annotations/footnotes like 〔一〕 */
 .annotation {
   font-size: 0.85em;
-  color: theme('colors.xiaoxiang.bamboo');
+  color: var(--color-xiaoxiang-bamboo);
   background-color: rgba(139, 163, 141, 0.1);
   padding: 0.2em 0.4em;
   border-radius: 4px;
