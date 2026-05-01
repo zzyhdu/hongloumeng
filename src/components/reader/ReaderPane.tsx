@@ -3,7 +3,7 @@ import DOMPurify from 'dompurify';
 import { marked } from 'marked';
 import { ArrowRight, ChevronUp } from 'lucide-react';
 import { cn } from '../../lib/utils';
-import { fetchText, type ReaderMeta } from '../../hooks/useReaderState';
+import { fetchText } from '../../hooks/useReaderState';
 
 interface ReaderPaneProps {
   versionId: string | null;
