@@ -34,6 +34,13 @@ export function ReaderPane({
       setHtml('');
       return;
     }
+    if (versionId === 'reference') {
+      setHtml('');
+      setLoading(false);
+      setError('');
+      return;
+    }
+
     setLoading(true);
     setError('');
 
