@@ -134,7 +134,7 @@ export default function App() {
                 onClick={() => setZenMode(false)}
                 className="fixed left-1/2 top-4 z-50 -translate-x-1/2 rounded-full border border-xiaoxiang-celadon/30 bg-white/80 px-6 py-2 text-sm text-xiaoxiang-bamboo shadow-sm backdrop-blur transition-colors hover:bg-xiaoxiang-celadon hover:text-white"
               >
-                退出禅意模式
+                退出沉浸阅读
               </motion.button>
             )}
           </AnimatePresence>

@@ -101,7 +101,7 @@ export function Header({
             title="沉浸阅读"
           >
             <Settings2 size={16} />
-            <span className="hidden sm:inline">禅意模式</span>
+            <span className="hidden sm:inline">沉浸阅读</span>
           </button>
         </div>
       </div>
