@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node scripts/syncResources.js && vite",
-    "build": "node scripts/syncResources.js && tsc -b && vite build",
+    "build": "node scripts/syncResources.js && vite build",
     "preview": "vite preview",
     "catalog": "node scripts/generateCatalog.js",
     "sync:resources": "node scripts/syncResources.js"
