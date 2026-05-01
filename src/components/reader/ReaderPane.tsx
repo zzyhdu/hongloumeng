@@ -29,6 +29,13 @@ export function ReaderPane({
   const [error, setError] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // Scroll to top when content is ready
+  useEffect(() => {
+    if (!loading && html && containerRef.current) {
+      containerRef.current.scrollTo({ top: 0 });
+    }
+  }, [chapterId, loading, html]);
+
   useEffect(() => {
     if (!versionId || !chapterId) {
       setHtml('');
@@ -62,14 +69,14 @@ export function ReaderPane({
         const isPoetryLine = (p: string) => {
           if (!p.startsWith('<p>') || !p.endsWith('</p>')) return false;
           const raw = p.replace(/<\/?p>/g, '').trim();
-          
+
           if (
-            raw.length === 0 || 
-            raw.length >= 45 || 
-            raw.includes('“') || 
-            raw.includes('”') || 
-            raw.includes('：') || 
-            raw.startsWith('[') || 
+            raw.length === 0 ||
+            raw.length >= 45 ||
+            raw.includes('“') ||
+            raw.includes('”') ||
+            raw.includes('：') ||
+            raw.startsWith('[') ||
             raw.startsWith('〔') ||
             raw.startsWith('<span')
           ) {
@@ -106,11 +113,6 @@ export function ReaderPane({
 
         const parsedHtml = DOMPurify.sanitize(marked.parse(processedText, { breaks: true }) as string);
         setHtml(parsedHtml);
-
-        // Scroll to top on new chapter
-        if (containerRef.current) {
-          containerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-        }
       })
       .catch((err) => {
         console.error(err);
@@ -151,37 +153,37 @@ export function ReaderPane({
     // EPUBs cannot be rendered natively in an iframe without a JS reader, so we provide a link to download.
     return (
       <div className="flex h-full flex-col p-4 sm:p-8">
-         <header className="mb-4 border-b border-xiaoxiang-celadon/20 pb-4 text-center">
-            <h1 className="font-serif text-xl font-medium text-xiaoxiang-ink">
-              {meta?.chapterTitle}
-            </h1>
-         </header>
-         <div className="flex-1 w-full h-full rounded-xl overflow-hidden border border-xiaoxiang-celadon/30 shadow-inner bg-white">
-           {isEpub ? (
-             <div className="flex flex-col items-center justify-center h-full p-8 text-center bg-xiaoxiang-paper/50">
-               <div className="w-16 h-16 mb-4 rounded-full bg-xiaoxiang-celadon/10 flex items-center justify-center text-xiaoxiang-celadon">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
-               </div>
-               <h3 className="font-serif text-xl mb-2 text-xiaoxiang-ink">EPUB 电子书阅读</h3>
-               <p className="text-xiaoxiang-bamboo/80 mb-6 max-w-md">
-                 浏览器无法直接预览 EPUB 格式文件。您可以下载此文件并使用 Apple Books 或其他阅读器软件打开。
-               </p>
-               <a 
-                 href={`${resourceBase}/${chapterId}`} 
-                 download
-                 className="px-6 py-2 bg-xiaoxiang-celadon text-white rounded-full font-serif shadow hover:bg-xiaoxiang-celadon/90 transition-colors"
-               >
-                 下载 EPUB 文件
-               </a>
-             </div>
-           ) : (
-             <iframe 
-               src={`${resourceBase}/${chapterId}`} 
-               title="PDF Viewer"
-               className="w-full h-full border-0"
-             />
-           )}
-         </div>
+        <header className="mb-4 border-b border-xiaoxiang-celadon/20 pb-4 text-center">
+          <h1 className="font-serif text-xl font-medium text-xiaoxiang-ink">
+            {meta?.chapterTitle}
+          </h1>
+        </header>
+        <div className="flex-1 w-full h-full rounded-xl overflow-hidden border border-xiaoxiang-celadon/30 shadow-inner bg-white">
+          {isEpub ? (
+            <div className="flex flex-col items-center justify-center h-full p-8 text-center bg-xiaoxiang-paper/50">
+              <div className="w-16 h-16 mb-4 rounded-full bg-xiaoxiang-celadon/10 flex items-center justify-center text-xiaoxiang-celadon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+              </div>
+              <h3 className="font-serif text-xl mb-2 text-xiaoxiang-ink">EPUB 电子书阅读</h3>
+              <p className="text-xiaoxiang-bamboo/80 mb-6 max-w-md">
+                浏览器无法直接预览 EPUB 格式文件。您可以下载此文件并使用 Apple Books 或其他阅读器软件打开。
+              </p>
+              <a
+                href={`${resourceBase}/${chapterId}`}
+                download
+                className="px-6 py-2 bg-xiaoxiang-celadon text-white rounded-full font-serif shadow hover:bg-xiaoxiang-celadon/90 transition-colors"
+              >
+                下载 EPUB 文件
+              </a>
+            </div>
+          ) : (
+            <iframe
+              src={`${resourceBase}/${chapterId}`}
+              title="PDF Viewer"
+              className="w-full h-full border-0"
+            />
+          )}
+        </div>
       </div>
     );
   }
