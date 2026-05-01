@@ -22,6 +22,9 @@ export type Catalog = {
 const RESOURCE_BASE = './resource';
 const STORAGE_VERSION_KEY = 'hlm_reader_version';
 const STORAGE_CHAPTER_PREFIX = 'hlm_reader_chapter_';
+const STORAGE_FONT_SIZE_KEY = 'hlm_reader_font_size';
+
+export const FONT_SIZES = ['text-base', 'text-lg', 'text-xl', 'text-2xl'];
 
 const safeStorage = {
   get(key: string) {
@@ -54,6 +57,15 @@ export function useReaderState() {
   const [currentVersionId, setCurrentVersionId] = useState<string | null>(null);
   const [currentChapterId, setCurrentChapterId] = useState<string | null>(null);
   const [chapterSearch, setChapterSearch] = useState('');
+  const [fontSizeIndex, setFontSizeIndex] = useState<number>(() => {
+    const stored = safeStorage.get(STORAGE_FONT_SIZE_KEY);
+    return stored ? parseInt(stored, 10) : 1; // Default to 'text-lg'
+  });
+
+  // Sync font size to storage
+  useEffect(() => {
+    safeStorage.set(STORAGE_FONT_SIZE_KEY, fontSizeIndex.toString());
+  }, [fontSizeIndex]);
 
   // Load catalog
   useEffect(() => {
@@ -123,6 +135,8 @@ export function useReaderState() {
     nextChapter,
     chapterSearch,
     setChapterSearch,
+    fontSizeIndex,
+    setFontSizeIndex,
     RESOURCE_BASE
   };
 }

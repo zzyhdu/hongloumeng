@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { useReaderState } from './hooks/useReaderState';
+import { useReaderState, FONT_SIZES } from './hooks/useReaderState';
 import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
@@ -20,6 +20,8 @@ export default function App() {
     nextChapter,
     chapterSearch,
     setChapterSearch,
+    fontSizeIndex,
+    setFontSizeIndex,
     RESOURCE_BASE,
   } = useReaderState();
 
@@ -42,6 +44,8 @@ export default function App() {
         zenMode={zenMode}
         onToggleZenMode={() => setZenMode(!zenMode)}
         catalogError={catalogError}
+        fontSizeIndex={fontSizeIndex}
+        setFontSizeIndex={setFontSizeIndex}
       />
 
       <div className="relative flex flex-1 overflow-hidden">
@@ -138,6 +142,7 @@ export default function App() {
           <ReaderPane
             versionId={currentVersionId}
             chapterId={currentChapterId}
+            fontSizeClass={FONT_SIZES[fontSizeIndex]}
             meta={
               currentVersion && currentChapter
                 ? {

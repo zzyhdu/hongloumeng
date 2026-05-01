@@ -71,7 +71,6 @@ export function Sidebar({
                     : 'text-xiaoxiang-bamboo/80 hover:bg-white/60 hover:text-xiaoxiang-ink'
                 )}
               >
-                <div className="text-[10px] tracking-widest text-xiaoxiang-rose/80 mb-1">第 {chapter.id} 回</div>
                 <div className={cn('text-sm font-serif leading-relaxed', isActive && 'font-medium')}>{chapter.title}</div>
               </button>
             );

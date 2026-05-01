@@ -21,7 +21,17 @@
 
 .reader-prose p {
   margin-bottom: 1.5em;
-  text-indent: 2em; /* Traditional Chinese indentation */
+  text-indent: 2em;
+  /* Traditional Chinese indentation */
+}
+
+/* Hide the duplicated title from the raw markdown */
+.reader-prose>h3:first-child {
+  display: none;
+}
+
+.reader-prose>h3:first-child+hr {
+  display: none;
 }
 
 /* Specific styling for poetry blocks often found in Hongloumeng */
@@ -57,13 +67,16 @@
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(139, 163, 141, 0.4);
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(139, 163, 141, 0.8);
 }

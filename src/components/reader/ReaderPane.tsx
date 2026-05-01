@@ -12,6 +12,7 @@ interface ReaderPaneProps {
   hasNextChapter: boolean;
   onNextChapter: () => void;
   resourceBase: string;
+  fontSizeClass?: string;
 }
 
 export function ReaderPane({
@@ -21,6 +22,7 @@ export function ReaderPane({
   hasNextChapter,
   onNextChapter,
   resourceBase,
+  fontSizeClass = 'text-lg',
 }: ReaderPaneProps) {
   const [html, setHtml] = useState('');
   const [loading, setLoading] = useState(false);
@@ -41,17 +43,53 @@ export function ReaderPane({
         // Pre-process markdown to clean up raw HTML <p> tags often found in EPUB conversions
         // We'll replace <p> tags with standard markdown paragraphs or handle annotations.
         let processedText = text;
-        
+
         // Convert 〔一〕 style annotations to span
         processedText = processedText.replace(/〔([一二三四五六七八九十百]+)〕/g, '<span class="annotation">〔$1〕</span>');
-        
-        // Optionally detect poetry by looking for short lines and wrapping in blockquote if not already
-        // This is a simple heuristic: lines that are short and follow each other.
-        // For now, we rely on the custom CSS applied to the prose block.
+
+        // Process poetry lines: group consecutive short paragraphs without dialogue into a blockquote
+        const paragraphs = processedText.split('\n\n');
+        const newParagraphs: string[] = [];
+        let currentPoetryLines: string[] = [];
+
+        const isPoetryLine = (p: string) => {
+          if (!p.startsWith('<p>') || !p.endsWith('</p>')) return false;
+          const raw = p.replace(/<\/?p>/g, '').trim();
+          return (
+            raw.length > 0 &&
+            raw.length < 45 &&
+            !raw.includes('“') &&
+            !raw.includes('”') &&
+            !raw.includes('：') &&
+            !raw.startsWith('[') &&
+            !raw.startsWith('〔') &&
+            !raw.startsWith('<span')
+          );
+        };
+
+        for (let i = 0; i < paragraphs.length; i++) {
+          const p = paragraphs[i].trim();
+          if (!p) continue;
+
+          if (isPoetryLine(p)) {
+            currentPoetryLines.push(p.replace(/<\/?p>/g, ''));
+          } else {
+            if (currentPoetryLines.length > 0) {
+              newParagraphs.push(`<div class="poetry-block">${currentPoetryLines.join('<br/>')}</div>`);
+              currentPoetryLines = [];
+            }
+            newParagraphs.push(p);
+          }
+        }
+        if (currentPoetryLines.length > 0) {
+          newParagraphs.push(`<div class="poetry-block">${currentPoetryLines.join('<br/>')}</div>`);
+        }
+
+        processedText = newParagraphs.join('\n\n');
 
         const parsedHtml = DOMPurify.sanitize(marked.parse(processedText, { breaks: true }) as string);
         setHtml(parsedHtml);
-        
+
         // Scroll to top on new chapter
         if (containerRef.current) {
           containerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
@@ -101,7 +139,7 @@ export function ReaderPane({
   }
 
   return (
-    <div 
+    <div
       ref={containerRef}
       className="relative h-full overflow-y-auto px-4 py-8 sm:px-12 sm:py-16 md:px-24 lg:px-32 custom-scrollbar bg-white/40 backdrop-blur-sm"
     >
@@ -116,15 +154,12 @@ export function ReaderPane({
             <h1 className="font-serif text-3xl font-bold leading-tight text-xiaoxiang-ink sm:text-4xl">
               {meta.chapterTitle}
             </h1>
-            <p className="mt-4 font-serif text-sm tracking-widest text-xiaoxiang-celadon">
-              第 {meta.chapterId} 回
-            </p>
           </header>
         )}
 
-        <div 
-          className="prose prose-slate max-w-none reader-prose font-serif text-lg sm:text-xl text-xiaoxiang-ink"
-          dangerouslySetInnerHTML={{ __html: html }} 
+        <div
+          className={cn("prose prose-slate max-w-none reader-prose font-serif text-xiaoxiang-ink transition-all duration-300", fontSizeClass)}
+          dangerouslySetInnerHTML={{ __html: html }}
         />
 
         {hasNextChapter && (

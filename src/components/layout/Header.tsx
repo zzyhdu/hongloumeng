@@ -11,6 +11,8 @@ interface HeaderProps {
   zenMode: boolean;
   onToggleZenMode: () => void;
   catalogError: string;
+  fontSizeIndex: number;
+  setFontSizeIndex: (index: number) => void;
 }
 
 export function Header({
@@ -22,6 +24,8 @@ export function Header({
   zenMode,
   onToggleZenMode,
   catalogError,
+  fontSizeIndex,
+  setFontSizeIndex,
 }: HeaderProps) {
   if (zenMode) return null;
 
@@ -73,6 +77,26 @@ export function Header({
 
         {/* Right: Actions */}
         <div className="flex items-center gap-3">
+          <div className="hidden sm:flex items-center rounded-full border border-xiaoxiang-celadon/30 bg-white/40 p-1 backdrop-blur">
+            <button
+              onClick={() => setFontSizeIndex(Math.max(0, fontSizeIndex - 1))}
+              disabled={fontSizeIndex === 0}
+              className="px-3 py-1 text-sm font-serif text-xiaoxiang-bamboo hover:text-xiaoxiang-ink disabled:opacity-30 disabled:hover:text-xiaoxiang-bamboo transition-colors"
+              title="缩小字体"
+            >
+              A-
+            </button>
+            <div className="w-px h-3 bg-xiaoxiang-celadon/30"></div>
+            <button
+              onClick={() => setFontSizeIndex(Math.min(3, fontSizeIndex + 1))}
+              disabled={fontSizeIndex === 3}
+              className="px-3 py-1 text-sm font-serif text-xiaoxiang-bamboo hover:text-xiaoxiang-ink disabled:opacity-30 disabled:hover:text-xiaoxiang-bamboo transition-colors"
+              title="放大字体"
+            >
+              A+
+            </button>
+          </div>
+          
           <button
             onClick={onToggleZenMode}
             className="flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 px-4 py-1.5 text-sm text-xiaoxiang-bamboo transition-colors hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"
