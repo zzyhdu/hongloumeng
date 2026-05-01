@@ -77,24 +77,22 @@ export function Header({
 
         {/* Right: Actions */}
         <div className="flex items-center gap-3">
-          <div className="hidden sm:flex items-center rounded-full border border-xiaoxiang-celadon/30 bg-white/40 p-1 backdrop-blur">
-            <button
-              onClick={() => setFontSizeIndex(Math.max(0, fontSizeIndex - 1))}
-              disabled={fontSizeIndex === 0}
-              className="px-3 py-1 text-sm font-serif text-xiaoxiang-bamboo hover:text-xiaoxiang-ink disabled:opacity-30 disabled:hover:text-xiaoxiang-bamboo transition-colors"
-              title="缩小字体"
-            >
-              A-
-            </button>
-            <div className="w-px h-3 bg-xiaoxiang-celadon/30"></div>
-            <button
-              onClick={() => setFontSizeIndex(Math.min(3, fontSizeIndex + 1))}
-              disabled={fontSizeIndex === 3}
-              className="px-3 py-1 text-sm font-serif text-xiaoxiang-bamboo hover:text-xiaoxiang-ink disabled:opacity-30 disabled:hover:text-xiaoxiang-bamboo transition-colors"
-              title="放大字体"
-            >
-              A+
-            </button>
+          <div className="hidden sm:flex items-center gap-1 rounded-full border border-xiaoxiang-celadon/30 bg-white/40 p-1 backdrop-blur">
+            <span className="pl-2 pr-1 text-xs text-xiaoxiang-bamboo/70 font-serif">字号</span>
+            {['小', '中', '大', '极'].map((label, i) => (
+              <button
+                key={i}
+                onClick={() => setFontSizeIndex(i)}
+                className={cn(
+                  'rounded-full px-2.5 py-0.5 text-sm font-serif transition-colors',
+                  fontSizeIndex === i
+                    ? 'bg-xiaoxiang-celadon text-white shadow-sm'
+                    : 'text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink'
+                )}
+              >
+                {label}
+              </button>
+            ))}
           </div>
           
           <button
