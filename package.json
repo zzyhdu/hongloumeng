@@ -2,15 +2,16 @@
   "name": "hongloumeng",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "author": "yangsan <349067276@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm run catalog && node scripts/syncResources.js && vite",
-    "build": "npm run catalog && node scripts/syncResources.js && tsc -b && vite build",
+    "dev": "npm run catalog && node scripts/syncResources.cjs && vite",
+    "build": "npm run catalog && node scripts/syncResources.cjs && tsc -b && vite build",
     "preview": "vite preview",
-    "catalog": "node scripts/generateCatalog.js",
-    "sync:resources": "node scripts/syncResources.js"
+    "catalog": "node scripts/generateCatalog.cjs",
+    "sync:resources": "node scripts/syncResources.cjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
