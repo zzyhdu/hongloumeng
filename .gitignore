@@ -22,3 +22,10 @@ public/resource/
 resource/catalog.json
 src/*.js
 src/*.js.map
+
+# Output and Binaries
+dist/
+*.epub
+*.pdf
+split_017.py
+scripts/parseEpub.py

@@ -2,12 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Noto Serif SC', 'Songti SC', 'Source Han Serif SC', 'Microsoft YaHei', system-ui,
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  @apply bg-slate-100 text-slate-900;
+@layer base {
+  body {
+    @apply bg-xiaoxiang-paper text-xiaoxiang-ink font-sans antialiased selection:bg-xiaoxiang-celadon/30;
+  }
 }
 
 #root {
   min-height: 100vh;
+}
+
+/* Custom Typography Overrides for Reader */
+.reader-prose {
+  /* Increase line-height and letter-spacing for elegant reading */
+  line-height: 2.2;
+  letter-spacing: 0.02em;
+}
+
+.reader-prose p {
+  margin-bottom: 1.5em;
+  text-indent: 2em; /* Traditional Chinese indentation */
+}
+
+/* Specific styling for poetry blocks often found in Hongloumeng */
+.reader-prose blockquote,
+.poetry-block {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-left: 2px solid theme('colors.xiaoxiang.celadon');
+  color: theme('colors.xiaoxiang.bamboo');
+  font-style: normal;
+}
+
+.reader-prose blockquote p,
+.poetry-block p {
+  text-indent: 0;
+  text-align: center;
+}
+
+/* Specific styling for annotations/footnotes like 〔一〕 */
+.annotation {
+  font-size: 0.85em;
+  color: theme('colors.xiaoxiang.bamboo');
+  background-color: rgba(139, 163, 141, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  cursor: help;
+}
+
+/* Custom scrollbar for Zen aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 163, 141, 0.4);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 163, 141, 0.8);
 }
