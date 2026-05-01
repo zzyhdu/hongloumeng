@@ -55,16 +55,26 @@ export function ReaderPane({
         const isPoetryLine = (p: string) => {
           if (!p.startsWith('<p>') || !p.endsWith('</p>')) return false;
           const raw = p.replace(/<\/?p>/g, '').trim();
-          return (
-            raw.length > 0 &&
-            raw.length < 45 &&
-            !raw.includes('“') &&
-            !raw.includes('”') &&
-            !raw.includes('：') &&
-            !raw.startsWith('[') &&
-            !raw.startsWith('〔') &&
-            !raw.startsWith('<span')
-          );
+          
+          if (
+            raw.length === 0 || 
+            raw.length >= 45 || 
+            raw.includes('“') || 
+            raw.includes('”') || 
+            raw.includes('：') || 
+            raw.startsWith('[') || 
+            raw.startsWith('〔') ||
+            raw.startsWith('<span')
+          ) {
+            return false;
+          }
+
+          // Check rhythmic structure: poetry clauses are usually short (<= 7 chars).
+          // We allow up to 12 chars to be safe for longer Ci/Qu sentences.
+          // Prose sentences without commas tend to have much longer clauses.
+          const clauses = raw.split(/[，。？！；、]/).filter(c => c.trim().length > 0);
+          const maxClauseLength = Math.max(...clauses.map(c => c.trim().length));
+          return maxClauseLength <= 12;
         };
 
         for (let i = 0; i < paragraphs.length; i++) {
