@@ -5,6 +5,7 @@
     "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
     "types": ["node"],
+    "skipLibCheck": true,
     "outDir": "./build-ts-node"
   },
   "include": ["vite.config.ts"]
