@@ -41,7 +41,8 @@ resource/4color_zhiping.pdf (80回)
 - 章节页码范围（通过 PDF TOC 获取）
 
 ### 输出
-每回一个 `{NNN}_raw.json`，结构：
+每回一个 `{NNN}_raw.json`。Stage 1 不做任何过滤、分类、合并。完整保存 PyMuPDF 的所有原始字段。
+
 ```json
 {
   "chapter": 1,
@@ -53,23 +54,40 @@ resource/4color_zhiping.pdf (80回)
       "height": 841.0,
       "blocks": [
         {
+          "type": 0,
+          "number": 0,
           "bbox": [x0, y0, x1, y1],
           "lines": [
             {
               "bbox": [x0, y0, x1, y1],
+              "wmode": 0,
+              "dir": [1.0, 0.0],
               "spans": [
                 {
                   "text": "text content",
-                  "font_size": 11.5,
-                  "font_name": "KaiTi",
+                  "size": 11.5,
+                  "font": "KaiTi",
                   "color": 16711680,
-                  "color_name": "red",
+                  "flags": 4,
+                  "alpha": 255,
+                  "ascender": 0.89,
+                  "descender": -0.21,
+                  "bidi": 0,
+                  "char_flags": 16,
                   "origin": [x0, y0],
                   "bbox": [x0, y0, x1, y1]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": 1,
+          "number": 1,
+          "bbox": [x0, y0, x1, y1],
+          "width": 999,
+          "height": 1411,
+          "image_index": 0
         }
       ]
     }
@@ -77,10 +95,23 @@ resource/4color_zhiping.pdf (80回)
 }
 ```
 
+**Span 字段**（完整保留 PyMuPDF 12 个字段，不做筛选）：
+`text`, `size`, `font`, `color`, `flags`, `alpha`, `ascender`, `descender`, `bidi`, `char_flags`, `origin`, `bbox`
+
+**Block 字段**：
+- `type`: 0=text, 1=image
+- `number`: block 序号
+- `bbox`: block 包围盒
+- 对于 image block：额外保存 `width`, `height`, `image_index`
+
+**Line 字段**：
+- `bbox`, `wmode`, `dir`
+
 ### 关键决策
-- 过滤页眉页脚（网站 URL、页码、"抚琴居"、"kolistan" 等）
-- 保留所有缩进空格（full-width spaces）
-- `color_name` 映射：`0xff0000 → red`, `0x00008b → blue`, `0x442b → green`, 其他 `→ black`
+- **不过滤页眉页脚**，所有文本完整保存（过滤留到 Stage 2、3）
+- 不做任何文本分类、不做任何 span 归并
+- 图片 block 的信息完整保存，以便后续可能提取封面/插图
+- `color_name` 不在 Stage 1 计算，由 Stage 2 按需添加
 
 ## Stage 2：段落构建
 
