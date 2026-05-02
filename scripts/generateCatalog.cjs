@@ -15,16 +15,28 @@ const VERSION_META = {
     name: '人民文学出版社一百二十回',
     description: '中国艺术研究院红楼梦研究所校注本（前八十回庚辰本，后四十回程甲本）',
   },
+  zhiping_4color: {
+    id: 'zhiping_4color',
+    name: '脂评汇校四色版',
+    description: '红楼梦脂评汇校本（含四色批注）',
+  },
 };
 
 function readFirstHeading(filePath) {
+  if (filePath.endsWith('.json')) {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return data.title || path.basename(filePath);
+  }
   const content = fs.readFileSync(filePath, 'utf8');
   const lines = content.split(/\r?\n/);
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) continue;
-    if (trimmed.startsWith('###')) {
-      return trimmed.replace(/^#+\s*/, '').trim();
+    if (trimmed.startsWith('#')) {
+      let title = trimmed.replace(/^#+\s*/, '').trim();
+      // Remove any HTML tags that might have been captured (e.g. annotations)
+      title = title.replace(/<[^>]+>/g, '').trim();
+      return title;
     }
   }
   return path.basename(filePath);
@@ -40,10 +52,10 @@ function buildCatalog() {
     }
     const files = fs
       .readdirSync(dirPath)
-      .filter((file) => file.endsWith('.md'))
+      .filter((file) => file.endsWith('.md') || file.endsWith('.json'))
       .sort();
     const chapters = files.map((file) => {
-      const chapterId = file.replace('.md', '');
+      const chapterId = file.replace(/\.(md|json)$/, '');
       const title = readFirstHeading(path.join(dirPath, file));
       return {
         id: chapterId,

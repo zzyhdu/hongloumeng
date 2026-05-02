@@ -5,6 +5,7 @@ node_modules/
 .yarnrc.yml
 .npm/
 .cache/
+.venv/*
 
 # Vite output
 build-ts/
@@ -26,5 +27,10 @@ src/*.js.map
 # Output and Binaries
 dist/
 
-split_017.py
-scripts/parseEpub.py
+# Python
+__pycache__/
+*.pyc
+
+# Sensitive files
+.env
+test_page21.png
