@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { ArrowRight, ChevronUp } from 'lucide-react';
+import { cn } from '../../lib/utils';
 import { ChapterRenderer } from './ChapterRenderer';
 import type { ChapterData } from '../../types/chapterTypes';
 
@@ -12,6 +13,7 @@ interface JsonReaderPaneProps {
   resourceBase: string;
   fontSizeClass?: string;
   onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
+  zenMode?: boolean;
 }
 
 export function JsonReaderPane({
@@ -23,6 +25,7 @@ export function JsonReaderPane({
   resourceBase,
   fontSizeClass = 'text-lg',
   onScrollDirectionChange,
+  zenMode,
 }: JsonReaderPaneProps) {
   const [chapterData, setChapterData] = useState<ChapterData | null>(null);
   const [loading, setLoading] = useState(false);
@@ -105,7 +108,10 @@ export function JsonReaderPane({
     <div
       ref={containerRef}
       onScroll={handleScroll}
-      className="relative h-full overflow-y-auto px-4 py-8 sm:px-12 sm:py-16 md:px-24 lg:px-32 custom-scrollbar bg-white/40 backdrop-blur-sm"
+      className={cn(
+        "relative h-full overflow-y-auto px-4 pb-8 sm:px-12 sm:pb-16 md:px-24 lg:px-32 custom-scrollbar bg-white/40 backdrop-blur-sm",
+        zenMode ? "pt-8 sm:pt-16" : "pt-[120px] lg:pt-16"
+      )}
     >
       <article className="mx-auto max-w-3xl">
 

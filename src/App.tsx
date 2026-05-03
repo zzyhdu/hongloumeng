@@ -44,21 +44,23 @@ export default function App() {
 
   return (
     <div className="flex h-screen flex-col overflow-hidden bg-xiaoxiang-paper selection:bg-xiaoxiang-celadon/30 selection:text-xiaoxiang-ink">
-      <div className={cn("grid transition-[grid-template-rows] duration-300 ease-in-out z-40 shrink-0", isHeaderHidden && !zenMode ? "grid-rows-[0fr]" : "grid-rows-[1fr]")}>
-        <div className="overflow-hidden min-h-0">
-          <Header
-            versions={versions}
-            currentVersionId={currentVersionId}
-            onVersionChange={setCurrentVersionId}
-            isMobileSidebarOpen={isMobileSidebarOpen}
-            onToggleSidebar={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}
-            zenMode={zenMode}
-            onToggleZenMode={() => setZenMode(!zenMode)}
-            catalogError={catalogError}
-            fontSizeIndex={fontSizeIndex}
-            setFontSizeIndex={setFontSizeIndex}
-          />
-        </div>
+      <div className={cn(
+        "z-40 shrink-0 transition-transform duration-300 ease-in-out w-full",
+        "absolute top-0 left-0 right-0 lg:relative",
+        isHeaderHidden && !zenMode ? "-translate-y-full lg:translate-y-0" : "translate-y-0"
+      )}>
+        <Header
+          versions={versions}
+          currentVersionId={currentVersionId}
+          onVersionChange={setCurrentVersionId}
+          isMobileSidebarOpen={isMobileSidebarOpen}
+          onToggleSidebar={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}
+          zenMode={zenMode}
+          onToggleZenMode={() => setZenMode(!zenMode)}
+          catalogError={catalogError}
+          fontSizeIndex={fontSizeIndex}
+          setFontSizeIndex={setFontSizeIndex}
+        />
       </div>
 
       <div className="relative flex flex-1 overflow-hidden">
@@ -173,6 +175,7 @@ export default function App() {
             }
             resourceBase={RESOURCE_BASE}
             onScrollDirectionChange={handleScrollDirection}
+            zenMode={zenMode}
           />
         </main>
       </div>
