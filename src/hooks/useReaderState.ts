@@ -24,7 +24,7 @@ const STORAGE_VERSION_KEY = 'hlm_reader_version';
 const STORAGE_CHAPTER_PREFIX = 'hlm_reader_chapter_';
 const STORAGE_FONT_SIZE_KEY = 'hlm_reader_font_size';
 
-export const FONT_SIZES = ['text-base', 'text-lg', 'text-xl', 'text-2xl'];
+export const FONT_SIZES = ['text-[18px]', 'text-[22px]', 'text-[26px]', 'text-[30px]'];
 
 const safeStorage = {
   get(key: string) {
