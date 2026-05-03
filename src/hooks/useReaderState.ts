@@ -45,12 +45,6 @@ const fetchJSON = async <T,>(url: string): Promise<T> => {
   return response.json();
 };
 
-export const fetchText = async (url: string): Promise<string> => {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`加载失败：${response.status}`);
-  return response.text();
-};
-
 export function useReaderState() {
   const [catalog, setCatalog] = useState<Catalog | null>(null);
   const [catalogError, setCatalogError] = useState('');

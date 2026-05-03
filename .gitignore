@@ -20,6 +20,7 @@ build-ts-node/
 
 resource/catalog.json
 resource/zhiping_4color/
+resource/rm120/
 src/*.js
 src/*.js.map
 

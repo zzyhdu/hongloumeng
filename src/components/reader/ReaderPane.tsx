@@ -1,8 +1,4 @@
-import { MarkdownReaderPane } from './MarkdownReaderPane';
 import { JsonReaderPane } from './JsonReaderPane';
-
-/** Versions that use structured JSON data */
-const JSON_VERSIONS = new Set(['zhiping_4color']);
 
 interface ReaderPaneProps {
   versionId: string | null;
@@ -34,12 +30,6 @@ export function ReaderPane({
     );
   }
 
-  // ── Dispatch to the correct reader ──
-  const sharedProps = { versionId, chapterId, meta, hasNextChapter, onNextChapter, resourceBase, fontSizeClass };
-
-  if (JSON_VERSIONS.has(versionId)) {
-    return <JsonReaderPane {...sharedProps} />;
-  }
-
-  return <MarkdownReaderPane {...sharedProps} />;
+  // ── All versions now use structured JSON ──
+  return <JsonReaderPane versionId={versionId} chapterId={chapterId} meta={meta} hasNextChapter={hasNextChapter} onNextChapter={onNextChapter} resourceBase={resourceBase} fontSizeClass={fontSizeClass} />;
 }
