@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useEffect, useRef } from 'react';
 import { Search } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import type { Chapter, VersionMeta } from '../../hooks/useReaderState';
@@ -26,6 +26,14 @@ export function Sidebar({
     return currentVersion.chapters.filter((c) => c.title.toLowerCase().includes(search.toLowerCase()));
   }, [currentVersion, search]);
 
+  const activeChapterRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (activeChapterRef.current) {
+      activeChapterRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [currentVersion?.id, currentChapterId]);
+
   if (!currentVersion) {
     return (
       <div className="flex h-full items-center justify-center p-6 text-sm text-xiaoxiang-bamboo/70">
@@ -35,7 +43,7 @@ export function Sidebar({
   }
 
   return (
-    <div className="flex h-full flex-col font-sans">
+    <div className="font-sans">
       {/* Version Header */}
       <div className="mb-6 px-2">
         <h2 className="font-serif text-lg font-medium text-xiaoxiang-ink">{currentVersion.name}</h2>
@@ -56,13 +64,14 @@ export function Sidebar({
       </div>
 
       {/* Chapter List */}
-      <div className="flex-1 overflow-y-auto px-2 pb-6 custom-scrollbar">
+      <div className="px-2 pb-6">
         <div className="space-y-1">
           {filteredChapters.map((chapter) => {
             const isActive = chapter.id === currentChapterId;
             return (
               <button
                 key={chapter.id}
+                ref={isActive ? activeChapterRef : null}
                 onClick={() => onSelectChapter(chapter.id)}
                 className={cn(
                   'w-full rounded-lg px-3 py-2.5 text-left transition-all duration-300',

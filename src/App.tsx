@@ -74,7 +74,7 @@ export default function App() {
               transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="hidden border-r border-xiaoxiang-celadon/20 bg-white/40 backdrop-blur-sm lg:block"
             >
-              <div className="h-full w-[320px] pt-6">
+              <div className="h-full w-[320px] pt-6 overflow-y-auto custom-scrollbar">
                 <Sidebar
                   currentVersion={currentVersion}
                   currentChapterId={currentChapterId}
@@ -116,8 +116,8 @@ export default function App() {
                       <X size={18} />
                     </button>
                   </div>
-                  
-                  <div className="border-b border-xiaoxiang-celadon/10 p-4 space-y-4 shrink-0">
+                  <div className="flex-1 overflow-y-auto custom-scrollbar">
+                    <div className="border-b border-xiaoxiang-celadon/10 p-4 space-y-4 shrink-0">
                     {/* Version Selection */}
                     <div className="flex flex-col gap-2">
                       <span className="text-xs text-xiaoxiang-bamboo/70 font-serif">版本选择</span>
@@ -166,15 +166,16 @@ export default function App() {
                     </div>
                   </div>
 
-                  <div className="flex-1 overflow-hidden pt-2">
-                    <Sidebar
-                      currentVersion={currentVersion}
-                      currentChapterId={currentChapterId}
-                      onSelectChapter={setCurrentChapterId}
-                      search={chapterSearch}
-                      onSearchChange={setChapterSearch}
-                      catalogError={catalogError}
-                    />
+                    <div className="pt-4">
+                      <Sidebar
+                        currentVersion={currentVersion}
+                        currentChapterId={currentChapterId}
+                        onSelectChapter={setCurrentChapterId}
+                        search={chapterSearch}
+                        onSearchChange={setChapterSearch}
+                        catalogError={catalogError}
+                      />
+                    </div>
                   </div>
                 </div>
               </motion.aside>
