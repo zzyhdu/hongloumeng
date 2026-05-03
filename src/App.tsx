@@ -5,7 +5,7 @@ import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
 import { cn } from './lib/utils';
-import { X } from 'lucide-react';
+import { X, Minimize2 } from 'lucide-react';
 
 export default function App() {
   const {
@@ -197,9 +197,10 @@ export default function App() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 onClick={() => setZenMode(false)}
-                className="fixed top-6 right-6 sm:right-8 lg:right-12 z-50 rounded-full border border-xiaoxiang-celadon/30 bg-white/80 px-5 py-2 text-sm font-serif text-xiaoxiang-bamboo shadow-sm backdrop-blur transition-colors hover:bg-xiaoxiang-celadon hover:text-white"
+                className="fixed top-6 right-6 sm:right-8 lg:right-12 z-50 flex h-10 w-10 items-center justify-center rounded-full border border-xiaoxiang-celadon/30 bg-white/50 text-xiaoxiang-bamboo shadow-sm backdrop-blur-md transition-all hover:bg-xiaoxiang-celadon hover:text-white"
+                title="退出沉浸阅读"
               >
-                退出沉浸阅读
+                <Minimize2 size={18} />
               </motion.button>
             )}
           </AnimatePresence>

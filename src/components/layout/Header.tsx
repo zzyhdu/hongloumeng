@@ -1,4 +1,4 @@
-import { Menu, X, BookOpen, Settings2 } from 'lucide-react';
+import { Menu, X, BookOpen, Maximize2 } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import type { VersionMeta } from '../../hooks/useReaderState';
 
@@ -100,7 +100,7 @@ export function Header({
             className="flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 px-4 py-1.5 text-sm text-xiaoxiang-bamboo transition-colors hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"
             title="沉浸阅读"
           >
-            <Settings2 size={16} />
+            <Maximize2 size={16} />
             <span className="hidden sm:inline">沉浸阅读</span>
           </button>
         </div>

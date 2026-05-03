@@ -130,13 +130,6 @@ export function JsonReaderPane({
         )}
       </article>
 
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-8 right-8 flex h-12 w-12 items-center justify-center rounded-full bg-white/80 border border-xiaoxiang-celadon/30 text-xiaoxiang-celadon shadow-sm backdrop-blur transition-all hover:bg-xiaoxiang-celadon hover:text-white focus:outline-none focus:ring-2 focus:ring-xiaoxiang-celadon focus:ring-offset-2"
-        aria-label="回顶部"
-      >
-        <ChevronUp className="h-6 w-6" />
-      </button>
     </div>
   );
 }
