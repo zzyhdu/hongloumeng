@@ -18,9 +18,8 @@ build-ts-node/
 .idea/
 .vscode/
 
-# Local scripts output
-public/resource/
 resource/catalog.json
+resource/zhiping_4color/
 src/*.js
 src/*.js.map
 

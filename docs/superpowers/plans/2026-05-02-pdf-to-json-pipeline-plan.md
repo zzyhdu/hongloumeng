@@ -1,6 +1,6 @@
 # PDF → JSON → HTML Pipeline Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **Status: ALL TASKS COMPLETE (2026-05-02)**
 
 **Goal:** Build a 3-stage Python pipeline to faithfully extract all PDF text information into JSON, then update the React frontend to render it.
 
@@ -10,6 +10,20 @@
 
 **Key Data:** 1039-page PDF, 80 chapters (pages 12–1039, 0-indexed), ~516×729 pts page size. TOC available via `doc.get_toc()`.
 
+## Implementation Deviations from Plan
+
+The actual implementation differs from the code sketches below in these key ways:
+
+1. **paragraph_builder.py**: Much more sophisticated than the skeleton below. Includes per-line page header filtering, indent span markers, four-condition inline annotation detection, three-level indent detection (explicit markers / physical x-offset / leading spaces), and footnote ref detection.
+
+2. **semantic_enricher.py poetry detection**: Simplified from keyword+indent+clause-length heuristics (~120 lines) to **pure indentation-based detection** (~35 lines). Poetry uses 4+ leading spaces or x≥86+2 spaces; prose uses 2 spaces at body margin (x≈74). No keywords, no clause analysis, no dialogue detection.
+
+3. **Color→source mapping**: Added learning phase (Step 0) that infers source version from explicit annotation prefixes (e.g. green block with "庚：" prefix teaches green=庚).
+
+4. **Cross-page paragraph merging**: Added in Stage 3 (not Stage 2 as originally planned), merging adjacent-page paragraphs of the same type.
+
+5. **Frontend types**: `chapterTypes.ts` uses a simplified InlineSpan model (text/annotation/correction/footnote_ref) without per-span source_info. The Python output omits raw bbox/page data from InlineSpan (reduces JSON size ~70%).
+
 ---
 
 ### Task 1: Implement span_dumper.py (Stage 1)
@@ -18,7 +32,7 @@
 - Create: `scripts/span_dumper.py`
 - Create: `scripts/analyze_pdf.py` (helper: PDF structure analysis)
 
-- [ ] **Step 1: Write analyze_pdf.py to understand the PDF structure**
+- [x] **Step 1: Write analyze_pdf.py to understand the PDF structure**
 
 Analyze the PDF before writing the dumper. This script gathers:
 - TOC structure (chapter page ranges)
@@ -84,13 +98,13 @@ for f, cnt in fonts.most_common(10):
     print(f"  {f}: {cnt}")
 ```
 
-- [ ] **Step 2: Run analyze_pdf.py and collect output**
+- [x] **Step 2: Run analyze_pdf.py and collect output**
 
 Run: `source .venv/bin/activate && python3 scripts/analyze_pdf.py`
 
 Capture the font size thresholds and color values for use in Stage 2.
 
-- [ ] **Step 3: Write span_dumper.py**
+- [x] **Step 3: Write span_dumper.py**
 
 The dumper reads the PDF page by page (by chapter ranges from TOC) and writes `{NNN}_raw.json`. It preserves every field PyMuPDF provides — no filtering, no classification.
 
@@ -253,13 +267,13 @@ if __name__ == '__main__':
     main()
 ```
 
-- [ ] **Step 4: Run span_dumper.py on chapter 1**
+- [x] **Step 4: Run span_dumper.py on chapter 1**
 
 Run: `source .venv/bin/activate && python3 scripts/span_dumper.py 1`
 
 Expected: creates `resource/zhiping_4color/001_raw.json` with ~17 pages and several thousand spans.
 
-- [ ] **Step 5: Verify the output shape**
+- [x] **Step 5: Verify the output shape**
 
 Run a quick validation:
 
@@ -285,13 +299,13 @@ print(f'sample span: {json.dumps(span, ensure_ascii=False, indent=2)[:500]}')
 "
 ```
 
-- [ ] **Step 6: Run span_dumper.py on all 80 chapters**
+- [x] **Step 6: Run span_dumper.py on all 80 chapters**
 
 Run: `source .venv/bin/activate && python3 scripts/span_dumper.py`
 
 Expected: creates `resource/zhiping_4color/{001..080}_raw.json`.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add scripts/span_dumper.py scripts/analyze_pdf.py resource/zhiping_4color/*_raw.json
@@ -308,7 +322,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 - Create: `scripts/paragraph_builder.py`
 - Create: `scripts/analyze_spans.py` (helper: span-level statistics for threshold detection)
 
-- [ ] **Step 1: Write analyze_spans.py**
+- [x] **Step 1: Write analyze_spans.py**
 
 Analyze the raw JSON spans to determine:
 - Exact font size thresholds (what size separates annotations from body text)
@@ -380,13 +394,13 @@ if annot_sizes:
     print(f"Annotation font size: {annot_size:.1f}")
 ```
 
-- [ ] **Step 2: Run analyze_spans.py and record thresholds**
+- [x] **Step 2: Run analyze_spans.py and record thresholds**
 
 Run: `source .venv/bin/activate && python3 scripts/analyze_spans.py`
 
 Record the detected font size thresholds and margin/indent values.
 
-- [ ] **Step 3: Write paragraph_builder.py**
+- [x] **Step 3: Write paragraph_builder.py**
 
 The builder reads `{NNN}_raw.json`, flattens spans into a chronological sequence, applies font-size-based classification and coordinate-based paragraph boundary detection, then outputs `{NNN}_paras.json`.
 
@@ -677,13 +691,13 @@ if __name__ == '__main__':
     main()
 ```
 
-- [ ] **Step 4: Run paragraph_builder.py on chapter 1**
+- [x] **Step 4: Run paragraph_builder.py on chapter 1**
 
 Run: `source .venv/bin/activate && python3 scripts/paragraph_builder.py 1`
 
 Expected: creates `resource/zhiping_4color/001_paras.json`.
 
-- [ ] **Step 5: Manually review the paragraph output**
+- [x] **Step 5: Manually review the paragraph output**
 
 Spot-check paragraphs against the original PDF or existing `001.json`:
 - Are body text paragraphs correctly separated?
@@ -693,7 +707,7 @@ Spot-check paragraphs against the original PDF or existing `001.json`:
 
 If thresholds are wrong, update them in `paragraph_builder.py` based on `analyze_spans.py` data.
 
-- [ ] **Step 6: Iterate on paragraph boundary heuristics**
+- [x] **Step 6: Iterate on paragraph boundary heuristics**
 
 Repeat steps 4-5, tuning:
 - `BODY_SIZE_MIN` threshold
@@ -702,11 +716,11 @@ Repeat steps 4-5, tuning:
 
 Until chapter 1 output is satisfactory.
 
-- [ ] **Step 7: Run on all 80 chapters**
+- [x] **Step 7: Run on all 80 chapters**
 
 Run: `source .venv/bin/activate && python3 scripts/paragraph_builder.py`
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add scripts/paragraph_builder.py scripts/analyze_spans.py resource/zhiping_4color/*_paras.json
@@ -722,7 +736,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 **Files:**
 - Create: `scripts/semantic_enricher.py`
 
-- [ ] **Step 1: Write semantic_enricher.py**
+- [x] **Step 1: Write semantic_enricher.py**
 
 The enricher reads `{NNN}_paras.json`, applies semantic processing, and writes the final `{NNN}.json` (overwriting existing files with the compatible `ChapterData` format).
 
@@ -983,13 +997,13 @@ if __name__ == '__main__':
     main()
 ```
 
-- [ ] **Step 2: Run semantic_enricher.py on chapter 1**
+- [x] **Step 2: Run semantic_enricher.py on chapter 1**
 
 Run: `source .venv/bin/activate && python3 scripts/semantic_enricher.py 1`
 
 Expected: creates/overwrites `resource/zhiping_4color/001.json`.
 
-- [ ] **Step 3: Compare output with expectations**
+- [x] **Step 3: Compare output with expectations**
 
 Diff the new `001.json` against the previous one (if backed up):
 - Check annotation source/position parsing
@@ -997,15 +1011,15 @@ Diff the new `001.json` against the previous one (if backed up):
 - Check footnote extraction
 - Verify the `ChapterData` type compatibility
 
-- [ ] **Step 4: Iterate on heuristics until chapter 1 is correct**
+- [x] **Step 4: Iterate on heuristics until chapter 1 is correct**
 
 Tune poetry detection, annotation prefix parsing, footnote detection.
 
-- [ ] **Step 5: Run on all 80 chapters**
+- [x] **Step 5: Run on all 80 chapters**
 
 Run: `source .venv/bin/activate && python3 scripts/semantic_enricher.py`
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add scripts/semantic_enricher.py resource/zhiping_4color/*.json
@@ -1021,7 +1035,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 **Files:**
 - Modify: `src/types/chapterTypes.ts`
 
-- [ ] **Step 1: Add source_info to InlineSpan types**
+- [x] **Step 1: Add source_info to InlineSpan types**
 
 Add an optional `source_info` field to `TextSpan` and `AnnotationSpan` to carry the original PDF metadata:
 
@@ -1037,7 +1051,7 @@ export interface SpanSourceInfo {
 }
 ```
 
-- [ ] **Step 2: Add source_info to TextSpan and AnnotationSpan**
+- [x] **Step 2: Add source_info to TextSpan and AnnotationSpan**
 
 ```typescript
 export interface TextSpan {
@@ -1056,11 +1070,11 @@ export interface AnnotationSpan {
 }
 ```
 
-- [ ] **Step 3: Verify backward compatibility**
+- [x] **Step 3: Verify backward compatibility**
 
 Ensure existing code that creates `TextSpan` and `AnnotationSpan` without `source_info` still compiles.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add src/types/chapterTypes.ts
@@ -1076,11 +1090,11 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 **Files:**
 - Possibly modify: `src/components/reader/InlineSpanRenderer.tsx`
 
-- [ ] **Step 1: Start dev server**
+- [x] **Step 1: Start dev server**
 
 Run: `npm run dev`
 
-- [ ] **Step 2: Open in browser and navigate to chapter 1**
+- [x] **Step 2: Open in browser and navigate to chapter 1**
 
 Check:
 - Body text paragraphs render correctly
@@ -1090,18 +1104,18 @@ Check:
 - Footnotes appear at chapter end
 - Correction spans show as strikethrough/inserted
 
-- [ ] **Step 3: Compare with PDF original**
+- [x] **Step 3: Compare with PDF original**
 
 Open the PDF alongside the browser and compare a few pages of chapter 1:
 - Are all annotations present?
 - Are there any missing or duplicated text segments?
 - Is the reading order correct?
 
-- [ ] **Step 4: Fix any rendering issues**
+- [x] **Step 4: Fix any rendering issues**
 
 If the JSON output doesn't match the existing `ChapterData` format exactly, update the enricher or the renderer accordingly.
 
-- [ ] **Step 5: Commit any fixes**
+- [x] **Step 5: Commit any fixes**
 
 ```bash
 git add -A
@@ -1117,7 +1131,7 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
 **Files:**
 - Delete: `scratch/*.py`, `scripts/checkAiSplit.py`, `scripts/debug*.py`, `scripts/test*.py`, `scripts/parseZhipingJson.py` (old monolithic parser)
 
-- [ ] **Step 1: Archive old scripts**
+- [x] **Step 1: Archive old scripts**
 
 ```bash
 mkdir -p scripts/archived
@@ -1136,7 +1150,7 @@ mv split_017.py scripts/archived/
 rm -rf scratch/*.py
 ```
 
-- [ ] **Step 2: Commit**
+- [x] **Step 2: Commit**
 
 ```bash
 git add -A

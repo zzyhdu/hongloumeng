@@ -52,7 +52,11 @@ function buildCatalog() {
     }
     const files = fs
       .readdirSync(dirPath)
-      .filter((file) => file.endsWith('.md') || file.endsWith('.json'))
+      .filter((file) =>
+        (file.endsWith('.md') || file.endsWith('.json')) &&
+        !file.includes('_raw') &&
+        !file.includes('_paras')
+      )
       .sort();
     const chapters = files.map((file) => {
       const chapterId = file.replace(/\.(md|json)$/, '');

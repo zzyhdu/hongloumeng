@@ -2,13 +2,13 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-xiaoxiang-paper: #F7F6F0;
-  --color-xiaoxiang-celadon: #8BA38D;
-  --color-xiaoxiang-bamboo: #4A3C31;
-  --color-xiaoxiang-ink: #2B2B2B;
-  --color-xiaoxiang-rose: #C25953;
+  --color-xiaoxiang-paper: #F9F8F4;
+  --color-xiaoxiang-celadon: #7A937D;
+  --color-xiaoxiang-bamboo: #3A2E25;
+  --color-xiaoxiang-ink: #111111;
+  --color-xiaoxiang-rose: #D32F2F;
 
-  --font-serif: "Cormorant Garamond", "Playfair Display", "Noto Serif SC", "Songti SC", "Source Han Serif SC", "Microsoft YaHei", serif;
+  --font-serif: "Noto Serif SC", "Songti SC", "Source Han Serif SC", "Microsoft YaHei", serif;
   --font-sans: Inter, Outfit, system-ui, sans-serif;
 }
 
@@ -24,15 +24,18 @@
 
 /* Custom Typography Overrides for Reader */
 .reader-prose {
-  /* Increase line-height and letter-spacing for elegant reading */
-  line-height: 2.2;
-  letter-spacing: 0.02em;
+  /* Tighten line-height to closer match traditional books and improve density */
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  font-weight: 400;
 }
 
 .reader-prose p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.2em;
+}
+
+.reader-paragraph.indented {
   text-indent: 2em;
-  /* Traditional Chinese indentation */
 }
 
 /* Hide the duplicated title from the raw markdown */
@@ -89,4 +92,133 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(139, 163, 141, 0.8);
+}
+
+/* Zhiping Four-Color Annotation Styles */
+.annotation-block {
+  font-family: 'KaiTi', 'STKaiti', serif;
+  line-height: 1.8;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.annotation-block.indented {
+  text-indent: 2em;
+}
+
+.annotation-block.green {
+  border-color: #2F4F4F;
+  color: #2F4F4F;
+}
+
+.annotation-block.red {
+  border-color: #8B0000;
+  color: #8B0000;
+}
+
+.annotation-block.blue {
+  border-color: #00008B;
+  color: #00008B;
+}
+
+.annotation-block.black {
+  border-color: #333333;
+  color: #333333;
+}
+
+.annotation-inline {
+  font-family: 'KaiTi', 'STKaiti', serif;
+  font-size: 0.85em;
+  margin: 0 4px;
+  vertical-align: baseline;
+}
+
+.annotation-inline.red {
+  color: #B22222;
+}
+
+.annotation-inline.blue {
+  color: #00008B;
+}
+
+.annotation-inline.green {
+  color: #2F4F4F;
+}
+
+.annotation-inline.black {
+  color: #333333;
+}
+
+/* Correction Marks */
+.correction-mark {
+  margin: 0 2px;
+}
+
+.correction-deleted {
+  text-decoration: line-through;
+  color: inherit;
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.correction-inserted {
+  color: inherit;
+  font-weight: 500;
+}
+
+/* Footnotes */
+.footnote-ref {
+  font-size: 0.75em;
+  vertical-align: super;
+  color: var(--color-xiaoxiang-celadon);
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.footnote-ref a {
+  text-decoration: none;
+}
+
+.footnote-ref a:hover {
+  text-decoration: underline;
+}
+
+.footnotes-section {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  font-size: 0.9em;
+  color: var(--color-xiaoxiang-bamboo);
+}
+
+.footnote-divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(139, 163, 141, 0.4), transparent);
+  margin-bottom: 2rem;
+  width: 30%;
+}
+
+.footnote-def {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  line-height: 1.6;
+}
+
+.footnote-marker {
+  color: var(--color-xiaoxiang-celadon);
+  font-weight: bold;
+}
+
+.footnote-backref {
+  color: var(--color-xiaoxiang-celadon);
+  text-decoration: none;
+  font-size: 0.85em;
+  margin-left: 0.5rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.footnote-backref:hover {
+  opacity: 1;
 }
