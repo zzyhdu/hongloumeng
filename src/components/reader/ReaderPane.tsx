@@ -2,7 +2,7 @@ import { MarkdownReaderPane } from './MarkdownReaderPane';
 import { JsonReaderPane } from './JsonReaderPane';
 
 /** Versions that use structured JSON data */
-const JSON_VERSIONS = new Set(['zp80', 'zhiping_4color']);
+const JSON_VERSIONS = new Set(['zhiping_4color']);
 
 interface ReaderPaneProps {
   versionId: string | null;

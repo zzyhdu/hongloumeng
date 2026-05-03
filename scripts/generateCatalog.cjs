@@ -5,20 +5,15 @@ const ROOT = path.resolve(__dirname, '..');
 const RESOURCE_DIR = path.join(ROOT, 'resource');
 
 const VERSION_META = {
-  zp80: {
-    id: 'zp80',
-    name: '脂评八十回',
-    description: '脂评本（甲戌本、庚辰本、蒙府本）八十回',
+  zhiping_4color: {
+    id: 'zhiping_4color',
+    name: '抚琴居脂评汇校八十回',
+    description: '红楼梦脂评汇校本，以甲戌本、庚辰本为底本，汇集各脂本批注',
   },
   rm120: {
     id: 'rm120',
     name: '人民文学出版社一百二十回',
     description: '中国艺术研究院红楼梦研究所校注本（前八十回庚辰本，后四十回程甲本）',
-  },
-  zhiping_4color: {
-    id: 'zhiping_4color',
-    name: '脂评汇校四色版',
-    description: '红楼梦脂评汇校本（含四色批注）',
   },
 };
 
