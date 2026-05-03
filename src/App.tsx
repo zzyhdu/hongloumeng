@@ -116,7 +116,57 @@ export default function App() {
                       <X size={18} />
                     </button>
                   </div>
-                  <div className="flex-1 overflow-hidden pt-4">
+                  
+                  <div className="border-b border-xiaoxiang-celadon/10 p-4 space-y-4 shrink-0">
+                    {/* Version Selection */}
+                    <div className="flex flex-col gap-2">
+                      <span className="text-xs text-xiaoxiang-bamboo/70 font-serif">版本选择</span>
+                      <div className="flex flex-wrap gap-2">
+                        {versions.map((v) => {
+                          const isActive = v.id === currentVersionId;
+                          return (
+                            <button
+                              key={v.id}
+                              onClick={() => {
+                                setCurrentVersionId(v.id);
+                              }}
+                              className={cn(
+                                'rounded-full px-3 py-1 text-xs transition-all border',
+                                isActive
+                                  ? 'bg-xiaoxiang-celadon border-xiaoxiang-celadon text-white shadow-sm'
+                                  : 'border-xiaoxiang-celadon/30 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10'
+                              )}
+                            >
+                              {v.name}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+
+                    {/* Font Size Selection */}
+                    <div className="flex flex-col gap-2">
+                      <span className="text-xs text-xiaoxiang-bamboo/70 font-serif">阅读字号</span>
+                      <div className="flex gap-2">
+                        {['小', '中', '大', '极'].map((label, i) => (
+                          <button
+                            key={i}
+                            onClick={() => setFontSizeIndex(i)}
+                            className={cn(
+                              'flex-1 rounded-full py-1 text-sm font-serif transition-colors border',
+                              fontSizeIndex === i
+                                ? 'bg-xiaoxiang-celadon border-xiaoxiang-celadon text-white shadow-sm'
+                                : 'border-xiaoxiang-celadon/30 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10'
+                            )}
+                          >
+                            {label}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex-1 overflow-hidden pt-2">
                     <Sidebar
                       currentVersion={currentVersion}
                       currentChapterId={currentChapterId}

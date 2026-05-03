@@ -105,29 +105,6 @@ export function Header({
           </button>
         </div>
       </div>
-      
-      {/* Mobile Version Tabs */}
-      <div className="md:hidden border-t border-xiaoxiang-celadon/10 px-4 py-2 flex overflow-x-auto custom-scrollbar">
-        <div className="flex gap-2">
-          {versions.map((v) => {
-            const isActive = v.id === currentVersionId;
-            return (
-              <button
-                key={v.id}
-                onClick={() => onVersionChange(v.id)}
-                className={cn(
-                  'whitespace-nowrap rounded-full px-4 py-1 text-xs transition-all border',
-                  isActive
-                    ? 'bg-xiaoxiang-celadon border-xiaoxiang-celadon text-white shadow-sm'
-                    : 'border-xiaoxiang-celadon/30 text-xiaoxiang-bamboo bg-white/40'
-                )}
-              >
-                {v.name}
-              </button>
-            );
-          })}
-        </div>
-      </div>
     </header>
   );
 }

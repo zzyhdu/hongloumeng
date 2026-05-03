@@ -110,7 +110,7 @@ export function JsonReaderPane({
       onScroll={handleScroll}
       className={cn(
         "relative h-full overflow-y-auto px-4 pb-8 sm:px-12 sm:pb-16 md:px-24 lg:px-32 custom-scrollbar bg-white/40 backdrop-blur-sm",
-        zenMode ? "pt-8 sm:pt-16" : "pt-[120px] lg:pt-16"
+        zenMode ? "pt-8 sm:pt-16" : "pt-[80px] lg:pt-16"
       )}
     >
       <article className="mx-auto max-w-3xl">
