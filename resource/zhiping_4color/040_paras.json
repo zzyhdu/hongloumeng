@@ -1,0 +1,7120 @@
+{
+  "chapter": 40,
+  "title": "第四十回　史太君两宴大观园　金鸳鸯三宣牙牌令",
+  "paragraphs": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "第 四 十 回 史太君两宴大观园 金鸳鸯三宣牙牌令",
+      "color": "black",
+      "indent": false,
+      "spans": [
+        {
+          "text": "第 四 十 回 ",
+          "size": 18.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            208.2,
+            114.5,
+            316.7,
+            132.5
+          ],
+          "origin": [
+            208.2,
+            130.0
+          ],
+          "class": "heading",
+          "_line_id": 6
+        },
+        {
+          "text": "史太君两宴大观园 金鸳鸯三宣牙牌令",
+          "size": 18.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            104.2,
+            144.6,
+            411.5,
+            162.6
+          ],
+          "origin": [
+            104.2,
+            160.1
+          ],
+          "class": "heading",
+          "_line_id": 7
+        }
+      ]
+    },
+    {
+      "type": "annotation_block",
+      "indent": true,
+      "color_name": "blue",
+      "spans": [
+        {
+          "text": "戚：两宴不觉已深秋，惜春只如画春游。可怜富贵谁能保，只有恩",
+          "size": 12.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 139,
+          "color_name": "blue",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            97.8,
+            213.5,
+            442.3,
+            225.5
+          ],
+          "origin": [
+            97.8,
+            223.8
+          ],
+          "class": "annotation",
+          "_line_id": 10,
+          "_block_start": true
+        },
+        {
+          "text": "情得到头。",
+          "size": 12.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 139,
+          "color_name": "blue",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            235.6,
+            133.9,
+            247.6
+          ],
+          "origin": [
+            73.7,
+            245.9
+          ],
+          "class": "annotation",
+          "_line_id": 11
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "话说宝玉听了，忙进来看时，只见琥珀站在屏风跟前说：“快去吧，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            279.5,
+            448.3,
+            291.5
+          ],
+          "origin": [
+            73.7,
+            289.8
+          ],
+          "class": "body",
+          "_line_id": 13,
+          "_block_start": true
+        },
+        {
+          "text": "立等你说话呢。”宝玉来至上房，只见贾母正和王夫人众姊妹商议给史",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            301.6,
+            442.3,
+            313.6
+          ],
+          "origin": [
+            73.7,
+            311.9
+          ],
+          "class": "body",
+          "_line_id": 14
+        },
+        {
+          "text": "湘云还席。宝玉因说道：“我有个主意。既没有外客，吃的东西也别定",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            323.5,
+            442.3,
+            335.5
+          ],
+          "origin": [
+            73.7,
+            333.8
+          ],
+          "class": "body",
+          "_line_id": 15
+        },
+        {
+          "text": "了样数，谁素日爱吃的拣样儿做几样。也不要按桌席，每人跟前摆一张",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            345.5,
+            442.1,
+            357.5
+          ],
+          "origin": [
+            73.7,
+            355.8
+          ],
+          "class": "body",
+          "_line_id": 16
+        },
+        {
+          "text": "高几，各人爱吃的东西一两样，再一个什锦攒心盒子，自斟壶，岂不别",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            367.6,
+            442.3,
+            379.6
+          ],
+          "origin": [
+            73.7,
+            377.9
+          ],
+          "class": "body",
+          "_line_id": 17
+        },
+        {
+          "text": "致。”贾母听了，说“很是”，忙命传与厨房：“明日就拣我们爱吃的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            389.5,
+            442.3,
+            401.5
+          ],
+          "origin": [
+            73.7,
+            399.8
+          ],
+          "class": "body",
+          "_line_id": 18
+        },
+        {
+          "text": "东西作了，按着人数，再装了盒子来。早饭也摆在园里吃。”商议之间",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            411.5,
+            442.3,
+            423.5
+          ],
+          "origin": [
+            73.7,
+            421.8
+          ],
+          "class": "body",
+          "_line_id": 19
+        },
+        {
+          "text": "早又掌灯，一夕无话。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            433.6,
+            200.2,
+            445.6
+          ],
+          "origin": [
+            73.7,
+            443.9
+          ],
+          "class": "body",
+          "_line_id": 20
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "次日清早起来，可喜这日天气清朗。李纨侵晨先起，看着老婆子丫",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            455.5,
+            442.1,
+            467.5
+          ],
+          "origin": [
+            73.7,
+            465.8
+          ],
+          "class": "body",
+          "_line_id": 21,
+          "_block_start": true
+        },
+        {
+          "text": "头们扫那些落叶，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            477.5,
+            170.0,
+            489.5
+          ],
+          "origin": [
+            73.7,
+            487.8
+          ],
+          "class": "body",
+          "_line_id": 22
+        },
+        {
+          "text": "己夹：是八月尽。",
+          "size": 10.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 17451,
+          "color_name": "green",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            169.4,
+            479.2,
+            249.8,
+            489.2
+          ],
+          "origin": [
+            169.4,
+            487.8
+          ],
+          "class": "annotation",
+          "_line_id": 22
+        },
+        {
+          "text": "并擦抹桌椅，预备茶酒器皿。只见丰",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            250.0,
+            477.5,
+            442.1,
+            489.5
+          ],
+          "origin": [
+            250.0,
+            487.8
+          ],
+          "class": "body",
+          "_line_id": 22
+        },
+        {
+          "text": "儿带了刘姥姥板儿进来，说“大奶奶倒忙的紧。”李纨笑道：“我说你",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            499.6,
+            442.2,
+            511.6
+          ],
+          "origin": [
+            73.7,
+            509.9
+          ],
+          "class": "body",
+          "_line_id": 23
+        },
+        {
+          "text": "昨儿去不成，只忙着要去。”刘姥姥笑道：“老太太留下我，叫我也热",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            521.5,
+            442.3,
+            533.5
+          ],
+          "origin": [
+            73.7,
+            531.8
+          ],
+          "class": "body",
+          "_line_id": 24
+        },
+        {
+          "text": "闹一天去。”丰儿拿了几把大小钥匙，说道：“我们奶奶说了，外头的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            543.5,
+            442.3,
+            555.5
+          ],
+          "origin": [
+            73.7,
+            553.8
+          ],
+          "class": "body",
+          "_line_id": 25
+        },
+        {
+          "text": "高几恐不够使，不如开了楼把那收着的拿下来使一天罢。奶奶原该亲自",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            565.6,
+            442.3,
+            577.6
+          ],
+          "origin": [
+            73.7,
+            575.9
+          ],
+          "class": "body",
+          "_line_id": 26
+        },
+        {
+          "text": "来的，因和太太说话呢，请大奶奶开了，带着人搬罢。”李氏便令素云",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            587.5,
+            442.3,
+            599.5
+          ],
+          "origin": [
+            73.7,
+            597.8
+          ],
+          "class": "body",
+          "_line_id": 27
+        },
+        {
+          "text": "接了钥匙，又令婆子出去把二门上的小厮叫几个来。李氏站在大观楼下",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            609.5,
+            442.3,
+            621.5
+          ],
+          "origin": [
+            73.7,
+            619.8
+          ],
+          "class": "body",
+          "_line_id": 28
+        },
+        {
+          "text": "往上看，令人上去开了缀锦阁，一张一张往下抬。小厮老婆子丫头一齐",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            631.6,
+            442.1,
+            643.6
+          ],
+          "origin": [
+            73.7,
+            641.9
+          ],
+          "class": "body",
+          "_line_id": 29
+        },
+        {
+          "text": "动手，抬了二十多张下来。李纨道：“好生着，别慌慌张张鬼赶来似的，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 493,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            653.5,
+            448.2,
+            665.5
+          ],
+          "origin": [
+            73.7,
+            663.8
+          ],
+          "class": "body",
+          "_line_id": 30
+        },
+        {
+          "text": "仔细碰了牙子。”又回头向刘姥姥笑道：“姥姥，你也上去瞧瞧。”刘",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 34
+        },
+        {
+          "text": "姥姥听说，巴不得一声儿，便拉了板儿登梯上去进里面，只见乌压压的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 35
+        },
+        {
+          "text": "堆着些围屏、桌椅、大小花灯之类，虽不大认得，只见五彩炫耀，各有",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.3,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 36
+        },
+        {
+          "text": "奇妙。念了几声佛，便下来了。然后锁上门，一齐才下来。李纨道：“恐",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 37
+        },
+        {
+          "text": "怕老太太高兴，越性把舡上划子、篙桨、遮阳幔子都搬了下来预备着。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.2,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 38
+        },
+        {
+          "text": "众人答应，复又开了，色色的搬了下来。令小厮传驾娘们到舡坞里撑出",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.2,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 39
+        },
+        {
+          "text": "两只船来。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            140.0,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 40
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "正乱着安排，只见贾母已带了一群人进来了。李纨忙迎上去，笑道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            448.3,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 41,
+          "_block_start": true
+        },
+        {
+          "text": "“老太太高兴，倒进来了。我只当还没梳头呢，才撷了菊花要送去。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 42
+        },
+        {
+          "text": "一面说，一面碧月早捧过一个大荷叶式的翡翠盘子来，里面盛着各色的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 43
+        },
+        {
+          "text": "折枝菊花。贾母便拣了一朵大红的簪于鬓上。因回头看见了刘姥姥，忙",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.1,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 44
+        },
+        {
+          "text": "笑道：“过来带花儿。”一语未完，凤姐便拉过刘姥姥，笑道：“让我",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 45
+        },
+        {
+          "text": "打扮你。”说着，将一盘子花横三竖四的插了一头。贾母和众人笑的了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.2,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 46
+        },
+        {
+          "text": "不得。刘姥姥笑道：“我这头也不知修了什么福，今儿这样体面起来。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.2,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 47
+        },
+        {
+          "text": "众人笑道：“你还不拔下来摔到他脸上呢，把你打扮的成了个老妖精",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.2,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 48
+        },
+        {
+          "text": "了。”刘姥姥笑道：“我虽老了，年轻时也风流，爱个花儿粉儿的，今",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 49
+        },
+        {
+          "text": "儿老风流才好。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            176.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 50
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "说笑之间，已来至沁芳亭子上。丫鬟们抱了一个大锦褥子来，铺在",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.1,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 51,
+          "_block_start": true
+        },
+        {
+          "text": "栏杆榻板上。贾母倚柱坐下，命刘姥姥也坐在旁边，因问他：“这园子",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            442.3,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 52
+        },
+        {
+          "text": "好不好？”刘姥姥念佛说道：“我们乡下人到了年下，都上城来买画儿",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 53
+        },
+        {
+          "text": "贴。时常闲了，大家都说，怎么得也到画儿上去逛逛。想着那个画儿也",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 54
+        },
+        {
+          "text": "不过是假的，那里有这个真地方呢。谁知我今儿进这园里一瞧，竟比那",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.1,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 55
+        },
+        {
+          "text": "画儿还强十倍。怎么得有人也照着这个园子画一张，我带了家去，给他",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.2,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 56
+        },
+        {
+          "text": "们见见，死了也得好处。”贾母听说，便指着惜春笑道：“你瞧我这个",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.3,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 57
+        },
+        {
+          "text": "小孙女儿，他就会画。等明儿叫他画一张如何？”刘姥姥听了，喜的忙",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.2,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 58
+        },
+        {
+          "text": "跑过来，拉着惜春说道：“我的姑娘，你这么大年纪儿，又这么个好模",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 59
+        },
+        {
+          "text": "样，还有这个能干，别是神仙托生的罢。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 494,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            308.8,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 60
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母少歇一回，自然领着刘姥姥都见识见识。先到了潇湘馆。一进",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.2,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 64,
+          "_block_start": true
+        },
+        {
+          "text": "门，只见两边翠竹夹路，土地下苍苔布满，中间羊肠一条石子漫的路。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            447.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 65
+        },
+        {
+          "text": "刘姥姥让出路来与贾母众人走，自己却赾土地。琥珀拉着他说道：“姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.2,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 66
+        },
+        {
+          "text": "姥，你上来走，仔细苍苔滑了。”刘姥姥道：“不相干的，我们走熟了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 67
+        },
+        {
+          "text": "的，姑娘们只管走罢。可惜你们的那绣鞋，别沾脏了。”他只顾上头和",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.3,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 68
+        },
+        {
+          "text": "人说话，不防底下果跴滑了，咕咚一跤跌倒。众人拍手都哈哈的笑起来。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            448.3,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 69
+        },
+        {
+          "text": "贾母笑骂道：“小蹄子们，还不搀起来，只站着笑。”说话时，刘姥姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            442.3,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 70
+        },
+        {
+          "text": "已爬了起来，自己也笑了，说道：“才说嘴就打了嘴。”贾母问他：“可",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.2,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 71
+        },
+        {
+          "text": "扭了腰了不曾？叫丫头们捶一捶。”刘姥姥道：“那里说的我这么娇嫩",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 72
+        },
+        {
+          "text": "了。那一天不跌两下子，都要捶起来，还了得呢。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            356.9,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 73
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "紫鹃早打起湘帘，贾母等进来坐下。林黛玉亲自用小茶盘捧了一盖",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.3,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 74,
+          "_block_start": true
+        },
+        {
+          "text": "碗茶来奉与贾母。王夫人道：“我们不吃茶，姑娘不用倒了。”林黛玉",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 75
+        },
+        {
+          "text": "听说，便命丫头把自己窗下常坐的一张椅子挪到下首，请王夫人坐了。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            447.1,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 76
+        },
+        {
+          "text": "刘姥姥因见窗下案上设着笔砚，又见书架上磊着满满的书，刘姥姥道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            447.1,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 77
+        },
+        {
+          "text": "“这必定是那位哥儿的书房了。”贾母笑指黛玉道：“这是我这外孙女",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 78
+        },
+        {
+          "text": "儿的屋子。”刘姥姥留神打量了黛玉一番，方笑道：“这那像个小姐的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.1,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 79
+        },
+        {
+          "text": "绣房，竟比那上等的书房还好。”贾母因问：“宝玉怎么不见？”众丫",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 80
+        },
+        {
+          "text": "头们答说：“在池子里舡上呢。”贾母道：“谁又预备下舡了？”李纨",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.2,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 81
+        },
+        {
+          "text": "忙回说：“才开楼拿几，我恐怕老太太高兴，就预备下了。”贾母听了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            442.3,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 82
+        },
+        {
+          "text": "方欲说话时，有人回说：“姨太太来了。”贾母等刚站起来，只见薛姨",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 83
+        },
+        {
+          "text": "妈早进来了，一面归坐，笑道：“今儿老太太高兴，这早晚就来了。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 84
+        },
+        {
+          "text": "贾母笑道：“我才说来迟了的要罚他，不想姨太太就来迟了。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            417.1,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 85
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "说笑一会，贾母因见窗上纱的颜色旧了，便和王夫人说道：“这个",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.1,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 86,
+          "_block_start": true
+        },
+        {
+          "text": "纱新糊上好看，过了后来就不翠了。这个院子里头又没有个桃杏树，这",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.1,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 87
+        },
+        {
+          "text": "竹子已是绿的，再拿这绿纱糊上反不配。我记得咱们先有四五样颜色糊",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 88
+        },
+        {
+          "text": "窗的纱呢，明儿给他把这窗上的换了。”凤姐儿忙道：“昨儿我开库房，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            448.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 89
+        },
+        {
+          "text": "看见大板箱里还有好些匹银红蝉翼纱，也有各样折枝花样的，也有流云",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 495,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 90
+        },
+        {
+          "text": "万福花样的，也有百蝶穿花花样的，颜色又鲜，纱又轻软，我竟没见过",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 94
+        },
+        {
+          "text": "这样的。拿了两匹出来，作两床绵纱被，想来一定是好的。”贾母听了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.3,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 95
+        },
+        {
+          "text": "笑道：“呸，人人都说你没有不经过不见过，连这个纱还不认得呢，明",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.3,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 96
+        },
+        {
+          "text": "儿还说嘴。”薛姨妈等都笑说：“凭他怎么经过见过，如何敢比老太太",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.1,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 97
+        },
+        {
+          "text": "呢。老太太何不教导了他，我们也听听。”凤姐儿也笑说：“好祖宗，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            447.1,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 98
+        },
+        {
+          "text": "教给我罢。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            152.0,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 99
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母笑向薛姨妈众人道：“那个纱，比你们的年纪还大呢。怪不得",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            442.2,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 100,
+          "_block_start": true
+        },
+        {
+          "text": "他认作蝉翼纱，原也有些像，不知道的，都认作蝉翼纱。正经名字叫作",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.3,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 101
+        },
+        {
+          "text": "‘软烟罗’。”凤姐儿道：“这个名儿也好听。只是我这么大了，纱罗",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 102
+        },
+        {
+          "text": "也见过几百样，从没听见过这个名色。”贾母笑道：“你能够活了多大，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            448.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 103
+        },
+        {
+          "text": "见过几样没处放的东西，就说嘴来了。那个软烟罗只有四样颜色：一样",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.2,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 104
+        },
+        {
+          "text": "雨过天晴，一样秋香色，一样松绿的，一样就是银红的。若是做了帐子，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            448.2,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 105
+        },
+        {
+          "text": "糊了窗屉，远远的看着，就似烟雾一样，所以叫作‘软烟罗’，那银红",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 106
+        },
+        {
+          "text": "的又叫作‘霞影纱’。如今上用的府纱也没有这样软厚轻密的了。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            441.1,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 107
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "薛姨妈笑道：“别说凤丫头没见，连我也没听见过。”凤姐儿一面",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.1,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 108,
+          "_block_start": true
+        },
+        {
+          "text": "说，早命人取了一匹来了。贾母说：“可不是这个！先时原不过是糊窗",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 109
+        },
+        {
+          "text": "屉，后来我们拿这个作被作帐子，试试也竟好。明儿就找出几匹来，拿",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.3,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 110
+        },
+        {
+          "text": "银红的替他糊窗子。”凤姐答应着。众人都看了，称赞不已。刘姥姥也",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.3,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 111
+        },
+        {
+          "text": "觑着眼看个不了，念佛说道：“我们想他作衣裳也不能，拿着糊窗子，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            447.1,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 112
+        },
+        {
+          "text": "岂不可惜？”贾母道：“倒是做衣裳不好看。”凤姐忙把自己身上穿的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 113
+        },
+        {
+          "text": "一件大红绵纱袄子襟儿拉了出来，向贾母薛姨妈道：“看我的这袄儿。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.2,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 114
+        },
+        {
+          "text": "贾母薛姨妈都说：“这也是上好的了，这是如今的上用内造的，竟比不",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.1,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 115
+        },
+        {
+          "text": "上这个。”凤姐儿道：“这个薄片子，还说是上用内造呢，竟连官用的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.3,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 116
+        },
+        {
+          "text": "也比不上了。”贾母道：“再找一找，只怕还有青的。若有时都拿出来，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            448.2,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 117
+        },
+        {
+          "text": "送这刘亲家两匹，做一个帐子我挂，下剩的添上里子，做些夹背心子给",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.1,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 118
+        },
+        {
+          "text": "丫头们穿，白收着霉坏了。”凤姐忙答应了，仍令人送去。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            393.0,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 119
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母起身笑道：“这屋里窄，再往别处逛去。”刘姥姥念佛道：“人",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 496,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 120,
+          "_block_start": true
+        },
+        {
+          "text": "人都说大家子住大房。昨儿见了老太太正房，配上大箱大柜大桌子大床，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            448.2,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 124
+        },
+        {
+          "text": "果然威武。那柜子比我们那一间房子还大还高。怪道后院子里有个梯子。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            448.2,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 125
+        },
+        {
+          "text": "我想并不上房晒东西，预备个梯子作什么？后来我想起来，定是为开顶",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.3,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 126
+        },
+        {
+          "text": "柜收放东西，非离了那梯子，怎么得上去呢。如今又见了这小屋子，更",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 127
+        },
+        {
+          "text": "比大的越发齐整了。满屋里的东西都只好看，都不知叫什么，我越看越",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.1,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 128
+        },
+        {
+          "text": "舍不得离了这里。”凤姐道：“还有好的呢，我都带你去瞧瞧。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            429.2,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 129
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "说着，一径离了潇湘馆，远远望见池中一群人在那里撑舡。贾母道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            448.3,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 130,
+          "_block_start": true
+        },
+        {
+          "text": "“他们既预备下船，咱们就坐。”一面说着，便向紫菱洲蓼溆一带走来。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            448.3,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 131
+        },
+        {
+          "text": "未至池前，只见几个婆子手里都捧着一色捏丝戗金五彩大盒子走来。凤",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 132
+        },
+        {
+          "text": "姐忙问王夫人早饭在那里摆。王夫人道：“问老太太在那里，就在那里",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.2,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 133
+        },
+        {
+          "text": "罢了。”贾母听说，便回头说：“你三妹妹那里就好。你就带了人摆去，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            448.2,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 134
+        },
+        {
+          "text": "我们从这里坐了舡去。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            212.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 135
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "凤姐听说，便回身同了探春、李纨、鸳鸯、琥珀带着端饭的人等，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            447.1,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 136,
+          "_block_start": true
+        },
+        {
+          "text": "抄着近路到了秋爽斋，就在晓翠堂上调开桌案。鸳鸯笑道：“天天咱们",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.2,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 137
+        },
+        {
+          "text": "说外头老爷们吃酒吃饭都有一个篾片相公，拿他取笑儿。咱们今儿也得",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 138
+        },
+        {
+          "text": "了一个女篾片了。”李纨是个厚道人，听了不解。凤姐儿却知是说的是",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.1,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 139
+        },
+        {
+          "text": "刘姥姥了，也笑说道：“咱们今儿就拿他取个笑儿。”二人便如此这般",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 140
+        },
+        {
+          "text": "的商议。李纨笑劝道：“你们一点好事也不做，又不是个小孩儿，还这",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.3,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 141
+        },
+        {
+          "text": "么淘气，仔细老太太说。”鸳鸯笑道：“很不与你相干，有我呢。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            441.1,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 142
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "正说着，只见贾母等来了，各自随便坐下。先着丫鬟端过两盘茶来，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            448.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 143,
+          "_block_start": true
+        },
+        {
+          "text": "大家吃毕。凤姐手里拿着西洋布手巾，裹着一把乌木三镶银箸，敁敠人",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.1,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 144
+        },
+        {
+          "text": "位，按席摆下。贾母因说：“把那一张小楠木桌子抬过来，让刘亲家近",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.3,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 145
+        },
+        {
+          "text": "我这边坐着。”众人听说，忙抬了过来。凤姐一面递眼色与鸳鸯，鸳鸯",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.3,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 146
+        },
+        {
+          "text": "便拉了刘姥姥出去，悄悄的嘱咐了刘姥姥一席话，又说：“这是我们家",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.2,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 147
+        },
+        {
+          "text": "的规矩，若错了我们就笑话呢。”调停已毕，然后归坐。薛姨妈是吃过",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 148
+        },
+        {
+          "text": "饭来的，不吃，只坐在一边吃茶。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            252.5,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 149
+        },
+        {
+          "text": "己夹：妙！若只管写薛姨妈来则吃饭，则成",
+          "size": 10.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 17451,
+          "color_name": "green",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            251.5,
+            631.9,
+            442.2,
+            641.8
+          ],
+          "origin": [
+            251.5,
+            640.4
+          ],
+          "class": "annotation",
+          "_line_id": 149
+        },
+        {
+          "text": "何文理？",
+          "size": 10.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 17451,
+          "color_name": "green",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            654.0,
+            114.1,
+            663.9
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "annotation",
+          "_line_id": 150
+        },
+        {
+          "text": "贾母带着宝玉、湘云、黛玉、宝钗一桌，王夫人带着迎春姊妹",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 497,
+          "page_height": 729.0,
+          "bbox": [
+            114.4,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            114.4,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 150
+        },
+        {
+          "text": "三个人一桌，刘姥姥傍着贾母一桌。贾母素日吃饭，皆有小丫鬟在旁边，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            448.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 154
+        },
+        {
+          "text": "拿着漱盂麈尾巾帕之物。如今鸳鸯是不当这差的了，今日鸳鸯偏接过麈",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.3,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 155
+        },
+        {
+          "text": "尾来拂着。丫鬟们知道他要撮弄刘姥姥，便躲开让他。鸳鸯一面侍立，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            447.1,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 156
+        },
+        {
+          "text": "一面悄向刘姥姥说道：“别忘了。”刘姥姥道：“姑娘放心。”那刘姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 157
+        },
+        {
+          "text": "姥入了坐，拿起箸来，沉甸甸的不伏手。原是凤姐和鸳鸯商议定了，单",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.3,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 158
+        },
+        {
+          "text": "拿一双老年四楞象牙镶金的筷子与刘姥姥。刘姥姥见了，说道：“这叉",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.2,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 159
+        },
+        {
+          "text": "爬子比俺那里铁锨还沉，那里犟的过他。”说的众人都笑起来。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            417.1,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 160
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "只见一个媳妇端了一个盒子站在当地，一个丫鬟上来揭去盒盖，里",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.3,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 161,
+          "_block_start": true
+        },
+        {
+          "text": "面盛着两碗菜。李纨端了一碗放在贾母桌上。凤姐儿偏拣了一碗鸽子蛋",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 162
+        },
+        {
+          "text": "放在刘姥姥桌上。贾母这边说声“请”，刘姥姥便站起身来，高声说道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            448.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 163
+        },
+        {
+          "text": "“老刘，老刘，食量大似牛，吃一个老母猪不抬头。”自己却鼓着腮不",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.3,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 164
+        },
+        {
+          "text": "语。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            103.9,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 165
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "众人先是发怔，后来一听，上上下下都哈哈的大笑起来。史湘云撑",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.1,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 166,
+          "_block_start": true
+        },
+        {
+          "text": "不住，一口饭都喷了出来；林黛玉笑岔了气，伏着桌子嗳哟；宝玉早滚",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 167
+        },
+        {
+          "text": "到贾母怀里，贾母笑的搂着宝玉叫“心肝”；王夫人笑的用手指着凤姐",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 168
+        },
+        {
+          "text": "儿，只说不出话来；薛姨妈也撑不住，口里茶喷了探春一裙子；探春手",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 169
+        },
+        {
+          "text": "里的饭碗都合在迎春身上；惜春离了坐位，拉着他奶母叫揉一揉肠子。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            447.1,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 170
+        },
+        {
+          "text": "地下的无一个不弯腰屈背，也有躲出去蹲着笑去的，也有忍着笑上来替",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.3,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 171
+        },
+        {
+          "text": "他姊妹换衣裳的，独有凤姐鸳鸯二人撑着，还只管让刘姥姥。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            405.1,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 172
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "刘姥姥拿起箸来，只觉不听使，又说道：“这里的鸡儿也俊，下的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 173,
+          "_block_start": true
+        },
+        {
+          "text": "这蛋也小巧，怪俊的。我且肏攮一个。”众人方住了笑，听见这话又笑",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 174
+        },
+        {
+          "text": "起来。贾母笑的眼泪出来，琥珀在后捶着。贾母笑道：“这定是凤丫头",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.3,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 175
+        },
+        {
+          "text": "促狭鬼儿闹的，快别信他的话了。”那刘姥姥正夸鸡蛋小巧，要肏攮一",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.1,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 176
+        },
+        {
+          "text": "个，凤姐儿笑道：“一两银子一个呢，你快尝尝罢，那冷了就不好吃了。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.3,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 177
+        },
+        {
+          "text": "刘姥姥便伸箸子要夹，那里夹的起来，满碗里闹了一阵，好容易撮起一",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.1,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 178
+        },
+        {
+          "text": "个来，才伸着脖子要吃，偏又滑下来滚在地下，忙放下箸子要亲自去捡，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            448.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 179
+        },
+        {
+          "text": "早有地下的人捡了出去了。刘姥姥叹道：“一两银子，也没听见响声儿",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 498,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.2,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 180
+        },
+        {
+          "text": "就没了。”众人已没心吃饭，都看着他笑。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            308.8,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 184
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母又说：“这会子又把那个筷子拿了出来，又不请客摆大筵席。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            447.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 185,
+          "_block_start": true
+        },
+        {
+          "text": "都是凤丫头支使的，还不换了呢。”地下的人原不曾预备这牙箸，本是",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.1,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 186
+        },
+        {
+          "text": "凤姐和鸳鸯拿了来的，听如此说，忙收了过去，也照样换上一双乌木镶",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.1,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 187
+        },
+        {
+          "text": "银的。刘姥姥道：“去了金的，又是银的，到底不及俺们那个伏手。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.3,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 188
+        },
+        {
+          "text": "凤姐儿道：“菜里若有毒，这银子下去了就试的出来。”刘姥姥道：“这",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.3,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 189
+        },
+        {
+          "text": "个菜里若有毒，俺们那菜都成了砒霜了。那怕毒死了也要吃尽了。”贾",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            442.1,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 190
+        },
+        {
+          "text": "母见他如此有趣，吃的又香甜，把自己的也都端过来与他吃。又命一个",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.1,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 191
+        },
+        {
+          "text": "老嬷嬷来，将各样的菜给板儿夹在碗上。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            296.6,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 192
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "一时吃毕，贾母等都往探春卧室中去说闲话。这里收拾过残桌，又",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.2,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 193,
+          "_block_start": true
+        },
+        {
+          "text": "放了一桌。刘姥姥看着李纨与凤姐儿对坐着吃饭，叹道：“别的罢了，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            447.1,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 194
+        },
+        {
+          "text": "我只爱你们家这行事。怪道说‘礼出大家’。”凤姐儿忙笑道：“你可",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.1,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 195
+        },
+        {
+          "text": "别多心，才刚不过大家取笑儿。”一言未了，鸳鸯也进来笑道：“姥姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 196
+        },
+        {
+          "text": "别恼，我给你老人家赔个不是。”刘姥姥笑道：“姑娘说那里话，咱们",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 197
+        },
+        {
+          "text": "哄着老太太开个心儿，可有什么恼的！你先嘱咐我，我就明白了，不过",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 198
+        },
+        {
+          "text": "大家取个笑儿。我要心里恼，也就不说了。”鸳鸯便骂人“为什么不倒",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.2,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 199
+        },
+        {
+          "text": "茶给姥姥吃？”刘姥姥忙道：“刚才那个嫂子倒了茶来，我吃过了。姑",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 200
+        },
+        {
+          "text": "娘也该用饭了。”凤姐儿便拉鸳鸯：“你坐下和我们吃了罢，省的回来",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.1,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 201
+        },
+        {
+          "text": "又闹。”鸳鸯便坐下了。婆子们添上碗箸来，三人吃毕。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            381.0,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 202
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "刘姥姥笑道：“我看你们这些人都只吃这一点儿就完了，亏你们也",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 203,
+          "_block_start": true
+        },
+        {
+          "text": "不饿。怪只道风儿都吹的倒。”鸳鸯便问：“今儿剩的菜不少，都那去",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 204
+        },
+        {
+          "text": "了？”婆子们道：“都还没散呢，在这里等着一齐散与他们吃。”鸳鸯",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.1,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 205
+        },
+        {
+          "text": "道：“他们吃不了这些，挑两碗给二奶奶屋里平丫头送去。”凤姐儿道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            448.3,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 206
+        },
+        {
+          "text": "“他早吃了饭了，不用给他。”鸳鸯道：“他不吃了，喂你们的猫。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.3,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 207
+        },
+        {
+          "text": "婆子听了，忙拣了两样拿盒子送去。鸳鸯道：“素云那去了？”李纨道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            448.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 208
+        },
+        {
+          "text": "“他们都在这里一处吃，又找他作什么。”鸳鸯道：“这就罢了。”凤",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 209
+        },
+        {
+          "text": "姐儿道：“袭人不在这里，你倒是叫人送两样给他去。”鸳鸯听说，便",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 499,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 210
+        },
+        {
+          "text": "命人也送两样去后，鸳鸯又问婆子们：“回来吃酒的攒盒可装上了？”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 214
+        },
+        {
+          "text": "婆子道：“想必还得一会子。”鸳鸯道：“催着些儿。”婆子应喏了。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            448.2,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 215
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "凤姐儿等来至探春房中，只见他娘儿们正说笑。探春素喜阔朗，这",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.2,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 216,
+          "_block_start": true
+        },
+        {
+          "text": "三间屋子并不曾隔断。当地放着一张花梨大理石大案，案上磊着各种名",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 217
+        },
+        {
+          "text": "人法帖，并数十方宝砚，各色笔筒，笔海内插的笔如树林一般。那一边",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.3,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 218
+        },
+        {
+          "text": "设着斗大的一个汝窑花囊，插着满满的一囊水晶球儿的白菊。西墙上当",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.3,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 219
+        },
+        {
+          "text": "中挂着一大幅米襄阳《烟雨图》，左右挂着一副对联，乃是颜鲁公墨迹，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            448.2,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 220
+        },
+        {
+          "text": "其词云： ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            128.0,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 221
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "烟霞闲骨格，泉石野生涯。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            272.5,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "poetry",
+          "_line_id": 223,
+          "_block_start": true
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "案上设着大鼎。左边紫檀架上放着一个大观窑的大盘，盘内盛着数十个",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 225,
+          "_block_start": true
+        },
+        {
+          "text": "娇黄玲珑大佛手。右边洋漆架上悬着一个白玉比目磬，旁边挂着小锤。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            448.2,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 226
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "那板儿略熟了些，便要摘那锤子要击，丫鬟们忙拦住他。他又要那",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.1,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 227,
+          "_block_start": true
+        },
+        {
+          "text": "佛手吃，探春拣了一个与他说：“顽罢，吃不得的。”东边便设着卧榻，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            448.2,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 228
+        },
+        {
+          "text": "拔步床上悬着葱绿双绣花卉草虫的纱帐。板儿又跑过来看，说：“这是",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.2,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 229
+        },
+        {
+          "text": "蝈蝈，这是蚂蚱。”刘姥姥忙打了他一巴掌，骂道：“下作黄子，没干",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.3,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 230
+        },
+        {
+          "text": "没净的乱闹。倒叫你进来瞧瞧，就上脸了。”打的板儿哭起来，众人忙",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.3,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 231
+        },
+        {
+          "text": "劝解方罢。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            140.0,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 232
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母因隔着纱窗往后院内看了一回，说道：“后廊檐下的梧桐也好",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 233,
+          "_block_start": true
+        },
+        {
+          "text": "了，就只细些。”正说话，忽一阵风过，隐隐听得鼓乐之声。贾母问“是",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.2,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 234
+        },
+        {
+          "text": "谁家娶亲呢？这里临街倒近。”王夫人等笑回道：“街上的那里听的见，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            448.2,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 235
+        },
+        {
+          "text": "这是咱们的那十几个女孩子们演习吹打呢。”贾母便笑道：“既是他们",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.3,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 236
+        },
+        {
+          "text": "演，何不叫他们进来演习。他们也逛一逛，咱们可又乐了。”凤姐听说，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            448.2,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 237
+        },
+        {
+          "text": "忙命人出去叫来，又一面吩咐摆下条桌，铺上红毡子。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            369.0,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 238
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母道：“就铺排在藕香榭的水亭子上，借着水音更好听。回来咱",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.1,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 239,
+          "_block_start": true
+        },
+        {
+          "text": "们就在缀锦阁底下吃酒，又宽阔，又听的近。”众人都说那里好。贾母",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 500,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.2,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 240
+        },
+        {
+          "text": "向薛姨妈笑道：“咱们走罢。他们姊妹们都不大喜欢人来坐着，怕脏了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.1,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 244
+        },
+        {
+          "text": "屋子。咱们别没眼色，正经坐一回子船喝酒去。”说着大家起身便走。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            447.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 245
+        },
+        {
+          "text": "探春笑道：“这是那里的话，求着老太太姨太太来坐坐还不能呢。”贾",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.1,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 246
+        },
+        {
+          "text": "母笑道：“我的这三丫头却好，只有两个玉儿可恶。回来吃醉了，咱们",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 247
+        },
+        {
+          "text": "偏往他们屋里闹去。” ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            200.2,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 248
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "说着，众人都笑了，一齐出来。走不多远，已到了荇叶渚。姑苏选",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.3,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 249,
+          "_block_start": true
+        },
+        {
+          "text": "来的几个驾娘早把两只棠木舫撑来，众人扶了贾母、王夫人、薛姨妈、",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            447.1,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 250
+        },
+        {
+          "text": "刘姥姥、鸳鸯、玉钏儿上了这一只，落后李纨也跟上去。凤姐儿也上去，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            448.2,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 251
+        },
+        {
+          "text": "立在舡头上，也要撑舡。贾母在舱内道：“这不是顽的，虽不是河里，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            447.1,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 252
+        },
+        {
+          "text": "也有好深的。你快不给我进来。”凤姐儿笑道：“怕什么！老祖宗只管",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 253
+        },
+        {
+          "text": "放心。”说着便一篙点开。到了池当中，舡小人多，凤姐只觉乱晃，忙",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.3,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 254
+        },
+        {
+          "text": "把篙子递与驾娘，方蹲下了。然后迎春姊妹等并宝玉上了那只，随后跟",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.1,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 255
+        },
+        {
+          "text": "来。其馀老嬷嬷散众丫鬟俱沿河随行。宝玉道：“这些破荷叶可恨，怎",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 256
+        },
+        {
+          "text": "么还不叫人来拔去。”宝钗笑道：“今年这几日，何曾饶了这园子闲了，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            448.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 257
+        },
+        {
+          "text": "天天逛，那里还有叫人来收拾的工夫。”林黛玉道：“我最不喜欢李义",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.1,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 258
+        },
+        {
+          "text": "山的诗，只喜他这一句‘留得残荷听雨声’。偏你们又不留着残荷了。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 259
+        },
+        {
+          "text": "宝玉道：“果然好句，以后咱们就别叫人拔去了。”说着已到了花溆的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 260
+        },
+        {
+          "text": "萝港之下，觉得阴森透骨，两滩上衰草残菱，更助秋情。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            381.0,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 261
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母因见岸上的清厦旷朗，便问“这是你薛姑娘的屋子不是？”众",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            442.2,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 262,
+          "_block_start": true
+        },
+        {
+          "text": "人道：“是。”贾母忙命拢岸，顺着云步石梯上去，一同进了蘅芜苑，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            447.1,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 263
+        },
+        {
+          "text": "只觉异香扑鼻。那些奇草仙藤愈冷愈苍翠，都结了实，似珊瑚豆子一般，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            448.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 264
+        },
+        {
+          "text": "累垂可爱。及进了房屋，雪洞一般，一色玩器全无，案上只有一个土定",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.3,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 265
+        },
+        {
+          "text": "瓶中供着数枝菊花，并两部书，茶奁茶杯而已。床上只吊着青纱帐幔，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            447.1,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 266
+        },
+        {
+          "text": "衾褥也十分朴素。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            176.2,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 267
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "贾母叹道：“这孩子太老实了。你没有陈设，何妨和你姨娘要些。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            447.1,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 268,
+          "_block_start": true
+        },
+        {
+          "text": "我也不理论，也没想到，你们的东西自然在家里没带了来。”说着，命",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 269
+        },
+        {
+          "text": "鸳鸯去取些古董来，又嗔着凤姐儿：“不送些玩器来与你妹妹，这样小",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 501,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.1,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 270
+        },
+        {
+          "text": "器。”王夫人凤姐儿等都笑回说：“他自己不要的。我们原送了来，他",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 274
+        },
+        {
+          "text": "都退回去了。”薛姨妈也笑说：“他在家里也不大弄这些东西的。”贾",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 275
+        },
+        {
+          "text": "母摇头道：“使不得。虽然他省事，倘或来一个亲戚，看着不像；二则",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.3,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 276
+        },
+        {
+          "text": "年轻的姑娘们，房里这样素净，也忌讳。我们这老婆子，越发该住马圈",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 277
+        },
+        {
+          "text": "去了。你们听那些书上戏上说的小姐们的绣房，精致的还了得呢。他们",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.2,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 278
+        },
+        {
+          "text": "姊妹们虽不敢比那些小姐们，也不要很离了格儿。有现成的东西，为什",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.2,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 279
+        },
+        {
+          "text": "么不摆？若很爱素净，少几样倒使得。我最会收拾屋子的，如今老了，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            447.1,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 280
+        },
+        {
+          "text": "没有这些闲心了。他们姊妹们也还学着收拾的好，只怕俗气，有好东西",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.2,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 281
+        },
+        {
+          "text": "也摆坏了。我看他们还不俗。如今让我替你收拾，包管又大方又素净。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            447.1,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 282
+        },
+        {
+          "text": "我的梯己两件，收到如今，没给宝玉看见过，若经了他的眼，也没了。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 283
+        },
+        {
+          "text": "说着叫过鸳鸯来，亲吩咐道：“你把那石头盆景儿和那架纱桌屏，还有",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.1,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 284
+        },
+        {
+          "text": "个墨烟冻石鼎，这三样摆在这案上就够了。再把那水墨字画白绫帐子拿",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 285
+        },
+        {
+          "text": "来，把这帐子也换了。”鸳鸯答应着，笑道：“这些东西都搁在东楼上",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 286
+        },
+        {
+          "text": "的不知那个箱子里，还得慢慢找去，明儿再拿去也罢了。”贾母道：“明",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 287
+        },
+        {
+          "text": "日后日都使得，只别忘了。”说着，坐了一回方出来，一径来至缀锦阁",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 288
+        },
+        {
+          "text": "下。文官等上来请过安，因问“演习何曲”。贾母道：“只拣你们生的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 289
+        },
+        {
+          "text": "演习几套罢。”文官等下来，往藕香榭去不提。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            332.8,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 290
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "这里凤姐儿已带着人摆设整齐，上面左右两张榻，榻上都铺着锦裀",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            442.3,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 291,
+          "_block_start": true
+        },
+        {
+          "text": "蓉簟，每一榻前有两张雕漆几，也有海棠式的，也有梅花式的，也有荷",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            442.3,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 292
+        },
+        {
+          "text": "叶式的，也有葵花式的，也有方的，也有圆的，其式不一。一个上面放",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 293
+        },
+        {
+          "text": "着炉瓶，一分攒盒，一个上面空设着，预备放人所喜食物。上面二榻四",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 294
+        },
+        {
+          "text": "几，是贾母薛姨妈；下面一椅两几，是王夫人的，馀者都是一椅一几。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            447.1,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 295
+        },
+        {
+          "text": "东边是刘姥姥，刘姥姥之下便是王夫人。西边便是史湘云，第二便是宝",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            442.1,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 296
+        },
+        {
+          "text": "钗，第三便是黛玉，第四迎春、探春、惜春挨次下去，宝玉在末。李纨",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.1,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 297
+        },
+        {
+          "text": "凤姐二人之几设于三层槛内，二层纱厨之外。攒盒式样，亦随几之式样。",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            448.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 298
+        },
+        {
+          "text": "每人一把乌银洋錾自斟壶，一个十锦珐琅杯。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            320.6,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 299
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "大家坐定，贾母先笑道：“咱们先吃两杯，今日也行一令才有意",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 502,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.2,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 300,
+          "_block_start": true
+        },
+        {
+          "text": "思。”薛姨妈等笑道：“老太太自然有好酒令，我们如何会呢，安心要",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 304
+        },
+        {
+          "text": "我们醉了。我们都多吃两杯就有了。”贾母笑道：“姨太太今儿也过谦",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.1,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 305
+        },
+        {
+          "text": "起来，想是厌我老了。”薛姨妈笑道：“不是谦，只怕行不上来倒是笑",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.3,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 306
+        },
+        {
+          "text": "话了。”王夫人忙笑道：“便说不上来，就便多吃一杯酒，醉了睡觉去，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            448.2,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 307
+        },
+        {
+          "text": "还有谁笑话咱们不成。”薛姨妈点头笑道：“依令。老太太到底吃一杯",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.1,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 308
+        },
+        {
+          "text": "令酒才是。”贾母笑道：“这个自然。”说着便吃了一杯。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            393.0,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 309
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "凤姐儿忙走至当地，笑道：“既行令，还叫鸳鸯姐姐来行更好。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            442.2,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 310,
+          "_block_start": true
+        },
+        {
+          "text": "众人都知贾母所行之令必得鸳鸯提着，故听了这话，都说：“很是。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            442.2,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 311
+        },
+        {
+          "text": "凤姐儿便拉了鸳鸯过来。王夫人笑道：“既在令内，没有站着的理。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 312
+        },
+        {
+          "text": "回头命小丫头子：“端一张椅子，放在你二位奶奶的席上。”鸳鸯也半",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.1,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 313
+        },
+        {
+          "text": "推半就，谢了坐，便坐下，也吃了一钟酒，笑道：“酒令大如军令，不",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            442.1,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 314
+        },
+        {
+          "text": "论尊卑，惟我是主。违了我的话，是要受罚的。”王夫人等都笑道：“一",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.2,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 315
+        },
+        {
+          "text": "定如此，快些说来。”鸳鸯未开口，刘姥姥便下了席，摆手道：“别这",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 316
+        },
+        {
+          "text": "样捉弄人家，我家去了。”众人都笑道：“这却使不得。”鸳鸯喝令小",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 317
+        },
+        {
+          "text": "丫头子们：“拉上席去！”小丫头子们也笑着，果然拉入席中。刘姥姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 318
+        },
+        {
+          "text": "只叫：“饶了我罢！”鸳鸯道：“再多言的罚一壶。”刘姥姥方住了声。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            448.2,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 319
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "鸳鸯道：“如今我说骨牌副儿，从老太太起，顺领说下去，至刘姥",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.3,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 320,
+          "_block_start": true
+        },
+        {
+          "text": "姥止。比如我说一副儿，将这三张牌拆开，先说头一张，次说第二张，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            447.1,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 321
+        },
+        {
+          "text": "再说第三张，说完了，合成这一副儿的名字。无论诗词歌赋，成语俗话，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            448.2,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 322
+        },
+        {
+          "text": "比上一句，都要叶韵。错了的罚一杯。”众人笑道：“这个令好，就说",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.3,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 323
+        },
+        {
+          "text": "出来。”鸳鸯道：“有了一副了。左边是张‘天’。”贾母道：“头上",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            442.3,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 324
+        },
+        {
+          "text": "有青天。”众人道：“好。”鸳鸯道：“当中是个‘五与六’。”贾母",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.3,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 325
+        },
+        {
+          "text": "道：“六桥梅花香彻骨。”鸳鸯道：“剩得一张‘六与幺’。”贾母道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            448.2,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 326
+        },
+        {
+          "text": "“一轮红日出云霄。”鸳鸯道：“凑成便是个‘蓬头鬼’。”贾母道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            447.1,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 327
+        },
+        {
+          "text": "“这鬼抱住钟馗腿。”说完，大家笑说：“极妙。”贾母饮了一杯。鸳",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 328
+        },
+        {
+          "text": "鸯又道：“有了一副。左边是个‘大长五’。”薛姨妈道：“梅花朵朵",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 329
+        },
+        {
+          "text": "风前舞。”鸳鸯道：“右边还是个‘大五长’。”薛姨妈道：“十月梅",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 503,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 330
+        },
+        {
+          "text": "花岭上香。”鸳鸯道：“当中‘二五’是杂七。”薛姨妈道：“织女牛",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 334
+        },
+        {
+          "text": "郎会七夕。”鸳鸯道：“凑成‘二郎游五岳’。”薛姨妈道：“世人不",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            442.3,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 335
+        },
+        {
+          "text": "及神仙乐。”说完，大家称赏，饮了酒。鸳鸯又道：“有了一副。左边",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            124.2,
+            442.1,
+            136.2
+          ],
+          "origin": [
+            73.7,
+            134.5
+          ],
+          "class": "body",
+          "_line_id": 336
+        },
+        {
+          "text": "‘长幺’两点明。”湘云道：“双悬日月照乾坤。”鸳鸯道：“右边‘长",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            73.7,
+            156.5
+          ],
+          "class": "body",
+          "_line_id": 337
+        },
+        {
+          "text": "幺’两点明。”湘云道：“闲花落地听无声。”鸳鸯道：“中间还得‘幺",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            442.3,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "body",
+          "_line_id": 338
+        },
+        {
+          "text": "四’来。”湘云道：“日边红杏倚云栽。”鸳鸯道：“凑成‘樱桃九",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            190.2,
+            442.2,
+            202.2
+          ],
+          "origin": [
+            73.7,
+            200.5
+          ],
+          "class": "body",
+          "_line_id": 339
+        },
+        {
+          "text": "熟’。”湘云道：“御园却被鸟衔出。”说完饮了一杯。鸳鸯道：“有",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            212.2,
+            442.3,
+            224.2
+          ],
+          "origin": [
+            73.7,
+            222.5
+          ],
+          "class": "body",
+          "_line_id": 340
+        },
+        {
+          "text": "了一副。左边是‘长三’。”宝钗道：“双双燕子语梁间。”鸳鸯道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            234.1,
+            447.1,
+            246.1
+          ],
+          "origin": [
+            73.7,
+            244.4
+          ],
+          "class": "body",
+          "_line_id": 341
+        },
+        {
+          "text": "“右边是‘三长’。”宝钗道：“水荇牵风翠带长。”鸳鸯道：“当中",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            256.2,
+            442.3,
+            268.2
+          ],
+          "origin": [
+            73.7,
+            266.5
+          ],
+          "class": "body",
+          "_line_id": 342
+        },
+        {
+          "text": "‘三六’九点在。”宝钗道：“三山半落青天外。”鸳鸯道：“凑成‘铁",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            278.2,
+            442.3,
+            290.2
+          ],
+          "origin": [
+            73.7,
+            288.5
+          ],
+          "class": "body",
+          "_line_id": 343
+        },
+        {
+          "text": "锁练孤舟’。”宝钗道：“处处风波处处愁。”说完饮毕。鸳鸯又道：",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            300.1,
+            447.1,
+            312.1
+          ],
+          "origin": [
+            73.7,
+            310.4
+          ],
+          "class": "body",
+          "_line_id": 344
+        },
+        {
+          "text": "“左边一个‘天’。”黛玉道：“良辰美景奈何天。”宝钗听了，回头",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            322.2,
+            442.3,
+            334.2
+          ],
+          "origin": [
+            73.7,
+            332.5
+          ],
+          "class": "body",
+          "_line_id": 345
+        },
+        {
+          "text": "看着他。黛玉只顾怕罚，也不理论。鸳鸯道：“中间‘锦屏’颜色俏。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            344.2,
+            442.3,
+            356.2
+          ],
+          "origin": [
+            73.7,
+            354.5
+          ],
+          "class": "body",
+          "_line_id": 346
+        },
+        {
+          "text": "黛玉道：“纱窗也没有红娘报。”鸳鸯道：“剩了‘二六’八点齐。”",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            366.1,
+            442.3,
+            378.1
+          ],
+          "origin": [
+            73.7,
+            376.4
+          ],
+          "class": "body",
+          "_line_id": 347
+        },
+        {
+          "text": "黛玉道：“双瞻玉座引朝仪。”鸳鸯道：“凑成‘篮子’好采花。”黛",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            388.2,
+            442.3,
+            400.2
+          ],
+          "origin": [
+            73.7,
+            398.5
+          ],
+          "class": "body",
+          "_line_id": 348
+        },
+        {
+          "text": "玉道：“仙杖香挑芍药花。”说完，饮了一口。鸳鸯道：“左边‘四五’",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            410.2,
+            442.3,
+            422.2
+          ],
+          "origin": [
+            73.7,
+            420.5
+          ],
+          "class": "body",
+          "_line_id": 349
+        },
+        {
+          "text": "成花九。”迎春道：“桃花带雨浓。”众人道：“该罚！错了韵，而且",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            432.1,
+            442.2,
+            444.1
+          ],
+          "origin": [
+            73.7,
+            442.4
+          ],
+          "class": "body",
+          "_line_id": 350
+        },
+        {
+          "text": "又不像。”迎春笑着饮了一口。原是凤姐儿和鸳鸯都要听刘姥姥的笑话，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            454.2,
+            448.2,
+            466.2
+          ],
+          "origin": [
+            73.7,
+            464.5
+          ],
+          "class": "body",
+          "_line_id": 351
+        },
+        {
+          "text": "故意都令说错，都罚了。至王夫人，鸳鸯代说了个，下便该刘姥姥。 ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            476.2,
+            441.1,
+            488.2
+          ],
+          "origin": [
+            73.7,
+            486.5
+          ],
+          "class": "body",
+          "_line_id": 352
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": "prose",
+      "color_name": "black",
+      "spans": [
+        {
+          "text": "刘姥姥道：“我们庄家人闲了，也常会几个人弄这个，但不如说的",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            498.1,
+            442.1,
+            510.1
+          ],
+          "origin": [
+            73.7,
+            508.4
+          ],
+          "class": "body",
+          "_line_id": 353,
+          "_block_start": true
+        },
+        {
+          "text": "这么好听。少不得我也试一试。”众人都笑道：“容易说的。你只管说，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            520.2,
+            448.2,
+            532.2
+          ],
+          "origin": [
+            73.7,
+            530.5
+          ],
+          "class": "body",
+          "_line_id": 354
+        },
+        {
+          "text": "不相干。”鸳鸯笑道：“左边‘四四’是个人。”刘姥姥听了，想了半",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            542.2,
+            442.3,
+            554.2
+          ],
+          "origin": [
+            73.7,
+            552.5
+          ],
+          "class": "body",
+          "_line_id": 355
+        },
+        {
+          "text": "日，说道：“是个庄家人罢。”众人哄堂笑了。贾母笑道：“说的好，",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            564.1,
+            447.1,
+            576.1
+          ],
+          "origin": [
+            73.7,
+            574.4
+          ],
+          "class": "body",
+          "_line_id": 356
+        },
+        {
+          "text": "就是这样说。”刘姥姥也笑道：“我们庄家人，不过是现成的本色，众",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            586.2,
+            442.3,
+            598.2
+          ],
+          "origin": [
+            73.7,
+            596.5
+          ],
+          "class": "body",
+          "_line_id": 357
+        },
+        {
+          "text": "位别笑。”鸳鸯道：“中间‘三四’绿配红。”刘姥姥道：“大火烧了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            608.2,
+            442.3,
+            620.2
+          ],
+          "origin": [
+            73.7,
+            618.5
+          ],
+          "class": "body",
+          "_line_id": 358
+        },
+        {
+          "text": "毛毛虫。”众人笑道：“这是有的，还说你的本色。”鸳鸯道：“右边",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            630.1,
+            442.3,
+            642.1
+          ],
+          "origin": [
+            73.7,
+            640.4
+          ],
+          "class": "body",
+          "_line_id": 359
+        },
+        {
+          "text": "‘幺四’真好看。”刘姥姥道：“一个萝蔔一头蒜。”众人又笑了。鸳",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 504,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            652.2,
+            442.3,
+            664.2
+          ],
+          "origin": [
+            73.7,
+            662.5
+          ],
+          "class": "body",
+          "_line_id": 360
+        },
+        {
+          "text": "鸯笑道：“凑成便是一枝花。”刘姥姥两只手比着，说道：“花儿落了",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 505,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            80.2,
+            442.3,
+            92.2
+          ],
+          "origin": [
+            73.7,
+            90.5
+          ],
+          "class": "body",
+          "_line_id": 364
+        },
+        {
+          "text": "结个大倭瓜。”众人大笑起来。只听外面乱嚷—— ",
+          "size": 12.0,
+          "font": "ËÎÌå",
+          "color": 0,
+          "color_name": "black",
+          "page": 505,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            102.1,
+            344.9,
+            114.1
+          ],
+          "origin": [
+            73.7,
+            112.4
+          ],
+          "class": "body",
+          "_line_id": 365
+        }
+      ]
+    },
+    {
+      "type": "annotation_block",
+      "indent": true,
+      "color_name": "blue",
+      "spans": [
+        {
+          "text": "戚总评：写贫贱辈低首豪门，凌辱不计，诚可悲乎！此故作者以警",
+          "size": 12.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 139,
+          "color_name": "blue",
+          "page": 505,
+          "page_height": 729.0,
+          "bbox": [
+            97.8,
+            146.2,
+            442.3,
+            158.2
+          ],
+          "origin": [
+            97.8,
+            156.5
+          ],
+          "class": "annotation",
+          "_line_id": 367,
+          "_block_start": true
+        },
+        {
+          "text": "贫贱。而富室贵豪亦当于其间着意。",
+          "size": 12.0,
+          "font": "¿¬Ìå_GB2312",
+          "color": 139,
+          "color_name": "blue",
+          "page": 505,
+          "page_height": 729.0,
+          "bbox": [
+            73.7,
+            168.1,
+            266.4,
+            180.1
+          ],
+          "origin": [
+            73.7,
+            178.4
+          ],
+          "class": "annotation",
+          "_line_id": 368
+        }
+      ]
+    }
+  ]
+}

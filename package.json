@@ -7,10 +7,10 @@
   "author": "yangsan <349067276@qq.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm run generate:json && npm run catalog && vite",
-    "build": "npm run generate:json && npm run catalog && tsc -b && vite build",
+    "dev": "npm run catalog && vite",
+    "build": "npm run catalog && tsc -b && vite build",
     "preview": "vite preview",
-    "generate:json": "python3 scripts/paragraph_builder.py && python3 scripts/semantic_enricher.py && python3 scripts/epub_to_json.py",
+    "generate:json": "python3 scripts/span_dumper.py && python3 scripts/paragraph_builder.py && python3 scripts/semantic_enricher.py && python3 scripts/epub_to_json.py",
     "catalog": "node scripts/generateCatalog.cjs"
   },
   "dependencies": {

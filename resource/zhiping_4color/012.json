@@ -1,0 +1,2072 @@
+{
+  "id": "012",
+  "chapterNumber": 12,
+  "title": "第十二回　王熙凤毒设相思局　贾天祥正照风月鉴",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "第 十 二 回 王熙凤毒设相思局 贾天祥正照风月鉴"
+    },
+    {
+      "type": "annotation_block",
+      "source": "戚",
+      "position": "",
+      "color": "blue",
+      "indent": true,
+      "spans": [
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "戚：反正从来总一心，镜光至意两相寻。有朝敲破蒙头瓮，绿水青"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "山任好春。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "话说凤姐正与平儿说话，只见有人回说：“瑞大爷来了。”凤姐急"
+        },
+        {
+          "type": "text",
+          "content": "命："
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：立意追命。"
+        },
+        {
+          "type": "text",
+          "content": "“快请进来。”贾瑞见往里让，心中喜出望外，急"
+        },
+        {
+          "type": "text",
+          "content": "忙进来，见了凤姐，满面陪笑，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：如蛇。"
+        },
+        {
+          "type": "text",
+          "content": "连连问好。凤姐儿也假意殷"
+        },
+        {
+          "type": "text",
+          "content": "勤，让坐让茶。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "贾瑞见凤姐如此打扮，益发酥倒，因饧了眼问道：“二哥哥怎么还"
+        },
+        {
+          "type": "text",
+          "content": "不回来？”凤姐道：“不知什么原故。”贾瑞笑道：“别是路上有人绊"
+        },
+        {
+          "type": "text",
+          "content": "住了脚了，"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：旁敲远引。"
+        },
+        {
+          "type": "text",
+          "content": "舍不得回来也未可知？”凤姐道：“也未可"
+        },
+        {
+          "type": "text",
+          "content": "知。男人家见一个爱一个也是有的。”"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：这是钩。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞笑道："
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹："
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "如闻其声。"
+        },
+        {
+          "type": "text",
+          "content": "“嫂子这话错了，我就不这样。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：渐渐入港。"
+        },
+        {
+          "type": "text",
+          "content": "凤姐笑道："
+        },
+        {
+          "type": "text",
+          "content": "“像你这样的人能有几个呢，十个里也挑不出一个来。”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：勿作正面"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "看为幸。畸笏。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：游鱼虽有入瓮之志，无钩不能上岸；一上钩来，欲去亦不可"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "得。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞听了，喜的抓耳挠腮，又道：“嫂子天天也闷的很？”凤姐道："
+        },
+        {
+          "type": "text",
+          "content": "“正是呢，只盼个人来说话解解闷儿。”贾瑞笑道：“我倒天天闲着，"
+        },
+        {
+          "type": "text",
+          "content": "天天过来替嫂子解解闲闷可好不好？”凤姐笑道：“你哄我呢，你那里"
+        },
+        {
+          "type": "text",
+          "content": "肯往我这里来？”贾瑞道：“我在嫂子跟前，若有一点谎话，天打雷劈！"
+        },
+        {
+          "type": "text",
+          "content": "只因素日闻得人说，嫂子是个利害人，在你跟前一点也错不得，所以唬"
+        },
+        {
+          "type": "text",
+          "content": "住了我。如今见嫂子最是个有说有笑极疼人的，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：奇妙！"
+        },
+        {
+          "type": "text",
+          "content": "我怎么不来，"
+        },
+        {
+          "type": "text",
+          "content": "——死了也愿意！”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：这倒不假。"
+        },
+        {
+          "type": "text",
+          "content": "凤姐笑道：“果然你是个明白人，"
+        },
+        {
+          "type": "text",
+          "content": "比贾蓉两个强远了。我看他那样清秀，只当他们心里明白，谁知竟是两"
+        },
+        {
+          "type": "text",
+          "content": "个糊涂虫，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：反文着眼。"
+        },
+        {
+          "type": "text",
+          "content": "一点不知人心。” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "贾瑞听这话，越发撞在心坎儿上，由不得又往前凑了一凑，"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧："
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "写呆人痴性活现。"
+        },
+        {
+          "type": "text",
+          "content": "觑着眼看凤姐带的荷包，然后又问戴着什么戒指。凤姐"
+        },
+        {
+          "type": "text",
+          "content": "悄悄道：“放尊重着，别叫丫头们看了笑话。”贾瑞如听纶音佛语一般，"
+        },
+        {
+          "type": "text",
+          "content": "忙往后退。凤姐笑道：“你该去了。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：叫“去”，正是叫“来”也。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞道：“我再坐一坐儿。好狠心的嫂子！”凤姐又悄悄的道：“大天"
+        },
+        {
+          "type": "text",
+          "content": "白日，人来人往，你就在这里也不方便。你且去，等着晚上起了更你来，"
+        },
+        {
+          "type": "text",
+          "content": "悄悄的在西边穿堂儿等我。”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：先写穿堂，只知房舍之大，岂料有许多用"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "处。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：凡人在平静时，物来言至，无不照见。若迷于一事一物，虽风雷交作，"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "有所不闻。即“穿堂尔等”之一语，府第非比凡常，关门户，必要查看，且更夫仆妇，"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "势必往来，岂容人藏过于其间？只因色迷，闻声联诺，不能有回思之暇，信可悲夫！"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞听了，如得珍宝，忙问道：“你别哄我。但只那里人过的多，怎么"
+        },
+        {
+          "type": "text",
+          "content": "好躲的？”凤姐道：“你只放心。我把上夜的小厮们都放了假，两边门"
+        },
+        {
+          "type": "text",
+          "content": "一关，再没别人了。”贾瑞听了，喜之不尽，忙忙的告辞而去，心内以"
+        },
+        {
+          "type": "text",
+          "content": "为得手。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：未必。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "盼到晚上，果然黑地里摸入荣府，趁掩门时，钻入穿堂。果见漆黑"
+        },
+        {
+          "type": "text",
+          "content": "无人，往贾母那边去的门户已锁，倒只有向东的门未关。贾瑞侧耳听着，"
+        },
+        {
+          "type": "text",
+          "content": "半日不见人来，忽听咯登一声，东边的门也倒关了。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：平平略施小计。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞急的也不敢则声，只得悄悄的出来，将门撼了撼，关得铁桶一般。"
+        },
+        {
+          "type": "text",
+          "content": "此时要求出去，亦不能够。"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：此大抵是凤姐调遣。不先为点明者，可以少"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "许多事故，又可以藏拙。"
+        },
+        {
+          "type": "text",
+          "content": "南北皆是大房墙，要跳亦无攀援。这屋内又是过"
+        },
+        {
+          "type": "text",
+          "content": "门风，空落落；现是腊月天气，夜又长，朔风凛凛，侵肌裂骨，一夜几"
+        },
+        {
+          "type": "text",
+          "content": "乎不曾冻死。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：可为偷情一戒。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：教导之法、慈悲之心尽矣，无奈迷径"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "不悟何！"
+        },
+        {
+          "type": "text",
+          "content": "好容易盼到早晨，只见一个老婆子先将东门开了，进去叫西门。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞瞅他背着脸，一溜烟抱着肩跑了出来，幸而天气尚早，人都未起，"
+        },
+        {
+          "type": "text",
+          "content": "从后门一径跑回家去。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "原来贾瑞父母早亡，只有他祖父代儒教养。那代儒素日教训最严，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：教训最严，奈其心何！一叹。"
+        },
+        {
+          "type": "text",
+          "content": "不许贾瑞多走一步，生怕他在外吃酒赌"
+        },
+        {
+          "type": "text",
+          "content": "钱，有误学业。今忽见他一夜不归，只料定他在外非饮即赌，嫖娼宿妓，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：辗转灵活，一人不放，一笔不肖。"
+        },
+        {
+          "type": "text",
+          "content": "那里想到这段公案，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：世人万万想"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "不到，况老学究乎！"
+        },
+        {
+          "type": "text",
+          "content": "因此气了一夜。贾瑞也捻着一把汗，少不得回来撒慌，"
+        },
+        {
+          "type": "text",
+          "content": "只说：“往舅舅家去了，天黑了，留我住了一夜。”代儒道：“自来出"
+        },
+        {
+          "type": "text",
+          "content": "门，非禀我不敢擅出，如何昨日私自去了？据此亦该打，何况是撒谎！”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：处处点父母痴心、子孙不肖。此书系自愧而成。"
+        },
+        {
+          "type": "text",
+          "content": "因此，发狠到底打了三四"
+        },
+        {
+          "type": "text",
+          "content": "十板，不许吃饭，令他跪在院内读文章，定要补出十天工课来方罢。贾"
+        },
+        {
+          "type": "text",
+          "content": "瑞直冻了一夜，今又遭了苦打，且饿着肚子跪在风地里念文章，"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧："
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "教令何尝不好，孽种故此不同。"
+        },
+        {
+          "type": "text",
+          "content": "其苦万状。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：祸福无门，唯人自招。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "此时贾瑞前心犹是未改，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：四字是寻死之根。 庚眉：苦海无边，回"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "头是岸。若个能回头也？叹叹！壬午春。畸笏。"
+        },
+        {
+          "type": "text",
+          "content": "再想不到是凤姐捉弄他。过后"
+        },
+        {
+          "type": "text",
+          "content": "两日，得了空，便仍来找凤姐。凤姐故意抱怨他失信，贾瑞急的赌身发"
+        },
+        {
+          "type": "text",
+          "content": "誓。凤姐因见他自投罗网，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：可谓因人而使。"
+        },
+        {
+          "type": "text",
+          "content": "少不得再寻别计令他知"
+        },
+        {
+          "type": "text",
+          "content": "改，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：四字是作者明阿凤身份，勿得轻轻看过。"
+        },
+        {
+          "type": "text",
+          "content": "故又约他道：“今日晚上，"
+        },
+        {
+          "type": "text",
+          "content": "你别在那里了。你在我这房后小过道子里那间空屋里等我，可别冒撞"
+        },
+        {
+          "type": "text",
+          "content": "了。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：伏的妙！"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞道：“果真？”凤姐道：“谁可哄你，你不信"
+        },
+        {
+          "type": "text",
+          "content": "就别来。”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：紧一句。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：大士心肠。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞道：“来，来，来。死"
+        },
+        {
+          "type": "text",
+          "content": "也要来！”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：不差。"
+        },
+        {
+          "type": "text",
+          "content": "凤姐道：“这会子你先去罢。”贾瑞料定晚间必"
+        },
+        {
+          "type": "text",
+          "content": "妥，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：未必。"
+        },
+        {
+          "type": "text",
+          "content": "此时先去了。凤姐在这里便点兵派将，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：四字用得新，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "必有新文字好看。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：新文，最妙！"
+        },
+        {
+          "type": "text",
+          "content": "设下圈套。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "那贾瑞只盼不到夜上，偏生家里有亲戚又来了，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：专能忙中写闲，"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "狡猾之甚！"
+        },
+        {
+          "type": "text",
+          "content": "直等吃了晚饭才去，那天已有掌灯时候。又等他祖父安歇了，"
+        },
+        {
+          "type": "text",
+          "content": "方溜进荣府，直往那夹道中屋子里来等着，热锅上的蚂蚁一般，"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧："
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "有心人记着，其实苦恼。"
+        },
+        {
+          "type": "text",
+          "content": "只是干转。左等不见人影，右听也没声音，心下"
+        },
+        {
+          "type": "text",
+          "content": "自思：“别是又不来了，又冻我一夜不成？”"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：似醒非醒语。"
+        },
+        {
+          "type": "text",
+          "content": "正自胡"
+        },
+        {
+          "type": "text",
+          "content": "猜，只见黑魆魆的来了一个人，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：真到了。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞便意定是凤姐，不管"
+        },
+        {
+          "type": "text",
+          "content": "皂白，饿虎一般，等那人刚至门前，便如猫儿捕鼠的一般，抱住叫道："
+        },
+        {
+          "type": "text",
+          "content": "“亲嫂子，等死我了。”说着，抱到屋里炕上就亲嘴扯裤子，满口里“亲"
+        },
+        {
+          "type": "text",
+          "content": "娘”“亲爹”的乱叫起来。"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：丑态可笑。"
+        },
+        {
+          "type": "text",
+          "content": "那人只不做声，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：好极！"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞拉了自己裤子，硬帮帮的就想顶入。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：将到矣。"
+        },
+        {
+          "type": "text",
+          "content": "忽然灯光一闪，"
+        },
+        {
+          "type": "text",
+          "content": "只见贾蔷举着个捻子照道：“谁在屋里？”只见炕上那人笑道：“瑞大"
+        },
+        {
+          "type": "text",
+          "content": "叔要臊我呢。”贾瑞一见，却是贾蓉，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：奇绝！"
+        },
+        {
+          "type": "text",
+          "content": "真臊的无地可入，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "庚"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "侧：亦未必真。"
+        },
+        {
+          "type": "text",
+          "content": "不知要怎么样才好，回身就要跑，被贾蔷一把揪住道：“别"
+        },
+        {
+          "type": "text",
+          "content": "走！如今琏二婶已经告到太太跟前，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：好题目。"
+        },
+        {
+          "type": "text",
+          "content": "说你无故调戏他。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "庚"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "眉：调戏还有“有故”？一笑。"
+        },
+        {
+          "type": "text",
+          "content": "他暂用了个脱身计，哄你在这边等着，太太"
+        },
+        {
+          "type": "text",
+          "content": "气死过去，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：好大题目。"
+        },
+        {
+          "type": "text",
+          "content": "因此叫我来拿你。刚才你又拦住他，没的说，"
+        },
+        {
+          "type": "text",
+          "content": "跟我去见太太！” "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "贾瑞听了，魂不附体，只说：“好侄儿，只说没有见我，明日我重"
+        },
+        {
+          "type": "text",
+          "content": "重的谢你。”贾蔷道：“你若谢我，放你不值什么，只不知你谢我多少？"
+        },
+        {
+          "type": "text",
+          "content": "况且口说无凭，写一文契来。”贾瑞道：“这如何落纸呢？”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：也"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "知写不得。一叹！"
+        },
+        {
+          "type": "text",
+          "content": "贾蔷道：“这也不妨，写一个赌钱输了外人账目，借头"
+        },
+        {
+          "type": "text",
+          "content": "家银若干两便罢。”贾瑞道：“这也容易。只是此时无纸笔。”贾蔷道："
+        },
+        {
+          "type": "text",
+          "content": "“这也容易。”说罢，翻身出来，纸笔现成，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：二字妙！"
+        },
+        {
+          "type": "text",
+          "content": "拿来命贾瑞"
+        },
+        {
+          "type": "text",
+          "content": "写。他两作好作歹，只写了五十两银，然后画了押，贾蔷收起来。然后"
+        },
+        {
+          "type": "text",
+          "content": "撕罗贾蓉。"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：可怜至此！好事者当自度。"
+        },
+        {
+          "type": "text",
+          "content": "贾蓉先咬定牙不依，只说：“明"
+        },
+        {
+          "type": "text",
+          "content": "日告诉族中的人评评理。”贾瑞急的至于叩头。贾蔷做好做歹的，"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧："
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "此是加一倍法。"
+        },
+        {
+          "type": "text",
+          "content": "也写了一张五十两欠契才罢。贾蔷又道：“如今要放你，"
+        },
+        {
+          "type": "text",
+          "content": "我就担着不是。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：又生波澜。"
+        },
+        {
+          "type": "text",
+          "content": "老太太那边的门早已关了，老爷正在厅"
+        },
+        {
+          "type": "text",
+          "content": "上看南京的东西，那一条路定难过去，如今只好走后门。若这一走，倘"
+        },
+        {
+          "type": "text",
+          "content": "或遇见了人，连我也完了。等我们先去哨探哨探，再来领你。这屋你还"
+        },
+        {
+          "type": "text",
+          "content": "藏不得，少时就来堆东西。等我寻个地方。”说毕，拉着贾瑞，仍熄了"
+        },
+        {
+          "type": "text",
+          "content": "灯，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：细。"
+        },
+        {
+          "type": "text",
+          "content": "出至院外，摸着大台矶底下，说道：“这窝儿里好，你"
+        },
+        {
+          "type": "text",
+          "content": "只蹲着，别哼一声，等我们来再动。”"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：未必如此收场。"
+        },
+        {
+          "type": "text",
+          "content": "说毕，二人"
+        },
+        {
+          "type": "text",
+          "content": "去了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "贾瑞此时身不由己，只得蹲在那里。心下正盘算，只听头顶上一声"
+        },
+        {
+          "type": "text",
+          "content": "响，哗拉拉一净桶尿粪从上面直泼下来，可巧浇了他一头一身，贾瑞撑"
+        },
+        {
+          "type": "text",
+          "content": "不住嗳哟了一声，忙又掩住口，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：更奇。"
+        },
+        {
+          "type": "text",
+          "content": "不敢声张，满头满脸浑身皆"
+        },
+        {
+          "type": "text",
+          "content": "是尿屎，冰冷打战。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：余料必有新奇解恨文字收场，方是《石头记》笔力。 "
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：瑞奴实当如是报之。此一节可入《西厢记》批评内十大快中。畸笏。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧："
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "这也未必不是预为埋伏者。总是慈悲设教，遇难教者，不得不现三头六臂，并吃人心、"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "喝人血之相，以警戒之耳。"
+        },
+        {
+          "type": "text",
+          "content": "只见贾蔷跑来叫：“快走，快走！”贾瑞如得了"
+        },
+        {
+          "type": "text",
+          "content": "命，三步两步从后门跑到家里，天已三更，只得叫门。开门人见他这般"
+        },
+        {
+          "type": "text",
+          "content": "光景，问是怎的。少不得撒谎说：“黑了，失脚掉在茅厕里了。”一面"
+        },
+        {
+          "type": "text",
+          "content": "到自己房中更衣洗濯，心下方想到是凤姐顽他，因此发一回恨；再想想"
+        },
+        {
+          "type": "text",
+          "content": "凤姐的模样儿，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：欲根未断。"
+        },
+        {
+          "type": "text",
+          "content": "又恨不得一时搂在怀，一夜竟不曾合眼。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "自此满心想凤姐，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：此刻还不回头，真自寻死路矣。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：孙行者非"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "有紧箍儿，虽老君之炉、五行之山，何尝屈其一二？"
+        },
+        {
+          "type": "text",
+          "content": "只不敢往荣府去了。贾蓉"
+        },
+        {
+          "type": "text",
+          "content": "两个常常的来索银子，他又怕祖父知道，正是相思尚且难禁，更又添了"
+        },
+        {
+          "type": "text",
+          "content": "债务；日间工课又紧，他二十来岁之人，尚未娶亲，迩来想着凤姐，未"
+        },
+        {
+          "type": "text",
+          "content": "免有那指头告了消乏等事；更兼两回冻恼奔波，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：写得历历病源，如何"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "不死？"
+        },
+        {
+          "type": "text",
+          "content": "因此三五下里夹攻，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：所谓步步紧。"
+        },
+        {
+          "type": "text",
+          "content": "不觉就得了一病：心内发膨"
+        },
+        {
+          "type": "text",
+          "content": "胀，口内无滋味，脚下如绵，眼中似醋，黑夜作烧，白昼常倦，下溺连"
+        },
+        {
+          "type": "text",
+          "content": "精，嗽痰带血。诸如此症，不上一年，都添全了。"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：简洁之至！"
+        },
+        {
+          "type": "text",
+          "content": "于是"
+        },
+        {
+          "type": "text",
+          "content": "不能支持，一头睡倒，合上眼还只梦魂颠倒，满口乱说胡话，惊怖异常。"
+        },
+        {
+          "type": "text",
+          "content": "百般请医治疗，诸如肉桂、附子、鳖甲、麦冬、玉竹等药，吃了有几十"
+        },
+        {
+          "type": "text",
+          "content": "斤下去，也不见个动静。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：说得有趣。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "倏又腊尽春回，这病更又沉重。代儒也着了忙，各处请医疗治，皆"
+        },
+        {
+          "type": "text",
+          "content": "不见效。因后来吃“独参汤”，代儒如何有这力量，只得往荣府来寻。"
+        },
+        {
+          "type": "text",
+          "content": "王夫人命凤姐秤二两给他，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：王夫人之慈若是。"
+        },
+        {
+          "type": "text",
+          "content": "凤姐回说：“前儿新"
+        },
+        {
+          "type": "text",
+          "content": "近都替老太太配了药，那整的太太又说留着送杨提督的太太配药，偏生"
+        },
+        {
+          "type": "text",
+          "content": "昨儿我已送了去了。”王夫人道：“就是咱们这边没了，你打发个人往"
+        },
+        {
+          "type": "text",
+          "content": "你婆婆那边问问，或是你珍大哥哥那府里再寻些来，凑着给人家。吃好"
+        },
+        {
+          "type": "text",
+          "content": "了，救人一命，也是你的好处。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：夹写王夫人。"
+        },
+        {
+          "type": "text",
+          "content": "凤姐听了，也不遣"
+        },
+        {
+          "type": "text",
+          "content": "人去寻，只得将些渣末泡须凑了几钱，命人送去，只说："
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：“只说”。"
+        },
+        {
+          "type": "text",
+          "content": "“太太送来的，再也没了。”然后回王夫人说：“都寻了来，共凑了有"
+        },
+        {
+          "type": "text",
+          "content": "二两多送去。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：然便有二两独参汤，贾瑞固亦不能微好，又岂能望好，但"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "凤姐之毒何如是？终是瑞之自失也。"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "那贾瑞此时要命心胜，无药不吃，只是白花钱，不见效。忽然这日"
+        },
+        {
+          "type": "text",
+          "content": "有个跛足道人"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：自甄士隐随君一去，别来无恙否？"
+        },
+        {
+          "type": "text",
+          "content": "来化斋，口称专治冤业"
+        },
+        {
+          "type": "text",
+          "content": "之症。贾瑞偏生在内就听见了，直着声叫喊"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：如闻其声，吾不忍听也。"
+        },
+        {
+          "type": "text",
+          "content": "说：“快请进那位菩萨来救我！”一面叫，一面在枕上叩首。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：如"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "见其形，吾不忍看也。"
+        },
+        {
+          "type": "text",
+          "content": "众人只得带了那道士进来。贾瑞一把拉住，连叫："
+        },
+        {
+          "type": "text",
+          "content": "“菩萨救我！”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：人之将死，其言也哀，作者如何下笔？"
+        },
+        {
+          "type": "text",
+          "content": "那道士叹道：“你"
+        },
+        {
+          "type": "text",
+          "content": "这病非药可医！我有个宝贝与你，你天天看时，此命可保矣。”说毕，"
+        },
+        {
+          "type": "text",
+          "content": "从褡裢中"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：妙极！此褡裢犹是士隐所抢背者乎？"
+        },
+        {
+          "type": "text",
+          "content": "取出一面镜子来"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：凡看"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "书人从此细心体贴，方许你看，否则此书哭矣。"
+        },
+        {
+          "type": "text",
+          "content": "——两面皆可照人，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：此书"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "表里皆有喻也。"
+        },
+        {
+          "type": "text",
+          "content": "镜把上面錾着“风月宝鉴”四字"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：明点。"
+        },
+        {
+          "type": "text",
+          "content": "——递与贾瑞"
+        },
+        {
+          "type": "text",
+          "content": "道：“这物出自太虚幻境空灵殿上，警幻仙子所制，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：言此书原系空"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "虚幻设。 "
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "眉",
+          "color": "red",
+          "content": "庚眉：与“红楼梦”呼应。"
+        },
+        {
+          "type": "text",
+          "content": "专治邪思妄动之症，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：毕真。"
+        },
+        {
+          "type": "text",
+          "content": "有济"
+        },
+        {
+          "type": "text",
+          "content": "世保生之功。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：毕真。"
+        },
+        {
+          "type": "text",
+          "content": "所以带他到世上，单与那些聪明俊杰、风雅王"
+        },
+        {
+          "type": "text",
+          "content": "孙等看照。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：所谓无能纨绔是也。"
+        },
+        {
+          "type": "text",
+          "content": "千万不可照正面，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：观者记之，不"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "要看这书正面，方是会看。 "
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：谁人识得此句！"
+        },
+        {
+          "type": "text",
+          "content": "只照他的背面，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：记之。"
+        },
+        {
+          "type": "text",
+          "content": "要紧，要紧！三日后吾来收取，管叫你好了。”说毕，佯常而去，众人"
+        },
+        {
+          "type": "text",
+          "content": "苦留不住。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "贾瑞收了镜子，想道：“这道士倒有些意思，我何不照一照试试。”"
+        },
+        {
+          "type": "text",
+          "content": "想毕，拿起“风月鉴”来，向反面一照，只见一个骷髅立在里面，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹："
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "所谓“好知青冢骷髅骨，就是红楼掩面人”是也。作者好苦心思。"
+        },
+        {
+          "type": "text",
+          "content": "唬得贾瑞连忙"
+        },
+        {
+          "type": "text",
+          "content": "掩了，骂：“道士混账，如何吓我！我倒再照照正面是什么。”想着，"
+        },
+        {
+          "type": "text",
+          "content": "又将正面一照，只见凤姐站在里面招手"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "侧",
+          "color": "red",
+          "content": "庚侧：可怕是“招手”二字。"
+        },
+        {
+          "type": "text",
+          "content": "叫他。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：奇绝！"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞心中一喜，荡悠悠的觉得进了镜子，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：写得奇峭，真"
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "好笔墨。"
+        },
+        {
+          "type": "text",
+          "content": "与凤姐云雨一番，凤姐仍送他出来。到了床上，“嗳哟”了一"
+        },
+        {
+          "type": "text",
+          "content": "声，一睁眼，镜子从手里掉过来，仍是反面立着一个骷髅。贾瑞自觉汗"
+        },
+        {
+          "type": "text",
+          "content": "津津的，底下已遗了一滩精。"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：此一句力如龙象，意谓：正面你方才已自"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "领略了，你也当思想反面才是。"
+        },
+        {
+          "type": "text",
+          "content": "心中到底不足，又翻过正面来，只见凤姐还"
+        },
+        {
+          "type": "text",
+          "content": "招手叫他，他又进去。如此三四次。到了这次，刚要出镜子来，只见两"
+        },
+        {
+          "type": "text",
+          "content": "个人走来，拿铁锁把他套住，拉了就走。"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：所谓醉生梦死也。"
+        },
+        {
+          "type": "text",
+          "content": "贾瑞叫"
+        },
+        {
+          "type": "text",
+          "content": "道：“让我拿了镜子再走！”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：可怜！大众齐来看此。 "
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：这是作书"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "者之立意，要写情种，故于此试一深写之。在贾瑞则是求仁而得仁，未尝不含笑九泉，"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "虽死亦不解脱者，悲矣！"
+        },
+        {
+          "type": "text",
+          "content": "——只说了这句，就再不能说话了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "旁边伏侍的贾瑞的众人，只见他先还拿着镜子照，落下来，仍睁开"
+        },
+        {
+          "type": "text",
+          "content": "眼拾在手内，末后镜子落下来便不动了。众人上来看看，已没了气，身"
+        },
+        {
+          "type": "text",
+          "content": "子底下冰凉渍湿一大滩精，这才忙着穿衣抬床。代儒夫妇哭的死去活来，"
+        },
+        {
+          "type": "text",
+          "content": "大骂道士，“是何妖镜！"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：此书不免腐儒一谤。"
+        },
+        {
+          "type": "text",
+          "content": "若不早毁此物，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹："
+        },
+        {
+          "type": "annotation",
+          "source": "",
+          "position": "",
+          "color": "green",
+          "content": "凡野史俱可毁，独此书不可毁。"
+        },
+        {
+          "type": "text",
+          "content": "遗害于世不小。”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：腐儒。"
+        },
+        {
+          "type": "text",
+          "content": "遂命架火来烧，"
+        },
+        {
+          "type": "text",
+          "content": "只听镜内哭道：“谁叫你们瞧正面了！你们自己以假为真，何苦来烧"
+        },
+        {
+          "type": "text",
+          "content": "我？”"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：观者记之。"
+        },
+        {
+          "type": "text",
+          "content": "正哭着，只见那跛足道人从外跑来，喊道：“谁"
+        },
+        {
+          "type": "text",
+          "content": "毁‘风月鉴’，吾来救也！”说着，直入中堂，抢入手内，飘然去了。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "当下，代儒料理丧事，各处去报丧。三日起经，七日发引，寄灵于"
+        },
+        {
+          "type": "text",
+          "content": "铁槛寺，"
+        },
+        {
+          "type": "annotation",
+          "source": "己",
+          "position": "夹",
+          "color": "green",
+          "content": "己夹：所谓“铁门限”是也。先安一开路道之人，以备秦氏仙柩有方也。"
+        },
+        {
+          "type": "text",
+          "content": "日后带回原籍。当下贾家众人齐来吊问，荣府贾赦赠银二十两，贾政亦"
+        },
+        {
+          "type": "text",
+          "content": "是二十两，宁国府贾珍亦有二十两，别者族中人贫富不等，或三两五两，"
+        },
+        {
+          "type": "text",
+          "content": "不可胜数。另有各同窗家分资，也凑了二三十两。代儒家道虽然淡薄，"
+        },
+        {
+          "type": "text",
+          "content": "倒也丰丰富富完了此事。 "
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "indent": true,
+      "spans": [
+        {
+          "type": "text",
+          "content": "谁知这年冬底"
+        },
+        {
+          "type": "footnote_ref",
+          "id": 1,
+          "content": "①"
+        },
+        {
+          "type": "text",
+          "content": "，林如海的书信寄来，却为身染重疾，写书特来接"
+        },
+        {
+          "type": "text",
+          "content": "林黛玉回去。"
+        },
+        {
+          "type": "annotation",
+          "source": "蒙",
+          "position": "侧",
+          "color": "blue",
+          "content": "蒙侧：须要林黛玉长住，偏要暂离。"
+        },
+        {
+          "type": "text",
+          "content": "贾母听了，未免又加忧闷，"
+        },
+        {
+          "type": "text",
+          "content": "只得忙忙的打点黛玉起身。宝玉大不自在，争奈父女之情，也不好拦劝。"
+        },
+        {
+          "type": "text",
+          "content": "于是贾母定要贾琏送他去，仍叫带回来。一应土仪盘缠，不消烦说，自"
+        },
+        {
+          "type": "text",
+          "content": "然要妥贴。作速择了日期，贾琏与林黛玉辞别了贾母等，带领仆从，登"
+        },
+        {
+          "type": "text",
+          "content": "舟往扬州去了。要知端的，且听下回分解。 "
+        }
+      ]
+    },
+    {
+      "type": "annotation_block",
+      "source": "庚",
+      "position": "",
+      "color": "red",
+      "indent": true,
+      "spans": [
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "庚：此回忽遣黛玉去者，正为下回可儿之文也。若不遣去，只写可"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "儿、阿凤等人，却置黛玉于荣府，成何文哉？故必遣去，方好放笔写秦，"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "方不脱节。况黛玉乃书中正人，秦为陪客，岂因陪而失正耶？后大观园"
+        },
+        {
+          "type": "annotation",
+          "source": "庚",
+          "position": "",
+          "color": "red",
+          "content": "方是宝玉、宝钗、黛玉等正经文字，前皆系陪衬之文也。"
+        }
+      ]
+    },
+    {
+      "type": "annotation_block",
+      "source": "戚",
+      "position": "",
+      "color": "blue",
+      "indent": true,
+      "spans": [
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "戚总评：儒家正心，道者炼心，释辈戒心。可见此心无有不到，无"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "不能入者，独畏其入于邪而不反，故用心炼戒以缚之。请看贾瑞一起念，"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "及至于死，专诚不二，虽经两次警教，毫无反悔，可谓痴子，可谓愚情。"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "相乃可思，不能相而独欲思，岂逃倾颓？作者以此作一新样情种，以助"
+        },
+        {
+          "type": "annotation",
+          "source": "戚",
+          "position": "",
+          "color": "blue",
+          "content": "解者生笑，以为痴者设一棒喝耳！"
+        }
+      ]
+    },
+    {
+      "type": "footnote",
+      "id": 1,
+      "spans": [
+        {
+          "type": "text",
+          "content": "按：“冬底”，各本均同，但与上下文时间不衔接。吴克歧假托古本作“八"
+        },
+        {
+          "type": "text",
+          "content": "月底”，林冠夫理校为“五月底”，可参考。"
+        }
+      ]
+    }
+  ]
+}

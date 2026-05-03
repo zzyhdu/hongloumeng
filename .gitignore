@@ -18,9 +18,6 @@ build-ts-node/
 .idea/
 .vscode/
 
-resource/catalog.json
-resource/zhiping_4color/
-resource/rm120/
 src/*.js
 src/*.js.map
 
