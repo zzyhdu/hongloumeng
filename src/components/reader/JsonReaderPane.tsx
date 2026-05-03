@@ -11,6 +11,7 @@ interface JsonReaderPaneProps {
   onNextChapter: () => void;
   resourceBase: string;
   fontSizeClass?: string;
+  onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
 }
 
 export function JsonReaderPane({
@@ -21,18 +22,36 @@ export function JsonReaderPane({
   onNextChapter,
   resourceBase,
   fontSizeClass = 'text-lg',
+  onScrollDirectionChange,
 }: JsonReaderPaneProps) {
   const [chapterData, setChapterData] = useState<ChapterData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
 
+  const lastScrollY = useRef(0);
+
   // Scroll to top when content is ready
   useEffect(() => {
     if (!loading && chapterData && containerRef.current) {
       containerRef.current.scrollTo({ top: 0 });
+      lastScrollY.current = 0;
+      if (onScrollDirectionChange) {
+        onScrollDirectionChange('up', 0);
+      }
     }
-  }, [chapterId, loading, chapterData]);
+  }, [chapterId, loading, chapterData, onScrollDirectionChange]);
+
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const currentScrollY = e.currentTarget.scrollTop;
+    if (Math.abs(currentScrollY - lastScrollY.current) > 10) {
+      const dir = currentScrollY > lastScrollY.current ? 'down' : 'up';
+      if (onScrollDirectionChange) {
+        onScrollDirectionChange(dir, currentScrollY);
+      }
+      lastScrollY.current = currentScrollY;
+    }
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -85,6 +104,7 @@ export function JsonReaderPane({
   return (
     <div
       ref={containerRef}
+      onScroll={handleScroll}
       className="relative h-full overflow-y-auto px-4 py-8 sm:px-12 sm:py-16 md:px-24 lg:px-32 custom-scrollbar bg-white/40 backdrop-blur-sm"
     >
       <article className="mx-auto max-w-3xl">
