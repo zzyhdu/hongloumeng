@@ -80,7 +80,7 @@ export function Sidebar({
                     : 'text-xiaoxiang-bamboo/80 hover:bg-white/60 hover:text-xiaoxiang-ink'
                 )}
               >
-                <div className={cn('text-sm font-serif leading-relaxed', isActive && 'font-medium')}>{chapter.title}</div>
+                <div className={cn('text-[13px] font-serif leading-snug', isActive && 'font-medium')}>{chapter.title}</div>
               </button>
             );
           })}
