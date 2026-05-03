@@ -55,7 +55,9 @@ function buildCatalog() {
       .filter((file) =>
         (file.endsWith('.md') || file.endsWith('.json')) &&
         !file.includes('_raw') &&
-        !file.includes('_paras')
+        !file.includes('_paras') &&
+        !file.includes('_blocks') &&
+        !file.includes('_flat')
       )
       .sort();
     const chapters = files.map((file) => {

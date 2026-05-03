@@ -39,18 +39,33 @@ def chinese_to_int(s):
     return result
 
 def get_chapters(doc):
-    """Extract chapter page ranges from TOC."""
+    """Extract chapter page ranges from TOC, including 凡例 as chapter 0."""
     toc = doc.get_toc()
     chapters = []
     for entry in toc:
         level, title, page = entry
-        m = re.match(r'第([一二三四五六七八九十百零]+)回', title.strip())
-        if m and level == 2:
+        if level != 2:
+            continue
+        title = title.strip()
+        # 凡例 (preface) → chapter 0
+        if '凡例' in title:
+            chapters.append({
+                'num': 0,
+                'title': title,
+                'start_page': page - 1,  # 0-indexed
+            })
+            continue
+        # 附录 → skip (after chapter 80)
+        if '附' in title and '录' in title:
+            continue
+        # Regular chapter: 第X回
+        m = re.match(r'第([一二三四五六七八九十百零]+)回', title)
+        if m:
             num = chinese_to_int(m.group(1))
             chapters.append({
                 'num': num,
-                'title': title.strip(),
-                'start_page': page - 1,  # 0-indexed
+                'title': title,
+                'start_page': page - 1,
             })
     for i in range(len(chapters) - 1):
         chapters[i]['end_page'] = chapters[i+1]['start_page']
