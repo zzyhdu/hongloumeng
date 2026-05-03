@@ -59,7 +59,12 @@ function buildCatalog() {
         !file.includes('_blocks') &&
         !file.includes('_flat')
       )
-      .sort();
+      .sort((a, b) => {
+        // Put front matter before numbered chapters
+        if (a.startsWith('front')) return -1;
+        if (b.startsWith('front')) return 1;
+        return a.localeCompare(b);
+      });
     const chapters = files.map((file) => {
       const chapterId = file.replace(/\.(md|json)$/, '');
       const title = readFirstHeading(path.join(dirPath, file));
