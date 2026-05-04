@@ -1,4 +1,4 @@
-import { Menu, X, BookOpen, Maximize2 } from 'lucide-react';
+import { Menu, X, BookOpen, Maximize2, Bookmark, BookmarkPlus } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import type { VersionMeta } from '../../hooks/useReaderState';
 
@@ -13,6 +13,8 @@ interface HeaderProps {
   catalogError: string;
   fontSizeIndex: number;
   setFontSizeIndex: (index: number) => void;
+  isBookmarked?: boolean;
+  onToggleBookmark?: () => void;
 }
 
 export function Header({
@@ -26,6 +28,8 @@ export function Header({
   catalogError,
   fontSizeIndex,
   setFontSizeIndex,
+  isBookmarked,
+  onToggleBookmark,
 }: HeaderProps) {
   if (zenMode) return null;
 
@@ -95,6 +99,21 @@ export function Header({
             ))}
           </div>
           
+          {onToggleBookmark && (
+            <button
+              onClick={onToggleBookmark}
+              className={cn(
+                "flex items-center justify-center rounded-full border p-1.5 transition-colors",
+                isBookmarked 
+                  ? "border-xiaoxiang-celadon bg-xiaoxiang-celadon/10 text-xiaoxiang-celadon" 
+                  : "border-xiaoxiang-celadon/30 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"
+              )}
+              title={isBookmarked ? "移除书签" : "添加书签"}
+            >
+              {isBookmarked ? <Bookmark size={18} fill="currentColor" /> : <BookmarkPlus size={18} />}
+            </button>
+          )}
+
           <button
             onClick={onToggleZenMode}
             className="flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 px-4 py-1.5 text-sm text-xiaoxiang-bamboo transition-colors hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"

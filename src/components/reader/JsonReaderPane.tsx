@@ -14,6 +14,8 @@ interface JsonReaderPaneProps {
   fontSizeClass?: string;
   onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
   zenMode?: boolean;
+  scrollRequest?: { percentage: number; timestamp: number };
+  onProgressChange?: (percentage: number) => void;
 }
 
 export function JsonReaderPane({
@@ -26,6 +28,8 @@ export function JsonReaderPane({
   fontSizeClass = 'text-lg',
   onScrollDirectionChange,
   zenMode,
+  scrollRequest,
+  onProgressChange,
 }: JsonReaderPaneProps) {
   const [chapterData, setChapterData] = useState<ChapterData | null>(null);
   const [loading, setLoading] = useState(false);
@@ -34,19 +38,36 @@ export function JsonReaderPane({
 
   const lastScrollY = useRef(0);
 
-  // Scroll to top when content is ready
+  // Scroll to top or requested percentage when content is ready or scrollRequest changes
   useEffect(() => {
     if (!loading && chapterData && containerRef.current) {
-      containerRef.current.scrollTo({ top: 0 });
-      lastScrollY.current = 0;
-      if (onScrollDirectionChange) {
-        onScrollDirectionChange('up', 0);
-      }
+      const container = containerRef.current;
+      const targetScroll = scrollRequest 
+        ? scrollRequest.percentage * (container.scrollHeight - container.clientHeight)
+        : 0;
+        
+      // Use setTimeout to ensure rendering is complete before scrolling to a specific percentage
+      setTimeout(() => {
+        container.scrollTo({ top: targetScroll });
+        lastScrollY.current = targetScroll;
+        if (onScrollDirectionChange) {
+          onScrollDirectionChange('up', targetScroll);
+        }
+      }, 50);
     }
-  }, [chapterId, loading, chapterData, onScrollDirectionChange]);
+  }, [chapterId, loading, chapterData, scrollRequest, onScrollDirectionChange]);
 
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
-    const currentScrollY = e.currentTarget.scrollTop;
+    const container = e.currentTarget;
+    const currentScrollY = container.scrollTop;
+    
+    // Calculate and report progress
+    if (onProgressChange) {
+      const scrollHeight = container.scrollHeight - container.clientHeight;
+      const percentage = scrollHeight > 0 ? currentScrollY / scrollHeight : 0;
+      onProgressChange(percentage);
+    }
+    
     if (Math.abs(currentScrollY - lastScrollY.current) > 10) {
       const dir = currentScrollY > lastScrollY.current ? 'down' : 'up';
       if (onScrollDirectionChange) {

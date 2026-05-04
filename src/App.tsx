@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useReaderState, FONT_SIZES } from './hooks/useReaderState';
+import { useBookmarks, type Bookmark } from './hooks/useBookmarks';
 import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
@@ -28,6 +29,41 @@ export default function App() {
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [zenMode, setZenMode] = useState(false);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
+  const [currentPercentage, setCurrentPercentage] = useState(0);
+  const [scrollRequest, setScrollRequest] = useState<{ percentage: number; timestamp: number } | undefined>(undefined);
+
+  const { bookmarks, addBookmark, removeBookmark, isChapterBookmarked } = useBookmarks();
+
+  const handleSelectChapter = useCallback((id: string) => {
+    setScrollRequest({ percentage: 0, timestamp: Date.now() });
+    setCurrentChapterId(id);
+  }, [setCurrentChapterId]);
+
+  const handleSelectBookmark = useCallback((bookmark: Bookmark) => {
+    setCurrentVersionId(bookmark.versionId);
+    setCurrentChapterId(bookmark.chapterId);
+    setScrollRequest({ percentage: bookmark.percentage, timestamp: Date.now() });
+    setIsMobileSidebarOpen(false);
+  }, [setCurrentVersionId, setCurrentChapterId]);
+
+  const handleToggleBookmark = useCallback(() => {
+    if (!currentVersion || !currentChapter) return;
+    const isBookmarked = isChapterBookmarked(currentVersion.id, currentChapter.id);
+    
+    if (isBookmarked) {
+      const chapterBookmarks = bookmarks.filter(b => b.versionId === currentVersion.id && b.chapterId === currentChapter.id);
+      chapterBookmarks.forEach(b => removeBookmark(b.id));
+    } else {
+      addBookmark({
+        versionId: currentVersion.id,
+        versionName: currentVersion.name,
+        chapterId: currentChapter.id,
+        chapterTitle: currentChapter.title,
+        percentage: currentPercentage,
+        excerpt: '',
+      });
+    }
+  }, [currentVersion, currentChapter, isChapterBookmarked, bookmarks, removeBookmark, addBookmark, currentPercentage]);
 
   const handleScrollDirection = useCallback((dir: 'up' | 'down', scrollY: number) => {
     if (scrollY < 50) {
@@ -60,6 +96,8 @@ export default function App() {
           catalogError={catalogError}
           fontSizeIndex={fontSizeIndex}
           setFontSizeIndex={setFontSizeIndex}
+          isBookmarked={currentVersion && currentChapter ? isChapterBookmarked(currentVersion.id, currentChapter.id) : false}
+          onToggleBookmark={handleToggleBookmark}
         />
       </div>
 
@@ -78,10 +116,13 @@ export default function App() {
                 <Sidebar
                   currentVersion={currentVersion}
                   currentChapterId={currentChapterId}
-                  onSelectChapter={setCurrentChapterId}
+                  onSelectChapter={handleSelectChapter}
                   search={chapterSearch}
                   onSearchChange={setChapterSearch}
                   catalogError={catalogError}
+                  bookmarks={bookmarks}
+                  onSelectBookmark={handleSelectBookmark}
+                  onDeleteBookmark={removeBookmark}
                 />
               </div>
             </motion.aside>
@@ -170,10 +211,13 @@ export default function App() {
                       <Sidebar
                         currentVersion={currentVersion}
                         currentChapterId={currentChapterId}
-                        onSelectChapter={setCurrentChapterId}
+                        onSelectChapter={handleSelectChapter}
                         search={chapterSearch}
                         onSearchChange={setChapterSearch}
                         catalogError={catalogError}
+                        bookmarks={bookmarks}
+                        onSelectBookmark={handleSelectBookmark}
+                        onDeleteBookmark={removeBookmark}
                       />
                     </div>
                   </div>
@@ -222,12 +266,14 @@ export default function App() {
             hasNextChapter={Boolean(nextChapter)}
             onNextChapter={
               nextChapter
-                ? () => setCurrentChapterId(nextChapter.id)
+                ? () => handleSelectChapter(nextChapter.id)
                 : () => {}
             }
             resourceBase={RESOURCE_BASE}
             onScrollDirectionChange={handleScrollDirection}
             zenMode={zenMode}
+            scrollRequest={scrollRequest}
+            onProgressChange={setCurrentPercentage}
           />
         </main>
       </div>

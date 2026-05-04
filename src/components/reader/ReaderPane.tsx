@@ -10,6 +10,8 @@ interface ReaderPaneProps {
   fontSizeClass?: string;
   onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
   zenMode?: boolean;
+  scrollRequest?: { percentage: number; timestamp: number };
+  onProgressChange?: (percentage: number) => void;
 }
 
 export function ReaderPane({
@@ -22,6 +24,8 @@ export function ReaderPane({
   fontSizeClass = 'text-lg',
   onScrollDirectionChange,
   zenMode,
+  scrollRequest,
+  onProgressChange,
 }: ReaderPaneProps) {
   // ── No content selected ──
   if (!versionId || !chapterId) {
@@ -35,5 +39,5 @@ export function ReaderPane({
   }
 
   // ── All versions now use structured JSON ──
-  return <JsonReaderPane versionId={versionId} chapterId={chapterId} meta={meta} hasNextChapter={hasNextChapter} onNextChapter={onNextChapter} resourceBase={resourceBase} fontSizeClass={fontSizeClass} onScrollDirectionChange={onScrollDirectionChange} zenMode={zenMode} />;
+  return <JsonReaderPane versionId={versionId} chapterId={chapterId} meta={meta} hasNextChapter={hasNextChapter} onNextChapter={onNextChapter} resourceBase={resourceBase} fontSizeClass={fontSizeClass} onScrollDirectionChange={onScrollDirectionChange} zenMode={zenMode} scrollRequest={scrollRequest} onProgressChange={onProgressChange} />;
 }
