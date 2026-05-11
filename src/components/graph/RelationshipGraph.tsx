@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback, useRef, useMemo } from 'react';
 import ReactECharts from 'echarts-for-react';
 import { motion } from 'framer-motion';
-import { X, Search, ChevronLeft, ChevronRight, Minus, Plus } from 'lucide-react';
+import { X, Search, Minus, Plus, Filter } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 /* ─── Types ──────────────────────────────────────────────────────── */
@@ -54,20 +54,29 @@ const CATEGORY_ORDER = [
   '薛家', '外围要角', '林家', '王家/史家', '其他',
 ];
 
-const MAX_HOPS = 4;
-const DEFAULT_HOPS = 2;
+const MAX_HOPS = 3;
+const DEFAULT_HOPS = 1;
 const DEFAULT_CENTER = '贾宝玉';
+const DEFAULT_MIN_WEIGHT = 2;
+const WEIGHT_STEPS = [1, 2, 3, 5, 8, 12, 20];
 
-/* ─── BFS sub-graph extraction ───────────────────────────────────── */
+/* ─── BFS sub-graph extraction with weight filter ────────────────── */
 
 function extractEgoGraph(
   graph: FullGraph,
   centerName: string,
   maxHops: number,
-): { nodes: RawNode[]; edges: RawEdge[]; hops: Map<string, number> } {
-  // Build adjacency
+  minWeight: number,
+): {
+  nodes: RawNode[];
+  edges: RawEdge[];
+  hops: Map<string, number>;
+  hiddenCount: number;
+} {
+  // Build adjacency using only edges meeting the weight threshold
+  const qualifiedEdges = graph.edges.filter(e => e.weight >= minWeight);
   const adj = new Map<string, Set<string>>();
-  for (const e of graph.edges) {
+  for (const e of qualifiedEdges) {
     if (!adj.has(e.source)) adj.set(e.source, new Set());
     if (!adj.has(e.target)) adj.set(e.target, new Set());
     adj.get(e.source)!.add(e.target);
@@ -75,7 +84,7 @@ function extractEgoGraph(
   }
 
   // BFS from center
-  const visited = new Map<string, number>(); // name → hop distance
+  const visited = new Map<string, number>();
   const queue: [string, number][] = [[centerName, 0]];
   visited.set(centerName, 0);
 
@@ -94,11 +103,23 @@ function extractEgoGraph(
 
   const nodeSet = new Set(visited.keys());
   const filteredNodes = graph.nodes.filter(n => nodeSet.has(n.id));
-  const filteredEdges = graph.edges.filter(
+  const filteredEdges = qualifiedEdges.filter(
     e => nodeSet.has(e.source) && nodeSet.has(e.target),
   );
 
-  return { nodes: filteredNodes, edges: filteredEdges, hops: visited };
+  // Count how many were hidden by the weight filter at hop 1
+  const allAdj = new Map<string, Set<string>>();
+  for (const e of graph.edges) {
+    if (!allAdj.has(e.source)) allAdj.set(e.source, new Set());
+    if (!allAdj.has(e.target)) allAdj.set(e.target, new Set());
+    allAdj.get(e.source)!.add(e.target);
+    allAdj.get(e.target)!.add(e.source);
+  }
+  const totalNeighbors = allAdj.get(centerName)?.size ?? 0;
+  const shownNeighbors = adj.get(centerName)?.size ?? 0;
+  const hiddenCount = totalNeighbors - shownNeighbors;
+
+  return { nodes: filteredNodes, edges: filteredEdges, hops: visited, hiddenCount };
 }
 
 /* ─── Component ──────────────────────────────────────────────────── */
@@ -108,9 +129,9 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
   const [loading, setLoading] = useState(true);
   const [centerName, setCenterName] = useState(DEFAULT_CENTER);
   const [hops, setHops] = useState(DEFAULT_HOPS);
+  const [minWeight, setMinWeight] = useState(DEFAULT_MIN_WEIGHT);
   const [searchText, setSearchText] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
-  const [statsOpen, setStatsOpen] = useState(true);
   const chartRef = useRef<ReactECharts | null>(null);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
 
@@ -131,8 +152,8 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
   // ── Extract ego graph ──
   const egoData = useMemo(() => {
     if (!fullGraph) return null;
-    return extractEgoGraph(fullGraph, centerName, hops);
-  }, [fullGraph, centerName, hops]);
+    return extractEgoGraph(fullGraph, centerName, hops, minWeight);
+  }, [fullGraph, centerName, hops, minWeight]);
 
   // ── Search suggestions ──
   const searchSuggestions = useMemo(() => {
@@ -162,6 +183,9 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
     setSearchOpen(false);
   }, []);
 
+  // ── Current weight step index ──
+  const weightStepIndex = WEIGHT_STEPS.indexOf(minWeight);
+
   // ── ECharts option ──
   const option = useMemo(() => {
     if (!egoData) return {};
@@ -179,8 +203,9 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
     const chartNodes = nodes.map(node => {
       const hop = hopMap.get(node.id) ?? 99;
       const isCenter = node.id === centerName;
-      const baseSize = Math.max(16, Math.min(70, Math.sqrt(node.weight) * 4));
-      const sizeMultiplier = isCenter ? 1.5 : hop === 1 ? 1.1 : 1;
+      // Scale: center biggest, hop1 medium-large, hop2+ smaller
+      const baseSize = Math.max(20, Math.min(80, Math.sqrt(node.weight) * 5));
+      const sizeMultiplier = isCenter ? 1.6 : hop === 1 ? 1.0 : 0.75;
 
       return {
         id: node.id,
@@ -189,22 +214,22 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
         symbolSize: baseSize * sizeMultiplier,
         category: catIndexMap.get(node.category) ?? (categories.length - 1),
         itemStyle: {
-          opacity: hop <= 1 ? 1 : hop === 2 ? 0.85 : 0.6,
+          opacity: isCenter ? 1 : hop <= 1 ? 0.95 : 0.6,
           ...(isCenter ? {
-            shadowBlur: 20,
+            shadowBlur: 24,
             shadowColor: CATEGORY_COLORS[node.category] || '#C75C5C',
             borderWidth: 3,
             borderColor: '#fff',
           } : {}),
         },
         label: {
-          show: hop <= 2 || node.weight > 10 || baseSize > 25,
-          fontSize: isCenter ? 16 : hop === 1 ? 13 : 11,
+          show: isCenter || hop <= 1 || (hop === 2 && node.weight > 15),
+          fontSize: isCenter ? 18 : hop === 1 ? 14 : 11,
           fontWeight: isCenter ? 'bold' : (hop <= 1 ? 600 : 'normal'),
           color: isCenter ? '#111' : '#3A2E25',
           fontFamily: '"Noto Serif SC", "Songti SC", serif',
+          distance: 5,
         },
-        // Store hop for tooltip
         _hop: hop,
         _degree: node.degree,
         _category: node.category,
@@ -218,23 +243,30 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
       const sourceHop = hopMap.get(edge.source) ?? 99;
       const targetHop = hopMap.get(edge.target) ?? 99;
       const minHop = Math.min(sourceHop, targetHop);
+      // At least one end is center
+      const touchesCenter = sourceHop === 0 || targetHop === 0;
 
       return {
         source: edge.source,
         target: edge.target,
         value: edge.weight,
         lineStyle: {
-          width: Math.max(0.5, normalizedWeight * 6),
-          opacity: minHop <= 1 ? 0.6 : 0.25,
-          curveness: 0.2,
+          width: touchesCenter
+            ? Math.max(1, normalizedWeight * 8)
+            : Math.max(0.5, normalizedWeight * 4),
+          opacity: touchesCenter ? 0.5 : minHop <= 1 ? 0.3 : 0.15,
+          curveness: 0.15,
           type: edge.weight <= 1 ? 'dashed' as const : 'solid' as const,
         },
         label: {
-          show: edge.relation && edge.weight >= 3 && minHop <= 1,
+          show: edge.relation && touchesCenter && edge.weight >= 2,
           formatter: edge.relation || '',
-          fontSize: 10,
-          color: '#666',
+          fontSize: 11,
+          color: '#888',
           fontFamily: '"Noto Serif SC", serif',
+          padding: [2, 4],
+          backgroundColor: 'rgba(255,255,250,0.85)',
+          borderRadius: 3,
         },
         _relation: edge.relation || '',
         _chapters: edge.chapters,
@@ -309,7 +341,7 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
           fontFamily: '"Noto Serif SC", serif',
         },
         itemGap: 8,
-        backgroundColor: 'rgba(255,255,250,0.8)',
+        backgroundColor: 'rgba(255,255,250,0.85)',
         borderRadius: 8,
         padding: [12, 16],
         borderWidth: 1,
@@ -333,10 +365,12 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
             position: 'right',
           },
           force: {
-            repulsion: nodes.length > 60 ? 350 : nodes.length > 30 ? 450 : 600,
-            gravity: 0.08,
-            edgeLength: [40, 200],
-            friction: 0.6,
+            // Star topology: center connects to many satellites
+            // Need strong repulsion to spread them out
+            repulsion: nodes.length > 100 ? 600 : nodes.length > 50 ? 800 : 1200,
+            gravity: 0.05,
+            edgeLength: nodes.length > 100 ? [80, 250] : [100, 350],
+            friction: 0.5,
             layoutAnimation: true,
           },
           lineStyle: {
@@ -345,24 +379,24 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
           emphasis: {
             focus: 'adjacency' as const,
             lineStyle: {
-              width: 4,
-              opacity: 0.8,
+              width: 5,
+              opacity: 0.9,
             },
             label: {
               show: true,
-              fontSize: 14,
+              fontSize: 15,
               fontWeight: 'bold',
             },
           },
           blur: {
             itemStyle: {
-              opacity: 0.1,
+              opacity: 0.08,
             },
             lineStyle: {
-              opacity: 0.05,
+              opacity: 0.03,
             },
           },
-          animationDuration: 800,
+          animationDuration: 1500,
           animationEasingUpdate: 'quinticInOut',
         },
       ],
@@ -395,13 +429,15 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
           </h2>
           {egoData && (
             <span className="hidden sm:inline text-xs text-xiaoxiang-bamboo/60 font-serif">
-              以「{centerName}」为中心 · {egoData.nodes.length} 人 · {egoData.edges.length} 条关系
+              以「{centerName}」为中心 · {egoData.nodes.length} 人
+              {egoData.hiddenCount > 0 && (
+                <span className="text-xiaoxiang-bamboo/40">（已隐藏 {egoData.hiddenCount} 弱关系）</span>
+              )}
             </span>
           )}
         </div>
 
         <div className="flex items-center gap-2">
-          {/* Search Toggle */}
           <button
             onClick={() => setSearchOpen(!searchOpen)}
             className={cn(
@@ -414,8 +450,6 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
           >
             <Search size={18} />
           </button>
-
-          {/* Close */}
           <button
             onClick={onClose}
             className="rounded-full p-2 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/20 transition-colors"
@@ -506,35 +540,69 @@ export function RelationshipGraph({ onClose, resourceBase }: RelationshipGraphPr
           </div>
         )}
 
-        {/* ── Hop Control (bottom left) ──────────────────────── */}
-        <div className="absolute bottom-4 left-4 flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 bg-white/80 backdrop-blur-sm px-3 py-1.5 shadow-sm">
-          <span className="text-[11px] text-xiaoxiang-bamboo/70 font-serif whitespace-nowrap">距离</span>
-          <button
-            onClick={() => setHops(h => Math.max(1, h - 1))}
-            disabled={hops <= 1}
-            className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-          >
-            <Minus size={14} />
-          </button>
-          <span className="text-sm font-serif font-medium text-xiaoxiang-ink w-4 text-center">
-            {hops}
-          </span>
-          <button
-            onClick={() => setHops(h => Math.min(MAX_HOPS, h + 1))}
-            disabled={hops >= MAX_HOPS}
-            className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-          >
-            <Plus size={14} />
-          </button>
-          <span className="text-[11px] text-xiaoxiang-bamboo/40 font-serif">步</span>
+        {/* ── Controls (bottom left) ─────────────────────────── */}
+        <div className="absolute bottom-4 left-4 flex flex-col gap-2">
+          {/* Hop control */}
+          <div className="flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 bg-white/85 backdrop-blur-sm px-3 py-1.5 shadow-sm">
+            <span className="text-[11px] text-xiaoxiang-bamboo/70 font-serif whitespace-nowrap">距离</span>
+            <button
+              onClick={() => setHops(h => Math.max(1, h - 1))}
+              disabled={hops <= 1}
+              className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+            >
+              <Minus size={14} />
+            </button>
+            <span className="text-sm font-serif font-medium text-xiaoxiang-ink w-4 text-center">
+              {hops}
+            </span>
+            <button
+              onClick={() => setHops(h => Math.min(MAX_HOPS, h + 1))}
+              disabled={hops >= MAX_HOPS}
+              className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+            >
+              <Plus size={14} />
+            </button>
+            <span className="text-[11px] text-xiaoxiang-bamboo/40 font-serif">步</span>
+          </div>
+
+          {/* Weight filter */}
+          <div className="flex items-center gap-2 rounded-full border border-xiaoxiang-celadon/30 bg-white/85 backdrop-blur-sm px-3 py-1.5 shadow-sm">
+            <Filter size={12} className="text-xiaoxiang-bamboo/50 shrink-0" />
+            <span className="text-[11px] text-xiaoxiang-bamboo/70 font-serif whitespace-nowrap">强度</span>
+            <button
+              onClick={() => {
+                const idx = WEIGHT_STEPS.indexOf(minWeight);
+                if (idx > 0) setMinWeight(WEIGHT_STEPS[idx - 1]);
+              }}
+              disabled={weightStepIndex <= 0}
+              className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+            >
+              <Minus size={14} />
+            </button>
+            <span className="text-sm font-serif font-medium text-xiaoxiang-ink w-5 text-center">
+              ≥{minWeight}
+            </span>
+            <button
+              onClick={() => {
+                const idx = WEIGHT_STEPS.indexOf(minWeight);
+                if (idx < WEIGHT_STEPS.length - 1) setMinWeight(WEIGHT_STEPS[idx + 1]);
+              }}
+              disabled={weightStepIndex >= WEIGHT_STEPS.length - 1}
+              className="rounded-full p-0.5 text-xiaoxiang-bamboo hover:bg-xiaoxiang-celadon/10 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+            >
+              <Plus size={14} />
+            </button>
+          </div>
         </div>
 
-        {/* ── Stats Panel (bottom center on mobile, left on desktop) ── */}
+        {/* ── Stats ─────────────────────────────────────────── */}
         {egoData && (
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-14 sm:left-4 text-[11px] text-xiaoxiang-bamboo/50 font-serif bg-white/60 backdrop-blur-sm rounded-lg px-3 py-1.5 border border-xiaoxiang-celadon/10">
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:bottom-4 sm:left-48 text-[11px] text-xiaoxiang-bamboo/50 font-serif bg-white/60 backdrop-blur-sm rounded-lg px-3 py-1.5 border border-xiaoxiang-celadon/10">
             以「<span className="font-medium text-xiaoxiang-ink">{centerName}</span>」为中心
-            · {hops} 步内 {egoData.nodes.length} 人
-            · {egoData.edges.length} 条关系
+            · {hops} 步 · {egoData.nodes.length} 人 · {egoData.edges.length} 条关系
+            {egoData.hiddenCount > 0 && (
+              <span className="text-xiaoxiang-bamboo/30"> · 隐藏 {egoData.hiddenCount} 弱关系</span>
+            )}
           </div>
         )}
       </div>
