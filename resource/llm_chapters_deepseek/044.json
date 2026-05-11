@@ -1,0 +1,184 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "薛姨妈",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "邢夫人",
+    "target": "贾琏",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "044"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤氏",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "尤氏",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "平儿",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "044"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李纨",
+    "relation": "嫂叔",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "鲍二家的",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "044"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二家的",
+    "relation": "偷情",
+    "type": "其他",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "琥珀",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "林之孝家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾琏",
+    "target": "林之孝",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "贾琏",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "金钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "044"
+  }
+]

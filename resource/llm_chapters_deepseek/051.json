@@ -1,0 +1,170 @@
+[
+  {
+    "source": "薛宝琴",
+    "target": "众人",
+    "relation": "作诗展示",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛宝琴",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "探春",
+    "target": "林黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "李纨",
+    "target": "探春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "花袭人",
+    "target": "花自芳",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "花袭人",
+    "target": "王夫人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "侄女与姑母",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "周瑞家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "平儿",
+    "target": "邢岫烟",
+    "relation": "送衣",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "晴雯",
+    "target": "麝月",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "晴雯",
+    "target": "花袭人",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王太医",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "林黛玉",
+    "relation": "表嫂与表妹",
+    "type": "亲属",
+    "chapter": "051"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "051"
+  }
+]

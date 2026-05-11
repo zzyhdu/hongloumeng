@@ -1,0 +1,128 @@
+[
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "王熙凤",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾代儒",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾蓉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾蔷",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾蔷",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾蓉",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾蔷",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾琏",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾瑞",
+    "relation": "族中长辈",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾政",
+    "target": "贾瑞",
+    "relation": "族中长辈",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾瑞",
+    "relation": "族中长辈",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾代儒",
+    "target": "贾瑞",
+    "relation": "祖父",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "凤姐",
+    "relation": "单恋",
+    "type": "情感",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "跛足道人",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "012"
+  }
+]

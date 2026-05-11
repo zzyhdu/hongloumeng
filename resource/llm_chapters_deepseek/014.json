@@ -1,0 +1,219 @@
+[
+  {
+    "source": "王熙凤",
+    "target": "来升",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "来旺媳妇",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "彩明",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "丰儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾珍",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤氏",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "秦钟",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王仁",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "迎春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "014"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "北静王水溶",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "014"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾赦",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾珍",
+    "target": "色空",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾政",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾赦",
+    "target": "北静王水溶",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "贾政",
+    "target": "北静王水溶",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "昭儿",
+    "target": "贾琏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "昭儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "林黛玉",
+    "target": "林如海",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾琏",
+    "target": "林黛玉",
+    "relation": "表兄与表妹",
+    "type": "亲属",
+    "chapter": "014"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "014"
+  },
+  {
+    "source": "北静王水溶",
+    "target": "贾宝玉",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "014"
+  }
+]

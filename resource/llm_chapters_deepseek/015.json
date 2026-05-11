@@ -1,0 +1,149 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "北静王水溶",
+    "relation": "初见赠念珠",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王熙凤",
+    "relation": "姐弟（族中）",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "015"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "智能儿",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "秦钟",
+    "target": "智能儿",
+    "relation": "情投意合",
+    "type": "情感",
+    "chapter": "015"
+  },
+  {
+    "source": "秦钟",
+    "target": "秦业",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "王熙凤",
+    "target": "净虚",
+    "relation": "施主与尼姑",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "王熙凤",
+    "target": "来旺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "015"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "015"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母与孙子",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾政",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾宝玉",
+    "relation": "族中叔侄",
+    "type": "亲属",
+    "chapter": "015"
+  },
+  {
+    "source": "贾政",
+    "target": "北静王水溶",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "智能儿",
+    "target": "净虚",
+    "relation": "师徒",
+    "type": "师徒",
+    "chapter": "015"
+  },
+  {
+    "source": "智能儿",
+    "target": "智善",
+    "relation": "师姐妹",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "金哥",
+    "target": "李衙内",
+    "relation": "被求亲",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "金哥",
+    "target": "守备公子",
+    "relation": "已受聘",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "云光",
+    "target": "贾府",
+    "relation": "有交情",
+    "type": "其他",
+    "chapter": "015"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "source": "薛宝钗",
+    "target": "李纨",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "王熙凤",
+    "target": "李纨",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝琴",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "妙玉",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "050"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾母",
+    "target": "薛宝琴",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "贾母",
+    "target": "惜春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "贾母",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝琴",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "梅翰林之子",
+    "relation": "未婚夫妻",
+    "type": "夫妻",
+    "chapter": "050"
+  },
+  {
+    "source": "花袭人",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "050"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "050"
+  },
+  {
+    "source": "琥珀",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "050"
+  },
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "050"
+  },
+  {
+    "source": "香菱",
+    "target": "薛宝钗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "050"
+  },
+  {
+    "source": "李纨",
+    "target": "李绮",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "李纨",
+    "target": "李纹",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "邢岫烟",
+    "target": "薛宝钗",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "邢岫烟",
+    "target": "薛宝琴",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "林黛玉",
+    "target": "史湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "史湘云",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "史湘云",
+    "target": "薛宝琴",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "探春",
+    "target": "李纨",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "惜春",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "050"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "050"
+  },
+  {
+    "source": "妙玉",
+    "target": "薛宝钗",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "050"
+  },
+  {
+    "source": "妙玉",
+    "target": "林黛玉",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "050"
+  },
+  {
+    "source": "妙玉",
+    "target": "薛宝琴",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "050"
+  }
+]

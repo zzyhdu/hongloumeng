@@ -1,0 +1,156 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李嬷嬷",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "花自芳",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "花母",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "史湘云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "019"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾宝玉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "019"
+  },
+  {
+    "source": "贾琏",
+    "target": "薛蟠",
+    "relation": "表兄弟",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "茗烟",
+    "target": "卍儿",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "两姨妹子",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾妃",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "019"
+  }
+]

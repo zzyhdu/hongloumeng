@@ -1,0 +1,170 @@
+[
+  {
+    "source": "刘姥姥",
+    "target": "王熙凤",
+    "relation": "远亲",
+    "type": "亲属",
+    "chapter": "042"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "板儿",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "042"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "042"
+  },
+  {
+    "source": "王熙凤",
+    "target": "巧姐",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "042"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "042"
+  },
+  {
+    "source": "贾母",
+    "target": "王太医",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾珍",
+    "target": "王太医",
+    "relation": "引见",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾琏",
+    "target": "王太医",
+    "relation": "引见",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾蓉",
+    "target": "王太医",
+    "relation": "引见",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王太医",
+    "relation": "迎接",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾母",
+    "target": "王太医",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "王夫人",
+    "target": "刘姥姥",
+    "relation": "赠银",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾母",
+    "target": "刘姥姥",
+    "relation": "赠衣",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "刘姥姥",
+    "relation": "赠物",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "刘姥姥",
+    "relation": "赠钟",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "劝诫",
+    "type": "朋友",
+    "chapter": "042"
+  },
+  {
+    "source": "李纨",
+    "target": "惜春",
+    "relation": "商议画假",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "林黛玉",
+    "target": "刘姥姥",
+    "relation": "戏称母蝗虫",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "惜春",
+    "relation": "建议画法",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "惜春",
+    "relation": "协助画画",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾宝玉",
+    "relation": "指导画具",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "玩笑取闹",
+    "type": "朋友",
+    "chapter": "042"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "使眼色",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "史湘云",
+    "target": "众人",
+    "relation": "笑倒椅子",
+    "type": "其他",
+    "chapter": "042"
+  }
+]

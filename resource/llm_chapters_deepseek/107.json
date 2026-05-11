@@ -1,0 +1,212 @@
+[
+  {
+    "source": "贾政",
+    "target": "贾赦",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾政",
+    "target": "贾蓉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾政",
+    "target": "北静王",
+    "relation": "君臣",
+    "type": "其他",
+    "chapter": "107"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾赦",
+    "target": "邢夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "107"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "107"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾母",
+    "relation": "曾祖孙",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾赦",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "107"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "107"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "107"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "107"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾母",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "邢夫人",
+    "target": "贾母",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾母",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾母",
+    "relation": "曾祖孙",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾珠",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "包勇",
+    "target": "贾政",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "107"
+  },
+  {
+    "source": "包勇",
+    "target": "贾雨村",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "107"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾政",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "107"
+  }
+]

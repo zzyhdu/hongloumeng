@@ -1,0 +1,177 @@
+[
+  {
+    "source": "平儿",
+    "target": "迎春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "迎春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "柳家的",
+    "target": "晴雯",
+    "relation": "相托",
+    "type": "其他",
+    "chapter": "074"
+  },
+  {
+    "source": "柳家的",
+    "target": "金星玻璃",
+    "relation": "相托",
+    "type": "其他",
+    "chapter": "074"
+  },
+  {
+    "source": "金星玻璃",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "王住儿媳妇",
+    "target": "平儿",
+    "relation": "央求",
+    "type": "其他",
+    "chapter": "074"
+  },
+  {
+    "source": "平儿",
+    "target": "凤姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "074"
+  },
+  {
+    "source": "贾琏",
+    "target": "鸳鸯",
+    "relation": "借当",
+    "type": "其他",
+    "chapter": "074"
+  },
+  {
+    "source": "王夫人",
+    "target": "凤姐",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "王善保家的",
+    "target": "王夫人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "王善保家的",
+    "target": "晴雯",
+    "relation": "告状",
+    "type": "对立",
+    "chapter": "074"
+  },
+  {
+    "source": "王夫人",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "晴雯",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "袭人",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "麝月",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "凤姐",
+    "target": "探春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "探春",
+    "target": "王善保家的",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "074"
+  },
+  {
+    "source": "入画",
+    "target": "惜春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "入画",
+    "target": "贾珍",
+    "relation": "赏赐",
+    "type": "其他",
+    "chapter": "074"
+  },
+  {
+    "source": "司棋",
+    "target": "王善保家的",
+    "relation": "外孙女与外祖母",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "司棋",
+    "target": "潘又安",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "尤氏",
+    "target": "惜春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "074"
+  },
+  {
+    "source": "尤氏",
+    "target": "凤姐",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "074"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "source": "林黛玉",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "香菱",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾赦",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "邢夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾琏",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾芸",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾芸",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "卜世仁",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "倪二",
+    "relation": "邻居",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "王熙凤",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "小红",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "小红",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "小红",
+    "target": "秋纹",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "小红",
+    "target": "碧痕",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "贾环",
+    "target": "贾宝玉",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾宝玉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾环",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾琮",
+    "target": "贾宝玉",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾芸母亲",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "卜世仁",
+    "target": "卜世仁娘子",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "024"
+  },
+  {
+    "source": "倪二",
+    "target": "倪二女儿",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "焙茗",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "花袭人",
+    "target": "薛宝钗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "024"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "北静王",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "024"
+  }
+]

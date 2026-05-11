@@ -1,0 +1,226 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾环",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "甄宝玉",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "贾政",
+    "target": "贾环",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾政",
+    "target": "贾兰",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾政",
+    "target": "甄宝玉",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "王夫人",
+    "target": "甄宝玉",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "王夫人",
+    "target": "宝钗",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "王夫人",
+    "target": "惜春",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "惜春",
+    "target": "尤氏",
+    "relation": "姑嫂",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "惜春",
+    "target": "彩屏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "惜春",
+    "target": "地藏庵姑子",
+    "relation": "施主与尼姑",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "尤氏",
+    "target": "彩屏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "尤氏",
+    "target": "惜春",
+    "relation": "姑嫂",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "宝钗",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "宝钗",
+    "target": "地藏庵姑子",
+    "relation": "施主与尼姑",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "甄宝玉",
+    "target": "甄夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "甄宝玉",
+    "target": "贾环",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "甄宝玉",
+    "target": "贾兰",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "115"
+  },
+  {
+    "source": "贾环",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾琏",
+    "target": "巧姐",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾琏",
+    "target": "王仁",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾宝玉",
+    "relation": "族亲",
+    "type": "亲属",
+    "chapter": "115"
+  },
+  {
+    "source": "紫鹃",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "紫鹃",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "115"
+  },
+  {
+    "source": "和尚",
+    "target": "贾宝玉",
+    "relation": "救命恩人",
+    "type": "其他",
+    "chapter": "115"
+  }
+]

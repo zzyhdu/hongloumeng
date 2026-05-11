@@ -1,0 +1,240 @@
+[
+  {
+    "source": "焙茗",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "袭人",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "岫烟",
+    "target": "妙玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "095"
+  },
+  {
+    "source": "妙玉",
+    "target": "岫烟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "095"
+  },
+  {
+    "source": "袭人",
+    "target": "岫烟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "095"
+  },
+  {
+    "source": "李纨",
+    "target": "岫烟",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾母",
+    "target": "元春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾政",
+    "target": "元春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "王夫人",
+    "target": "元春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "095"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王仁",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王子腾",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "王夫人",
+    "target": "王子腾",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾政",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "095"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "王夫人",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "095"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "095"
+  }
+]

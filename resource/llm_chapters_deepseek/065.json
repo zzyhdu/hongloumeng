@@ -1,0 +1,212 @@
+[
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤三姐",
+    "relation": "情人",
+    "type": "情感",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤三姐",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾珍",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤三姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤老",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "尤三姐",
+    "target": "尤老",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "鲍二",
+    "target": "鲍二家的",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "兴儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "隆儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "喜儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "寿儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾迎春",
+    "target": "贾宝玉",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾探春",
+    "target": "贾宝玉",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾惜春",
+    "target": "贾珍",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾惜春",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "李纨",
+    "target": "贾宝玉",
+    "relation": "嫂弟",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾宝玉",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤二姐",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤三姐",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "065"
+  }
+]

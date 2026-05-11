@@ -1,4 +1,4 @@
-import { Menu, X, BookOpen, Maximize2, Bookmark, BookmarkPlus } from 'lucide-react';
+import { Menu, X, BookOpen, Maximize2, Bookmark, BookmarkPlus, Network } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import type { VersionMeta } from '../../hooks/useReaderState';
 
@@ -15,6 +15,7 @@ interface HeaderProps {
   setFontSizeIndex: (index: number) => void;
   isBookmarked?: boolean;
   onToggleBookmark?: () => void;
+  onShowGraph?: () => void;
 }
 
 export function Header({
@@ -30,6 +31,7 @@ export function Header({
   setFontSizeIndex,
   isBookmarked,
   onToggleBookmark,
+  onShowGraph,
 }: HeaderProps) {
   if (zenMode) return null;
 
@@ -111,6 +113,16 @@ export function Header({
               title={isBookmarked ? "移除书签" : "添加书签"}
             >
               {isBookmarked ? <Bookmark size={18} fill="currentColor" /> : <BookmarkPlus size={18} />}
+            </button>
+          )}
+
+          {onShowGraph && (
+            <button
+              onClick={onShowGraph}
+              className="flex items-center justify-center rounded-full border border-xiaoxiang-celadon/30 p-1.5 text-xiaoxiang-bamboo transition-colors hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"
+              title="人物关系图谱"
+            >
+              <Network size={18} />
             </button>
           )}
 

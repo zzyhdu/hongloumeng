@@ -1,0 +1,156 @@
+[
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王熙凤",
+    "relation": "表嫂",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾母",
+    "relation": "外孙女",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "金钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "王夫人",
+    "target": "金钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "龄官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "靛儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "宝官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "玉官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "王夫人",
+    "target": "玉钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "金钏儿",
+    "target": "玉钏儿",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "贾环",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "030"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "source": "薛蟠",
+    "target": "张德辉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛姨妈",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "048"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "048"
+  },
+  {
+    "source": "薛蟠",
+    "target": "宝钗",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "048"
+  },
+  {
+    "source": "薛蟠",
+    "target": "香菱",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "048"
+  },
+  {
+    "source": "宝钗",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "平儿",
+    "target": "宝钗",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  },
+  {
+    "source": "平儿",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  },
+  {
+    "source": "贾雨村",
+    "target": "石呆子",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "048"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "048"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "048"
+  },
+  {
+    "source": "香菱",
+    "target": "黛玉",
+    "relation": "师徒",
+    "type": "师徒",
+    "chapter": "048"
+  },
+  {
+    "source": "黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "宝玉",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  },
+  {
+    "source": "探春",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  },
+  {
+    "source": "惜春",
+    "target": "入画",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "李纨",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  },
+  {
+    "source": "宝钗",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "048"
+  },
+  {
+    "source": "薛蟠",
+    "target": "贾珍",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "048"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "source": "凤姐",
+    "target": "林之孝",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾芸",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "凤姐",
+    "target": "惜春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "惜春",
+    "target": "尤氏",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "惜春",
+    "target": "妙玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "112"
+  },
+  {
+    "source": "包勇",
+    "target": "甄府",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "包勇",
+    "target": "妙玉",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "贾芸",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾芸",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "林之孝",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "包勇",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "凤姐",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "琥珀",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "邢夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "贾环",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "赵姨娘",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "112"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "马道婆",
+    "relation": "同谋",
+    "type": "其他",
+    "chapter": "112"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "凤姐",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "112"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "宝玉",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "112"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "赵姨娘",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "112"
+  },
+  {
+    "source": "彩云",
+    "target": "赵姨娘",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "宝钗",
+    "target": "周姨娘",
+    "relation": "托付",
+    "type": "其他",
+    "chapter": "112"
+  },
+  {
+    "source": "李纨",
+    "target": "贾兰",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "贾蓉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "贾政",
+    "target": "赖大",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "周瑞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "112"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "source": "柳家的",
+    "target": "小厮",
+    "relation": "婶子与侄儿",
+    "type": "亲属",
+    "chapter": "061"
+  },
+  {
+    "source": "柳家的",
+    "target": "柳五儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "061"
+  },
+  {
+    "source": "柳家的",
+    "target": "莲花儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "柳家的",
+    "target": "司棋",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "柳家的",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "柳五儿",
+    "target": "芳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "柳五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "柳家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "柳五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "柳家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "袭人",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "彩云",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "玉钏儿",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "探春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "玉钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "袭人",
+    "target": "芳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "晴雯",
+    "target": "芳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  },
+  {
+    "source": "彩云",
+    "target": "贾环",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "彩云",
+    "target": "赵姨娘",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "司棋",
+    "target": "迎春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "司棋",
+    "target": "莲花儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "秦显的女人",
+    "target": "司棋",
+    "relation": "婶娘与侄女",
+    "type": "亲属",
+    "chapter": "061"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "秦显的女人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "王熙凤",
+    "target": "柳家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "王熙凤",
+    "target": "柳五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "探春",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "探春",
+    "target": "赵姨娘",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "061"
+  },
+  {
+    "source": "李纨",
+    "target": "贾兰",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "061"
+  },
+  {
+    "source": "小蝉",
+    "target": "林之孝家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "莲花儿",
+    "target": "林之孝家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "玉钏儿",
+    "target": "彩云",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "061"
+  }
+]

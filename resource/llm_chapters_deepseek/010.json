@@ -1,0 +1,219 @@
+[
+  {
+    "source": "金荣",
+    "target": "秦钟",
+    "relation": "同学",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "金荣",
+    "target": "贾宝玉",
+    "relation": "同学",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "金荣",
+    "target": "贾瑞",
+    "relation": "同学",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "金荣",
+    "target": "胡氏",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "金荣",
+    "target": "贾璜",
+    "relation": "姑父",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "金荣",
+    "target": "璜大奶奶",
+    "relation": "姑母",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "胡氏",
+    "target": "璜大奶奶",
+    "relation": "姑嫂",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "胡氏",
+    "target": "王熙凤",
+    "relation": "求助关系",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "胡氏",
+    "target": "薛蟠",
+    "relation": "资助关系",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "璜大奶奶",
+    "target": "贾珍",
+    "relation": "族亲",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "璜大奶奶",
+    "target": "尤氏",
+    "relation": "族亲",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "璜大奶奶",
+    "target": "王熙凤",
+    "relation": "族亲",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "璜大奶奶",
+    "target": "秦可卿",
+    "relation": "族亲",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "秦可卿",
+    "relation": "公公与儿媳",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾蓉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "尤氏",
+    "target": "秦可卿",
+    "relation": "婆婆与儿媳",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾蓉",
+    "target": "秦可卿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "010"
+  },
+  {
+    "source": "秦钟",
+    "target": "秦可卿",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "秦钟",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "冯紫英",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "010"
+  },
+  {
+    "source": "冯紫英",
+    "target": "张友士",
+    "relation": "师徒",
+    "type": "师徒",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "张友士",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "贾蓉",
+    "target": "张友士",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "秦可卿",
+    "target": "张友士",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾敬",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾敬",
+    "relation": "公公与儿媳",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾敬",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾珍",
+    "target": "来升",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "010"
+  },
+  {
+    "source": "贾蓉",
+    "target": "来升",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "010"
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母与孙子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾政",
+    "relation": "族侄与族叔",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珍",
+    "relation": "族叔与族侄",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾政",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾宝玉",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾母",
+    "relation": "孙女与祖母",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "王夫人",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾政",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "贾元春",
+    "relation": "祖母与孙女",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "017"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾宝玉",
+    "relation": "族兄与族弟",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾迎春",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾探春",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾惜春",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾迎春",
+    "relation": "堂兄妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾探春",
+    "relation": "同父异母兄妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾惜春",
+    "relation": "堂兄妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾兰",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾环",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾环",
+    "relation": "同父异母兄弟",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "薛姨妈",
+    "relation": "姨母与外甥女",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "林黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "龄官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "017"
+  },
+  {
+    "source": "贾蔷",
+    "target": "龄官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "017"
+  },
+  {
+    "source": "贾母",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛姨妈",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "抱琴",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李贵",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "017"
+  },
+  {
+    "source": "贾政",
+    "target": "众清客",
+    "relation": "主客",
+    "type": "其他",
+    "chapter": "017"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "尤氏",
+    "relation": "堂嫂与堂妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "李纨",
+    "relation": "堂嫂与堂妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "王熙凤",
+    "relation": "堂嫂与堂妹",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "妙玉",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "017"
+  }
+]

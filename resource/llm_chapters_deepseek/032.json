@@ -1,0 +1,93 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "032"
+  },
+  {
+    "source": "史湘云",
+    "target": "花袭人",
+    "relation": "旧友",
+    "type": "朋友",
+    "chapter": "032"
+  },
+  {
+    "source": "史湘云",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾雨村",
+    "relation": "世交",
+    "type": "其他",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "情敌",
+    "type": "情感",
+    "chapter": "032"
+  },
+  {
+    "source": "花袭人",
+    "target": "薛宝钗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "032"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "王夫人",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "王夫人",
+    "target": "金钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "金钏儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "032"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "侄媳",
+    "type": "亲属",
+    "chapter": "032"
+  }
+]

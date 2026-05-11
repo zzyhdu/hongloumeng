@@ -1,0 +1,338 @@
+[
+  {
+    "source": "尤二姐",
+    "target": "贾母",
+    "relation": "太婆婆与孙媳妇",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "尤二姐",
+    "target": "王熙凤",
+    "relation": "妾与正妻",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤氏",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "尤二姐",
+    "target": "贾琏",
+    "relation": "妾与夫",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤二姐",
+    "relation": "正妻与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "王熙凤",
+    "target": "张华",
+    "relation": "主仆（暗中指使）",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "王熙凤",
+    "target": "秋桐",
+    "relation": "正妻与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "夫与妾",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "秋桐",
+    "relation": "夫与妾",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾赦",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "邢夫人",
+    "relation": "母子（庶子与嫡母）",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾蓉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾珍",
+    "relation": "兄弟（堂兄弟）",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾珍",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤氏",
+    "relation": "母子（继母）",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "秋桐",
+    "target": "贾赦",
+    "relation": "妾与夫",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "秋桐",
+    "target": "贾琏",
+    "relation": "妾与夫",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "秋桐",
+    "target": "王熙凤",
+    "relation": "妾与正妻",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "秋桐",
+    "target": "尤二姐",
+    "relation": "妾与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "通房丫头与主母",
+    "type": "主仆",
+    "chapter": "069"
+  },
+  {
+    "source": "平儿",
+    "target": "尤二姐",
+    "relation": "同情与照应",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "平儿",
+    "target": "贾琏",
+    "relation": "通房丫头与男主",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾母",
+    "relation": "孙媳妇与太婆婆",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "尤氏",
+    "target": "王熙凤",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "张华",
+    "target": "尤二姐",
+    "relation": "前未婚夫与未婚妻",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "张华",
+    "target": "贾蓉",
+    "relation": "对头（被威胁）",
+    "type": "对立",
+    "chapter": "069"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾母",
+    "target": "尤二姐",
+    "relation": "太婆婆与孙媳妇",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "贾母",
+    "target": "秋桐",
+    "relation": "长辈与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "贾赦",
+    "target": "秋桐",
+    "relation": "夫与妾",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "邢夫人",
+    "target": "秋桐",
+    "relation": "主母与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "邢夫人",
+    "target": "王熙凤",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "王夫人",
+    "target": "尤二姐",
+    "relation": "长辈与妾",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "宝玉",
+    "target": "尤二姐",
+    "relation": "同情",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "李纨",
+    "target": "尤二姐",
+    "relation": "同情",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "迎春",
+    "target": "尤二姐",
+    "relation": "同情",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "惜春",
+    "target": "尤二姐",
+    "relation": "同情",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "林黛玉",
+    "target": "尤二姐",
+    "relation": "暗为担心",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "尤二姐",
+    "relation": "暗为担心",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "胡君荣",
+    "target": "尤二姐",
+    "relation": "医生与病人",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "胡君荣",
+    "target": "贾琏",
+    "relation": "医生与病人家属",
+    "type": "其他",
+    "chapter": "069"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤三姐",
+    "relation": "姐妹（梦中）",
+    "type": "亲属",
+    "chapter": "069"
+  },
+  {
+    "source": "旺儿",
+    "target": "王熙凤",
+    "relation": "仆人",
+    "type": "主仆",
+    "chapter": "069"
+  },
+  {
+    "source": "庆儿",
+    "target": "王熙凤",
+    "relation": "仆人",
+    "type": "主仆",
+    "chapter": "069"
+  },
+  {
+    "source": "王信",
+    "target": "王熙凤",
+    "relation": "仆人",
+    "type": "主仆",
+    "chapter": "069"
+  }
+]

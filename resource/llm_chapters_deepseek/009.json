@@ -1,0 +1,247 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "同窗好友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李贵",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "锄药",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "扫红",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "墨雨",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾政",
+    "target": "李贵",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾母",
+    "target": "秦钟",
+    "relation": "疼爱",
+    "type": "其他",
+    "chapter": "009"
+  },
+  {
+    "source": "秦钟",
+    "target": "香怜",
+    "relation": "同窗",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "秦钟",
+    "target": "玉爱",
+    "relation": "同窗",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "薛蟠",
+    "target": "香怜",
+    "relation": "相好",
+    "type": "其他",
+    "chapter": "009"
+  },
+  {
+    "source": "薛蟠",
+    "target": "玉爱",
+    "relation": "相好",
+    "type": "其他",
+    "chapter": "009"
+  },
+  {
+    "source": "薛蟠",
+    "target": "金荣",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "薛蟠",
+    "target": "贾瑞",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "贾瑞",
+    "target": "香怜",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "贾瑞",
+    "target": "玉爱",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "金荣",
+    "target": "香怜",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "金荣",
+    "target": "秦钟",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾蓉",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "薛蟠",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "茗烟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾菌",
+    "relation": "同窗好友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "贾菌",
+    "target": "金荣",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "金荣",
+    "target": "贾瑞",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "009"
+  },
+  {
+    "source": "金荣",
+    "target": "璜大奶奶",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "璜大奶奶",
+    "target": "王熙凤",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "009"
+  }
+]

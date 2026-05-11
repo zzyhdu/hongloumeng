@@ -1,0 +1,317 @@
+[
+  {
+    "source": "赵姨娘",
+    "target": "贾政",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "073"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "小鹊",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "小鹊",
+    "target": "贾宝玉",
+    "relation": "传信",
+    "type": "其他",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "金星玻璃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "尤氏",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "迎春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "黛玉",
+    "relation": "外祖母",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "宝钗",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "贾母",
+    "target": "傻大姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "邢夫人",
+    "target": "迎春",
+    "relation": "继母",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "邢夫人",
+    "target": "贾琏",
+    "relation": "继母",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "邢夫人",
+    "target": "王熙凤",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "邢夫人",
+    "target": "傻大姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "073"
+  },
+  {
+    "source": "王熙凤",
+    "target": "林之孝家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "迎春",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "宝琴",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "探春",
+    "target": "待书",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "迎春",
+    "target": "绣桔",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "迎春",
+    "target": "司棋",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "迎春",
+    "target": "王住儿媳妇",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "迎春",
+    "target": "乳母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "黛玉",
+    "target": "宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "黛玉",
+    "target": "宝琴",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "宝钗",
+    "target": "宝琴",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "林之孝的两姨亲家",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "柳家媳妇",
+    "target": "柳家媳妇之妹",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "073"
+  },
+  {
+    "source": "迎春",
+    "target": "乳母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "王住儿媳妇",
+    "target": "迎春乳母",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "073"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "林黛玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "表嫂",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "王熙凤",
+    "target": "林黛玉",
+    "relation": "表嫂",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "王熙凤",
+    "target": "丰儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "探春",
+    "target": "侍书",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蝌",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "薛蟠",
+    "target": "夏金桂",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "090"
+  },
+  {
+    "source": "薛蝌",
+    "target": "邢岫烟",
+    "relation": "未婚夫妻",
+    "type": "夫妻",
+    "chapter": "090"
+  },
+  {
+    "source": "夏金桂",
+    "target": "宝蟾",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "090"
+  },
+  {
+    "source": "邢岫烟",
+    "target": "王熙凤",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "邢夫人",
+    "target": "邢岫烟",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾母",
+    "target": "薛宝钗",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "李纨",
+    "target": "贾母",
+    "relation": "孙媳",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "薛蝌",
+    "target": "薛宝钗",
+    "relation": "堂兄妹",
+    "type": "亲属",
+    "chapter": "090"
+  },
+  {
+    "source": "薛蝌",
+    "target": "薛宝琴",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "090"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蝌",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "王夫人",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "贾政",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "贾母",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蟠",
+    "target": "蒋玉菡",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蟠",
+    "target": "张三",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蟠",
+    "target": "吴良",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛蝌",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蟠",
+    "target": "宝钗",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾政",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "086"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾母",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾政",
+    "target": "宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾母",
+    "target": "宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾母",
+    "target": "元妃",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾母",
+    "target": "黛玉",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "宝玉",
+    "target": "黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "宝玉",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "黛玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "宝钗",
+    "target": "黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "宝钗",
+    "target": "宝玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "李纨",
+    "target": "探春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "李纨",
+    "target": "惜春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "探春",
+    "target": "惜春",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蝌",
+    "target": "宝钗",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "薛蝌",
+    "target": "李祥",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "086"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "086"
+  },
+  {
+    "source": "王熙凤",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "贾琏",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "张王氏",
+    "target": "张三",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "张二",
+    "target": "张三",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "086"
+  },
+  {
+    "source": "李二",
+    "target": "张三",
+    "relation": "雇佣",
+    "type": "其他",
+    "chapter": "086"
+  },
+  {
+    "source": "吴良",
+    "target": "薛蟠",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "086"
+  },
+  {
+    "source": "嵇好古",
+    "target": "贾政",
+    "relation": "清客与主人",
+    "type": "其他",
+    "chapter": "086"
+  }
+]

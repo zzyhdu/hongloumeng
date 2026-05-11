@@ -1,0 +1,142 @@
+[
+  {
+    "source": "鸳鸯",
+    "target": "司棋",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "司棋",
+    "target": "姑表兄弟",
+    "relation": "姑表兄妹",
+    "type": "亲属",
+    "chapter": "072"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "072"
+  },
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "贾琏",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤二姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "072"
+  },
+  {
+    "source": "旺儿媳妇",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "旺儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "彩霞",
+    "target": "王夫人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "贾琏",
+    "target": "林之孝",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾琏",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "072"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾珍",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "072"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾政",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "072"
+  },
+  {
+    "source": "彩霞",
+    "target": "贾环",
+    "relation": "情感",
+    "type": "情感",
+    "chapter": "072"
+  },
+  {
+    "source": "彩霞",
+    "target": "赵姨娘",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "072"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾政",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "072"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "072"
+  },
+  {
+    "source": "贾政",
+    "target": "贾环",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "072"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  { "source": "贾母", "target": "贾宝玉", "relation": "祖孙" },
+  { "source": "贾母", "target": "林黛玉", "relation": "祖孙" },
+  { "source": "贾母", "target": "贾政", "relation": "母子" },
+  { "source": "贾母", "target": "贾赦", "relation": "母子" },
+  { "source": "贾政", "target": "贾宝玉", "relation": "父子" },
+  { "source": "王夫人", "target": "贾宝玉", "relation": "母子" },
+  { "source": "贾赦", "target": "邢夫人", "relation": "夫妻" },
+  { "source": "贾政", "target": "王夫人", "relation": "夫妻" },
+  { "source": "贾琏", "target": "王熙凤", "relation": "夫妻" },
+  { "source": "贾宝玉", "target": "林黛玉", "relation": "表兄妹" },
+  { "source": "贾宝玉", "target": "薛宝钗", "relation": "表姐弟" },
+  { "source": "林黛玉", "target": "贾敏", "relation": "母女" },
+  { "source": "贾宝玉", "target": "花袭人", "relation": "主仆" },
+  { "source": "贾宝玉", "target": "晴雯", "relation": "主仆" },
+  { "source": "王熙凤", "target": "平儿", "relation": "主仆" }
+]

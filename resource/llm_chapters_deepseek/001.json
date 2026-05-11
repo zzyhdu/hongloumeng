@@ -1,0 +1,93 @@
+[
+  {
+    "source": "甄士隐",
+    "target": "封氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "甄英莲",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "封氏",
+    "target": "甄英莲",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "贾雨村",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "封肃",
+    "relation": "岳父女婿",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "封氏",
+    "target": "封肃",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "霍启",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "001"
+  },
+  {
+    "source": "甄英莲",
+    "target": "霍启",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "甄家丫鬟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "001"
+  },
+  {
+    "source": "贾雨村",
+    "target": "甄家丫鬟",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "001"
+  },
+  {
+    "source": "茫茫大士",
+    "target": "渺渺真人",
+    "relation": "道友",
+    "type": "朋友",
+    "chapter": "001"
+  },
+  {
+    "source": "神瑛侍者",
+    "target": "绛珠仙子",
+    "relation": "灌溉之恩",
+    "type": "其他",
+    "chapter": "001"
+  },
+  {
+    "source": "空空道人",
+    "target": "石头",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "001"
+  }
+]

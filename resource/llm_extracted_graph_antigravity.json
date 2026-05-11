@@ -1,0 +1,2837 @@
+[
+  {
+    "source": "甄士隐",
+    "target": "封氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "甄英莲",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "封氏",
+    "target": "甄英莲",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "贾雨村",
+    "relation": "友人兼资助者",
+    "type": "朋友",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "封肃",
+    "relation": "翁婿",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "封氏",
+    "target": "封肃",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "001"
+  },
+  {
+    "source": "贾雨村",
+    "target": "娇杏",
+    "relation": "倾慕",
+    "type": "情感",
+    "chapter": "001"
+  },
+  {
+    "source": "甄士隐",
+    "target": "娇杏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "001"
+  },
+  {
+    "source": "甄英莲",
+    "target": "霍启",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "001"
+  },
+  {
+    "source": "癞头僧",
+    "target": "跛足道人",
+    "relation": "同伴",
+    "type": "朋友",
+    "chapter": "001"
+  },
+  {
+    "source": "贾雨村",
+    "target": "娇杏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "林如海",
+    "relation": "西宾(家庭教师)",
+    "type": "其他",
+    "chapter": "002"
+  },
+  {
+    "source": "林如海",
+    "target": "贾敏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "林如海",
+    "target": "林黛玉",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "林黛玉",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "林黛玉",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "冷子兴",
+    "relation": "旧友",
+    "type": "朋友",
+    "chapter": "002"
+  },
+  {
+    "source": "宁国公",
+    "target": "荣国公",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代化",
+    "target": "贾敬",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾母",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾赦",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾赦",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾政",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾敏",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珠",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾元春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾迎春",
+    "relation": "父女(庶出)",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾探春",
+    "relation": "父女(庶出)",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "贾赦",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "贾政",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "祖孙(外)",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "冷子兴",
+    "target": "贾府",
+    "relation": "世交往来",
+    "type": "其他",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "张如圭",
+    "relation": "同僚",
+    "type": "其他",
+    "chapter": "003"
+  },
+  {
+    "source": "林如海",
+    "target": "贾政",
+    "relation": "连襟(内兄)",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖孙",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾赦",
+    "target": "邢夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "003"
+  },
+  {
+    "source": "贾珠",
+    "target": "李纨",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "003"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "初见倾心",
+    "type": "情感",
+    "chapter": "003"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "贾母",
+    "target": "花袭人",
+    "relation": "原主仆",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "林黛玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "林黛玉",
+    "target": "王嬷嬷",
+    "relation": "主仆(奶娘)",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "贾母",
+    "target": "鹦哥",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李嬷嬷",
+    "relation": "主仆(奶娘)",
+    "type": "主仆",
+    "chapter": "003"
+  },
+  {
+    "source": "薛蟠",
+    "target": "王夫人",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "王子腾",
+    "target": "王夫人",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾迎春",
+    "target": "贾探春",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾探春",
+    "target": "贾惜春",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "003"
+  },
+  {
+    "source": "贾雨村",
+    "target": "门子",
+    "relation": "旧识(葫芦庙)",
+    "type": "其他",
+    "chapter": "004"
+  },
+  {
+    "source": "薛蟠",
+    "target": "甄英莲",
+    "relation": "买为侍妾",
+    "type": "其他",
+    "chapter": "004"
+  },
+  {
+    "source": "薛蟠",
+    "target": "冯渊",
+    "relation": "命案对手",
+    "type": "对立",
+    "chapter": "004"
+  },
+  {
+    "source": "冯渊",
+    "target": "甄英莲",
+    "relation": "定情未娶",
+    "type": "情感",
+    "chapter": "004"
+  },
+  {
+    "source": "甄英莲",
+    "target": "拐子",
+    "relation": "被拐养",
+    "type": "其他",
+    "chapter": "004"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛姨妈",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛宝钗",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "王夫人",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "王子腾",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "王夫人",
+    "target": "王子腾",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "贾政",
+    "target": "薛姨妈",
+    "relation": "姨兄妹(连襟)",
+    "type": "亲属",
+    "chapter": "004"
+  },
+  {
+    "source": "贾雨村",
+    "target": "薛蟠",
+    "relation": "徇私枉法维护",
+    "type": "其他",
+    "chapter": "004"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾府",
+    "relation": "现任族长",
+    "type": "其他",
+    "chapter": "004"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦可卿",
+    "relation": "梦中幻引",
+    "type": "情感",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "警幻仙姑",
+    "relation": "仙凡引导",
+    "type": "其他",
+    "chapter": "005"
+  },
+  {
+    "source": "宁国公",
+    "target": "警幻仙姑",
+    "relation": "托付教导宝玉",
+    "type": "其他",
+    "chapter": "005"
+  },
+  {
+    "source": "荣国公",
+    "target": "警幻仙姑",
+    "relation": "托付教导宝玉",
+    "type": "其他",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "秦可卿",
+    "target": "贾蓉",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆(贴身)",
+    "type": "主仆",
+    "chapter": "005"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "情敌/金玉之论",
+    "type": "对立",
+    "chapter": "005"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "王熙凤",
+    "relation": "打秋风求助",
+    "type": "其他",
+    "chapter": "006"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "板儿",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "王狗儿",
+    "relation": "岳母女婿",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "王狗儿",
+    "target": "王夫人",
+    "relation": "连宗远亲",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "王夫人",
+    "relation": "主仆(陪房)",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "刘姥姥",
+    "relation": "旧交引荐",
+    "type": "朋友",
+    "chapter": "006"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆(通房丫头)",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "贾蓉",
+    "target": "王熙凤",
+    "relation": "侄婶(借玻璃炕屏)",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "薛宝钗",
+    "relation": "送宫花",
+    "type": "其他",
+    "chapter": "007"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "周瑞家的",
+    "relation": "主仆往来",
+    "type": "其他",
+    "chapter": "007"
+  },
+  {
+    "source": "秦可卿",
+    "target": "秦钟",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "007"
+  },
+  {
+    "source": "秦钟",
+    "target": "秦业",
+    "relation": "父子(养)",
+    "type": "亲属",
+    "chapter": "007"
+  },
+  {
+    "source": "秦可卿",
+    "target": "秦业",
+    "relation": "父女(养)",
+    "type": "亲属",
+    "chapter": "007"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "好友",
+    "type": "朋友",
+    "chapter": "007"
+  },
+  {
+    "source": "王熙凤",
+    "target": "秦可卿",
+    "relation": "闺蜜(嫂子)",
+    "type": "朋友",
+    "chapter": "007"
+  },
+  {
+    "source": "焦大",
+    "target": "贾府",
+    "relation": "老仆(仗义直言)",
+    "type": "主仆",
+    "chapter": "007"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾宝玉",
+    "relation": "金玉之缘",
+    "type": "情感",
+    "chapter": "008"
+  },
+  {
+    "source": "莺儿",
+    "target": "薛宝钗",
+    "relation": "主仆(贴身丫鬟)",
+    "type": "主仆",
+    "chapter": "008"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "争风吃醋",
+    "type": "对立",
+    "chapter": "008"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李嬷嬷",
+    "relation": "主仆(奶娘管教)",
+    "type": "主仆",
+    "chapter": "008"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "008"
+  },
+  {
+    "source": "秦钟",
+    "target": "香怜",
+    "relation": "暧昧",
+    "type": "情感",
+    "chapter": "009"
+  },
+  {
+    "source": "金荣",
+    "target": "秦钟",
+    "relation": "学堂冲突",
+    "type": "对立",
+    "chapter": "009"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾府",
+    "relation": "族孙(代管学堂)",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾瑞",
+    "target": "薛蟠",
+    "relation": "附助讨好",
+    "type": "其他",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾珍",
+    "relation": "养育(玄孙)",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾蓉",
+    "relation": "堂兄弟(亲厚)",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "茗烟",
+    "target": "贾宝玉",
+    "relation": "主仆(小厮)",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "李贵",
+    "target": "贾宝玉",
+    "relation": "主仆(随从)",
+    "type": "主仆",
+    "chapter": "009"
+  },
+  {
+    "source": "贾代儒",
+    "target": "贾瑞",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "009"
+  },
+  {
+    "source": "金寡妇",
+    "target": "金荣",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "金寡妇",
+    "target": "贾珍",
+    "relation": "族亲求助",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾珍",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "010"
+  },
+  {
+    "source": "尤氏",
+    "target": "秦可卿",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "张友士",
+    "target": "秦可卿",
+    "relation": "诊病",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "冯紫英",
+    "target": "贾珍",
+    "relation": "世交好友",
+    "type": "朋友",
+    "chapter": "010"
+  },
+  {
+    "source": "冯紫英",
+    "target": "张友士",
+    "relation": "荐医",
+    "type": "其他",
+    "chapter": "010"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子(不管事)",
+    "type": "亲属",
+    "chapter": "010"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子(生日不归)",
+    "type": "亲属",
+    "chapter": "011"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦可卿",
+    "relation": "叔嫂(关切)",
+    "type": "亲属",
+    "chapter": "011"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾瑞",
+    "relation": "被调戏/设计报复",
+    "type": "对立",
+    "chapter": "011"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾瑞",
+    "relation": "设计陷害",
+    "type": "对立",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾代儒",
+    "relation": "祖孙(受管教)",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾蓉",
+    "relation": "被捉弄",
+    "type": "其他",
+    "chapter": "012"
+  },
+  {
+    "source": "贾瑞",
+    "target": "贾蔷",
+    "relation": "被捉弄",
+    "type": "其他",
+    "chapter": "012"
+  },
+  {
+    "source": "林如海",
+    "target": "贾琏",
+    "relation": "托孤(病逝)",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "贾琏",
+    "target": "林黛玉",
+    "relation": "护送回扬州",
+    "type": "亲属",
+    "chapter": "012"
+  },
+  {
+    "source": "秦可卿",
+    "target": "王熙凤",
+    "relation": "托梦(临终嘱咐)",
+    "type": "其他",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "秦可卿",
+    "relation": "公媳(哭丧过度)",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾珍",
+    "relation": "受托协理宁府",
+    "type": "其他",
+    "chapter": "013"
+  },
+  {
+    "source": "贾蓉",
+    "target": "秦可卿",
+    "relation": "夫妻(丧妻)",
+    "type": "夫妻",
+    "chapter": "013"
+  },
+  {
+    "source": "宝珠",
+    "target": "秦可卿",
+    "relation": "丫鬟(守灵)",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "瑞珠",
+    "target": "秦可卿",
+    "relation": "丫鬟(触柱)",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "王熙凤",
+    "target": "宁国府",
+    "relation": "协理治丧",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "北静王",
+    "target": "贾宝玉",
+    "relation": "赏识(赠鹡鸰念珠)",
+    "type": "朋友",
+    "chapter": "014"
+  },
+  {
+    "source": "秦钟",
+    "target": "智能",
+    "relation": "私情",
+    "type": "情感",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "净虚",
+    "relation": "受托办事(弄权)",
+    "type": "其他",
+    "chapter": "014"
+  },
+  {
+    "source": "来旺儿",
+    "target": "王熙凤",
+    "relation": "主仆(心腹)",
+    "type": "主仆",
+    "chapter": "014"
+  },
+  {
+    "source": "王熙凤",
+    "target": "张金哥",
+    "relation": "弄权害命",
+    "type": "对立",
+    "chapter": "015"
+  },
+  {
+    "source": "秦钟",
+    "target": "智能",
+    "relation": "私会(铁槛寺)",
+    "type": "情感",
+    "chapter": "015"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "密友",
+    "type": "朋友",
+    "chapter": "015"
+  },
+  {
+    "source": "王熙凤",
+    "target": "云光",
+    "relation": "借势施压",
+    "type": "其他",
+    "chapter": "015"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾府",
+    "relation": "封妃(凤藻宫)",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "秦钟",
+    "target": "贾宝玉",
+    "relation": "好友(病逝)",
+    "type": "朋友",
+    "chapter": "016"
+  },
+  {
+    "source": "秦业",
+    "target": "秦钟",
+    "relation": "父子(先后亡故)",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾琏",
+    "target": "赵嬷嬷",
+    "relation": "主仆(奶娘)",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾珍",
+    "relation": "受命采买戏班",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子(试才)",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾政",
+    "relation": "引导游园",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾母",
+    "relation": "祖孙(省亲)",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "王夫人",
+    "relation": "母女(省亲垂泪)",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾宝玉",
+    "relation": "姐弟(宠爱)",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "龄官",
+    "target": "贾蔷",
+    "relation": "戏班演员/管理",
+    "type": "其他",
+    "chapter": "017"
+  },
+  {
+    "source": "贾兰",
+    "target": "李纨",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "017"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆(亲密)",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "花袭人",
+    "target": "花自芳",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茜雪",
+    "relation": "主仆(被撵)",
+    "type": "主仆",
+    "chapter": "019"
+  },
+  {
+    "source": "李嬷嬷",
+    "target": "花袭人",
+    "relation": "嫉妒冲突",
+    "type": "对立",
+    "chapter": "019"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "互诉衷情",
+    "type": "情感",
+    "chapter": "020"
+  },
+  {
+    "source": "王熙凤",
+    "target": "赵姨娘",
+    "relation": "嫡庶冲突",
+    "type": "对立",
+    "chapter": "020"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "020"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾政",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "020"
+  },
+  {
+    "source": "麝月",
+    "target": "贾宝玉",
+    "relation": "主仆(贴身)",
+    "type": "主仆",
+    "chapter": "020"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "争吵和解",
+    "type": "情感",
+    "chapter": "021"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹(亲厚)",
+    "type": "亲属",
+    "chapter": "021"
+  },
+  {
+    "source": "花袭人",
+    "target": "史湘云",
+    "relation": "旧交(服侍过)",
+    "type": "其他",
+    "chapter": "021"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻(争吵)",
+    "type": "夫妻",
+    "chapter": "021"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆(听劝)",
+    "type": "主仆",
+    "chapter": "022"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾府",
+    "relation": "赐灯谜",
+    "type": "亲属",
+    "chapter": "022"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "史湘云",
+    "relation": "姐妹情谊",
+    "type": "朋友",
+    "chapter": "022"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "共读西厢",
+    "type": "情感",
+    "chapter": "023"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾府",
+    "relation": "命众姐妹入住大观园",
+    "type": "其他",
+    "chapter": "023"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "大观园",
+    "relation": "入住怡红院",
+    "type": "其他",
+    "chapter": "023"
+  },
+  {
+    "source": "林黛玉",
+    "target": "大观园",
+    "relation": "入住潇湘馆",
+    "type": "其他",
+    "chapter": "023"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "大观园",
+    "relation": "入住蘅芜苑",
+    "type": "其他",
+    "chapter": "023"
+  },
+  {
+    "source": "李纨",
+    "target": "大观园",
+    "relation": "入住稻香村",
+    "type": "其他",
+    "chapter": "023"
+  },
+  {
+    "source": "贾芸",
+    "target": "王熙凤",
+    "relation": "求差事",
+    "type": "其他",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾宝玉",
+    "relation": "攀认父子(谄媚)",
+    "type": "亲属",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "红玉",
+    "relation": "互生情愫",
+    "type": "情感",
+    "chapter": "024"
+  },
+  {
+    "source": "贾芸",
+    "target": "倪二",
+    "relation": "借银相助",
+    "type": "朋友",
+    "chapter": "024"
+  },
+  {
+    "source": "醉金刚倪二",
+    "target": "贾芸",
+    "relation": "义气资助",
+    "type": "朋友",
+    "chapter": "024"
+  },
+  {
+    "source": "贾环",
+    "target": "贾宝玉",
+    "relation": "兄弟(嫉妒陷害)",
+    "type": "对立",
+    "chapter": "025"
+  },
+  {
+    "source": "贾环",
+    "target": "彩霞",
+    "relation": "暧昧",
+    "type": "情感",
+    "chapter": "025"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "马道婆",
+    "relation": "合谋魇魔法",
+    "type": "对立",
+    "chapter": "025"
+  },
+  {
+    "source": "马道婆",
+    "target": "贾宝玉",
+    "relation": "施法加害",
+    "type": "对立",
+    "chapter": "025"
+  },
+  {
+    "source": "马道婆",
+    "target": "王熙凤",
+    "relation": "施法加害",
+    "type": "对立",
+    "chapter": "025"
+  },
+  {
+    "source": "癞头僧",
+    "target": "贾宝玉",
+    "relation": "持诵通灵玉救治",
+    "type": "其他",
+    "chapter": "025"
+  },
+  {
+    "source": "红玉",
+    "target": "贾芸",
+    "relation": "梦中相恋",
+    "type": "情感",
+    "chapter": "025"
+  },
+  {
+    "source": "贾环",
+    "target": "赵姨娘",
+    "relation": "母子(合谋)",
+    "type": "亲属",
+    "chapter": "025"
+  },
+  {
+    "source": "红玉",
+    "target": "贾芸",
+    "relation": "传帕定情",
+    "type": "情感",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "王熙凤",
+    "relation": "被凤姐赏识调用",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "葬花吟(惜花悲己)",
+    "type": "情感",
+    "chapter": "026"
+  },
+  {
+    "source": "坠儿",
+    "target": "红玉",
+    "relation": "丫鬟(传信)",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "葬花吟(知己伤感)",
+    "type": "情感",
+    "chapter": "027"
+  },
+  {
+    "source": "王熙凤",
+    "target": "红玉",
+    "relation": "赏识收用",
+    "type": "主仆",
+    "chapter": "027"
+  },
+  {
+    "source": "花袭人",
+    "target": "晴雯",
+    "relation": "同侍(暗中不和)",
+    "type": "对立",
+    "chapter": "027"
+  },
+  {
+    "source": "薛蟠",
+    "target": "冯紫英",
+    "relation": "酒肉朋友",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "薛蟠",
+    "target": "蒋玉菡",
+    "relation": "结交",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "蒋玉菡",
+    "relation": "互换汗巾结交",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "蒋玉菡",
+    "target": "花袭人",
+    "relation": "汗巾(伏线姻缘)",
+    "type": "情感",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "送旧帕传情",
+    "type": "情感",
+    "chapter": "028"
+  },
+  {
+    "source": "贾迎春",
+    "target": "司棋",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "029"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "大吵(砸玉剪穗)",
+    "type": "情感",
+    "chapter": "029"
+  },
+  {
+    "source": "张道士",
+    "target": "贾母",
+    "relation": "给宝玉提亲",
+    "type": "其他",
+    "chapter": "029"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "诉肺腑(知己)",
+    "type": "情感",
+    "chapter": "030"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "金钏",
+    "relation": "调戏(致死)",
+    "type": "其他",
+    "chapter": "030"
+  },
+  {
+    "source": "金钏",
+    "target": "王夫人",
+    "relation": "主仆(被撵)",
+    "type": "主仆",
+    "chapter": "030"
+  },
+  {
+    "source": "龄官",
+    "target": "贾蔷",
+    "relation": "相恋",
+    "type": "情感",
+    "chapter": "030"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "化敌为友(推心置腹)",
+    "type": "朋友",
+    "chapter": "031"
+  },
+  {
+    "source": "晴雯",
+    "target": "贾宝玉",
+    "relation": "主仆(撕扇)",
+    "type": "主仆",
+    "chapter": "031"
+  },
+  {
+    "source": "史湘云",
+    "target": "贾母",
+    "relation": "侄孙女(寄居)",
+    "type": "亲属",
+    "chapter": "031"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "共读(默契)",
+    "type": "情感",
+    "chapter": "032"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "诉肺腑之言",
+    "type": "情感",
+    "chapter": "032"
+  },
+  {
+    "source": "金钏",
+    "target": "王夫人",
+    "relation": "投井自尽",
+    "type": "对立",
+    "chapter": "032"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子(忧心)",
+    "type": "亲属",
+    "chapter": "032"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子(毒打)",
+    "type": "对立",
+    "chapter": "033"
+  },
+  {
+    "source": "忠顺王府",
+    "target": "贾宝玉",
+    "relation": "索要蒋玉菡",
+    "type": "对立",
+    "chapter": "033"
+  },
+  {
+    "source": "贾环",
+    "target": "贾政",
+    "relation": "告密(陷害宝玉)",
+    "type": "亲属",
+    "chapter": "033"
+  },
+  {
+    "source": "贾母",
+    "target": "贾政",
+    "relation": "母子(护宝玉)",
+    "type": "亲属",
+    "chapter": "033"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾宝玉",
+    "relation": "探伤送药",
+    "type": "情感",
+    "chapter": "034"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "哭探伤(深情)",
+    "type": "情感",
+    "chapter": "034"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛宝钗",
+    "relation": "兄妹(金玉冲突)",
+    "type": "对立",
+    "chapter": "034"
+  },
+  {
+    "source": "玉钏",
+    "target": "金钏",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "034"
+  },
+  {
+    "source": "王夫人",
+    "target": "花袭人",
+    "relation": "赏识(暗定姨娘)",
+    "type": "主仆",
+    "chapter": "035"
+  },
+  {
+    "source": "莺儿",
+    "target": "贾宝玉",
+    "relation": "打梅花络",
+    "type": "其他",
+    "chapter": "035"
+  },
+  {
+    "source": "秋纹",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "035"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "龄官",
+    "relation": "求唱被拒(悟情)",
+    "type": "其他",
+    "chapter": "036"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "教导(推心置腹)",
+    "type": "朋友",
+    "chapter": "037"
+  },
+  {
+    "source": "贾探春",
+    "target": "大观园",
+    "relation": "发起诗社",
+    "type": "其他",
+    "chapter": "037"
+  },
+  {
+    "source": "史湘云",
+    "target": "大观园",
+    "relation": "参加诗社",
+    "type": "其他",
+    "chapter": "037"
+  },
+  {
+    "source": "史湘云",
+    "target": "薛宝钗",
+    "relation": "受助办诗社",
+    "type": "朋友",
+    "chapter": "038"
+  },
+  {
+    "source": "贾母",
+    "target": "刘姥姥",
+    "relation": "欢宴招待",
+    "type": "其他",
+    "chapter": "038"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "贾母",
+    "relation": "二进荣府(席间逗趣)",
+    "type": "其他",
+    "chapter": "039"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "王熙凤",
+    "relation": "被取乐",
+    "type": "其他",
+    "chapter": "039"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "大观园",
+    "relation": "游览大观园",
+    "type": "其他",
+    "chapter": "040"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆(贴身)",
+    "type": "主仆",
+    "chapter": "040"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "王熙凤",
+    "relation": "合伙取笑刘姥姥",
+    "type": "其他",
+    "chapter": "040"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "贾宝玉",
+    "relation": "醉卧怡红院",
+    "type": "其他",
+    "chapter": "041"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾宝玉",
+    "relation": "雅交(品茶)",
+    "type": "朋友",
+    "chapter": "041"
+  },
+  {
+    "source": "妙玉",
+    "target": "林黛玉",
+    "relation": "品茶(嫌俗)",
+    "type": "其他",
+    "chapter": "041"
+  },
+  {
+    "source": "妙玉",
+    "target": "薛宝钗",
+    "relation": "品茶",
+    "type": "其他",
+    "chapter": "041"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "王熙凤",
+    "relation": "给巧姐取名",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "王熙凤",
+    "target": "巧姐",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "042"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "巧姐",
+    "relation": "取名缘分",
+    "type": "其他",
+    "chapter": "042"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "姐妹推心(论学问)",
+    "type": "朋友",
+    "chapter": "042"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾环",
+    "relation": "兄弟(赌气)",
+    "type": "对立",
+    "chapter": "043"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "凑份子办生日",
+    "type": "亲属",
+    "chapter": "043"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二家的",
+    "relation": "私通",
+    "type": "情感",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻(捉奸大闹)",
+    "type": "对立",
+    "chapter": "044"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆(误打)",
+    "type": "主仆",
+    "chapter": "044"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙(调解)",
+    "type": "亲属",
+    "chapter": "044"
+  },
+  {
+    "source": "鲍二家的",
+    "target": "贾琏",
+    "relation": "私通(吊死)",
+    "type": "其他",
+    "chapter": "044"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "金兰契(推心置腹)",
+    "type": "朋友",
+    "chapter": "045"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "送燕窝关怀",
+    "type": "朋友",
+    "chapter": "045"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "风雨夜探(送灯)",
+    "type": "情感",
+    "chapter": "045"
+  },
+  {
+    "source": "李纨",
+    "target": "贾探春",
+    "relation": "诗社合作",
+    "type": "朋友",
+    "chapter": "045"
+  },
+  {
+    "source": "贾赦",
+    "target": "鸳鸯",
+    "relation": "强纳为妾(被拒)",
+    "type": "对立",
+    "chapter": "046"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆(誓不嫁)",
+    "type": "主仆",
+    "chapter": "046"
+  },
+  {
+    "source": "贾赦",
+    "target": "邢夫人",
+    "relation": "夫妻(命妻说媒)",
+    "type": "夫妻",
+    "chapter": "046"
+  },
+  {
+    "source": "贾母",
+    "target": "贾赦",
+    "relation": "母子(斥责)",
+    "type": "对立",
+    "chapter": "046"
+  },
+  {
+    "source": "薛蟠",
+    "target": "柳湘莲",
+    "relation": "纠缠(被打)",
+    "type": "对立",
+    "chapter": "047"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "贾宝玉",
+    "relation": "侠义之交",
+    "type": "朋友",
+    "chapter": "047"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤二姐",
+    "relation": "暗通",
+    "type": "情感",
+    "chapter": "047"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤三姐",
+    "relation": "纠缠",
+    "type": "其他",
+    "chapter": "047"
+  },
+  {
+    "source": "薛蟠",
+    "target": "夏金桂",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "048"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛姨妈",
+    "relation": "母子(远行)",
+    "type": "亲属",
+    "chapter": "048"
+  },
+  {
+    "source": "林黛玉",
+    "target": "香菱",
+    "relation": "师生(教诗)",
+    "type": "师徒",
+    "chapter": "048"
+  },
+  {
+    "source": "香菱",
+    "target": "薛蟠",
+    "relation": "侍妾",
+    "type": "夫妻",
+    "chapter": "048"
+  },
+  {
+    "source": "香菱",
+    "target": "林黛玉",
+    "relation": "学诗成功",
+    "type": "师徒",
+    "chapter": "049"
+  },
+  {
+    "source": "邢岫烟",
+    "target": "贾府",
+    "relation": "投亲寄居",
+    "type": "其他",
+    "chapter": "049"
+  },
+  {
+    "source": "李纹",
+    "target": "贾府",
+    "relation": "投亲寄居",
+    "type": "其他",
+    "chapter": "049"
+  },
+  {
+    "source": "李绮",
+    "target": "贾府",
+    "relation": "投亲寄居",
+    "type": "其他",
+    "chapter": "049"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "薛宝钗",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "049"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "贾母",
+    "relation": "受宠爱",
+    "type": "其他",
+    "chapter": "049"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "芦雪庵联诗",
+    "type": "朋友",
+    "chapter": "050"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "梅翰林之子",
+    "relation": "已有婚约",
+    "type": "其他",
+    "chapter": "050"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "贾母",
+    "relation": "宠爱(求配宝玉)",
+    "type": "其他",
+    "chapter": "051"
+  },
+  {
+    "source": "晴雯",
+    "target": "贾宝玉",
+    "relation": "病补雀金裘",
+    "type": "主仆",
+    "chapter": "051"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "平儿",
+    "relation": "体贴关怀",
+    "type": "朋友",
+    "chapter": "052"
+  },
+  {
+    "source": "坠儿",
+    "target": "贾宝玉",
+    "relation": "主仆(偷窃被撵)",
+    "type": "主仆",
+    "chapter": "052"
+  },
+  {
+    "source": "晴雯",
+    "target": "坠儿",
+    "relation": "驱逐",
+    "type": "对立",
+    "chapter": "052"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆(同食同寝)",
+    "type": "主仆",
+    "chapter": "053"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾府",
+    "relation": "主持祭祖",
+    "type": "亲属",
+    "chapter": "053"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾珍",
+    "relation": "父子(除夕祭宗祠)",
+    "type": "亲属",
+    "chapter": "053"
+  },
+  {
+    "source": "贾母",
+    "target": "贾府",
+    "relation": "元宵夜宴主持",
+    "type": "亲属",
+    "chapter": "054"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "说笑话逗趣",
+    "type": "亲属",
+    "chapter": "054"
+  },
+  {
+    "source": "贾探春",
+    "target": "赵姨娘",
+    "relation": "母女(冲突)",
+    "type": "对立",
+    "chapter": "055"
+  },
+  {
+    "source": "贾探春",
+    "target": "王熙凤",
+    "relation": "代理管家",
+    "type": "其他",
+    "chapter": "055"
+  },
+  {
+    "source": "李纨",
+    "target": "贾探春",
+    "relation": "共管家务",
+    "type": "朋友",
+    "chapter": "055"
+  },
+  {
+    "source": "贾探春",
+    "target": "大观园",
+    "relation": "兴利除弊改革",
+    "type": "其他",
+    "chapter": "056"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾探春",
+    "relation": "协助改革(小惠全大体)",
+    "type": "朋友",
+    "chapter": "056"
+  },
+  {
+    "source": "紫鹃",
+    "target": "贾宝玉",
+    "relation": "试探(情辞试宝玉)",
+    "type": "其他",
+    "chapter": "057"
+  },
+  {
+    "source": "紫鹃",
+    "target": "林黛玉",
+    "relation": "主仆(忠心)",
+    "type": "主仆",
+    "chapter": "057"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "林黛玉",
+    "relation": "关爱(认干女儿)",
+    "type": "亲属",
+    "chapter": "057"
+  },
+  {
+    "source": "邢岫烟",
+    "target": "薛蝌",
+    "relation": "议婚",
+    "type": "情感",
+    "chapter": "057"
+  },
+  {
+    "source": "芳官",
+    "target": "贾宝玉",
+    "relation": "主仆(戏子入府)",
+    "type": "主仆",
+    "chapter": "058"
+  },
+  {
+    "source": "藕官",
+    "target": "药官",
+    "relation": "戏中情谊",
+    "type": "情感",
+    "chapter": "058"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆(庇护)",
+    "type": "主仆",
+    "chapter": "058"
+  },
+  {
+    "source": "春燕",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "059"
+  },
+  {
+    "source": "柳五儿",
+    "target": "柳家的",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "059"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "芳官",
+    "relation": "冲突",
+    "type": "对立",
+    "chapter": "060"
+  },
+  {
+    "source": "贾环",
+    "target": "贾琮",
+    "relation": "堂兄弟",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "柳家的",
+    "target": "秋纹",
+    "relation": "厨房争利",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "平儿",
+    "target": "贾宝玉",
+    "relation": "协助(瞒赃)",
+    "type": "其他",
+    "chapter": "061"
+  },
+  {
+    "source": "柳五儿",
+    "target": "贾宝玉",
+    "relation": "想入怡红院",
+    "type": "其他",
+    "chapter": "061"
+  },
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "主仆(行权判案)",
+    "type": "主仆",
+    "chapter": "061"
+  },
+  {
+    "source": "史湘云",
+    "target": "大观园",
+    "relation": "醉卧芍药裀",
+    "type": "其他",
+    "chapter": "062"
+  },
+  {
+    "source": "香菱",
+    "target": "贾宝玉",
+    "relation": "友善往来",
+    "type": "朋友",
+    "chapter": "062"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子(敬病逝)",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "寿宴(群芳夜宴)",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "贾宝玉",
+    "relation": "管理往来",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "林黛玉",
+    "target": "大观园",
+    "relation": "五美吟(悲题)",
+    "type": "其他",
+    "chapter": "064"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "暗中往来",
+    "type": "情感",
+    "chapter": "064"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "偷娶为妾",
+    "type": "夫妻",
+    "chapter": "065"
+  },
+  {
+    "source": "尤三姐",
+    "target": "柳湘莲",
+    "relation": "心许",
+    "type": "情感",
+    "chapter": "065"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤三姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾琏",
+    "relation": "合谋偷娶",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "尤老娘",
+    "target": "尤二姐",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "065"
+  },
+  {
+    "source": "尤三姐",
+    "target": "柳湘莲",
+    "relation": "自刎殉情",
+    "type": "情感",
+    "chapter": "066"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "尤三姐",
+    "relation": "悔婚(退鸳鸯剑)",
+    "type": "对立",
+    "chapter": "066"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "跛足道人",
+    "relation": "出家",
+    "type": "其他",
+    "chapter": "066"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻(暗查偷娶)",
+    "type": "对立",
+    "chapter": "067"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "送土仪",
+    "type": "朋友",
+    "chapter": "067"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤二姐",
+    "relation": "赚入大观园(设计)",
+    "type": "对立",
+    "chapter": "068"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾珍",
+    "relation": "大闹宁国府",
+    "type": "对立",
+    "chapter": "068"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤二姐",
+    "relation": "旧情",
+    "type": "其他",
+    "chapter": "068"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤二姐",
+    "relation": "借剑杀人(逼死)",
+    "type": "对立",
+    "chapter": "069"
+  },
+  {
+    "source": "尤二姐",
+    "target": "贾琏",
+    "relation": "吞金自尽",
+    "type": "夫妻",
+    "chapter": "069"
+  },
+  {
+    "source": "秋桐",
+    "target": "尤二姐",
+    "relation": "欺凌",
+    "type": "对立",
+    "chapter": "069"
+  },
+  {
+    "source": "林黛玉",
+    "target": "大观园",
+    "relation": "重建桃花社",
+    "type": "其他",
+    "chapter": "070"
+  },
+  {
+    "source": "史湘云",
+    "target": "大观园",
+    "relation": "柳絮词",
+    "type": "其他",
+    "chapter": "070"
+  },
+  {
+    "source": "贾母",
+    "target": "贾府",
+    "relation": "八旬大寿",
+    "type": "亲属",
+    "chapter": "071"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "司棋",
+    "relation": "撞见私情",
+    "type": "其他",
+    "chapter": "071"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾府",
+    "relation": "病重仍强撑",
+    "type": "其他",
+    "chapter": "072"
+  },
+  {
+    "source": "来旺妇",
+    "target": "彩霞",
+    "relation": "强聘(霸成亲)",
+    "type": "对立",
+    "chapter": "072"
+  },
+  {
+    "source": "傻大姐",
+    "target": "绣春囊",
+    "relation": "误拾",
+    "type": "其他",
+    "chapter": "073"
+  },
+  {
+    "source": "贾迎春",
+    "target": "司棋",
+    "relation": "主仆(不敢管)",
+    "type": "主仆",
+    "chapter": "073"
+  },
+  {
+    "source": "邢夫人",
+    "target": "王夫人",
+    "relation": "妯娌(借囊发难)",
+    "type": "对立",
+    "chapter": "073"
+  },
+  {
+    "source": "王善保家的",
+    "target": "王夫人",
+    "relation": "主仆(进谗)",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "王夫人",
+    "target": "大观园",
+    "relation": "抄检大观园",
+    "type": "对立",
+    "chapter": "074"
+  },
+  {
+    "source": "贾探春",
+    "target": "王善保家的",
+    "relation": "打耳光(抗争)",
+    "type": "对立",
+    "chapter": "074"
+  },
+  {
+    "source": "司棋",
+    "target": "潘又安",
+    "relation": "私情(被抄出)",
+    "type": "情感",
+    "chapter": "074"
+  },
+  {
+    "source": "贾惜春",
+    "target": "尤氏",
+    "relation": "绝交(杜绝宁府)",
+    "type": "对立",
+    "chapter": "074"
+  },
+  {
+    "source": "入画",
+    "target": "贾惜春",
+    "relation": "主仆(被逐)",
+    "type": "主仆",
+    "chapter": "074"
+  },
+  {
+    "source": "贾母",
+    "target": "贾府",
+    "relation": "中秋夜宴(悲音)",
+    "type": "亲属",
+    "chapter": "075"
+  },
+  {
+    "source": "林黛玉",
+    "target": "史湘云",
+    "relation": "联诗(凹晶馆)",
+    "type": "朋友",
+    "chapter": "076"
+  },
+  {
+    "source": "妙玉",
+    "target": "林黛玉",
+    "relation": "续诗(收尾)",
+    "type": "朋友",
+    "chapter": "076"
+  },
+  {
+    "source": "王夫人",
+    "target": "晴雯",
+    "relation": "驱逐(病中撵出)",
+    "type": "对立",
+    "chapter": "077"
+  },
+  {
+    "source": "晴雯",
+    "target": "贾宝玉",
+    "relation": "主仆(抱屈夭亡)",
+    "type": "情感",
+    "chapter": "077"
+  },
+  {
+    "source": "芳官",
+    "target": "贾宝玉",
+    "relation": "被逐出家",
+    "type": "主仆",
+    "chapter": "077"
+  },
+  {
+    "source": "四儿",
+    "target": "贾宝玉",
+    "relation": "主仆(被逐)",
+    "type": "主仆",
+    "chapter": "077"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "芙蓉诔(悼念)",
+    "type": "情感",
+    "chapter": "078"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子(考校)",
+    "type": "亲属",
+    "chapter": "078"
+  },
+  {
+    "source": "贾迎春",
+    "target": "孙绍祖",
+    "relation": "夫妻(误嫁)",
+    "type": "夫妻",
+    "chapter": "079"
+  },
+  {
+    "source": "薛蟠",
+    "target": "夏金桂",
+    "relation": "夫妻(悍妇)",
+    "type": "夫妻",
+    "chapter": "079"
+  },
+  {
+    "source": "孙绍祖",
+    "target": "贾赦",
+    "relation": "攀亲(旧债)",
+    "type": "亲属",
+    "chapter": "079"
+  },
+  {
+    "source": "夏金桂",
+    "target": "香菱",
+    "relation": "虐待",
+    "type": "对立",
+    "chapter": "080"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛蟠",
+    "relation": "夫妻(悍妇制夫)",
+    "type": "对立",
+    "chapter": "080"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛姨妈",
+    "relation": "婆媳不和",
+    "type": "对立",
+    "chapter": "080"
+  },
+  {
+    "source": "贾迎春",
+    "target": "王夫人",
+    "relation": "回门哭诉",
+    "type": "亲属",
+    "chapter": "080"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾府",
+    "relation": "染恙(病重)",
+    "type": "亲属",
+    "chapter": "083"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛宝钗",
+    "relation": "妯娌冲突",
+    "type": "对立",
+    "chapter": "083"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "议亲",
+    "type": "情感",
+    "chapter": "084"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "试文(提亲)",
+    "type": "亲属",
+    "chapter": "084"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾宝玉",
+    "relation": "走火入魔",
+    "type": "情感",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "抚琴悲往事",
+    "type": "情感",
+    "chapter": "087"
+  },
+  {
+    "source": "宝蟾",
+    "target": "薛蟠",
+    "relation": "侍妾(设计)",
+    "type": "情感",
+    "chapter": "091"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "妄谈禅(试探)",
+    "type": "情感",
+    "chapter": "091"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾府",
+    "relation": "薨逝",
+    "type": "亲属",
+    "chapter": "095"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "通灵玉",
+    "relation": "丢失(疯癫)",
+    "type": "其他",
+    "chapter": "095"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "设掉包计",
+    "type": "对立",
+    "chapter": "096"
+  },
+  {
+    "source": "王熙凤",
+    "target": "薛宝钗",
+    "relation": "设计成婚",
+    "type": "其他",
+    "chapter": "096"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "得知成婚消息(迷本性)",
+    "type": "情感",
+    "chapter": "096"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "焚稿断情(泪尽而亡)",
+    "type": "情感",
+    "chapter": "097"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾宝玉",
+    "relation": "出闺成大礼(成婚)",
+    "type": "夫妻",
+    "chapter": "097"
+  },
+  {
+    "source": "紫鹃",
+    "target": "林黛玉",
+    "relation": "主仆(守候至终)",
+    "type": "主仆",
+    "chapter": "097"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "魂归离恨天",
+    "type": "情感",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "得知死讯(泪洒)",
+    "type": "情感",
+    "chapter": "098"
+  },
+  {
+    "source": "夏金桂",
+    "target": "香菱",
+    "relation": "毒计反噬自焚",
+    "type": "对立",
+    "chapter": "103"
+  },
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "旧友重遇(不识)",
+    "type": "朋友",
+    "chapter": "103"
+  },
+  {
+    "source": "锦衣军",
+    "target": "贾府",
+    "relation": "查抄宁国府",
+    "type": "对立",
+    "chapter": "105"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾府",
+    "relation": "获罪(被抄)",
+    "type": "亲属",
+    "chapter": "105"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾府",
+    "relation": "获罪(被抄)",
+    "type": "亲属",
+    "chapter": "105"
+  },
+  {
+    "source": "贾母",
+    "target": "贾府",
+    "relation": "散馀资(明大义)",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾政",
+    "target": "贾府",
+    "relation": "复世职(沐天恩)",
+    "type": "亲属",
+    "chapter": "107"
+  },
+  {
+    "source": "贾母",
+    "target": "贾府",
+    "relation": "寿终",
+    "type": "亲属",
+    "chapter": "110"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾府",
+    "relation": "力诎失人心",
+    "type": "其他",
+    "chapter": "110"
+  },
+  {
+    "source": "贾迎春",
+    "target": "孙绍祖",
+    "relation": "受虐而亡",
+    "type": "对立",
+    "chapter": "109"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "殉主(上吊)",
+    "type": "主仆",
+    "chapter": "111"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾府",
+    "relation": "遭劫被掳",
+    "type": "对立",
+    "chapter": "112"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾政",
+    "relation": "妾室(病亡)",
+    "type": "亲属",
+    "chapter": "112"
+  },
+  {
+    "source": "王熙凤",
+    "target": "刘姥姥",
+    "relation": "托孤(巧姐)",
+    "type": "其他",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾府",
+    "relation": "病逝",
+    "type": "亲属",
+    "chapter": "114"
+  },
+  {
+    "source": "甄应嘉",
+    "target": "贾府",
+    "relation": "世交(还玉阙)",
+    "type": "朋友",
+    "chapter": "114"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "巧姐",
+    "relation": "救出火坑",
+    "type": "其他",
+    "chapter": "119"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻(出家)",
+    "type": "夫妻",
+    "chapter": "119"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "中举后出家",
+    "type": "亲属",
+    "chapter": "119"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "癞头僧",
+    "relation": "随僧出家",
+    "type": "其他",
+    "chapter": "119"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾宝玉",
+    "relation": "叔侄同中举",
+    "type": "亲属",
+    "chapter": "119"
+  },
+  {
+    "source": "甄士隐",
+    "target": "贾雨村",
+    "relation": "归结红楼梦",
+    "type": "朋友",
+    "chapter": "120"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾府",
+    "relation": "获罪充军",
+    "type": "其他",
+    "chapter": "120"
+  },
+  {
+    "source": "花袭人",
+    "target": "蒋玉菡",
+    "relation": "夫妻(嫁)",
+    "type": "夫妻",
+    "chapter": "120"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "迎春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李纹",
+    "relation": "表亲",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李绮",
+    "relation": "表亲",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "邢岫烟",
+    "relation": "表亲",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李贵",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾代儒",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "081"
+  },
+  {
+    "source": "王夫人",
+    "target": "迎春",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾政",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "081"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾母",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "王夫人",
+    "target": "凤姐",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾母",
+    "target": "凤姐",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾母",
+    "target": "琥珀",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾政",
+    "target": "贾代儒",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "081"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "凤姐",
+    "target": "王夫人",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "081"
+  },
+  {
+    "source": "探春",
+    "target": "侍书",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "李纹",
+    "target": "素云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "081"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "马道婆",
+    "relation": "干亲",
+    "type": "其他",
+    "chapter": "081"
+  },
+  {
+    "source": "马道婆",
+    "target": "赵姨娘",
+    "relation": "同谋",
+    "type": "其他",
+    "chapter": "081"
+  },
+  {
+    "source": "贾政",
+    "target": "迎春",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "081"
+  }
+]

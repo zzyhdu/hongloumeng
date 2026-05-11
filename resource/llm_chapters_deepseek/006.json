@@ -1,0 +1,163 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "秦可卿",
+    "relation": "侄媳",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "狗儿",
+    "relation": "岳母与女婿",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "刘氏",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "板儿",
+    "relation": "外祖母与外孙",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "狗儿",
+    "target": "刘氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "006"
+  },
+  {
+    "source": "狗儿",
+    "target": "板儿",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "狗儿",
+    "target": "青儿",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘氏",
+    "target": "板儿",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "刘氏",
+    "target": "青儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "王成",
+    "target": "狗儿",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "王夫人",
+    "target": "凤姐",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾政",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "006"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "006"
+  },
+  {
+    "source": "凤姐",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾蓉",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "凤姐",
+    "target": "贾母",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "刘姥姥",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "凤姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "王夫人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "006"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾珍",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "006"
+  },
+  {
+    "source": "贾蓉",
+    "target": "凤姐",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "006"
+  }
+]

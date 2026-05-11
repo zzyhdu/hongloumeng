@@ -1,0 +1,128 @@
+[
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母与孙子",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾母",
+    "target": "贾迎春",
+    "relation": "祖母与孙女",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾母",
+    "target": "贾探春",
+    "relation": "祖母与孙女",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾母",
+    "target": "贾惜春",
+    "relation": "祖母与孙女",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "005"
+  },
+  {
+    "source": "贾蓉",
+    "target": "秦氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "005"
+  },
+  {
+    "source": "贾母",
+    "target": "秦氏",
+    "relation": "曾祖母与曾孙媳",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦氏",
+    "relation": "叔叔与侄媳",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "媚人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "005"
+  },
+  {
+    "source": "警幻仙姑",
+    "target": "贾宝玉",
+    "relation": "引导者与被引导者",
+    "type": "其他",
+    "chapter": "005"
+  },
+  {
+    "source": "警幻仙姑",
+    "target": "兼美",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "005"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "兼美",
+    "relation": "梦中夫妻",
+    "type": "情感",
+    "chapter": "005"
+  }
+]

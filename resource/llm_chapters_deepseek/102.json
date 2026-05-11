@@ -1,0 +1,205 @@
+[
+  {
+    "source": "王夫人",
+    "target": "薛宝钗",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾探春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾探春",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "王熙凤",
+    "target": "柳家媳妇",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "102"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "102"
+  },
+  {
+    "source": "王夫人",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝琴",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李纨",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾珍",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "102"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾蓉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾蓉",
+    "target": "毛半仙",
+    "relation": "主客",
+    "type": "其他",
+    "chapter": "102"
+  },
+  {
+    "source": "贾珍",
+    "target": "王熙凤",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾蓉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "102"
+  },
+  {
+    "source": "晴雯",
+    "target": "吴贵",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "吴贵",
+    "target": "吴贵媳妇",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "102"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾宝玉",
+    "relation": "伯父与侄子",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "102"
+  },
+  {
+    "source": "贾琏",
+    "target": "王夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾政",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "102"
+  },
+  {
+    "source": "贾政",
+    "target": "贾探春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "102"
+  }
+]

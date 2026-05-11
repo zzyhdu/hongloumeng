@@ -5,6 +5,7 @@ import { useBookmarks, type Bookmark } from './hooks/useBookmarks';
 import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
+import { RelationshipGraph } from './components/graph/RelationshipGraph';
 import { cn } from './lib/utils';
 import { X, Minimize2 } from 'lucide-react';
 
@@ -29,6 +30,7 @@ export default function App() {
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
   const [zenMode, setZenMode] = useState(false);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
+  const [showGraph, setShowGraph] = useState(false);
   const [currentPercentage, setCurrentPercentage] = useState(0);
   const [scrollRequest, setScrollRequest] = useState<{ percentage: number; timestamp: number } | undefined>(undefined);
 
@@ -98,6 +100,7 @@ export default function App() {
           setFontSizeIndex={setFontSizeIndex}
           isBookmarked={currentVersion && currentChapter ? isChapterBookmarked(currentVersion.id, currentChapter.id) : false}
           onToggleBookmark={handleToggleBookmark}
+          onShowGraph={() => setShowGraph(true)}
         />
       </div>
 
@@ -275,6 +278,15 @@ export default function App() {
             scrollRequest={scrollRequest}
             onProgressChange={setCurrentPercentage}
           />
+          
+          <AnimatePresence>
+            {showGraph && (
+              <RelationshipGraph
+                resourceBase={RESOURCE_BASE}
+                onClose={() => setShowGraph(false)}
+              />
+            )}
+          </AnimatePresence>
         </main>
       </div>
     </div>

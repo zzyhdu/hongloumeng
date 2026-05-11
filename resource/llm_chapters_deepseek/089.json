@@ -1,0 +1,135 @@
+[
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "089"
+  },
+  {
+    "source": "贾珍",
+    "target": "王夫人",
+    "relation": "侄媳与婶母",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾代儒",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "林黛玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "089"
+  },
+  {
+    "source": "紫鹃",
+    "target": "雪雁",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "089"
+  },
+  {
+    "source": "雪雁",
+    "target": "侍书",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "089"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "林黛玉",
+    "relation": "姨母与外甥女",
+    "type": "亲属",
+    "chapter": "089"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "089"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "王熙凤",
+    "target": "秦可卿",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "秦可卿",
+    "relation": "公公与儿媳",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾敬",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "王熙凤",
+    "relation": "堂兄妹",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "邢夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾珍",
+    "target": "王夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾蓉",
+    "target": "秦可卿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "013"
+  },
+  {
+    "source": "秦可卿",
+    "target": "瑞珠",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "秦可卿",
+    "target": "宝珠",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "013"
+  },
+  {
+    "source": "秦业",
+    "target": "秦可卿",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "秦业",
+    "target": "秦钟",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "秦钟",
+    "target": "秦可卿",
+    "relation": "姐弟",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "薛蟠",
+    "target": "贾珍",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "013"
+  },
+  {
+    "source": "戴权",
+    "target": "贾珍",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "013"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "013"
+  },
+  {
+    "source": "贾赦",
+    "target": "邢夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "013"
+  },
+  {
+    "source": "王夫人",
+    "target": "王熙凤",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "邢夫人",
+    "target": "王熙凤",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾珍",
+    "relation": "堂兄弟",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王熙凤",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秦可卿",
+    "relation": "侄与婶",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "尤氏",
+    "target": "尤氏姊妹",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "013"
+  },
+  {
+    "source": "史鼎",
+    "target": "史鼎夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "013"
+  }
+]

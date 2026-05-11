@@ -1,0 +1,317 @@
+[
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "旧日相交的朋友",
+    "type": "朋友",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "娇杏",
+    "relation": "纳为二房后扶正为妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "封肃",
+    "relation": "通过封肃娶娇杏",
+    "type": "其他",
+    "chapter": "002"
+  },
+  {
+    "source": "甄士隐",
+    "target": "封肃",
+    "relation": "翁婿",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "甄士隐",
+    "target": "甄家娘子",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "甄士隐",
+    "target": "娇杏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "002"
+  },
+  {
+    "source": "甄士隐",
+    "target": "甄英莲",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "甄家娘子",
+    "target": "甄英莲",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "林如海",
+    "target": "贾敏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "林如海",
+    "target": "林黛玉",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "林黛玉",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "林如海",
+    "relation": "西宾与东家",
+    "type": "其他",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "林黛玉",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "002"
+  },
+  {
+    "source": "贾雨村",
+    "target": "冷子兴",
+    "relation": "旧日相识的朋友",
+    "type": "朋友",
+    "chapter": "002"
+  },
+  {
+    "source": "宁国公",
+    "target": "荣国公",
+    "relation": "一母同胞的兄弟",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "宁国公",
+    "target": "贾代化",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代化",
+    "target": "贾敷",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代化",
+    "target": "贾敬",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "荣国公",
+    "target": "贾代善",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾母",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾赦",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾代善",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾赦",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾政",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母与孙子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾母",
+    "target": "贾敏",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾琏",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾迎春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珠",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾元春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾政",
+    "target": "贾探春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾珠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾元春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾珠",
+    "target": "贾兰",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "002"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "内侄女与姑母",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "贾赦",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "贾敏",
+    "target": "贾政",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "002"
+  },
+  {
+    "source": "甄家",
+    "target": "贾府",
+    "relation": "老亲世交",
+    "type": "其他",
+    "chapter": "002"
+  }
+]

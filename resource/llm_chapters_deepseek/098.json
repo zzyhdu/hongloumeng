@@ -1,0 +1,149 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "098"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "098"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛姨妈",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "098"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "098"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾母",
+    "relation": "外孙女与外祖母",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "林黛玉",
+    "target": "李纨",
+    "relation": "表嫂",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "林黛玉",
+    "target": "探春",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "贾母",
+    "target": "薛姨妈",
+    "relation": "亲家",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛姨妈",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾母",
+    "relation": "孙媳",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "侄女",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "李纨",
+    "target": "探春",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "098"
+  },
+  {
+    "source": "紫鹃",
+    "target": "雪雁",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "098"
+  },
+  {
+    "source": "毕知庵",
+    "target": "贾宝玉",
+    "relation": "医患",
+    "type": "其他",
+    "chapter": "098"
+  }
+]

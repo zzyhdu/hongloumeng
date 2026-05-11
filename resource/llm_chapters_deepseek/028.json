@@ -1,0 +1,219 @@
+[
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "林黛玉",
+    "target": "王夫人",
+    "relation": "舅母与外甥女",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "蒋玉菡",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛蟠",
+    "relation": "表兄弟",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "冯紫英",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王熙凤",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾宝玉",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "薛蟠",
+    "target": "云儿",
+    "relation": "嫖客与妓女",
+    "type": "其他",
+    "chapter": "028"
+  },
+  {
+    "source": "薛蟠",
+    "target": "蒋玉菡",
+    "relation": "酒席相识",
+    "type": "其他",
+    "chapter": "028"
+  },
+  {
+    "source": "薛蟠",
+    "target": "冯紫英",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "蒋玉菡",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "锄药",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "双瑞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "双寿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫绡",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛宝钗",
+    "relation": "姨母与外甥女",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "王夫人",
+    "relation": "姨母与外甥女",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "红玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "王熙凤",
+    "target": "红玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "028"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "028"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "028"
+  }
+]

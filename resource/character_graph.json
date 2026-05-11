@@ -1,0 +1,1400 @@
+{
+  "nodes": [
+    {
+      "id": "贾宝玉",
+      "name": "贾宝玉",
+      "value": 4063
+    },
+    {
+      "id": "林黛玉",
+      "name": "林黛玉",
+      "value": 1490
+    },
+    {
+      "id": "薛宝钗",
+      "name": "薛宝钗",
+      "value": 1155
+    },
+    {
+      "id": "王熙凤",
+      "name": "王熙凤",
+      "value": 1851
+    },
+    {
+      "id": "贾母",
+      "name": "贾母",
+      "value": 2663
+    },
+    {
+      "id": "贾政",
+      "name": "贾政",
+      "value": 1574
+    },
+    {
+      "id": "王夫人",
+      "name": "王夫人",
+      "value": 1947
+    },
+    {
+      "id": "邢夫人",
+      "name": "邢夫人",
+      "value": 343
+    },
+    {
+      "id": "贾琏",
+      "name": "贾琏",
+      "value": 806
+    },
+    {
+      "id": "贾探春",
+      "name": "贾探春",
+      "value": 482
+    },
+    {
+      "id": "贾迎春",
+      "name": "贾迎春",
+      "value": 160
+    },
+    {
+      "id": "贾惜春",
+      "name": "贾惜春",
+      "value": 224
+    },
+    {
+      "id": "史湘云",
+      "name": "史湘云",
+      "value": 422
+    },
+    {
+      "id": "妙玉",
+      "name": "妙玉",
+      "value": 153
+    },
+    {
+      "id": "香菱",
+      "name": "香菱",
+      "value": 279
+    },
+    {
+      "id": "晴雯",
+      "name": "晴雯",
+      "value": 343
+    },
+    {
+      "id": "花袭人",
+      "name": "花袭人",
+      "value": 1171
+    },
+    {
+      "id": "平儿",
+      "name": "平儿",
+      "value": 692
+    },
+    {
+      "id": "紫鹃",
+      "name": "紫鹃",
+      "value": 438
+    },
+    {
+      "id": "鸳鸯",
+      "name": "鸳鸯",
+      "value": 414
+    },
+    {
+      "id": "薛蟠",
+      "name": "薛蟠",
+      "value": 287
+    },
+    {
+      "id": "刘姥姥",
+      "name": "刘姥姥",
+      "value": 289
+    },
+    {
+      "id": "尤二姐",
+      "name": "尤二姐",
+      "value": 91
+    },
+    {
+      "id": "尤三姐",
+      "name": "尤三姐",
+      "value": 34
+    },
+    {
+      "id": "秦可卿",
+      "name": "秦可卿",
+      "value": 5
+    },
+    {
+      "id": "贾赦",
+      "name": "贾赦",
+      "value": 100
+    }
+  ],
+  "edges": [
+    {
+      "source": "王夫人",
+      "target": "贾探春",
+      "value": 80
+    },
+    {
+      "source": "平儿",
+      "target": "王夫人",
+      "value": 108
+    },
+    {
+      "source": "王夫人",
+      "target": "王熙凤",
+      "value": 342,
+      "relationType": "姑侄"
+    },
+    {
+      "source": "平儿",
+      "target": "贾探春",
+      "value": 54
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾探春",
+      "value": 62
+    },
+    {
+      "source": "平儿",
+      "target": "王熙凤",
+      "value": 171,
+      "relationType": "主仆"
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾母",
+      "value": 368
+    },
+    {
+      "source": "贾探春",
+      "target": "贾母",
+      "value": 101
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾母",
+      "value": 204
+    },
+    {
+      "source": "王夫人",
+      "target": "贾母",
+      "value": 474
+    },
+    {
+      "source": "王熙凤",
+      "target": "薛宝钗",
+      "value": 121
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾探春",
+      "value": 102
+    },
+    {
+      "source": "王夫人",
+      "target": "薛宝钗",
+      "value": 204,
+      "relationType": "姨侄女"
+    },
+    {
+      "source": "史湘云",
+      "target": "林黛玉",
+      "value": 115,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "史湘云",
+      "target": "贾探春",
+      "value": 49
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾探春",
+      "value": 99,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "花袭人",
+      "target": "贾母",
+      "value": 151
+    },
+    {
+      "source": "花袭人",
+      "target": "贾探春",
+      "value": 40
+    },
+    {
+      "source": "王夫人",
+      "target": "花袭人",
+      "value": 162
+    },
+    {
+      "source": "平儿",
+      "target": "薛宝钗",
+      "value": 43
+    },
+    {
+      "source": "平儿",
+      "target": "贾母",
+      "value": 87
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾母",
+      "value": 473
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾探春",
+      "value": 124
+    },
+    {
+      "source": "平儿",
+      "target": "花袭人",
+      "value": 63
+    },
+    {
+      "source": "花袭人",
+      "target": "贾宝玉",
+      "value": 373,
+      "relationType": "主仆"
+    },
+    {
+      "source": "平儿",
+      "target": "贾宝玉",
+      "value": 68
+    },
+    {
+      "source": "王夫人",
+      "target": "贾宝玉",
+      "value": 396,
+      "relationType": "母子"
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾母",
+      "value": 218,
+      "relationType": "祖孙"
+    },
+    {
+      "source": "贾母",
+      "target": "贾迎春",
+      "value": 53
+    },
+    {
+      "source": "贾政",
+      "target": "贾母",
+      "value": 242,
+      "relationType": "母子"
+    },
+    {
+      "source": "贾惜春",
+      "target": "贾母",
+      "value": 51
+    },
+    {
+      "source": "林黛玉",
+      "target": "王熙凤",
+      "value": 106
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾迎春",
+      "value": 37
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾政",
+      "value": 120
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾宝玉",
+      "value": 235
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾惜春",
+      "value": 37
+    },
+    {
+      "source": "贾探春",
+      "target": "贾迎春",
+      "value": 45
+    },
+    {
+      "source": "贾探春",
+      "target": "贾政",
+      "value": 35,
+      "relationType": "父女"
+    },
+    {
+      "source": "贾惜春",
+      "target": "贾探春",
+      "value": 50
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾迎春",
+      "value": 44,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾政",
+      "value": 57,
+      "relationType": "舅甥"
+    },
+    {
+      "source": "林黛玉",
+      "target": "王夫人",
+      "value": 143
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾宝玉",
+      "value": 418,
+      "relationType": "表兄妹"
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾惜春",
+      "value": 38,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "贾政",
+      "target": "贾迎春",
+      "value": 20
+    },
+    {
+      "source": "王夫人",
+      "target": "贾迎春",
+      "value": 52
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾迎春",
+      "value": 57
+    },
+    {
+      "source": "贾惜春",
+      "target": "贾迎春",
+      "value": 37
+    },
+    {
+      "source": "王夫人",
+      "target": "贾政",
+      "value": 220,
+      "relationType": "夫妻"
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾政",
+      "value": 274,
+      "relationType": "父子"
+    },
+    {
+      "source": "贾惜春",
+      "target": "贾政",
+      "value": 25,
+      "relationType": "侄女"
+    },
+    {
+      "source": "王夫人",
+      "target": "贾惜春",
+      "value": 48
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾惜春",
+      "value": 54
+    },
+    {
+      "source": "王熙凤",
+      "target": "贾琏",
+      "value": 136,
+      "relationType": "夫妻"
+    },
+    {
+      "source": "薛蟠",
+      "target": "贾琏",
+      "value": 14
+    },
+    {
+      "source": "贾政",
+      "target": "贾琏",
+      "value": 109
+    },
+    {
+      "source": "王夫人",
+      "target": "贾琏",
+      "value": 103
+    },
+    {
+      "source": "王熙凤",
+      "target": "薛蟠",
+      "value": 6
+    },
+    {
+      "source": "薛蟠",
+      "target": "贾政",
+      "value": 17
+    },
+    {
+      "source": "王夫人",
+      "target": "薛蟠",
+      "value": 21,
+      "relationType": "姨侄"
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾政",
+      "value": 73
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾惜春",
+      "value": 49
+    },
+    {
+      "source": "薛蟠",
+      "target": "贾母",
+      "value": 20
+    },
+    {
+      "source": "薛宝钗",
+      "target": "薛蟠",
+      "value": 33,
+      "relationType": "兄妹"
+    },
+    {
+      "source": "林黛玉",
+      "target": "薛宝钗",
+      "value": 254,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾宝玉",
+      "value": 329,
+      "relationType": "表姐弟"
+    },
+    {
+      "source": "林黛玉",
+      "target": "薛蟠",
+      "value": 8
+    },
+    {
+      "source": "薛蟠",
+      "target": "贾宝玉",
+      "value": 33
+    },
+    {
+      "source": "花袭人",
+      "target": "薛蟠",
+      "value": 8
+    },
+    {
+      "source": "林黛玉",
+      "target": "花袭人",
+      "value": 102
+    },
+    {
+      "source": "林黛玉",
+      "target": "紫鹃",
+      "value": 111,
+      "relationType": "主仆"
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾宝玉",
+      "value": 105
+    },
+    {
+      "source": "紫鹃",
+      "target": "薛宝钗",
+      "value": 33
+    },
+    {
+      "source": "王夫人",
+      "target": "紫鹃",
+      "value": 40
+    },
+    {
+      "source": "晴雯",
+      "target": "花袭人",
+      "value": 97
+    },
+    {
+      "source": "平儿",
+      "target": "晴雯",
+      "value": 11
+    },
+    {
+      "source": "晴雯",
+      "target": "贾宝玉",
+      "value": 151,
+      "relationType": "主仆"
+    },
+    {
+      "source": "晴雯",
+      "target": "贾母",
+      "value": 45
+    },
+    {
+      "source": "晴雯",
+      "target": "王夫人",
+      "value": 55
+    },
+    {
+      "source": "晴雯",
+      "target": "贾探春",
+      "value": 11
+    },
+    {
+      "source": "晴雯",
+      "target": "薛宝钗",
+      "value": 18
+    },
+    {
+      "source": "晴雯",
+      "target": "林黛玉",
+      "value": 25
+    },
+    {
+      "source": "晴雯",
+      "target": "香菱",
+      "value": 7
+    },
+    {
+      "source": "贾探春",
+      "target": "香菱",
+      "value": 19
+    },
+    {
+      "source": "花袭人",
+      "target": "薛宝钗",
+      "value": 116
+    },
+    {
+      "source": "花袭人",
+      "target": "香菱",
+      "value": 14
+    },
+    {
+      "source": "薛宝钗",
+      "target": "香菱",
+      "value": 56,
+      "relationType": "主仆"
+    },
+    {
+      "source": "林黛玉",
+      "target": "香菱",
+      "value": 35
+    },
+    {
+      "source": "史湘云",
+      "target": "贾宝玉",
+      "value": 114,
+      "relationType": "表兄妹"
+    },
+    {
+      "source": "史湘云",
+      "target": "薛宝钗",
+      "value": 104,
+      "relationType": "表姐妹"
+    },
+    {
+      "source": "史湘云",
+      "target": "香菱",
+      "value": 18
+    },
+    {
+      "source": "贾宝玉",
+      "target": "香菱",
+      "value": 37
+    },
+    {
+      "source": "妙玉",
+      "target": "花袭人",
+      "value": 7
+    },
+    {
+      "source": "妙玉",
+      "target": "贾宝玉",
+      "value": 27,
+      "relationType": "知己"
+    },
+    {
+      "source": "妙玉",
+      "target": "晴雯",
+      "value": 2
+    },
+    {
+      "source": "妙玉",
+      "target": "薛宝钗",
+      "value": 12
+    },
+    {
+      "source": "妙玉",
+      "target": "林黛玉",
+      "value": 16
+    },
+    {
+      "source": "史湘云",
+      "target": "平儿",
+      "value": 17
+    },
+    {
+      "source": "平儿",
+      "target": "香菱",
+      "value": 10
+    },
+    {
+      "source": "尤三姐",
+      "target": "尤二姐",
+      "value": 5,
+      "relationType": "姐妹"
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾政",
+      "value": 4
+    },
+    {
+      "source": "贾母",
+      "target": "鸳鸯",
+      "value": 124,
+      "relationType": "主仆"
+    },
+    {
+      "source": "贾母",
+      "target": "邢夫人",
+      "value": 126
+    },
+    {
+      "source": "王熙凤",
+      "target": "鸳鸯",
+      "value": 76
+    },
+    {
+      "source": "薛宝钗",
+      "target": "鸳鸯",
+      "value": 27
+    },
+    {
+      "source": "邢夫人",
+      "target": "鸳鸯",
+      "value": 34
+    },
+    {
+      "source": "贾政",
+      "target": "鸳鸯",
+      "value": 47
+    },
+    {
+      "source": "王夫人",
+      "target": "鸳鸯",
+      "value": 79
+    },
+    {
+      "source": "贾宝玉",
+      "target": "鸳鸯",
+      "value": 64
+    },
+    {
+      "source": "王熙凤",
+      "target": "邢夫人",
+      "value": 99
+    },
+    {
+      "source": "薛宝钗",
+      "target": "邢夫人",
+      "value": 35
+    },
+    {
+      "source": "贾政",
+      "target": "邢夫人",
+      "value": 66
+    },
+    {
+      "source": "王夫人",
+      "target": "邢夫人",
+      "value": 137
+    },
+    {
+      "source": "贾宝玉",
+      "target": "邢夫人",
+      "value": 64
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾琏",
+      "value": 26
+    },
+    {
+      "source": "贾琏",
+      "target": "邢夫人",
+      "value": 38
+    },
+    {
+      "source": "贾宝玉",
+      "target": "贾琏",
+      "value": 72
+    },
+    {
+      "source": "贾惜春",
+      "target": "贾琏",
+      "value": 7
+    },
+    {
+      "source": "贾惜春",
+      "target": "邢夫人",
+      "value": 13
+    },
+    {
+      "source": "贾母",
+      "target": "贾琏",
+      "value": 116
+    },
+    {
+      "source": "贾琏",
+      "target": "鸳鸯",
+      "value": 32
+    },
+    {
+      "source": "平儿",
+      "target": "鸳鸯",
+      "value": 38
+    },
+    {
+      "source": "平儿",
+      "target": "邢夫人",
+      "value": 37
+    },
+    {
+      "source": "平儿",
+      "target": "贾政",
+      "value": 41
+    },
+    {
+      "source": "贾探春",
+      "target": "鸳鸯",
+      "value": 16
+    },
+    {
+      "source": "贾探春",
+      "target": "邢夫人",
+      "value": 15
+    },
+    {
+      "source": "史湘云",
+      "target": "贾母",
+      "value": 84,
+      "relationType": "姑侄孙"
+    },
+    {
+      "source": "史湘云",
+      "target": "鸳鸯",
+      "value": 16
+    },
+    {
+      "source": "林黛玉",
+      "target": "鸳鸯",
+      "value": 23
+    },
+    {
+      "source": "晴雯",
+      "target": "贾政",
+      "value": 9
+    },
+    {
+      "source": "花袭人",
+      "target": "贾政",
+      "value": 78
+    },
+    {
+      "source": "史湘云",
+      "target": "花袭人",
+      "value": 35
+    },
+    {
+      "source": "史湘云",
+      "target": "贾惜春",
+      "value": 20
+    },
+    {
+      "source": "花袭人",
+      "target": "贾惜春",
+      "value": 19
+    },
+    {
+      "source": "平儿",
+      "target": "贾惜春",
+      "value": 15
+    },
+    {
+      "source": "王熙凤",
+      "target": "花袭人",
+      "value": 67
+    },
+    {
+      "source": "史湘云",
+      "target": "贾迎春",
+      "value": 19
+    },
+    {
+      "source": "史湘云",
+      "target": "晴雯",
+      "value": 4
+    },
+    {
+      "source": "史湘云",
+      "target": "紫鹃",
+      "value": 12
+    },
+    {
+      "source": "史湘云",
+      "target": "王夫人",
+      "value": 40
+    },
+    {
+      "source": "晴雯",
+      "target": "鸳鸯",
+      "value": 5
+    },
+    {
+      "source": "花袭人",
+      "target": "鸳鸯",
+      "value": 39
+    },
+    {
+      "source": "香菱",
+      "target": "鸳鸯",
+      "value": 2
+    },
+    {
+      "source": "紫鹃",
+      "target": "鸳鸯",
+      "value": 9
+    },
+    {
+      "source": "贾迎春",
+      "target": "鸳鸯",
+      "value": 10
+    },
+    {
+      "source": "贾惜春",
+      "target": "鸳鸯",
+      "value": 9
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾探春",
+      "value": 20
+    },
+    {
+      "source": "晴雯",
+      "target": "紫鹃",
+      "value": 6
+    },
+    {
+      "source": "晴雯",
+      "target": "贾迎春",
+      "value": 8
+    },
+    {
+      "source": "晴雯",
+      "target": "贾惜春",
+      "value": 3
+    },
+    {
+      "source": "紫鹃",
+      "target": "花袭人",
+      "value": 37
+    },
+    {
+      "source": "花袭人",
+      "target": "贾迎春",
+      "value": 12
+    },
+    {
+      "source": "紫鹃",
+      "target": "香菱",
+      "value": 5
+    },
+    {
+      "source": "贾迎春",
+      "target": "香菱",
+      "value": 10
+    },
+    {
+      "source": "王夫人",
+      "target": "香菱",
+      "value": 22
+    },
+    {
+      "source": "贾惜春",
+      "target": "香菱",
+      "value": 7
+    },
+    {
+      "source": "平儿",
+      "target": "紫鹃",
+      "value": 6
+    },
+    {
+      "source": "平儿",
+      "target": "林黛玉",
+      "value": 15
+    },
+    {
+      "source": "平儿",
+      "target": "贾迎春",
+      "value": 7
+    },
+    {
+      "source": "薛宝钗",
+      "target": "贾迎春",
+      "value": 46
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾迎春",
+      "value": 4
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾惜春",
+      "value": 6
+    },
+    {
+      "source": "薛蟠",
+      "target": "香菱",
+      "value": 26,
+      "relationType": "主仆"
+    },
+    {
+      "source": "贾母",
+      "target": "香菱",
+      "value": 22
+    },
+    {
+      "source": "贾政",
+      "target": "香菱",
+      "value": 10
+    },
+    {
+      "source": "秦可卿",
+      "target": "贾宝玉",
+      "value": 2,
+      "relationType": "叔侄"
+    },
+    {
+      "source": "平儿",
+      "target": "贾琏",
+      "value": 71,
+      "relationType": "通房"
+    },
+    {
+      "source": "花袭人",
+      "target": "贾琏",
+      "value": 19
+    },
+    {
+      "source": "刘姥姥",
+      "target": "王夫人",
+      "value": 40
+    },
+    {
+      "source": "刘姥姥",
+      "target": "王熙凤",
+      "value": 52,
+      "relationType": "远亲"
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾政",
+      "value": 10
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾母",
+      "value": 52
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾琏",
+      "value": 7
+    },
+    {
+      "source": "刘姥姥",
+      "target": "平儿",
+      "value": 25
+    },
+    {
+      "source": "妙玉",
+      "target": "王夫人",
+      "value": 12
+    },
+    {
+      "source": "林黛玉",
+      "target": "邢夫人",
+      "value": 16
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾琏",
+      "value": 19
+    },
+    {
+      "source": "刘姥姥",
+      "target": "邢夫人",
+      "value": 4
+    },
+    {
+      "source": "尤三姐",
+      "target": "贾宝玉",
+      "value": 4
+    },
+    {
+      "source": "妙玉",
+      "target": "贾政",
+      "value": 8
+    },
+    {
+      "source": "妙玉",
+      "target": "贾惜春",
+      "value": 16
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾琏",
+      "value": 5
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾政",
+      "value": 20
+    },
+    {
+      "source": "尤二姐",
+      "target": "王熙凤",
+      "value": 32,
+      "relationType": "妻妾"
+    },
+    {
+      "source": "尤二姐",
+      "target": "平儿",
+      "value": 10
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾母",
+      "value": 19
+    },
+    {
+      "source": "尤二姐",
+      "target": "王夫人",
+      "value": 14
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾琏",
+      "value": 28,
+      "relationType": "夫妻"
+    },
+    {
+      "source": "紫鹃",
+      "target": "贾母",
+      "value": 58
+    },
+    {
+      "source": "王熙凤",
+      "target": "紫鹃",
+      "value": 15
+    },
+    {
+      "source": "贾琏",
+      "target": "香菱",
+      "value": 5
+    },
+    {
+      "source": "史湘云",
+      "target": "王熙凤",
+      "value": 36
+    },
+    {
+      "source": "史湘云",
+      "target": "邢夫人",
+      "value": 9
+    },
+    {
+      "source": "薛蟠",
+      "target": "邢夫人",
+      "value": 4
+    },
+    {
+      "source": "贾探春",
+      "target": "贾琏",
+      "value": 7
+    },
+    {
+      "source": "贾琏",
+      "target": "贾迎春",
+      "value": 4
+    },
+    {
+      "source": "妙玉",
+      "target": "贾母",
+      "value": 12
+    },
+    {
+      "source": "贾迎春",
+      "target": "邢夫人",
+      "value": 22
+    },
+    {
+      "source": "王熙凤",
+      "target": "香菱",
+      "value": 13
+    },
+    {
+      "source": "妙玉",
+      "target": "平儿",
+      "value": 2
+    },
+    {
+      "source": "晴雯",
+      "target": "王熙凤",
+      "value": 17
+    },
+    {
+      "source": "尤二姐",
+      "target": "花袭人",
+      "value": 2
+    },
+    {
+      "source": "尤二姐",
+      "target": "林黛玉",
+      "value": 2
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾宝玉",
+      "value": 4
+    },
+    {
+      "source": "紫鹃",
+      "target": "邢夫人",
+      "value": 3
+    },
+    {
+      "source": "晴雯",
+      "target": "邢夫人",
+      "value": 2
+    },
+    {
+      "source": "花袭人",
+      "target": "邢夫人",
+      "value": 14
+    },
+    {
+      "source": "史湘云",
+      "target": "妙玉",
+      "value": 2
+    },
+    {
+      "source": "薛蟠",
+      "target": "贾探春",
+      "value": 2
+    },
+    {
+      "source": "史湘云",
+      "target": "贾政",
+      "value": 7
+    },
+    {
+      "source": "妙玉",
+      "target": "王熙凤",
+      "value": 4
+    },
+    {
+      "source": "妙玉",
+      "target": "紫鹃",
+      "value": 2
+    },
+    {
+      "source": "尤三姐",
+      "target": "贾母",
+      "value": 3
+    },
+    {
+      "source": "尤三姐",
+      "target": "王熙凤",
+      "value": 2
+    },
+    {
+      "source": "尤三姐",
+      "target": "贾琏",
+      "value": 11
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾探春",
+      "value": 2
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾惜春",
+      "value": 3
+    },
+    {
+      "source": "刘姥姥",
+      "target": "林黛玉",
+      "value": 8
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾宝玉",
+      "value": 19
+    },
+    {
+      "source": "刘姥姥",
+      "target": "鸳鸯",
+      "value": 18
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾探春",
+      "value": 6
+    },
+    {
+      "source": "刘姥姥",
+      "target": "史湘云",
+      "value": 5
+    },
+    {
+      "source": "刘姥姥",
+      "target": "薛宝钗",
+      "value": 5
+    },
+    {
+      "source": "刘姥姥",
+      "target": "贾迎春",
+      "value": 5
+    },
+    {
+      "source": "刘姥姥",
+      "target": "花袭人",
+      "value": 3
+    },
+    {
+      "source": "妙玉",
+      "target": "贾探春",
+      "value": 2
+    },
+    {
+      "source": "刘姥姥",
+      "target": "妙玉",
+      "value": 4
+    },
+    {
+      "source": "尤三姐",
+      "target": "薛蟠",
+      "value": 3
+    },
+    {
+      "source": "晴雯",
+      "target": "贾琏",
+      "value": 3
+    },
+    {
+      "source": "史湘云",
+      "target": "贾琏",
+      "value": 2
+    },
+    {
+      "source": "邢夫人",
+      "target": "香菱",
+      "value": 2
+    },
+    {
+      "source": "尤二姐",
+      "target": "邢夫人",
+      "value": 4
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾迎春",
+      "value": 2
+    },
+    {
+      "source": "尤二姐",
+      "target": "贾惜春",
+      "value": 2
+    },
+    {
+      "source": "尤三姐",
+      "target": "贾政",
+      "value": 2
+    },
+    {
+      "source": "尤二姐",
+      "target": "鸳鸯",
+      "value": 2
+    },
+    {
+      "source": "薛蟠",
+      "target": "鸳鸯",
+      "value": 2
+    },
+    {
+      "source": "贾母",
+      "target": "贾赦",
+      "value": 5,
+      "relationType": "母子"
+    },
+    {
+      "source": "贾赦",
+      "target": "贾迎春",
+      "value": 5,
+      "relationType": "父女"
+    },
+    {
+      "source": "贾琏",
+      "target": "贾赦",
+      "value": 5,
+      "relationType": "父子"
+    },
+    {
+      "source": "贾赦",
+      "target": "邢夫人",
+      "value": 5,
+      "relationType": "夫妻"
+    },
+    {
+      "source": "林黛玉",
+      "target": "贾赦",
+      "value": 5,
+      "relationType": "舅甥"
+    },
+    {
+      "source": "秦可卿",
+      "target": "贾母",
+      "value": 5,
+      "relationType": "曾祖孙"
+    },
+    {
+      "source": "贾赦",
+      "target": "鸳鸯",
+      "value": 5,
+      "relationType": "主仆"
+    }
+  ]
+}

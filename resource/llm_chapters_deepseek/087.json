@@ -1,0 +1,177 @@
+[
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "惺惺相惜的朋友",
+    "type": "朋友",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "探春",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "史湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "李纹",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "李绮",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾宝玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "墨雨",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾环",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "妙玉",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "087"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "妙玉",
+    "target": "惜春",
+    "relation": "棋友",
+    "type": "朋友",
+    "chapter": "087"
+  },
+  {
+    "source": "妙玉",
+    "target": "女尼",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "惜春",
+    "target": "彩屏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "087"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾母",
+    "relation": "外孙女",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛姨妈",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "紫鹃",
+    "target": "雪雁",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "087"
+  },
+  {
+    "source": "柳嫂儿",
+    "target": "五儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "087"
+  },
+  {
+    "source": "五儿",
+    "target": "芳官",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "087"
+  },
+  {
+    "source": "晴雯",
+    "target": "芳官",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "087"
+  }
+]

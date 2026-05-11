@@ -1,0 +1,471 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "癞头和尚",
+    "relation": "师徒",
+    "type": "其他",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "情感纠葛",
+    "type": "情感",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾环",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李纨",
+    "relation": "嫂叔",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾芸",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾蔷",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛宝钗",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾琏",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾惜春",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾兰",
+    "relation": "祖母孙",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "王夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "巧姐",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "秋桐",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾赦",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "王仁",
+    "relation": "舅兄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾芸",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾蔷",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "巧姐",
+    "target": "平儿",
+    "relation": "继母女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "巧姐",
+    "target": "王仁",
+    "relation": "舅父外甥女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "平儿",
+    "target": "巧姐",
+    "relation": "继母女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾惜春",
+    "target": "尤氏",
+    "relation": "嫂姑",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾惜春",
+    "target": "贾珍",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾惜春",
+    "target": "邢夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾惜春",
+    "target": "王夫人",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾惜春",
+    "relation": "嫂姑",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "赵姨娘",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "王夫人",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "凤姐",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "贾蔷",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "贾芸",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "邢大舅",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾环",
+    "target": "王仁",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾芸",
+    "target": "凤姐",
+    "relation": "族婶侄",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾芸",
+    "target": "巧姐",
+    "relation": "族叔侄女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾蔷",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾蔷",
+    "target": "贾宝玉",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾蔷",
+    "target": "邢大舅",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾蔷",
+    "target": "王仁",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "邢大舅",
+    "target": "邢夫人",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王仁",
+    "target": "王熙凤",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王仁",
+    "target": "巧姐",
+    "relation": "舅父外甥女",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王仁",
+    "target": "贾环",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王仁",
+    "target": "贾芸",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "王仁",
+    "target": "贾蔷",
+    "relation": "舅甥",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "李纨",
+    "target": "贾兰",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "李纨",
+    "target": "薛宝钗",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾兰",
+    "target": "李纨",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾代儒",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "117"
+  },
+  {
+    "source": "贾代儒",
+    "target": "贾兰",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "117"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾宝玉",
+    "relation": "情感纠葛",
+    "type": "情感",
+    "chapter": "117"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾环",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "117"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾家",
+    "relation": "往来",
+    "type": "其他",
+    "chapter": "117"
+  },
+  {
+    "source": "赖家子弟",
+    "target": "赖家",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "117"
+  },
+  {
+    "source": "林家子弟",
+    "target": "林家",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "117"
+  }
+]

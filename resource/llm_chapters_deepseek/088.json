@@ -1,0 +1,212 @@
+[
+  {
+    "source": "惜春",
+    "target": "彩屏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "惜春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "贾环",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "贾兰",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "宝玉",
+    "target": "贾环",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "李纨",
+    "target": "贾兰",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "贾珠",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "李纨",
+    "target": "贾珠",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "088"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾珍",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾珍",
+    "target": "周瑞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾珍",
+    "target": "何三",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾琏",
+    "target": "周瑞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾琏",
+    "target": "鲍二",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾琏",
+    "target": "凤姐",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "088"
+  },
+  {
+    "source": "凤姐",
+    "target": "巧姐",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾芸",
+    "target": "凤姐",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾芸",
+    "target": "小红",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "088"
+  },
+  {
+    "source": "凤姐",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "凤姐",
+    "target": "秋桐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "088"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "088"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "088"
+  },
+  {
+    "source": "贾母",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛姨妈",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾政",
+    "target": "贾芸",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "088"
+  },
+  {
+    "source": "贾芸",
+    "target": "小红",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "088"
+  }
+]

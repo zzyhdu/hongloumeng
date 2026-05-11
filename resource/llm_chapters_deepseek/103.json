@@ -1,0 +1,142 @@
+[
+  {
+    "source": "贾琏",
+    "target": "王夫人",
+    "relation": "侄儿与婶母",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "贾琏",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "其他",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "王夫人",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "夏金桂",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝蟾",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝琴",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "宝蟾",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛蟠",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛蝌",
+    "relation": "暗恋",
+    "type": "情感",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "夏母",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "夏金桂",
+    "target": "夏家儿子",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "宝蟾",
+    "target": "香菱",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "103"
+  },
+  {
+    "source": "宝钗",
+    "target": "薛姨妈",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "宝钗",
+    "target": "宝琴",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "103"
+  },
+  {
+    "source": "宝钗",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "103"
+  },
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "故交",
+    "type": "朋友",
+    "chapter": "103"
+  },
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "恩人",
+    "type": "其他",
+    "chapter": "103"
+  }
+]

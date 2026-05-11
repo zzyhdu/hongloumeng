@@ -1,0 +1,128 @@
+[
+  {
+    "source": "鲍二家的",
+    "target": "尤二姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "066"
+  },
+  {
+    "source": "尤三姐",
+    "target": "尤二姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "066"
+  },
+  {
+    "source": "兴儿",
+    "target": "贾琏",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "066"
+  },
+  {
+    "source": "兴儿",
+    "target": "尤二姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "066"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "未来夫妻（推测）",
+    "type": "情感",
+    "chapter": "066"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "尤三姐",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "066"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "066"
+  },
+  {
+    "source": "尤三姐",
+    "target": "柳湘莲",
+    "relation": "未婚夫妻",
+    "type": "情感",
+    "chapter": "066"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "066"
+  },
+  {
+    "source": "薛蟠",
+    "target": "柳湘莲",
+    "relation": "结拜兄弟",
+    "type": "朋友",
+    "chapter": "066"
+  },
+  {
+    "source": "贾琏",
+    "target": "柳湘莲",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "066"
+  },
+  {
+    "source": "尤三姐",
+    "target": "尤母",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "066"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤母",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "066"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "066"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾珍",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "066"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "薛姨妈",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "066"
+  },
+  {
+    "source": "柳湘莲",
+    "target": "薛蝌",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "066"
+  },
+  {
+    "source": "尤三姐",
+    "target": "警幻仙子",
+    "relation": "下属",
+    "type": "其他",
+    "chapter": "066"
+  }
+]

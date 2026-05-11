@@ -1,0 +1,261 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾芸",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛蟠",
+    "relation": "表兄弟",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李嬷嬷",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "林黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "林黛玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "林黛玉",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "贾芸",
+    "relation": "互生情愫",
+    "type": "情感",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "佳蕙",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "坠儿",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "晴雯",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "绮霰",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "莺儿",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "红玉",
+    "target": "李嬷嬷",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾芸",
+    "target": "坠儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "贾芸",
+    "target": "李嬷嬷",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "薛宝钗",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "贾宝玉",
+    "relation": "表兄弟",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "冯紫英",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "程日兴",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "詹光",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "胡斯来",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "薛蟠",
+    "target": "单聘仁",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "冯紫英",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "冯紫英",
+    "target": "薛蟠",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "026"
+  },
+  {
+    "source": "冯紫英",
+    "target": "冯唐",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "026"
+  },
+  {
+    "source": "晴雯",
+    "target": "碧痕",
+    "relation": "同伴",
+    "type": "其他",
+    "chapter": "026"
+  },
+  {
+    "source": "晴雯",
+    "target": "薛宝钗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "晴雯",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "花袭人",
+    "target": "佳蕙",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  },
+  {
+    "source": "花袭人",
+    "target": "贾芸",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "026"
+  }
+]

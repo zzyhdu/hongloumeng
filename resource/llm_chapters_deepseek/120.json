@@ -1,0 +1,198 @@
+[
+  {
+    "source": "薛宝钗",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "120"
+  },
+  {
+    "source": "巧姐",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "平儿",
+    "target": "巧姐",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "120"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "120"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "120"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾蓉",
+    "target": "秦可卿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "120"
+  },
+  {
+    "source": "贾蓉",
+    "target": "王熙凤",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾蓉",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "120"
+  },
+  {
+    "source": "贾蓉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾兰",
+    "target": "贾宝玉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "薛蟠",
+    "target": "香菱",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "120"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛宝钗",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "王夫人",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "120"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "120"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾政",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "贾琏",
+    "target": "巧姐",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "巧姐",
+    "relation": "恩人",
+    "type": "其他",
+    "chapter": "120"
+  },
+  {
+    "source": "花自芳",
+    "target": "花袭人",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "花袭人",
+    "target": "蒋玉菡",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "120"
+  },
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "120"
+  },
+  {
+    "source": "甄士隐",
+    "target": "香菱",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "120"
+  },
+  {
+    "source": "空空道人",
+    "target": "曹雪芹",
+    "relation": "传书者",
+    "type": "其他",
+    "chapter": "120"
+  }
+]

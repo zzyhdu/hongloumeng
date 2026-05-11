@@ -1,0 +1,177 @@
+[
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "探春",
+    "relation": "姑嫂",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "丰儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "小红",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "秦氏",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "大姐儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "平儿",
+    "target": "李妈",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "贾琏",
+    "target": "王仁",
+    "relation": "舅兄",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王仁",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "贾琏",
+    "target": "王子胜",
+    "relation": "舅父",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王子胜",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "王夫人",
+    "relation": "姑侄",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "宝钗",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "贾母",
+    "target": "宝钗",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "大了",
+    "relation": "施主与尼姑",
+    "type": "其他",
+    "chapter": "101"
+  },
+  {
+    "source": "王熙凤",
+    "target": "周瑞家的",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "101"
+  }
+]

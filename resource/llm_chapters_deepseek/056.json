@@ -1,0 +1,156 @@
+[
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "056"
+  },
+  {
+    "source": "平儿",
+    "target": "探春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "056"
+  },
+  {
+    "source": "探春",
+    "target": "李纨",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "探春",
+    "target": "宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "李纨",
+    "target": "宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "探春",
+    "target": "赵姨娘",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "探春",
+    "target": "王夫人",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "宝钗",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "056"
+  },
+  {
+    "source": "宝钗",
+    "target": "王夫人",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾母",
+    "target": "宝钗",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "056"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "056"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "甄宝玉",
+    "relation": "同名者",
+    "type": "其他",
+    "chapter": "056"
+  },
+  {
+    "source": "莺儿",
+    "target": "叶妈",
+    "relation": "干母女",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "叶妈",
+    "target": "茗烟",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "056"
+  },
+  {
+    "source": "老祝妈",
+    "target": "祝老头",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "056"
+  },
+  {
+    "source": "老祝妈",
+    "target": "祝子",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "056"
+  }
+]

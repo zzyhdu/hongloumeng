@@ -1,0 +1,282 @@
+[
+  {
+    "source": "贾政",
+    "target": "镇海总制",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾政",
+    "target": "节度",
+    "relation": "上下级",
+    "type": "其他",
+    "chapter": "100"
+  },
+  {
+    "source": "贾政",
+    "target": "李十儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蝌",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "宝钗",
+    "target": "薛姨妈",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "宝钗",
+    "target": "贾宝玉",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "100"
+  },
+  {
+    "source": "宝钗",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "宝钗",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "薛蟠",
+    "target": "夏金桂",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "100"
+  },
+  {
+    "source": "薛蟠",
+    "target": "香菱",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "100"
+  },
+  {
+    "source": "夏金桂",
+    "target": "薛蝌",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "夏金桂",
+    "target": "香菱",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "夏金桂",
+    "target": "宝蟾",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "薛蝌",
+    "target": "香菱",
+    "relation": "叔嫂",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "薛蝌",
+    "target": "宝蟾",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾母",
+    "target": "凤姐",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "王夫人",
+    "target": "探春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "王夫人",
+    "target": "迎春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "探春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "探春",
+    "target": "贾宝玉",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "探春",
+    "target": "迎春",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "100"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "雪雁",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "100"
+  },
+  {
+    "source": "袭人",
+    "target": "宝钗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "紫鹃",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "雪雁",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "鸳鸯",
+    "target": "贾母",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "100"
+  },
+  {
+    "source": "宝琴",
+    "target": "薛蝌",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "100"
+  },
+  {
+    "source": "宝琴",
+    "target": "夏金桂",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "100"
+  }
+]

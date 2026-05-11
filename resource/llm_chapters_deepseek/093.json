@@ -1,0 +1,163 @@
+[
+  {
+    "source": "贾政",
+    "target": "贾赦",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾政",
+    "target": "贾琏",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾政",
+    "target": "贾蓉",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾政",
+    "target": "贾芹",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾宝玉",
+    "relation": "伯侄",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "蒋玉菡",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "093"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "焙茗",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "扫红",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "锄药",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "赖大",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "旺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "周瑞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾芹",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "093"
+  },
+  {
+    "source": "贾芹",
+    "target": "沁香",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "093"
+  },
+  {
+    "source": "贾芹",
+    "target": "鹤仙",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "093"
+  },
+  {
+    "source": "贾芹",
+    "target": "芳官",
+    "relation": "其他",
+    "type": "其他",
+    "chapter": "093"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "包勇",
+    "target": "甄应嘉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "包勇",
+    "target": "贾政",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  },
+  {
+    "source": "赖大",
+    "target": "贾芹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "093"
+  }
+]

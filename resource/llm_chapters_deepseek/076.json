@@ -1,0 +1,282 @@
+[
+  {
+    "source": "贾母",
+    "target": "贾赦",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "贾政",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "贾珍",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "尤氏",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "黛玉",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "湘云",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "宝钗",
+    "relation": "亲戚",
+    "type": "其他",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "宝琴",
+    "relation": "亲戚",
+    "type": "其他",
+    "chapter": "076"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "076"
+  },
+  {
+    "source": "贾赦",
+    "target": "邢夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "076"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "076"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "076"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "贾蓉",
+    "target": "蓉妻",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "迎春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "惜春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "076"
+  },
+  {
+    "source": "黛玉",
+    "target": "湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "黛玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "076"
+  },
+  {
+    "source": "湘云",
+    "target": "翠缕",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "076"
+  },
+  {
+    "source": "妙玉",
+    "target": "黛玉",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "076"
+  },
+  {
+    "source": "妙玉",
+    "target": "湘云",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "076"
+  },
+  {
+    "source": "宝钗",
+    "target": "黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝钗",
+    "target": "湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "宝钗",
+    "target": "宝琴",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "王夫人",
+    "target": "宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "王夫人",
+    "target": "探春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "王夫人",
+    "target": "迎春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "王夫人",
+    "target": "惜春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "尤氏",
+    "target": "贾蓉",
+    "relation": "继母子",
+    "type": "亲属",
+    "chapter": "076"
+  },
+  {
+    "source": "尤氏",
+    "target": "蓉妻",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "076"
+  }
+]

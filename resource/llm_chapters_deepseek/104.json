@@ -1,0 +1,247 @@
+[
+  {
+    "source": "贾雨村",
+    "target": "甄士隐",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "104"
+  },
+  {
+    "source": "贾雨村",
+    "target": "倪二",
+    "relation": "官民",
+    "type": "其他",
+    "chapter": "104"
+  },
+  {
+    "source": "倪二",
+    "target": "贾芸",
+    "relation": "邻居兼朋友",
+    "type": "朋友",
+    "chapter": "104"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾宝玉",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾芸",
+    "target": "王熙凤",
+    "relation": "族侄与族婶",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾芸",
+    "target": "贾琏",
+    "relation": "族兄弟",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾政",
+    "relation": "同僚",
+    "type": "其他",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾琏",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾环",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾兰",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "薛宝钗",
+    "relation": "公媳",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "探春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹兼恋人",
+    "type": "情感",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "104"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "104"
+  },
+  {
+    "source": "王夫人",
+    "target": "林黛玉",
+    "relation": "舅母与外甥女",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "王夫人",
+    "target": "薛宝钗",
+    "relation": "姨母与外甥女",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "王夫人",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "104"
+  },
+  {
+    "source": "贾母",
+    "target": "林黛玉",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖母与孙女",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖母与孙子",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾母",
+    "target": "薛宝钗",
+    "relation": "祖母与孙媳",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "104"
+  },
+  {
+    "source": "王熙凤",
+    "target": "薛宝钗",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾芸",
+    "target": "倪二",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "104"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾化",
+    "relation": "同名不同人",
+    "type": "其他",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾化",
+    "relation": "远族",
+    "type": "亲属",
+    "chapter": "104"
+  },
+  {
+    "source": "贾政",
+    "target": "贾范",
+    "relation": "远族",
+    "type": "亲属",
+    "chapter": "104"
+  }
+]

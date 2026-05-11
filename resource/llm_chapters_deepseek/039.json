@@ -1,0 +1,135 @@
+[
+  {
+    "source": "平儿",
+    "target": "王熙凤",
+    "relation": "通房大丫头",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "李纨",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "李纨",
+    "target": "贾珠",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "王夫人",
+    "target": "彩霞",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "贾母",
+    "relation": "远亲",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "板儿",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "039"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "039"
+  },
+  {
+    "source": "周瑞家的",
+    "target": "刘姥姥",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "039"
+  },
+  {
+    "source": "张材家的",
+    "target": "平儿",
+    "relation": "同僚",
+    "type": "其他",
+    "chapter": "039"
+  }
+]

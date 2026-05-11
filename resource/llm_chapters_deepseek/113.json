@@ -1,0 +1,163 @@
+[
+  {
+    "source": "赵姨娘",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "周姨娘",
+    "relation": "同为贾政之妾",
+    "type": "其他",
+    "chapter": "113"
+  },
+  {
+    "source": "贾环",
+    "target": "贾政",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "贾琏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "尤二姐",
+    "relation": "仇敌",
+    "type": "对立",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "刘姥姥",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "113"
+  },
+  {
+    "source": "王熙凤",
+    "target": "巧姐",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "青儿",
+    "relation": "外祖母与外孙女",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "刘姥姥",
+    "target": "巧姐",
+    "relation": "干娘与干女儿",
+    "type": "其他",
+    "chapter": "113"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "贾琏",
+    "target": "秋桐",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "113"
+  },
+  {
+    "source": "王夫人",
+    "target": "刘姥姥",
+    "relation": "旧识",
+    "type": "其他",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "妙玉",
+    "relation": "相识",
+    "type": "朋友",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "紫鹃",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "紫鹃",
+    "target": "林黛玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "贾兰",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "113"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "113"
+  }
+]

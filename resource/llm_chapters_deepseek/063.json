@@ -1,0 +1,478 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "秋纹",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "碧痕",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "小燕",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "四儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "表姐弟",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "探春",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "史湘云",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李纨",
+    "relation": "嫂子与弟弟",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝琴",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "妙玉",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "邢岫烟",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "晴雯",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "麝月",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "秋纹",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "芳官",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "碧痕",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "小燕",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "四儿",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "花袭人",
+    "target": "平儿",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "贾宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "林之孝家的",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "柳嫂子",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "小燕",
+    "target": "柳嫂子",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "柳嫂子",
+    "target": "五儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "林黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "探春",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "史湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "李纨",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛宝琴",
+    "relation": "堂姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "林黛玉",
+    "target": "探春",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "林黛玉",
+    "target": "史湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "林黛玉",
+    "target": "李纨",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "探春",
+    "target": "史湘云",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "探春",
+    "target": "李纨",
+    "relation": "嫂子与妹妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "史湘云",
+    "target": "李纨",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "史湘云",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "李纨",
+    "target": "香菱",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "妙玉",
+    "target": "邢岫烟",
+    "relation": "师徒",
+    "type": "师徒",
+    "chapter": "063"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾宝玉",
+    "relation": "朋友",
+    "type": "其他",
+    "chapter": "063"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "史湘云",
+    "target": "葵官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "薛宝琴",
+    "target": "荳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "尤氏",
+    "target": "佩凤",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "尤氏",
+    "target": "偕鸳",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "063"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾珍",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾敬",
+    "target": "贾蓉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾珍",
+    "target": "尤氏",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "063"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤二姐",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾蓉",
+    "target": "尤三姐",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤氏",
+    "target": "尤二姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤氏",
+    "target": "尤三姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤氏",
+    "target": "尤老安人",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤三姐",
+    "relation": "姐妹",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤二姐",
+    "target": "尤老安人",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "尤三姐",
+    "target": "尤老安人",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾琏",
+    "target": "尤二姐",
+    "relation": "情人",
+    "type": "情感",
+    "chapter": "063"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "063"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾琏",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "063"
+  },
+  {
+    "source": "贾蓉",
+    "target": "王熙凤",
+    "relation": "婶侄",
+    "type": "亲属",
+    "chapter": "063"
+  }
+]

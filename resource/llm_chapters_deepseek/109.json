@@ -1,0 +1,618 @@
+[
+  {
+    "source": "薛宝钗",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "薛宝钗",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "迎春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "史湘云",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "琥珀",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "珍珠",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "王夫人",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "邢夫人",
+    "target": "迎春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蝌",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蝌",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛蝌",
+    "target": "邢岫烟",
+    "relation": "未婚夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾母",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "邢岫烟",
+    "relation": "旧相识",
+    "type": "朋友",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "惜春",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "惜春",
+    "target": "妙玉",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "迎春",
+    "target": "孙绍祖",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "史湘云",
+    "target": "卫若兰",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "薛宝钗",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "麝月",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "贾宝玉",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "薛宝钗",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "迎春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "探春",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "史湘云",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙媳",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "鸳鸯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "琥珀",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾母",
+    "target": "珍珠",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "王夫人",
+    "target": "贾宝玉",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "王夫人",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "邢夫人",
+    "target": "迎春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛宝钗",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蟠",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛姨妈",
+    "target": "薛蝌",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蟠",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛宝钗",
+    "target": "薛蝌",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "薛蝌",
+    "target": "邢岫烟",
+    "relation": "未婚夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "晴雯",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "芳官",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "贾母",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "贾宝玉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾政",
+    "target": "王夫人",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾政",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "贾琏",
+    "target": "贾母",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "贾母",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "邢岫烟",
+    "relation": "旧相识",
+    "type": "朋友",
+    "chapter": "109"
+  },
+  {
+    "source": "妙玉",
+    "target": "惜春",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "惜春",
+    "target": "妙玉",
+    "relation": "相识",
+    "type": "其他",
+    "chapter": "109"
+  },
+  {
+    "source": "迎春",
+    "target": "孙绍祖",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  },
+  {
+    "source": "史湘云",
+    "target": "卫若兰",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "109"
+  }
+]

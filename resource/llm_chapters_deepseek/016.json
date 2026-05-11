@@ -1,0 +1,268 @@
+[
+  {
+    "source": "贾宝玉",
+    "target": "秦钟",
+    "relation": "同窗好友",
+    "type": "朋友",
+    "chapter": "016"
+  },
+  {
+    "source": "秦钟",
+    "target": "智能儿",
+    "relation": "情人",
+    "type": "情感",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "云光",
+    "relation": "受贿关系",
+    "type": "其他",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "老尼",
+    "relation": "委托关系",
+    "type": "其他",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "张金哥",
+    "relation": "间接导致死亡",
+    "type": "其他",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "守备之子",
+    "relation": "间接导致死亡",
+    "type": "其他",
+    "chapter": "016"
+  },
+  {
+    "source": "贾政",
+    "target": "贾元春",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "贾元春",
+    "relation": "祖母孙女",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "贾政",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "邢夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "王夫人",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "尤氏",
+    "relation": "婆媳",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "李纨",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "王熙凤",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾母",
+    "target": "薛姨妈",
+    "relation": "亲戚",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾政",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾赦",
+    "target": "贾珍",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蓉",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾珍",
+    "target": "贾蔷",
+    "relation": "叔侄",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾蓉",
+    "target": "贾蔷",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾琏",
+    "target": "王熙凤",
+    "relation": "夫妻",
+    "type": "夫妻",
+    "chapter": "016"
+  },
+  {
+    "source": "贾琏",
+    "target": "平儿",
+    "relation": "通房丫鬟",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "贾琏",
+    "target": "赵嬷嬷",
+    "relation": "乳母",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "王熙凤",
+    "target": "赵嬷嬷",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "贾琏",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "林黛玉",
+    "relation": "表兄妹",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾雨村",
+    "target": "林黛玉",
+    "relation": "师生",
+    "type": "师徒",
+    "chapter": "016"
+  },
+  {
+    "source": "贾雨村",
+    "target": "贾琏",
+    "relation": "同宗兄弟",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "北静王",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "016"
+  },
+  {
+    "source": "薛蟠",
+    "target": "香菱",
+    "relation": "妾室",
+    "type": "夫妻",
+    "chapter": "016"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "花袭人",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "李贵",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "贾宝玉",
+    "target": "茗烟",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "016"
+  },
+  {
+    "source": "秦钟",
+    "target": "秦业",
+    "relation": "父子",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "秦钟",
+    "target": "智能儿",
+    "relation": "情人",
+    "type": "情感",
+    "chapter": "016"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾政",
+    "relation": "父女",
+    "type": "亲属",
+    "chapter": "016"
+  },
+  {
+    "source": "贾元春",
+    "target": "贾母",
+    "relation": "祖母孙女",
+    "type": "亲属",
+    "chapter": "016"
+  }
+]

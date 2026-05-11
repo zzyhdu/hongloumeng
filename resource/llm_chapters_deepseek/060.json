@@ -1,0 +1,289 @@
+[
+  {
+    "source": "袭人",
+    "target": "平儿",
+    "relation": "对话提及",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "平儿",
+    "target": "李纨",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "宝玉",
+    "target": "春燕",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "春燕",
+    "target": "春燕娘",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "宝玉",
+    "target": "莺儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "宝钗",
+    "target": "黛玉",
+    "relation": "表姐妹",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "宝钗",
+    "target": "薛姨妈",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "黛玉",
+    "target": "薛姨妈",
+    "relation": "姨甥",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "蕊官",
+    "target": "芳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "春燕",
+    "target": "芳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "贾环",
+    "target": "贾琮",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "贾环",
+    "target": "宝玉",
+    "relation": "兄弟",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "芳官",
+    "target": "宝玉",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "芳官",
+    "target": "麝月",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "贾环",
+    "target": "彩云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "彩云",
+    "target": "赵姨娘",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "贾环",
+    "relation": "母子",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "探春",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "藕官",
+    "target": "夏婆子",
+    "relation": "干娘",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "赵姨娘",
+    "target": "夏婆子",
+    "relation": "对话提及",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "芳官",
+    "target": "赵姨娘",
+    "relation": "对立",
+    "type": "对立",
+    "chapter": "060"
+  },
+  {
+    "source": "袭人",
+    "target": "芳官",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "晴雯",
+    "target": "袭人",
+    "relation": "同事",
+    "type": "其他",
+    "chapter": "060"
+  },
+  {
+    "source": "葵官",
+    "target": "湘云",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "荳官",
+    "target": "宝琴",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "藕官",
+    "target": "蕊官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "葵官",
+    "target": "荳官",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "探春",
+    "target": "尤氏",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "探春",
+    "target": "李纨",
+    "relation": "妯娌",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "探春",
+    "target": "平儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "艾官",
+    "target": "探春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "夏婆子",
+    "target": "蝉姐儿",
+    "relation": "祖孙",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "翠墨",
+    "target": "探春",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "芳官",
+    "target": "柳家媳妇",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "柳家媳妇",
+    "target": "柳五儿",
+    "relation": "母女",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "芳官",
+    "target": "柳五儿",
+    "relation": "朋友",
+    "type": "朋友",
+    "chapter": "060"
+  },
+  {
+    "source": "宝玉",
+    "target": "柳五儿",
+    "relation": "主仆",
+    "type": "主仆",
+    "chapter": "060"
+  },
+  {
+    "source": "钱槐",
+    "target": "赵姨娘",
+    "relation": "内亲",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "钱槐",
+    "target": "柳五儿",
+    "relation": "情感",
+    "type": "情感",
+    "chapter": "060"
+  },
+  {
+    "source": "柳家媳妇",
+    "target": "柳五儿舅舅",
+    "relation": "兄妹",
+    "type": "亲属",
+    "chapter": "060"
+  },
+  {
+    "source": "柳五儿",
+    "target": "柳五儿舅舅",
+    "relation": "甥舅",
+    "type": "亲属",
+    "chapter": "060"
+  }
+]
