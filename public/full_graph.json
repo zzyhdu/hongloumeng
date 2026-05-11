@@ -767,7 +767,7 @@
       "id": "封氏",
       "name": "封氏",
       "degree": 3,
-      "weight": 3,
+      "weight": 5,
       "category": "其他"
     },
     {
@@ -1237,21 +1237,21 @@
       "name": "李纨",
       "degree": 27,
       "weight": 79,
-      "category": "贾府主人"
+      "category": "金陵十二钗"
     },
     {
       "id": "李纹",
       "name": "李纹",
       "degree": 7,
       "weight": 10,
-      "category": "金陵十二钗"
+      "category": "外围要角"
     },
     {
       "id": "李绮",
       "name": "李绮",
       "degree": 7,
       "weight": 10,
-      "category": "金陵十二钗"
+      "category": "外围要角"
     },
     {
       "id": "李衙内",
@@ -1657,7 +1657,7 @@
       "name": "王熙凤",
       "degree": 77,
       "weight": 223,
-      "category": "其他"
+      "category": "金陵十二钗"
     },
     {
       "id": "王荣",
@@ -1711,7 +1711,7 @@
     {
       "id": "甄士隐",
       "name": "甄士隐",
-      "degree": 9,
+      "degree": 7,
       "weight": 15,
       "category": "外围要角"
     },
@@ -1751,13 +1751,6 @@
       "category": "其他"
     },
     {
-      "id": "甄家娘子",
-      "name": "甄家娘子",
-      "degree": 2,
-      "weight": 2,
-      "category": "其他"
-    },
-    {
       "id": "甄应嘉",
       "name": "甄应嘉",
       "degree": 3,
@@ -1769,13 +1762,6 @@
       "name": "甄府",
       "degree": 1,
       "weight": 1,
-      "category": "其他"
-    },
-    {
-      "id": "甄英莲",
-      "name": "甄英莲",
-      "degree": 6,
-      "weight": 6,
       "category": "其他"
     },
     {
@@ -1935,8 +1921,8 @@
     {
       "id": "紫鹃",
       "name": "紫鹃",
-      "degree": 9,
-      "weight": 16,
+      "degree": 10,
+      "weight": 17,
       "category": "丫鬟群"
     },
     {
@@ -2203,7 +2189,7 @@
       "name": "薛宝琴",
       "degree": 19,
       "weight": 52,
-      "category": "金陵十二钗"
+      "category": "薛家"
     },
     {
       "id": "薛宝钗",
@@ -2222,7 +2208,7 @@
     {
       "id": "薛蟠",
       "name": "薛蟠",
-      "degree": 32,
+      "degree": 31,
       "weight": 57,
       "category": "薛家"
     },
@@ -2693,7 +2679,7 @@
       "name": "邢岫烟",
       "degree": 16,
       "weight": 34,
-      "category": "金陵十二钗"
+      "category": "外围要角"
     },
     {
       "id": "邢德全",
@@ -2866,8 +2852,8 @@
     {
       "id": "香菱",
       "name": "香菱",
-      "degree": 18,
-      "weight": 37,
+      "degree": 21,
+      "weight": 43,
       "category": "丫鬟群"
     },
     {
@@ -2913,13 +2899,6 @@
       "category": "其他"
     },
     {
-      "id": "鹦哥",
-      "name": "鹦哥",
-      "degree": 1,
-      "weight": 1,
-      "category": "丫鬟群"
-    },
-    {
       "id": "鹦鹉",
       "name": "鹦鹉",
       "degree": 1,
@@ -2945,24 +2924,24 @@
     {
       "source": "封氏",
       "target": "甄士隐",
-      "weight": 1,
-      "chapters": 1,
+      "weight": 2,
+      "chapters": 2,
       "relation": "夫妻",
       "type": "夫妻"
     },
     {
       "source": "甄士隐",
-      "target": "甄英莲",
-      "weight": 1,
-      "chapters": 1,
+      "target": "香菱",
+      "weight": 2,
+      "chapters": 2,
       "relation": "父女",
       "type": "亲属"
     },
     {
       "source": "封氏",
-      "target": "甄英莲",
-      "weight": 1,
-      "chapters": 1,
+      "target": "香菱",
+      "weight": 2,
+      "chapters": 2,
       "relation": "母女",
       "type": "亲属"
     },
@@ -2999,8 +2978,8 @@
       "type": "主仆"
     },
     {
-      "source": "甄英莲",
-      "target": "霍启",
+      "source": "霍启",
+      "target": "香菱",
       "weight": 1,
       "chapters": 1,
       "relation": "主仆",
@@ -3063,28 +3042,12 @@
       "type": "其他"
     },
     {
-      "source": "甄士隐",
-      "target": "甄家娘子",
-      "weight": 1,
-      "chapters": 1,
-      "relation": "夫妻",
-      "type": "夫妻"
-    },
-    {
       "source": "娇杏",
       "target": "甄士隐",
       "weight": 1,
       "chapters": 1,
       "relation": "主仆",
       "type": "主仆"
-    },
-    {
-      "source": "甄家娘子",
-      "target": "甄英莲",
-      "weight": 1,
-      "chapters": 1,
-      "relation": "母女",
-      "type": "亲属"
     },
     {
       "source": "林如海",
@@ -3471,8 +3434,8 @@
       "type": "主仆"
     },
     {
-      "source": "贾母",
-      "target": "鹦哥",
+      "source": "紫鹃",
+      "target": "贾母",
       "weight": 1,
       "chapters": 1,
       "relation": "主仆",
@@ -3527,8 +3490,8 @@
       "type": "其他"
     },
     {
-      "source": "甄英莲",
-      "target": "贾雨村",
+      "source": "贾雨村",
+      "target": "香菱",
       "weight": 1,
       "chapters": 1,
       "relation": "恩人（甄士隐之女）",
@@ -3559,12 +3522,12 @@
       "type": "对立"
     },
     {
-      "source": "甄英莲",
-      "target": "薛蟠",
-      "weight": 1,
-      "chapters": 1,
-      "relation": "买主与婢女",
-      "type": "主仆"
+      "source": "薛蟠",
+      "target": "香菱",
+      "weight": 6,
+      "chapters": 6,
+      "relation": "妾室",
+      "type": "夫妻"
     },
     {
       "source": "薛宝钗",
@@ -5109,14 +5072,6 @@
       "chapters": 3,
       "relation": "朋友",
       "type": "朋友"
-    },
-    {
-      "source": "薛蟠",
-      "target": "香菱",
-      "weight": 5,
-      "chapters": 5,
-      "relation": "妾室",
-      "type": "夫妻"
     },
     {
       "source": "贾政",
@@ -12423,14 +12378,6 @@
       "type": "夫妻"
     },
     {
-      "source": "甄士隐",
-      "target": "香菱",
-      "weight": 1,
-      "chapters": 1,
-      "relation": "父女",
-      "type": "亲属"
-    },
-    {
       "source": "曹雪芹",
       "target": "空空道人",
       "weight": 1,
@@ -12465,15 +12412,15 @@
     "尤二姐",
     "贾环",
     "邢夫人",
+    "香菱",
     "鸳鸯",
     "贾赦",
     "赵姨娘",
-    "晴雯",
-    "贾雨村"
+    "晴雯"
   ],
   "stats": {
-    "totalNodes": 420,
-    "totalEdges": 1187,
+    "totalNodes": 417,
+    "totalEdges": 1183,
     "totalRelations": 2169
   }
 }
