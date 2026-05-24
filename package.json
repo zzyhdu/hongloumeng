@@ -11,7 +11,9 @@
     "build": "npm run catalog && tsc -b && vite build",
     "preview": "vite preview",
     "generate:json": "python3 scripts/span_dumper.py && python3 scripts/paragraph_builder.py && python3 scripts/semantic_enricher.py && python3 scripts/epub_to_json.py",
-    "catalog": "node scripts/generateCatalog.cjs"
+    "catalog": "node scripts/generateCatalog.cjs && npm run search:index",
+    "search:index": "node scripts/generateSearchIndex.cjs",
+    "test:search": "npm run catalog && node scripts/testSearchIndex.cjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

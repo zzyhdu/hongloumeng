@@ -1,16 +1,35 @@
 import type { InlineSpan } from '../../types/chapterTypes';
+import { splitHighlightedText } from '../../lib/searchText';
+
+function HighlightedText({ text, keywords }: { text: string; keywords?: string[] }) {
+  if (!keywords?.length) return <>{text}</>;
+
+  return (
+    <>
+      {splitHighlightedText(text, keywords).map((part, index) =>
+        part.highlighted ? (
+          <mark key={index} className="search-highlight">
+            {part.text}
+          </mark>
+        ) : (
+          <span key={index}>{part.text}</span>
+        )
+      )}
+    </>
+  );
+}
 
 /**
  * Renders an array of InlineSpan into React elements.
  * Shared by ParagraphBlock, AnnotationBlock, PoetryBlock, etc.
  */
-export function InlineSpanRenderer({ spans }: { spans: InlineSpan[] }) {
+export function InlineSpanRenderer({ spans, highlightKeywords }: { spans: InlineSpan[]; highlightKeywords?: string[] }) {
   return (
     <>
       {spans.map((span, i) => {
         switch (span.type) {
           case 'text':
-            return <span key={i}>{span.content}</span>;
+            return <span key={i}><HighlightedText text={span.content} keywords={highlightKeywords} /></span>;
 
           case 'annotation':
             return (
@@ -19,7 +38,7 @@ export function InlineSpanRenderer({ spans }: { spans: InlineSpan[] }) {
                 className={`annotation-inline ${span.color}`}
                 title={`${span.source}${span.position}`}
               >
-                {span.content}
+                <HighlightedText text={span.content} keywords={highlightKeywords} />
               </span>
             );
 
@@ -27,10 +46,10 @@ export function InlineSpanRenderer({ spans }: { spans: InlineSpan[] }) {
             return (
               <span key={i} className="correction-mark">
                 {span.deleted && (
-                  <span className="correction-deleted">({span.deleted})</span>
+                  <span className="correction-deleted">(<HighlightedText text={span.deleted} keywords={highlightKeywords} />)</span>
                 )}
                 {span.inserted && (
-                  <span className="correction-inserted">[{span.inserted}]</span>
+                  <span className="correction-inserted">[<HighlightedText text={span.inserted} keywords={highlightKeywords} />]</span>
                 )}
               </span>
             );

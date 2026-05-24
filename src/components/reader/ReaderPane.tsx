@@ -1,4 +1,5 @@
 import { JsonReaderPane } from './JsonReaderPane';
+import type { SearchTarget } from '../../types/searchTypes';
 
 interface ReaderPaneProps {
   versionId: string | null;
@@ -11,6 +12,7 @@ interface ReaderPaneProps {
   onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
   zenMode?: boolean;
   scrollRequest?: { percentage: number; timestamp: number };
+  searchTarget?: SearchTarget;
   onProgressChange?: (percentage: number) => void;
 }
 
@@ -25,6 +27,7 @@ export function ReaderPane({
   onScrollDirectionChange,
   zenMode,
   scrollRequest,
+  searchTarget,
   onProgressChange,
 }: ReaderPaneProps) {
   // ── No content selected ──
@@ -39,5 +42,5 @@ export function ReaderPane({
   }
 
   // ── All versions now use structured JSON ──
-  return <JsonReaderPane versionId={versionId} chapterId={chapterId} meta={meta} hasNextChapter={hasNextChapter} onNextChapter={onNextChapter} resourceBase={resourceBase} fontSizeClass={fontSizeClass} onScrollDirectionChange={onScrollDirectionChange} zenMode={zenMode} scrollRequest={scrollRequest} onProgressChange={onProgressChange} />;
+  return <JsonReaderPane versionId={versionId} chapterId={chapterId} meta={meta} hasNextChapter={hasNextChapter} onNextChapter={onNextChapter} resourceBase={resourceBase} fontSizeClass={fontSizeClass} onScrollDirectionChange={onScrollDirectionChange} zenMode={zenMode} scrollRequest={scrollRequest} searchTarget={searchTarget} onProgressChange={onProgressChange} />;
 }

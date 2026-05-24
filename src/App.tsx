@@ -6,7 +6,9 @@ import { Sidebar } from './components/layout/Sidebar';
 import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
 import { RelationshipGraph } from './components/graph/RelationshipGraph';
+import { SearchPanel } from './components/search/SearchPanel';
 import { cn } from './lib/utils';
+import type { SearchResult, SearchTarget } from './types/searchTypes';
 import { X, Minimize2 } from 'lucide-react';
 
 export default function App() {
@@ -31,13 +33,21 @@ export default function App() {
   const [zenMode, setZenMode] = useState(false);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [showGraph, setShowGraph] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [currentPercentage, setCurrentPercentage] = useState(0);
   const [scrollRequest, setScrollRequest] = useState<{ percentage: number; timestamp: number } | undefined>(undefined);
+  const [searchTarget, setSearchTarget] = useState<SearchTarget | undefined>(undefined);
 
   const { bookmarks, addBookmark, removeBookmark, isChapterBookmarked } = useBookmarks();
 
+  const handleSelectVersion = useCallback((id: string) => {
+    setSearchTarget(undefined);
+    setCurrentVersionId(id);
+  }, [setCurrentVersionId]);
+
   const handleSelectChapter = useCallback((id: string) => {
     setScrollRequest({ percentage: 0, timestamp: Date.now() });
+    setSearchTarget(undefined);
     setCurrentChapterId(id);
   }, [setCurrentChapterId]);
 
@@ -45,6 +55,21 @@ export default function App() {
     setCurrentVersionId(bookmark.versionId);
     setCurrentChapterId(bookmark.chapterId);
     setScrollRequest({ percentage: bookmark.percentage, timestamp: Date.now() });
+    setSearchTarget(undefined);
+    setIsMobileSidebarOpen(false);
+  }, [setCurrentVersionId, setCurrentChapterId]);
+
+  const handleSelectSearchResult = useCallback((result: SearchResult) => {
+    setCurrentVersionId(result.versionId);
+    setCurrentChapterId(result.chapterId);
+    setSearchTarget({
+      versionId: result.versionId,
+      chapterId: result.chapterId,
+      blockIndex: result.blockIndex,
+      keywords: result.keywords,
+      timestamp: Date.now(),
+    });
+    setIsSearchOpen(false);
     setIsMobileSidebarOpen(false);
   }, [setCurrentVersionId, setCurrentChapterId]);
 
@@ -90,7 +115,7 @@ export default function App() {
         <Header
           versions={versions}
           currentVersionId={currentVersionId}
-          onVersionChange={setCurrentVersionId}
+          onVersionChange={handleSelectVersion}
           isMobileSidebarOpen={isMobileSidebarOpen}
           onToggleSidebar={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)}
           zenMode={zenMode}
@@ -101,6 +126,7 @@ export default function App() {
           isBookmarked={currentVersion && currentChapter ? isChapterBookmarked(currentVersion.id, currentChapter.id) : false}
           onToggleBookmark={handleToggleBookmark}
           onShowGraph={() => setShowGraph(true)}
+          onShowSearch={() => setIsSearchOpen(true)}
         />
       </div>
 
@@ -172,7 +198,7 @@ export default function App() {
                             <button
                               key={v.id}
                               onClick={() => {
-                                setCurrentVersionId(v.id);
+                                handleSelectVersion(v.id);
                               }}
                               className={cn(
                                 'rounded-full px-3 py-1 text-xs transition-all border',
@@ -276,6 +302,7 @@ export default function App() {
             onScrollDirectionChange={handleScrollDirection}
             zenMode={zenMode}
             scrollRequest={scrollRequest}
+            searchTarget={searchTarget}
             onProgressChange={setCurrentPercentage}
           />
           
@@ -289,6 +316,15 @@ export default function App() {
           </AnimatePresence>
         </main>
       </div>
+
+      <SearchPanel
+        open={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
+        versionId={currentVersionId}
+        versionName={currentVersion?.name}
+        resourceBase={RESOURCE_BASE}
+        onSelectResult={handleSelectSearchResult}
+      />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { ArrowRight, ChevronUp } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import { ChapterRenderer } from './ChapterRenderer';
 import type { ChapterData } from '../../types/chapterTypes';
+import type { SearchTarget } from '../../types/searchTypes';
 
 interface JsonReaderPaneProps {
   versionId: string;
@@ -15,6 +16,7 @@ interface JsonReaderPaneProps {
   onScrollDirectionChange?: (dir: 'up' | 'down', scrollY: number) => void;
   zenMode?: boolean;
   scrollRequest?: { percentage: number; timestamp: number };
+  searchTarget?: SearchTarget;
   onProgressChange?: (percentage: number) => void;
 }
 
@@ -29,6 +31,7 @@ export function JsonReaderPane({
   onScrollDirectionChange,
   zenMode,
   scrollRequest,
+  searchTarget,
   onProgressChange,
 }: JsonReaderPaneProps) {
   const [chapterData, setChapterData] = useState<ChapterData | null>(null);
@@ -37,25 +40,38 @@ export function JsonReaderPane({
   const containerRef = useRef<HTMLDivElement>(null);
 
   const lastScrollY = useRef(0);
+  const activeSearchTarget =
+    searchTarget?.versionId === versionId && searchTarget.chapterId === chapterId
+      ? searchTarget
+      : undefined;
 
-  // Scroll to top or requested percentage when content is ready or scrollRequest changes
+  // Scroll to search target, requested percentage, or top when content is ready.
   useEffect(() => {
-    if (!loading && chapterData && containerRef.current) {
-      const container = containerRef.current;
-      const targetScroll = scrollRequest 
-        ? scrollRequest.percentage * (container.scrollHeight - container.clientHeight)
-        : 0;
-        
-      // Use setTimeout to ensure rendering is complete before scrolling to a specific percentage
-      setTimeout(() => {
+    if (loading || !chapterData || !containerRef.current) return;
+
+    const container = containerRef.current;
+
+    // Use setTimeout to ensure rendering is complete before measuring DOM positions.
+    const timer = window.setTimeout(() => {
+      if (activeSearchTarget) {
+        const target = container.querySelector<HTMLElement>(`[data-search-block="${activeSearchTarget.blockIndex}"]`);
+        target?.scrollIntoView({ block: 'center' });
+      } else {
+        const targetScroll = scrollRequest
+          ? scrollRequest.percentage * (container.scrollHeight - container.clientHeight)
+          : 0;
         container.scrollTo({ top: targetScroll });
-        lastScrollY.current = targetScroll;
-        if (onScrollDirectionChange) {
-          onScrollDirectionChange('up', targetScroll);
-        }
-      }, 50);
-    }
-  }, [chapterId, loading, chapterData, scrollRequest, onScrollDirectionChange]);
+      }
+
+      const currentScrollY = container.scrollTop;
+      lastScrollY.current = currentScrollY;
+      if (onScrollDirectionChange) {
+        onScrollDirectionChange('up', currentScrollY);
+      }
+    }, 50);
+
+    return () => window.clearTimeout(timer);
+  }, [loading, chapterData, scrollRequest, activeSearchTarget, onScrollDirectionChange]);
 
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const container = e.currentTarget;
@@ -78,24 +94,37 @@ export function JsonReaderPane({
   };
 
   useEffect(() => {
+    const controller = new AbortController();
+    let cancelled = false;
+
     setLoading(true);
     setError('');
+    setChapterData(null);
 
     const contentPath = `${resourceBase}/${versionId}/${chapterId}.json`;
-    fetch(contentPath)
+    fetch(contentPath, { signal: controller.signal })
       .then((res) => {
         if (!res.ok) throw new Error(`加载失败：${res.status}`);
         return res.json() as Promise<ChapterData>;
       })
       .then((data) => {
+        if (cancelled) return;
         setChapterData(data);
       })
       .catch((err) => {
+        if (cancelled || controller.signal.aborted) return;
         console.error(err);
         setChapterData(null);
         setError('加载章节失败，请检查网络或资源路径。');
       })
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+      controller.abort();
+    };
   }, [versionId, chapterId, resourceBase]);
 
   const scrollToTop = () => {
@@ -136,7 +165,7 @@ export function JsonReaderPane({
     >
       <article className="mx-auto max-w-3xl">
 
-        <ChapterRenderer data={chapterData} fontSizeClass={fontSizeClass} />
+        <ChapterRenderer data={chapterData} fontSizeClass={fontSizeClass} searchTarget={activeSearchTarget} />
 
         {hasNextChapter && (
           <div className="mt-24 mb-12 flex justify-center">

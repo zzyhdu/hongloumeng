@@ -38,6 +38,26 @@
   text-indent: 2em;
 }
 
+.search-highlight {
+  background: rgba(211, 47, 47, 0.18);
+  color: inherit;
+  border-radius: 0.2em;
+  padding: 0 0.08em;
+}
+
+.search-block {
+  scroll-margin-top: 6rem;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.search-target-block {
+  background: rgba(122, 147, 125, 0.10);
+  box-shadow: 0 0 0 1px rgba(122, 147, 125, 0.18);
+  border-radius: 6px;
+  margin: -0.25rem -0.5rem 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+
 /* Hide the duplicated title from the raw markdown */
 .reader-prose>h3:first-child {
   display: none;
