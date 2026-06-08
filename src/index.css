@@ -242,3 +242,18 @@
 .footnote-backref:hover {
   opacity: 1;
 }
+
+/* Honglou World */
+.honglou-world-range {
+  accent-color: var(--color-xiaoxiang-celadon);
+}
+
+.honglou-world-range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(122, 147, 125, 0.18);
+}
+
+.honglou-world-range::-webkit-slider-thumb {
+  margin-top: -6px;
+}

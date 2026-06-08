@@ -7,6 +7,7 @@ import { Header } from './components/layout/Header';
 import { ReaderPane } from './components/reader/ReaderPane';
 import { RelationshipGraph } from './components/graph/RelationshipGraph';
 import { SearchPanel } from './components/search/SearchPanel';
+import { HonglouWorld } from './world/components/HonglouWorld';
 import { cn } from './lib/utils';
 import type { SearchResult, SearchTarget } from './types/searchTypes';
 import { X, Minimize2 } from 'lucide-react';
@@ -33,6 +34,7 @@ export default function App() {
   const [zenMode, setZenMode] = useState(false);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [showGraph, setShowGraph] = useState(false);
+  const [showWorld, setShowWorld] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [currentPercentage, setCurrentPercentage] = useState(0);
   const [scrollRequest, setScrollRequest] = useState<{ percentage: number; timestamp: number } | undefined>(undefined);
@@ -126,6 +128,7 @@ export default function App() {
           isBookmarked={currentVersion && currentChapter ? isChapterBookmarked(currentVersion.id, currentChapter.id) : false}
           onToggleBookmark={handleToggleBookmark}
           onShowGraph={() => setShowGraph(true)}
+          onShowWorld={() => setShowWorld(true)}
           onShowSearch={() => setIsSearchOpen(true)}
         />
       </div>
@@ -325,6 +328,17 @@ export default function App() {
         resourceBase={RESOURCE_BASE}
         onSelectResult={handleSelectSearchResult}
       />
+
+      <AnimatePresence>
+        {showWorld && (
+          <HonglouWorld
+            chapterId={currentChapterId}
+            chapterTitle={currentChapter?.title}
+            resourceBase={RESOURCE_BASE}
+            onClose={() => setShowWorld(false)}
+          />
+        )}
+      </AnimatePresence>
     </div>
   );
 }

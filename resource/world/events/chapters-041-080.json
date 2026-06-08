@@ -1,0 +1,131 @@
+[
+  {
+    "id": "055-tanchun-manages-household",
+    "chapter": 55,
+    "title": "探春理家",
+    "summary": "凤姐病中，探春协理家务，兴利除弊，也照见贾府内部积弊。",
+    "locationIds": ["qiushuang", "rongfu"],
+    "characterIds": ["tanchun", "xifeng", "baochai"],
+    "effects": [
+      { "type": "set_era", "era": "盛后暗流" },
+      { "type": "set_prosperity", "value": 76 },
+      { "type": "set_character_status", "characterId": "xifeng", "status": "ill" },
+      { "type": "set_character_health", "characterId": "xifeng", "health": 58 },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "疲惫" },
+      { "type": "set_character_mood", "characterId": "tanchun", "mood": "刚毅" },
+      { "type": "set_character_concerns", "characterId": "tanchun", "concerns": ["理家除弊", "下人刁难", "庶出身份"] },
+      { "type": "move_character", "characterId": "tanchun", "locationId": "qiushuang" },
+      { "type": "relationship_delta", "from": "tanchun", "to": "baochai", "trust": 12, "note": "宝钗协助探春，以稳妥方式补偏救弊。" }
+    ]
+  },
+  {
+    "id": "065-you-sisters-enter",
+    "chapter": 65,
+    "title": "尤氏姊妹",
+    "summary": "尤二姐、尤三姐卷入贾府男性支脉与凤姐权谋，宁府气氛转为危险。",
+    "locationIds": ["ningfu"],
+    "characterIds": ["youerjie", "yousanjie", "xifeng"],
+    "effects": [
+      { "type": "prosperity_delta", "value": -5 },
+      { "type": "set_location_status", "locationId": "ningfu", "status": "tense" },
+      { "type": "set_character_status", "characterId": "youerjie", "status": "active" },
+      { "type": "move_character", "characterId": "youerjie", "locationId": "ningfu" },
+      { "type": "set_character_mood", "characterId": "youerjie", "mood": "惶恐" },
+      { "type": "set_character_status", "characterId": "yousanjie", "status": "active" },
+      { "type": "move_character", "characterId": "yousanjie", "locationId": "ningfu" },
+      { "type": "set_character_mood", "characterId": "yousanjie", "mood": "刚烈" },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "阴冷" },
+      { "type": "set_character_concerns", "characterId": "xifeng", "concerns": ["尤二姐", "贾琏外室", "维护正室权力"] }
+    ]
+  },
+  {
+    "id": "069-you-sisters-tragedy",
+    "chapter": 69,
+    "title": "尤氏姊妹结局",
+    "summary": "尤二姐吞金，尤三姐自刎，贾府暗处的人命悲剧浮出水面。",
+    "locationIds": ["ningfu", "outside"],
+    "characterIds": ["youerjie", "yousanjie", "xifeng"],
+    "effects": [
+      { "type": "prosperity_delta", "value": -8 },
+      { "type": "set_character_status", "characterId": "youerjie", "status": "deceased" },
+      { "type": "set_character_health", "characterId": "youerjie", "health": 0 },
+      { "type": "set_character_status", "characterId": "yousanjie", "status": "deceased" },
+      { "type": "set_character_health", "characterId": "yousanjie", "health": 0 },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "强撑" },
+      { "type": "set_location_note", "locationId": "ningfu", "note": "尤氏姊妹事件后，宁府牵连的人情与欲望更显败坏。" }
+    ]
+  },
+  {
+    "id": "070-late-garden-wind",
+    "chapter": 70,
+    "title": "风雨渐至",
+    "summary": "大观园仍有诗意余韵，但衰败气息已逐渐逼近。",
+    "locationIds": ["daguanyuan"],
+    "characterIds": ["daiyu", "baoyu"],
+    "effects": [
+      { "type": "set_era", "era": "风雨" },
+      { "type": "set_prosperity", "value": 60 },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "tense" },
+      { "type": "set_character_health", "characterId": "daiyu", "health": 52 },
+      { "type": "set_character_mood", "characterId": "daiyu", "mood": "病弱" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "不安" }
+    ]
+  },
+  {
+    "id": "074-raid-daguanyuan",
+    "chapter": 74,
+    "title": "抄检大观园",
+    "summary": "抄检大观园爆发，怡红院、秋爽斋等处被卷入，园中清净世界被权力与猜忌撕裂。",
+    "locationIds": ["daguanyuan", "yihong", "qiushuang"],
+    "characterIds": ["xifeng", "wangfuren", "tanchun", "qingwen", "baoyu"],
+    "refs": [{ "versionId": "rm120", "chapterId": "074", "quote": "抄检大观园" }],
+    "effects": [
+      { "type": "set_era", "era": "抄检风波" },
+      { "type": "prosperity_delta", "value": -12 },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "searched" },
+      { "type": "set_location_status", "locationId": "yihong", "status": "searched" },
+      { "type": "set_location_status", "locationId": "qiushuang", "status": "searched" },
+      { "type": "set_location_note", "locationId": "daguanyuan", "note": "抄检之后，大观园不再只是诗意与青春的空间。" },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "冷硬" },
+      { "type": "set_character_mood", "characterId": "wangfuren", "mood": "疑惧" },
+      { "type": "set_character_mood", "characterId": "tanchun", "mood": "愤怒" },
+      { "type": "set_character_concerns", "characterId": "tanchun", "concerns": ["家族自毁", "下人受辱", "庶出尊严"] },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "惊痛" },
+      { "type": "set_character_mood", "characterId": "qingwen", "mood": "愤懑" },
+      { "type": "relationship_delta", "from": "tanchun", "to": "xifeng", "tension": 22, "note": "探春怒斥抄检，直指家族自杀自灭。" },
+      { "type": "add_known_fact", "characterId": "baoyu", "fact": "大观园中的丫鬟与姐妹都可能被权力搜检伤害。" }
+    ]
+  },
+  {
+    "id": "077-qingwen-dies",
+    "chapter": 77,
+    "title": "晴雯被逐",
+    "summary": "晴雯被逐后病亡，怡红院失去锐气，大观园风雨更重。",
+    "locationIds": ["yihong", "outside"],
+    "characterIds": ["qingwen", "baoyu"],
+    "effects": [
+      { "type": "prosperity_delta", "value": -5 },
+      { "type": "set_character_status", "characterId": "qingwen", "status": "deceased" },
+      { "type": "set_character_health", "characterId": "qingwen", "health": 0 },
+      { "type": "move_character", "characterId": "qingwen", "locationId": "outside" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "哀伤" },
+      { "type": "set_character_concerns", "characterId": "baoyu", "concerns": ["晴雯之死", "怡红院受损", "园中风波"] },
+      { "type": "relationship_delta", "from": "baoyu", "to": "qingwen", "affinity": 12, "tension": -4, "note": "宝玉以芙蓉女儿诔寄托哀思。" }
+    ]
+  },
+  {
+    "id": "080-yingchun-married-out",
+    "chapter": 80,
+    "title": "迎春误嫁",
+    "summary": "迎春误嫁中山狼，紫菱洲渐空，大观园少女群像开始离散。",
+    "locationIds": ["zijing", "outside"],
+    "characterIds": ["yingchun"],
+    "effects": [
+      { "type": "prosperity_delta", "value": -4 },
+      { "type": "set_character_status", "characterId": "yingchun", "status": "married_out" },
+      { "type": "move_character", "characterId": "yingchun", "locationId": "outside" },
+      { "type": "set_location_status", "locationId": "zijing", "status": "abandoned" },
+      { "type": "set_location_note", "locationId": "zijing", "note": "迎春出嫁后，紫菱洲显出空落之态。" }
+    ]
+  }
+]

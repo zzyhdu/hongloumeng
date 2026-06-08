@@ -1,0 +1,135 @@
+{
+  "ningrong_street": {
+    "id": "ningrong_street",
+    "name": "宁荣街",
+    "kind": "street",
+    "description": "宁国府与荣国府所在街区，是黛玉入府时首先抵达的外部空间。"
+  },
+  "ningfu": {
+    "id": "ningfu",
+    "name": "宁国府",
+    "kind": "mansion",
+    "parentId": "ningrong_street",
+    "description": "贾氏宁国一支府邸，秦可卿丧事、尤氏姊妹事件等多在此牵连。"
+  },
+  "rongfu": {
+    "id": "rongfu",
+    "name": "荣国府",
+    "kind": "mansion",
+    "parentId": "ningrong_street",
+    "description": "小说主要府邸，宝玉、贾母、凤姐等人的核心生活空间。"
+  },
+  "rongqing": {
+    "id": "rongqing",
+    "name": "荣庆堂",
+    "kind": "hall",
+    "parentId": "rongfu",
+    "description": "贾母院中的核心厅堂，是贾母居处及家族日常聚会中心。"
+  },
+  "rongxi": {
+    "id": "rongxi",
+    "name": "荣禧堂",
+    "kind": "hall",
+    "parentId": "rongfu",
+    "description": "荣国府正堂，黛玉拜见王夫人时所见重要空间。"
+  },
+  "jiashe_house": {
+    "id": "jiashe_house",
+    "name": "贾赦院",
+    "kind": "courtyard",
+    "parentId": "rongfu",
+    "description": "荣国府东侧偏下的院落，贾赦、邢夫人所在。"
+  },
+  "bisha": {
+    "id": "bisha",
+    "name": "碧纱橱",
+    "kind": "room",
+    "parentId": "rongqing",
+    "description": "黛玉初入贾府后的临时居处。"
+  },
+  "liyuan": {
+    "id": "liyuan",
+    "name": "梨香院",
+    "kind": "courtyard",
+    "parentId": "rongfu",
+    "description": "薛家初入贾府时暂住之处，后与戏班相关。"
+  },
+  "daguanyuan": {
+    "id": "daguanyuan",
+    "name": "大观园",
+    "kind": "garden",
+    "parentId": "rongfu",
+    "unlockChapter": 17,
+    "description": "因元妃省亲而建成的园林空间，后成为宝玉与众姐妹主要活动场。"
+  },
+  "yihong": {
+    "id": "yihong",
+    "name": "怡红院",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "宝玉入住大观园后的居所。"
+  },
+  "xiaoxiang": {
+    "id": "xiaoxiang",
+    "name": "潇湘馆",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "黛玉入住大观园后的居所，竹影萧萧。"
+  },
+  "hengwu": {
+    "id": "hengwu",
+    "name": "蘅芜苑",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "宝钗入住大观园后的居所。"
+  },
+  "qiushuang": {
+    "id": "qiushuang",
+    "name": "秋爽斋",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "探春入住大观园后的居所，也是结社理事的重要空间。"
+  },
+  "daoxiang": {
+    "id": "daoxiang",
+    "name": "稻香村",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "李纨在大观园中的居处，具田园意味。"
+  },
+  "longcui": {
+    "id": "longcui",
+    "name": "栊翠庵",
+    "kind": "temple",
+    "parentId": "daguanyuan",
+    "unlockChapter": 17,
+    "description": "妙玉居处，带有清修意味。"
+  },
+  "zijing": {
+    "id": "zijing",
+    "name": "紫菱洲",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "迎春在大观园中的居处。"
+  },
+  "nuanxiang": {
+    "id": "nuanxiang",
+    "name": "暖香坞",
+    "kind": "courtyard",
+    "parentId": "daguanyuan",
+    "unlockChapter": 23,
+    "description": "惜春在大观园中的活动空间。"
+  },
+  "outside": {
+    "id": "outside",
+    "name": "府外",
+    "kind": "outside",
+    "description": "地图之外的外部空间，用于表示离府、出嫁、远行等状态。"
+  }
+}

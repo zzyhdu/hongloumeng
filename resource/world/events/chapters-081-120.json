@@ -1,0 +1,108 @@
+[
+  {
+    "id": "081-decline-after-eighty",
+    "chapter": 81,
+    "title": "八十回后",
+    "summary": "后四十回进入衰败加速段，园中人物离散，家族气数转低。",
+    "locationIds": ["daguanyuan", "rongfu"],
+    "effects": [
+      { "type": "set_era", "era": "衰声" },
+      { "type": "set_prosperity", "value": 45 },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "tense" },
+      { "type": "set_character_health", "characterId": "daiyu", "health": 38 },
+      { "type": "set_character_mood", "characterId": "daiyu", "mood": "病深" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "迷惘" },
+      { "type": "set_character_mood", "characterId": "baochai", "mood": "沉稳" }
+    ]
+  },
+  {
+    "id": "098-daiyu-death-baoyu-marriage",
+    "chapter": 98,
+    "title": "黛玉亡与宝钗婚",
+    "summary": "黛玉病逝，宝玉与宝钗成婚，红楼世界的核心情感结构发生不可逆转变。",
+    "locationIds": ["xiaoxiang", "yihong", "hengwu"],
+    "characterIds": ["daiyu", "baoyu", "baochai"],
+    "refs": [{ "versionId": "rm120", "chapterId": "098", "quote": "苦绛珠魂归离恨天" }],
+    "effects": [
+      { "type": "set_era", "era": "情断" },
+      { "type": "set_prosperity", "value": 28 },
+      { "type": "set_character_status", "characterId": "daiyu", "status": "deceased" },
+      { "type": "set_character_health", "characterId": "daiyu", "health": 0 },
+      { "type": "move_character", "characterId": "daiyu", "locationId": "xiaoxiang" },
+      { "type": "set_location_status", "locationId": "xiaoxiang", "status": "abandoned" },
+      { "type": "set_location_note", "locationId": "xiaoxiang", "note": "黛玉亡后，潇湘馆成为记忆与空寂之地。" },
+      { "type": "set_character_status", "characterId": "baoyu", "status": "ill" },
+      { "type": "set_character_health", "characterId": "baoyu", "health": 36 },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "恍惚" },
+      { "type": "set_character_concerns", "characterId": "baoyu", "concerns": ["黛玉之死", "宝钗成婚", "真假错乱"] },
+      { "type": "move_character", "characterId": "baoyu", "locationId": "yihong" },
+      { "type": "move_character", "characterId": "baochai", "locationId": "yihong" },
+      { "type": "set_character_mood", "characterId": "baochai", "mood": "沉痛" },
+      { "type": "relationship_delta", "from": "baoyu", "to": "daiyu", "affinity": 30, "trust": 10, "tension": -20, "note": "黛玉之死使宝玉情感世界崩塌。" },
+      { "type": "relationship_delta", "from": "baoyu", "to": "baochai", "affinity": 10, "trust": 6, "tension": 18, "note": "婚姻成立，但宝玉精神上无法承受。" }
+    ]
+  },
+  {
+    "id": "105-jiafu-raided",
+    "chapter": 105,
+    "title": "贾府被抄",
+    "summary": "贾府被抄，繁华根基崩塌，荣宁二府进入败落状态。",
+    "locationIds": ["rongfu", "ningfu", "daguanyuan"],
+    "characterIds": ["xifeng", "qiaojie", "baoyu"],
+    "effects": [
+      { "type": "set_era", "era": "败落" },
+      { "type": "set_prosperity", "value": 16 },
+      { "type": "set_location_status", "locationId": "rongfu", "status": "tense" },
+      { "type": "set_location_status", "locationId": "ningfu", "status": "tense" },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "abandoned" },
+      { "type": "set_location_status", "locationId": "yihong", "status": "abandoned" },
+      { "type": "set_location_status", "locationId": "hengwu", "status": "abandoned" },
+      { "type": "set_location_status", "locationId": "qiushuang", "status": "abandoned" },
+      { "type": "set_location_status", "locationId": "daoxiang", "status": "abandoned" },
+      { "type": "set_character_status", "characterId": "xifeng", "status": "ill" },
+      { "type": "set_character_health", "characterId": "xifeng", "health": 24 },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "衰病" },
+      { "type": "set_character_status", "characterId": "qiaojie", "status": "active" },
+      { "type": "move_character", "characterId": "qiaojie", "locationId": "rongfu" },
+      { "type": "set_character_concerns", "characterId": "qiaojie", "concerns": ["家败", "被牵连", "去向未定"] }
+    ]
+  },
+  {
+    "id": "111-family-scattered",
+    "chapter": 111,
+    "title": "家族离散",
+    "summary": "贾母等核心庇护力量消失，贾府人物进一步离散。",
+    "locationIds": ["rongqing", "rongfu"],
+    "characterIds": ["jiamu", "xifeng", "baoyu", "baochai"],
+    "effects": [
+      { "type": "set_era", "era": "离散" },
+      { "type": "set_prosperity", "value": 8 },
+      { "type": "set_character_status", "characterId": "jiamu", "status": "deceased" },
+      { "type": "set_character_health", "characterId": "jiamu", "health": 0 },
+      { "type": "set_location_status", "locationId": "rongqing", "status": "abandoned" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "空茫" },
+      { "type": "set_character_mood", "characterId": "baochai", "mood": "忍耐" },
+      { "type": "set_character_status", "characterId": "xifeng", "status": "ill" },
+      { "type": "set_character_health", "characterId": "xifeng", "health": 10 }
+    ]
+  },
+  {
+    "id": "120-return-to-void",
+    "chapter": 120,
+    "title": "归结",
+    "summary": "红楼梦境归空，宝玉离家，繁华世界收束为一场大梦。",
+    "locationIds": ["outside", "rongfu"],
+    "characterIds": ["baoyu", "baochai"],
+    "effects": [
+      { "type": "set_era", "era": "归结" },
+      { "type": "set_prosperity", "value": 0 },
+      { "type": "set_character_status", "characterId": "baoyu", "status": "away" },
+      { "type": "move_character", "characterId": "baoyu", "locationId": "outside" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "出尘" },
+      { "type": "set_character_concerns", "characterId": "baoyu", "concerns": [] },
+      { "type": "set_character_mood", "characterId": "baochai", "mood": "孤寂" },
+      { "type": "set_location_status", "locationId": "rongfu", "status": "abandoned" },
+      { "type": "set_location_status", "locationId": "ningfu", "status": "abandoned" }
+    ]
+  }
+]

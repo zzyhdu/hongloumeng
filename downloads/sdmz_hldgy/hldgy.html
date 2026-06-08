@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-FRAME-OPTIONS" content="DENY">
+<title>红楼梦大观园平面图|大观园建筑物平面图|红楼梦地图|四大名著地图</title>
+<meta name="keywords" content="红楼梦大观园平面图、大观园建筑物平面图、红楼梦地图、四大名著地图">
+<meta name="description" content="红楼大观园平面图，依据红楼梦中的描写，复原出了红楼梦大观园建筑物平面图，可以用随意放大缩小查看。">
+<!--
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+#<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+-->
+
+<link  href="http://www.sdmz.cn/map/leaflet.css" rel="stylesheet" />
+<script src="http://www.sdmz.cn/map/leaflet.js"></script>
+<style type="text/css">
+<!--
+* {
+    margin:0;
+    padding:0;
+}
+html{
+    _padding:100px 0 100px 0;
+    _overflow:hidden;
+}
+html,body {
+    height:100%;
+    width:100%;
+	background:#00A2CA;
+	
+}
+
+#wrap {
+    
+    width:100%;
+    position:absolute;
+    z-index:20;
+    left:0;
+    top:50px;
+    bottom:30px;
+    _height:100%;
+	background:#F0FFF0;
+}
+#top {
+    height:50px;
+    width:98%;
+    left:0;
+    top:0px;
+    position:absolute;
+    z-index:100;
+	
+}
+#footer {
+    height:30px;
+    width:100%;
+    background: #0095BB;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index:100;
+	text-align:center;
+	 height:30px;   
+     line-height:30px; 
+	 font-family:"\5FAE\8F6F\96C5\9ED1"; 
+	 font-size:14px;
+	 display:inline;
+}
+
+#mappan {
+         border:1px  solid;
+		 height:100%;
+     }
+	 
+ul, li { list-style:none;}
+a { text-decoration:none;}
+.nav {   overflow:hidden; margin:0 auto;width:980px; height:50px;text-align:center;}
+.nav ul li { float:left;}
+.nav ul li a { width:130px; height:50px; text-align:center; line-height:50px; display:block;  background:#00A2CA; margin:0 auto;color:#FFF;font-family:"\5FAE\8F6F\96C5\9ED1"; font-size:18px;}
+.nav ul li a:hover{ color:#f00; background:#D8BFD8}
+.nav ul li ul { position:absolute; display:none;}
+.nav ul li ul li { float:none;}
+.nav ul li ul li a { border-right:none; border-top:1px dotted #ccc; background:#00A2CA; font-size:16px;}
+.nav ul li:hover ul{ display:block; }
+
+#guanggao{
+			height:250px;
+			position:absolute;
+			right:0px;
+			bottom:0px;
+			
+		}
+#tip1{
+			height:35px;
+			background-color:#fff;
+			padding-left:10px;
+			padding-right:10px;
+			border:1px solid #969696;
+			position:absolute;
+			font-size:12px;
+			right:10px;
+			top:20px;
+			border-radius:3px;
+			line-height:35px;
+		}
+		
+		#tip1 input[type='button']{
+			height:22px;
+			line-height:22px;
+			outline:none;
+			text-align:center;
+			padding-left:5px;
+			padding-right:5px;
+			color:#FFF;
+			background-color:#0D9BF2;
+			border:0;
+			border-radius: 3px;
+			margin-top:8px;
+			margin-left:5px;
+			cursor:pointer;
+			margin-right:10px;
+		}
+-->
+
+</style>
+</head>
+<body onLoad="mapInit()">
+<div id="top">
+<div class="nav" >
+<ul>
+    <li><a href="http://www.sdmz.cn/">首页</a>
+	
+	</li>
+	
+    <li><a>西游地图</a>
+	 <ul>
+        <li><a href="http://www.sdmz.cn/map/index.html">玄奘西行</a></li>
+		 <li><a href="http://www.sdmz.cn/map/tcdt.html">大唐疆域</a></li>
+   <li><a href="http://www.sdmz.cn/map/jj81/">八十一难</a></li>
+       
+      </ul>
+	</li>
+    <li><a>三国地图</a>
+	 <ul>
+        <li><a href="http://www.sdmz.cn/map/gcc.html">三国古城池</a></li>
+		<li><a href="http://www.sdmz.cn/map/sgst.html">三国史图</a></li>
+		<li><a href="http://www.sdmz.cn/map/xws.html">三国兴亡史</a></li>
+		<li><a href="http://www.sdmz.cn/map/bns.html">三国编年史</a></li>
+		<li><a href="http://www.sdmz.cn/map/sgxt.html">三国详图</a></li>
+       <li><a href="http://www.sdmz.cn/map/sgdl.html">三国鼎立</a></li>
+        
+       
+      </ul>
+	</li>
+	<li><a>水浒地图</a>
+	 <ul>
+        <li><a href="http://www.sdmz.cn/map/map10836.html ">水浒108将</a></li>
+		 <li><a href="http://www.sdmz.cn/map/bsdt.html ">北宋疆域</a></li>
+		 <li><a href="http://www.sdmz.cn/map/qydt.html ">起义地图</a></li>
+		 <li><a href="http://www.sdmz.cn/shzt ">水浒寨图</a></li>
+      </ul>
+	</li>
+	
+	<li><a>红楼地图</a>
+	 <ul>
+        <li><a href="http://www.sdmz.cn/map/hlm/">大观园三维全景</a></li>
+		<li><a href="http://www.sdmz.cn/map/jfpm.html">贾府图</a></li>
+        <li><a href="http://www.sdmz.cn/map/hldgy.html">贾府图(于培良版)</a></li>
+		<li><a href="http://www.sdmz.cn/map/txhj.html">太虚幻境</a></li>
+		<li><a href="http://www.sdmz.cn/map/jfnk.html">大观园鸟瞰</a></li>
+      </ul>
+	</li>
+   
+	<li><a href="http://www.sdmz.cn/bbs/forum.php?mod=viewthread&tid=60&extra=page%3D1">建议意见 </a></li>
+	<!-- <div id="search_body1">
+                <input id="searchtxt" class="text" type="text" name="search" style="width:250px;margin:7px auto;"/> <button onclick="javascript:mySearch();">搜    索</button><input id="jjbsyn" class="btn" type="button" name="Search" " value="   搜  索   " style= margin:7px auto;"/>
+                </div> -->
+	
+   
+ </ul>            
+</div>
+</div>
+
+<div id="wrap">		 
+ <div id="mappan"></div>
+ 
+ <!-- 增加二维码 -->	
+ <div id="guanggao" style=" position: fixed; right: 8px; bottom: -8px;">
+
+ <img src="http://www.sdmz.cn/images/weixin.jpg">
+</div>
+
+<!-- 悬浮广告 -->
+<!--  <div id="guanggao">
+		<script type="text/javascript">
+    /*mapyx*/
+    var cpro_id = "u3053552";
+</script>
+<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/c.js"></script>
+
+</div> -->
+
+<!-- 给悬浮广告位增加关闭按钮 -->
+
+<!-- <div class="close-ad" style=" position: fixed; right: 0; bottom: 260px;cursor:pointer;">
+ <a title="关闭" onclick="this.style.display='none';document.getElementById('guanggao').style.display='none'" href="javascript:void(0)">
+ <img src="http://www.sdmz.cn/images/close-ad.gif">
+ </a>
+ </div> -->
+ 
+ <div id="tip1">
+		<input type="button" value="平面图" onclick="pmt()"/>
+	    <input type="button" value="标注图" onclick="bzt()"/>
+		 <input type="button" value="注释图" onclick="zst()"/>
+	</div>
+ 
+</div>
+<div id="footer">Copyright © 2015<a href="http://www.sdmz.cn" target="_blank">四大名著</a>All rights reserved.  
+<script src="http://s11.cnzz.com/z_stat.php?id=1255320984&web_id=1255320984" language="JavaScript"></script>
+</div>
+
+
+</body>
+
+<script language="javascript">
+
+
+var map = L.map('mappan',{
+    center: [41.45, -73.68],
+	minZoom: 9,
+	maxZoom: 12,
+    zoom: 10
+    });
+
+   var  imageUrl = 'http://www.sdmz.cn/map/images/hlm/bzt.gif',
+    imageBounds = [[40.712216, -74.22655], [42.773941, -73.12544]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+
+  function pmt() {
+       var  imageUrl = 'http://www.sdmz.cn/map/images/hlm/pmt.gif',
+    imageBounds = [[40.712216, -74.22655], [42.773941, -73.12544]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+    }
+
+  function bzt() {
+  var  imageUrl = 'http://www.sdmz.cn/map/images/hlm/bzt.gif',
+    imageBounds = [[40.712216, -74.22655], [42.773941, -73.12544]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+       
+    }
+  function zst() {
+       var  imageUrl = 'http://www.sdmz.cn/map/images/hlm/zst.gif',
+    imageBounds = [[40.712216, -74.22655], [42.773941, -73.12544]];
+
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+    }
+
+if(top != self){ 
+ window.top.location.replace(self.location); 
+} 
+
+</script>
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"7","bdPos":"right","bdTop":"200"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+</html>

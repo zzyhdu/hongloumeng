@@ -1,0 +1,198 @@
+{
+  "jiamu": {
+    "id": "jiamu",
+    "name": "贾母",
+    "shortName": "母",
+    "aliases": ["史太君", "老祖宗"],
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "description": "荣国府最高长辈，宝玉与黛玉的重要庇护者。"
+  },
+  "baoyu": {
+    "id": "baoyu",
+    "name": "贾宝玉",
+    "shortName": "宝",
+    "aliases": ["宝二爷", "怡红公子"],
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "fate": "出家",
+    "description": "荣国府核心人物，通灵宝玉携带者，与黛玉、宝钗构成全书情感主线。"
+  },
+  "daiyu": {
+    "id": "daiyu",
+    "name": "林黛玉",
+    "shortName": "黛",
+    "aliases": ["林姑娘", "潇湘妃子"],
+    "faction": "林家/荣国府",
+    "firstChapter": 3,
+    "fate": "病逝",
+    "description": "贾母外孙女，寄居荣国府，才情敏锐而身世孤寒。"
+  },
+  "baochai": {
+    "id": "baochai",
+    "name": "薛宝钗",
+    "shortName": "钗",
+    "aliases": ["宝姑娘", "蘅芜君"],
+    "faction": "薛家",
+    "firstChapter": 4,
+    "description": "薛姨妈之女，端方稳重，后与宝玉成婚。"
+  },
+  "xifeng": {
+    "id": "xifeng",
+    "name": "王熙凤",
+    "shortName": "凤",
+    "aliases": ["凤姐", "凤辣子"],
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "fate": "病亡",
+    "description": "贾琏之妻，荣国府实际管家者，精明强势。"
+  },
+  "yuanchun": {
+    "id": "yuanchun",
+    "name": "贾元春",
+    "shortName": "元",
+    "aliases": ["元妃", "贵妃"],
+    "faction": "荣国府/宫廷",
+    "firstChapter": 2,
+    "fate": "薨逝",
+    "description": "贾府入宫之女，省亲推动大观园建成。"
+  },
+  "yingchun": {
+    "id": "yingchun",
+    "name": "贾迎春",
+    "shortName": "迎",
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "fate": "误嫁孙绍祖后受苦",
+    "description": "贾府二姑娘，性情懦弱。"
+  },
+  "tanchun": {
+    "id": "tanchun",
+    "name": "贾探春",
+    "shortName": "探",
+    "aliases": ["蕉下客"],
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "fate": "远嫁",
+    "description": "贾府三姑娘，精明有才，曾代凤姐理家。"
+  },
+  "xichun": {
+    "id": "xichun",
+    "name": "贾惜春",
+    "shortName": "惜",
+    "faction": "宁国府/荣国府",
+    "firstChapter": 3,
+    "fate": "出家",
+    "description": "贾府四姑娘，性情冷淡，后入空门。"
+  },
+  "xiangyun": {
+    "id": "xiangyun",
+    "name": "史湘云",
+    "shortName": "云",
+    "aliases": ["枕霞旧友"],
+    "faction": "史家",
+    "firstChapter": 20,
+    "description": "贾母娘家侄孙女，豪爽明朗，常来贾府小住。"
+  },
+  "liwan": {
+    "id": "liwan",
+    "name": "李纨",
+    "shortName": "纨",
+    "aliases": ["稻香老农"],
+    "faction": "荣国府",
+    "firstChapter": 4,
+    "description": "贾珠遗孀，守寡抚子，大观园诗社中常任社长。"
+  },
+  "wangfuren": {
+    "id": "wangfuren",
+    "name": "王夫人",
+    "shortName": "王",
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "description": "贾政之妻，宝玉之母，府中内务权力核心之一。"
+  },
+  "xingfuren": {
+    "id": "xingfuren",
+    "name": "邢夫人",
+    "shortName": "邢",
+    "faction": "荣国府",
+    "firstChapter": 3,
+    "description": "贾赦之妻，迎春继母。"
+  },
+  "jiazheng": {
+    "id": "jiazheng",
+    "name": "贾政",
+    "shortName": "政",
+    "faction": "荣国府",
+    "firstChapter": 2,
+    "description": "宝玉之父，讲求仕途礼法。"
+  },
+  "jiashe": {
+    "id": "jiashe",
+    "name": "贾赦",
+    "shortName": "赦",
+    "faction": "荣国府",
+    "firstChapter": 2,
+    "description": "荣国府承爵者，贾琏之父。"
+  },
+  "xiren": {
+    "id": "xiren",
+    "name": "袭人",
+    "shortName": "袭",
+    "faction": "怡红院",
+    "firstChapter": 3,
+    "description": "宝玉身边大丫鬟，温顺谨慎。"
+  },
+  "qingwen": {
+    "id": "qingwen",
+    "name": "晴雯",
+    "shortName": "晴",
+    "faction": "怡红院",
+    "firstChapter": 5,
+    "fate": "被逐后病亡",
+    "description": "怡红院丫鬟，心高气傲，后因抄检风波被逐。"
+  },
+  "zijuan": {
+    "id": "zijuan",
+    "name": "紫鹃",
+    "shortName": "鹃",
+    "faction": "潇湘馆",
+    "firstChapter": 3,
+    "description": "黛玉身边丫鬟，体贴忠诚。"
+  },
+  "miaoyu": {
+    "id": "miaoyu",
+    "name": "妙玉",
+    "shortName": "妙",
+    "faction": "栊翠庵",
+    "firstChapter": 17,
+    "description": "带发修行之人，居栊翠庵，性情孤洁。"
+  },
+  "youerjie": {
+    "id": "youerjie",
+    "name": "尤二姐",
+    "shortName": "二",
+    "faction": "宁国府/贾琏外室",
+    "firstChapter": 63,
+    "fate": "吞金而死",
+    "description": "尤氏继母所带之女，被贾琏偷娶，后受凤姐算计。"
+  },
+  "yousanjie": {
+    "id": "yousanjie",
+    "name": "尤三姐",
+    "shortName": "三",
+    "faction": "宁国府亲眷",
+    "firstChapter": 63,
+    "fate": "自刎",
+    "description": "尤二姐之妹，性情刚烈。"
+  },
+  "qiaojie": {
+    "id": "qiaojie",
+    "name": "巧姐",
+    "shortName": "巧",
+    "aliases": ["大姐儿"],
+    "faction": "荣国府",
+    "firstChapter": 5,
+    "description": "王熙凤之女，后得刘姥姥相救。"
+  }
+}

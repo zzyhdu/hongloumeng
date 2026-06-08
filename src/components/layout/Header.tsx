@@ -1,4 +1,4 @@
-import { Menu, X, BookOpen, Maximize2, Bookmark, BookmarkPlus, Network, Search } from 'lucide-react';
+import { Menu, X, BookOpen, Maximize2, Bookmark, BookmarkPlus, Network, Search, Map } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import type { VersionMeta } from '../../hooks/useReaderState';
 
@@ -16,6 +16,7 @@ interface HeaderProps {
   isBookmarked?: boolean;
   onToggleBookmark?: () => void;
   onShowGraph?: () => void;
+  onShowWorld?: () => void;
   onShowSearch?: () => void;
 }
 
@@ -33,6 +34,7 @@ export function Header({
   isBookmarked,
   onToggleBookmark,
   onShowGraph,
+  onShowWorld,
   onShowSearch,
 }: HeaderProps) {
   if (zenMode) return null;
@@ -135,6 +137,16 @@ export function Header({
               title="人物关系图谱"
             >
               <Network size={18} />
+            </button>
+          )}
+
+          {onShowWorld && (
+            <button
+              onClick={onShowWorld}
+              className="flex items-center justify-center rounded-full border border-xiaoxiang-celadon/30 p-1.5 text-xiaoxiang-bamboo transition-colors hover:bg-xiaoxiang-celadon/10 hover:text-xiaoxiang-ink"
+              title="红楼世界"
+            >
+              <Map size={18} />
             </button>
           )}
 

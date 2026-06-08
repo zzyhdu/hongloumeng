@@ -1,0 +1,210 @@
+[
+  {
+    "id": "001-world-open",
+    "chapter": 1,
+    "title": "红楼世界初启",
+    "summary": "故事开卷，贾府繁华尚未正式展开，大观园未建，荣宁二府处于盛势前段。",
+    "locationIds": ["rongfu", "ningfu"],
+    "effects": [
+      { "type": "set_era", "era": "草创" },
+      { "type": "set_prosperity", "value": 62 },
+      { "type": "set_location_status", "locationId": "ningrong_street", "status": "active" },
+      { "type": "set_location_status", "locationId": "rongfu", "status": "active" },
+      { "type": "set_location_status", "locationId": "ningfu", "status": "active" },
+      { "type": "set_location_status", "locationId": "rongqing", "status": "active" },
+      { "type": "set_location_status", "locationId": "rongxi", "status": "active" },
+      { "type": "set_location_status", "locationId": "jiashe_house", "status": "active" },
+      { "type": "set_location_status", "locationId": "bisha", "status": "locked" },
+      { "type": "set_location_status", "locationId": "liyuan", "status": "locked" },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "locked" },
+      { "type": "set_location_status", "locationId": "yihong", "status": "locked" },
+      { "type": "set_location_status", "locationId": "xiaoxiang", "status": "locked" },
+      { "type": "set_location_status", "locationId": "hengwu", "status": "locked" },
+      { "type": "set_location_status", "locationId": "qiushuang", "status": "locked" },
+      { "type": "set_location_status", "locationId": "daoxiang", "status": "locked" },
+      { "type": "set_location_status", "locationId": "longcui", "status": "locked" },
+      { "type": "set_location_status", "locationId": "zijing", "status": "locked" },
+      { "type": "set_location_status", "locationId": "nuanxiang", "status": "locked" },
+      { "type": "set_character_status", "characterId": "jiamu", "status": "active" },
+      { "type": "move_character", "characterId": "jiamu", "locationId": "rongqing" },
+      { "type": "set_character_status", "characterId": "baoyu", "status": "active" },
+      { "type": "move_character", "characterId": "baoyu", "locationId": "rongqing" },
+      { "type": "set_character_health", "characterId": "baoyu", "health": 95 },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "无忧" },
+      { "type": "set_character_status", "characterId": "wangfuren", "status": "active" },
+      { "type": "move_character", "characterId": "wangfuren", "locationId": "rongxi" },
+      { "type": "set_character_status", "characterId": "xifeng", "status": "active" },
+      { "type": "move_character", "characterId": "xifeng", "locationId": "rongfu" },
+      { "type": "set_character_status", "characterId": "jiazheng", "status": "active" },
+      { "type": "move_character", "characterId": "jiazheng", "locationId": "rongxi" },
+      { "type": "set_character_status", "characterId": "jiashe", "status": "active" },
+      { "type": "move_character", "characterId": "jiashe", "locationId": "jiashe_house" },
+      { "type": "set_character_status", "characterId": "yuanchun", "status": "away" },
+      { "type": "move_character", "characterId": "yuanchun", "locationId": "outside" }
+    ]
+  },
+  {
+    "id": "003-daiyu-enters-rongfu",
+    "chapter": 3,
+    "scene": 1,
+    "title": "黛玉入府",
+    "summary": "林黛玉抛父进京，经宁荣街入荣国府，步步留心，时时在意。",
+    "locationIds": ["ningrong_street", "rongfu", "rongqing"],
+    "characterIds": ["daiyu", "jiamu", "xifeng"],
+    "refs": [{ "versionId": "rm120", "chapterId": "003", "quote": "步步留心，时时在意" }],
+    "effects": [
+      { "type": "set_era", "era": "黛玉入府" },
+      { "type": "set_prosperity", "value": 70 },
+      { "type": "set_character_status", "characterId": "daiyu", "status": "active" },
+      { "type": "set_character_health", "characterId": "daiyu", "health": 68 },
+      { "type": "set_character_mood", "characterId": "daiyu", "mood": "谨慎" },
+      { "type": "set_character_concerns", "characterId": "daiyu", "concerns": ["初入外祖母家", "寄人篱下", "谨守礼数"] },
+      { "type": "move_character", "characterId": "daiyu", "locationId": "rongqing" },
+      { "type": "add_known_fact", "characterId": "daiyu", "fact": "荣国府规矩森严，众人言行皆有分寸。" },
+      { "type": "set_character_mood", "characterId": "jiamu", "mood": "怜爱" },
+      { "type": "relationship_delta", "from": "jiamu", "to": "daiyu", "affinity": 30, "trust": 20, "note": "贾母怜念亡女，将黛玉留在身边。" }
+    ]
+  },
+  {
+    "id": "003-xifeng-appears",
+    "chapter": 3,
+    "scene": 2,
+    "title": "凤姐登场",
+    "summary": "王熙凤未见其人先闻其声，黛玉初见府中管家者的威势。",
+    "locationIds": ["rongqing"],
+    "characterIds": ["xifeng", "daiyu"],
+    "effects": [
+      { "type": "move_character", "characterId": "xifeng", "locationId": "rongqing" },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "张扬" },
+      { "type": "set_character_concerns", "characterId": "xifeng", "concerns": ["照应贾母", "维持体面", "展示管家权威"] },
+      { "type": "add_known_fact", "characterId": "daiyu", "fact": "王熙凤在贾府中地位显赫，言笑放得开。" }
+    ]
+  },
+  {
+    "id": "003-baodai-first-meeting",
+    "chapter": 3,
+    "scene": 3,
+    "title": "宝黛初会",
+    "summary": "宝玉与黛玉一见如故，宝玉因黛玉无玉而摔玉，满堂惊惶。",
+    "locationIds": ["rongqing"],
+    "characterIds": ["baoyu", "daiyu", "jiamu"],
+    "refs": [{ "versionId": "rm120", "chapterId": "003", "quote": "这个妹妹我曾见过的" }],
+    "effects": [
+      { "type": "move_character", "characterId": "baoyu", "locationId": "rongqing" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "惊喜" },
+      { "type": "set_character_mood", "characterId": "daiyu", "mood": "惊讶" },
+      { "type": "relationship_delta", "from": "baoyu", "to": "daiyu", "affinity": 40, "trust": 10, "tension": 8, "note": "初见即觉眼熟，情感主线开启。" },
+      { "type": "relationship_delta", "from": "daiyu", "to": "baoyu", "affinity": 30, "trust": 8, "tension": 12, "note": "黛玉初见宝玉，惊异之中也觉熟悉。" },
+      { "type": "add_known_fact", "characterId": "baoyu", "fact": "黛玉没有通灵宝玉。" },
+      { "type": "add_known_fact", "characterId": "daiyu", "fact": "宝玉待她异于常人，并因玉发作。" }
+    ]
+  },
+  {
+    "id": "003-bisha-settle",
+    "chapter": 3,
+    "scene": 4,
+    "title": "安置碧纱橱",
+    "summary": "贾母将黛玉暂安置于碧纱橱，宝玉也靠近居住。",
+    "locationIds": ["bisha", "rongqing"],
+    "characterIds": ["daiyu", "baoyu"],
+    "effects": [
+      { "type": "set_location_status", "locationId": "bisha", "status": "active" },
+      { "type": "move_character", "characterId": "daiyu", "locationId": "bisha" },
+      { "type": "move_character", "characterId": "zijuan", "locationId": "bisha" },
+      { "type": "set_character_status", "characterId": "zijuan", "status": "active" },
+      { "type": "move_character", "characterId": "baoyu", "locationId": "bisha" },
+      { "type": "set_character_concerns", "characterId": "baoyu", "concerns": ["亲近黛玉", "通灵玉风波", "贾母庇护"] },
+      { "type": "set_character_concerns", "characterId": "daiyu", "concerns": ["新居未定", "寄居身份", "宝玉异样亲近"] }
+    ]
+  },
+  {
+    "id": "004-xue-family-arrives",
+    "chapter": 4,
+    "title": "薛家进京",
+    "summary": "薛家入京暂住梨香院，宝钗进入贾府世界。",
+    "locationIds": ["liyuan", "rongfu"],
+    "characterIds": ["baochai"],
+    "effects": [
+      { "type": "set_location_status", "locationId": "liyuan", "status": "active" },
+      { "type": "set_character_status", "characterId": "baochai", "status": "active" },
+      { "type": "set_character_health", "characterId": "baochai", "health": 82 },
+      { "type": "set_character_mood", "characterId": "baochai", "mood": "从容" },
+      { "type": "set_character_concerns", "characterId": "baochai", "concerns": ["随母寄居", "待选入宫", "谨慎处世"] },
+      { "type": "move_character", "characterId": "baochai", "locationId": "liyuan" },
+      { "type": "add_known_fact", "characterId": "baochai", "fact": "薛家暂住贾府，需与府中上下周旋得体。" }
+    ]
+  },
+  {
+    "id": "013-ningfu-funeral",
+    "chapter": 13,
+    "title": "宁府丧事",
+    "summary": "宁国府丧事浩繁，凤姐协理宁府，贾府体面与权力运作同时显露。",
+    "locationIds": ["ningfu"],
+    "characterIds": ["xifeng"],
+    "effects": [
+      { "type": "set_era", "era": "初盛" },
+      { "type": "set_prosperity", "value": 76 },
+      { "type": "set_location_status", "locationId": "ningfu", "status": "tense" },
+      { "type": "set_location_note", "locationId": "ningfu", "note": "秦可卿丧事期间，宁国府排场极盛而气氛紧张。" },
+      { "type": "move_character", "characterId": "xifeng", "locationId": "ningfu" },
+      { "type": "set_character_mood", "characterId": "xifeng", "mood": "干练" },
+      { "type": "set_character_concerns", "characterId": "xifeng", "concerns": ["协理宁府", "立威", "维持体面"] },
+      { "type": "relationship_delta", "from": "xifeng", "to": "jiamu", "trust": 10, "note": "凤姐办事能力进一步得到认可。" }
+    ]
+  },
+  {
+    "id": "017-garden-building",
+    "chapter": 17,
+    "title": "大观园营建",
+    "summary": "为元妃省亲而建的大观园基本成形，贾政携宝玉试才题对额。",
+    "locationIds": ["daguanyuan"],
+    "characterIds": ["baoyu", "jiazheng"],
+    "effects": [
+      { "type": "set_era", "era": "大观园营建" },
+      { "type": "set_prosperity", "value": 84 },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "building" },
+      { "type": "set_location_status", "locationId": "longcui", "status": "building" },
+      { "type": "set_location_note", "locationId": "daguanyuan", "note": "大观园已具规模，但尚未成为众人日常居住空间。" },
+      { "type": "move_character", "characterId": "baoyu", "locationId": "daguanyuan" },
+      { "type": "move_character", "characterId": "jiazheng", "locationId": "daguanyuan" },
+      { "type": "set_character_mood", "characterId": "baoyu", "mood": "紧张" },
+      { "type": "set_character_concerns", "characterId": "baoyu", "concerns": ["题对额", "应付父亲", "园中景致"] }
+    ]
+  },
+  {
+    "id": "018-yuanchun-visit",
+    "chapter": 18,
+    "title": "元妃省亲",
+    "summary": "元妃省亲，大观园光彩极盛，繁华中已有骨肉分离之悲。",
+    "locationIds": ["daguanyuan", "rongfu"],
+    "characterIds": ["yuanchun", "jiamu", "baoyu"],
+    "effects": [
+      { "type": "set_era", "era": "省亲盛典" },
+      { "type": "set_prosperity", "value": 90 },
+      { "type": "set_location_status", "locationId": "daguanyuan", "status": "festive" },
+      { "type": "set_location_status", "locationId": "rongfu", "status": "festive" },
+      { "type": "set_location_status", "locationId": "rongqing", "status": "festive" },
+      { "type": "set_character_status", "characterId": "yuanchun", "status": "active" },
+      { "type": "move_character", "characterId": "yuanchun", "locationId": "daguanyuan" },
+      { "type": "set_character_mood", "characterId": "yuanchun", "mood": "悲喜交集" },
+      { "type": "set_character_concerns", "characterId": "yuanchun", "concerns": ["省亲体面", "骨肉分离", "贾府荣宠"] },
+      { "type": "relationship_delta", "from": "yuanchun", "to": "baoyu", "affinity": 10, "trust": 5, "note": "元春省亲时点宝玉题咏，姐弟情分显露。" },
+      { "type": "add_known_fact", "characterId": "baoyu", "fact": "大观园因元妃省亲而正式成名。" }
+    ]
+  },
+  {
+    "id": "020-xiangyun-visits",
+    "chapter": 20,
+    "title": "湘云来府",
+    "summary": "史湘云来贾府小住，少女群像逐渐聚齐。",
+    "locationIds": ["rongqing"],
+    "characterIds": ["xiangyun", "baoyu", "daiyu"],
+    "effects": [
+      { "type": "set_character_status", "characterId": "xiangyun", "status": "active" },
+      { "type": "move_character", "characterId": "xiangyun", "locationId": "rongqing" },
+      { "type": "set_character_mood", "characterId": "xiangyun", "mood": "爽朗" },
+      { "type": "relationship_delta", "from": "xiangyun", "to": "baoyu", "affinity": 18, "trust": 10, "note": "湘云与宝玉自幼相熟，言笑无忌。" },
+      { "type": "relationship_delta", "from": "daiyu", "to": "xiangyun", "affinity": 6, "tension": 8, "note": "黛玉对亲疏远近尤为敏感。" }
+    ]
+  }
+]
