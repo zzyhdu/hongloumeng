@@ -23,6 +23,7 @@ src/*.js.map
 
 # Output and Binaries
 dist/
+deploy/package/
 
 # Python
 __pycache__/
