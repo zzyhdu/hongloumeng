@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     image: hongloumeng:local
     ports:
-      - "${HONGLOUMENG_LOCAL_PORT:-4180}:80"
+      - "127.0.0.1:${HONGLOUMENG_LOCAL_PORT:-4180}:80"

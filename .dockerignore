@@ -3,6 +3,7 @@ npm-debug.log*
 .DS_Store
 .git
 .gitignore
+.claude
 .env
 .env.*
 !.env.example
@@ -13,3 +14,10 @@ build-ts-node
 .venv
 __pycache__
 *.pyc
+downloads/*
+!downloads/sdmz_hldgy/
+downloads/sdmz_hldgy/*
+!downloads/sdmz_hldgy/images/
+downloads/sdmz_hldgy/images/*
+!downloads/sdmz_hldgy/images/bzt.gif
+test_page21.png
